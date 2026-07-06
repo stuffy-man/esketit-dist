@@ -1,0 +1,57 @@
+[
+  {
+    "mob": [
+      "minecraft:pillager",
+      "takesapillage:skirmisher",
+      "illagerinvasion:basher"
+    ],
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 62,
+      "maxthis": 4
+    }
+  },
+  {
+    "mob": [
+      "takesapillage:archer",
+      "illagerinvasion:marauder",
+      "minecraft:pillager"
+    ],
+    "persecond": 0.12,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 62,
+      "maxthis": 3
+    }
+  },
+  {
+    "mob": [
+      "minecraft:vindicator",
+      "takesapillage:legioner",
+      "raided:savager",
+      "savage_and_ravage:executioner"
+    ],
+    "persecond": 0.05,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 62,
+      "maxthis": 2
+    }
+  }
+]

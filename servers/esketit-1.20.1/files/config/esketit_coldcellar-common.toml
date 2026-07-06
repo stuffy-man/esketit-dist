@@ -1,0 +1,48 @@
+
+#Esketit Cold Cellar — food spoilage settings
+[general]
+	#Master toggle for food spoilage.
+	enableSpoilage = true
+	#When food reaches 0% freshness, replace it with rotten flesh (false = it just sits at 0%).
+	convertSpoiledToRottenFlesh = true
+	#In-game days for food to fully spoil at NEUTRAL temperature (1 day = 24000 ticks).
+	#Range: 0.1 ~ 1000.0
+	baseSpoilDays = 4.0
+	#Freshness fraction below which food is labelled 'Stale'.
+	#Range: 0.0 ~ 1.0
+	staleThreshold = 0.5
+
+#Decay speed multipliers by ambient temperature (Tough As Nails levels; also used for the biome-temperature fallback).
+[temperature]
+	#ICY (deep-frozen cellar): near-halted spoilage.
+	#Range: 0.0 ~ 100.0
+	multiplierIcy = 0.1
+	#COLD (iced cellar / snowy).
+	#Range: 0.0 ~ 100.0
+	multiplierCold = 0.4
+	#NEUTRAL (temperate).
+	#Range: 0.0 ~ 100.0
+	multiplierNeutral = 1.0
+	#WARM.
+	#Range: 0.0 ~ 100.0
+	multiplierWarm = 1.7
+	#HOT (desert noon): fastest spoilage.
+	#Range: 0.0 ~ 100.0
+	multiplierHot = 2.6
+
+#Cold Sweat WORLD-temperature thresholds (neutral ~0, colder = negative). Food at/below
+#a threshold uses the matching multiplier above. Only used when Cold Sweat is installed.
+[coldSweatThresholds]
+	#At/below this = deep-frozen (multiplierIcy).
+	#Range: -100.0 ~ 100.0
+	freezeThreshold = -0.8
+	#At/below this = cold (multiplierCold).
+	#Range: -100.0 ~ 100.0
+	coldThreshold = -0.15
+	#At/above this (but below hot) = warm (multiplierWarm).
+	#Range: -100.0 ~ 100.0
+	warmThreshold = 0.85
+	#At/above this = hot (multiplierHot).
+	#Range: -100.0 ~ 100.0
+	hotThreshold = 1.5
+

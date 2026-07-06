@@ -1,0 +1,120 @@
+// priority: 10
+// Bronze and Brass: HEAD-based forging + assembly, matching Overgeared's own
+// copper/iron/steel/gold pattern exactly (heated ingot -> [forge HEAD] -> head + stick -> tool).
+// The blueprint quality-progression system requires these separate HEAD items.
+
+ServerEvents.recipes(event => {
+
+    const poorNbt = '{ForgingQuality:"poor",Makeshift:1b,ReducedMaxDurability:10}'
+
+    // HEAD forging: heated ingot → head on anvil (has_quality:true)
+    const headShapes = {
+        pickaxe_head: { pattern: ['###'], blueprint: ['pickaxe'], hammering: 3, polishing: true },
+        axe_head:     { pattern: ['##', '# '], blueprint: ['axe'], hammering: 3, polishing: true },
+        hoe_head:     { pattern: ['##'], blueprint: ['hoe'], hammering: 3, polishing: true },
+        shovel_head:  { pattern: ['#'], blueprint: ['shovel'], hammering: 3, polishing: true },
+        sword_blade:  { pattern: ['#', '#'], blueprint: ['sword'], hammering: 3, polishing: true },
+    }
+
+    // Assembly: head + stick → full tool (shapeless, always poor)
+    const toolAssembly = {
+        pickaxe_head: 'pickaxe',
+        axe_head: 'axe',
+        hoe_head: 'hoe',
+        shovel_head: 'shovel',
+        sword_blade: 'sword',
+    }
+
+    // Brass has no tools at all (armor only) — see armorAlloys below.
+    var alloys = [
+        { name: 'bronze', ingot: 'esketit_metallurgy:heated_bronze_ingot', headNs: 'esketit_metallurgy', toolNs: 'esketit_metallurgy', quench: true, tier: 'stone' },
+    ]
+
+    alloys.forEach(function(alloy) {
+        Object.keys(headShapes).forEach(function(head) {
+            var shape = headShapes[head]
+            var headId = alloy.headNs + ':' + alloy.name + '_' + head
+            var toolName = toolAssembly[head]
+            var toolId = alloy.toolNs + ':' + alloy.name + '_' + toolName
+
+            // Remove old direct-forging recipes for this tool
+            event.remove({ output: toolId })
+
+            // Forge HEAD from heated ingot
+            var forgingRecipe = {
+                type: 'overgeared:forging',
+                blueprint: shape.blueprint,
+                category: 'tool_heads',
+                group: '',
+                hammering: shape.hammering,
+                has_polishing: shape.polishing,
+                has_quality: true,
+                key: { '#': { item: alloy.ingot } },
+                minimum_quality: 'poor',
+                need_quenching: alloy.quench,
+                needs_minigame: false,
+                pattern: shape.pattern,
+                quality_difficulty: 'none',
+                requires_blueprint: false,
+                result: { item: headId },
+                show_notification: true,
+            }
+            if (alloy.tier) forgingRecipe.tier = alloy.tier
+            event.custom(forgingRecipe)
+
+            // Assemble: head + stick → tool (always poor)
+            event.custom({
+                type: 'overgeared:crafting_shapeless',
+                category: 'equipment',
+                ingredients: [
+                    { item: headId },
+                    { item: 'minecraft:stick' },
+                ],
+                result: { item: toolId },
+            })
+        })
+    })
+
+    // ── ARMOR (no HEAD system for armor, stays as direct forging) ──
+    var armorShapes = {
+        helmet: { pattern: ['III', 'I I'], hammering: 3 },
+        chestplate: { pattern: ['I I', 'III', 'III'], hammering: 5 },
+        leggings: { pattern: ['III', 'I I', 'I I'], hammering: 4 },
+        boots: { pattern: ['I I', 'I I'], hammering: 3 },
+    }
+
+    var armorAlloys = [
+        { name: 'brass', ingot: 'create:brass_ingot' },
+        { name: 'bronze', ingot: 'create_ironworks:bronze_ingot' },
+    ]
+
+    armorAlloys.forEach(function(alloy) {
+        Object.keys(armorShapes).forEach(function(piece) {
+            var shape = armorShapes[piece]
+            var outputId = 'create_ironworks:' + alloy.name + '_armor_' + piece
+            var key = { I: { item: alloy.ingot } }
+
+            event.remove({ output: outputId })
+            event.shaped(Item.of(outputId, poorNbt), shape.pattern, key)
+
+            event.custom({
+                type: 'overgeared:forging',
+                category: 'armors',
+                group: '',
+                hammering: shape.hammering,
+                has_polishing: false,
+                has_quality: true,
+                key: key,
+                minimum_quality: 'poor',
+                need_quenching: false,
+                needs_minigame: false,
+                pattern: shape.pattern,
+                quality_difficulty: 'none',
+                requires_blueprint: false,
+                result: { item: outputId },
+                show_notification: true,
+                tier: 'stone',
+            })
+        })
+    })
+})

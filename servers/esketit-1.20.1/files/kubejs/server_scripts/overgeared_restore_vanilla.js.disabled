@@ -1,0 +1,33 @@
+// priority: 10
+// Restores vanilla recipes Overgeared removed for items that don't carry a quality
+// value (has_quality:false in the original forging recipe, or plain utility/material
+// items) — these just get their classic crafting-table/furnace recipe back, no NBT needed.
+
+ServerEvents.recipes(event => {
+
+    // BUCKET — was moved to anvil-only forging; restore the plain table recipe.
+    event.shaped('minecraft:bucket', ['# #', ' # '], { '#': 'minecraft:iron_ingot' })
+
+    // CAULDRON — Overgeared also swapped the material to steel_plate; restore vanilla iron.
+    event.shaped('minecraft:cauldron', ['# #', '# #', '###'], { '#': 'minecraft:iron_ingot' })
+
+    // SHEARS — was moved to anvil-only forging (with a minigame fail chance); restore the
+    // plain table recipe (same materials Overgeared used, just not anvil-locked anymore).
+    event.shaped('minecraft:shears', [' #', '# '], { '#': 'minecraft:iron_ingot' })
+
+    // NETHERITE INGOT — intentionally NOT restored. Stays exclusive to Overgeared's
+    // anvil forging (master-tier minigame, can fail back to scrap) — the mod's way.
+
+    // IRON SMELTING VIA BLAST FURNACE — intentionally NOT restored. Overgeared disables
+    // blasting for iron ore on purpose (regular furnace smelting still works); left as-is.
+
+    // TIPPED ARROW — Overgeared shipped an empty override, removing it entirely (now only
+    // obtainable via its own Fletching system). Restore vanilla's special recipe.
+    event.custom({ type: 'minecraft:crafting_special_tippedarrow' })
+
+    // SPECTRAL ARROW — Overgeared replaced the table recipe with a Fletching-only one;
+    // restore the classic 4 glowstone dust + 1 arrow (diamond pattern) recipe.
+    event.shaped(Item.of('minecraft:spectral_arrow', 2), [' # ', '#X#', ' # '], {
+        '#': 'minecraft:glowstone_dust', X: 'minecraft:arrow',
+    })
+})

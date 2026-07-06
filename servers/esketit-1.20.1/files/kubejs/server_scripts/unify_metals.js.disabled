@@ -1,0 +1,176 @@
+// priority: 10
+// Metal/material unification for Create-adjacent mods
+
+ServerEvents.recipes(event => {
+
+    // Worst possible quality — used when migrating a pre-existing create_ironworks item
+    // (from before unification) into our quality-tracked equivalent. Never crafted fresh.
+    const makeshiftNbt = '{ForgingQuality:"poor",Makeshift:1b,ReducedMaxDurability:10}'
+
+    // ════ STEEL → NETHERITE SHORTCUT · should not exist ════
+    // create_ironworks lets Steel armor/tools smithing_transform straight into Netherite,
+    // skipping Diamond entirely. The chain is Steel -> Diamond -> Netherite — Diamond is
+    // the only thing that should ever upgrade to Netherite. Remove by exact recipe ID (NOT
+    // by output) since several of these share an output item with the legitimate vanilla
+    // diamond->netherite recipe.
+    ;['boots', 'chestplate', 'helmet', 'leggings'].forEach(piece => {
+        event.remove({ id: `create_ironworks:armor/${piece}/netherite_steel` })
+    })
+    ;['axe', 'hammer', 'hoe', 'paxel', 'pickaxe', 'shovel', 'sword'].forEach(tool => {
+        event.remove({ id: `create_ironworks:tools/${tool}/netherite_steel` })
+    })
+
+    // ════ COPPER SMITHING HAMMER · should require the cast, not a plain table-craft ════
+    // Overgeared itself ships TWO recipes for this: "copper_smithing_hammer" (proper
+    // head+stick assembly, head only obtainable via forging/casting) AND
+    // "copper_smithing_hammer_2" (a plain copper_ingot+stick shaped recipe that skips the
+    // head/cast entirely). Remove the shortcut.
+    event.remove({ id: 'overgeared:copper_smithing_hammer_2' })
+
+    // ════ STONE SMITHING HAMMER · should have a normal craft, but only has knapping ════
+    // overgeared:stone_hammer_head is only obtainable via the rock_knapping minigame, with
+    // no plain-craft fallback — unlike every other material's hammer head. Stone has no
+    // quality tracking at all, so a guaranteed simple recipe doesn't undermine anything;
+    // it just removes an unnecessary knapping-only bottleneck on the very first tool you need.
+    event.shaped('overgeared:stone_hammer_head', ['x ', ' x'], { x: 'minecraft:cobblestone' })
+
+    // ════ STEEL · Primary: overgeared (has the full heating/forging/quality mechanic) ════
+    // Changed from create_ironworks — overgeared's steel is mechanically central now,
+    // not just a passive material. create_ironworks keeps its own steel_sheet (no equivalent).
+    // NOTE: createloveandwar is not actually installed in this pack — references to it
+    // were removed (they produced empty-ingredient shapeless recipes / silent no-op
+    // redirects in the log).
+    ;['create_ironworks:steel_ingot','createmetallurgy:steel_ingot'].forEach(s => {
+        event.replaceInput({}, s, 'overgeared:steel_ingot')
+        event.replaceOutput({}, s, 'overgeared:steel_ingot')
+        event.shapeless('overgeared:steel_ingot', [s])
+    })
+    ;['create_ironworks:steel_block','createmetallurgy:steel_block'].forEach(s => {
+        event.replaceInput({}, s, 'overgeared:steel_block')
+        event.replaceOutput({}, s, 'overgeared:steel_block')
+    })
+    event.replaceInput({}, 'create_ironworks:steel_nugget', 'overgeared:steel_nugget')
+    event.replaceOutput({}, 'create_ironworks:steel_nugget', 'overgeared:steel_nugget')
+    // Sheets have no overgeared equivalent — keep create_ironworks as the sheet-form primary
+    event.replaceInput({}, 'vintage:steel_sheet', 'create_ironworks:steel_sheet')
+    event.replaceOutput({}, 'vintage:steel_sheet', 'create_ironworks:steel_sheet')
+
+    // ════ COPPER ARMOR · Primary: overgeared (has the forging/quality mechanic) ════
+    // create_ironworks adds a plain table-craftable copper armor set (copper_ingot, shaped,
+    // no quality mechanic at all). replaceOutput alone would let that plain recipe directly
+    // produce overgeared's item with ZERO ForgingQuality NBT — a complete bypass of the
+    // whole forging/quality system. Remove create_ironworks' own recipe outright instead;
+    // keep only a one-time migration path (stamped worst-quality) for pre-existing items.
+    // (Cardboard/Resonarium/Warden "copper_trim" items are vanilla smithing trims, not
+    // armor sets — not duplicates, left alone.)
+    ;['helmet', 'chestplate', 'leggings', 'boots'].forEach(piece => {
+        const id = `create_ironworks:copper_armor_${piece}`
+        event.remove({ output: id })
+        event.replaceInput({}, id, `overgeared:copper_${piece}`)
+        event.shapeless(Item.of(`overgeared:copper_${piece}`, makeshiftNbt), [id])
+    })
+
+    // ════ STEEL ARMOR · Primary: overgeared (same reasoning as copper armor) ════
+    ;['helmet', 'chestplate', 'leggings', 'boots'].forEach(piece => {
+        const id = `create_ironworks:steel_armor_${piece}`
+        event.remove({ output: id })
+        event.replaceInput({}, id, `overgeared:steel_${piece}`)
+        event.shapeless(Item.of(`overgeared:steel_${piece}`, makeshiftNbt), [id])
+    })
+    // Brass/bronze/rose_quartz/sturdy/netherite_steel armor sets are unique to
+    // create_ironworks (no overgeared equivalent) — left untouched.
+
+    // ════ COPPER TOOLS · Primary: overgeared (has the forging/quality mechanic) ════
+    // create_ironworks ships copper pickaxe/axe/hoe/shovel/sword/hammer/paxel via plain
+    // ingot+stick crafts with no quality. Same bypass pattern as steel/bronze tools.
+    ;['pickaxe', 'axe', 'shovel', 'hoe', 'sword'].forEach(tool => {
+        const id = `create_ironworks:copper_${tool}`
+        event.remove({ output: id })
+        event.replaceInput({}, id, `overgeared:copper_${tool}`)
+        event.shapeless(Item.of(`overgeared:copper_${tool}`, makeshiftNbt), [id])
+    })
+    event.remove({ output: 'create_ironworks:copper_hammer' })
+    event.replaceInput({}, 'create_ironworks:copper_hammer', 'overgeared:copper_smithing_hammer')
+    event.shapeless(Item.of('overgeared:copper_smithing_hammer', makeshiftNbt), ['create_ironworks:copper_hammer'])
+    event.remove({ output: 'create_ironworks:copper_paxel' })
+
+    // ════ STEEL TOOLS · Primary: overgeared (forging-only, above Iron in chain) ════
+    // create_ironworks ships its OWN full steel tool set (pickaxe/axe/hoe/shovel/sword/
+    // hammer/paxel) via plain ingot+stick crafts with NO quality mechanic — identical
+    // bypass pattern as the bronze tools above. Remove and migrate at worst quality.
+    ;['pickaxe', 'axe', 'shovel', 'hoe', 'sword'].forEach(tool => {
+        const id = `create_ironworks:steel_${tool}`
+        event.remove({ output: id })
+        event.replaceInput({}, id, `overgeared:steel_${tool}`)
+        event.shapeless(Item.of(`overgeared:steel_${tool}`, makeshiftNbt), [id])
+    })
+    // Hammer: create_ironworks calls it "steel_hammer", Overgeared calls it "smithing_hammer"
+    event.remove({ output: 'create_ironworks:steel_hammer' })
+    event.replaceInput({}, 'create_ironworks:steel_hammer', 'overgeared:smithing_hammer')
+    event.shapeless(Item.of('overgeared:smithing_hammer', makeshiftNbt), ['create_ironworks:steel_hammer'])
+    // Paxel: no Overgeared equivalent — just remove, no redirect
+    event.remove({ output: 'create_ironworks:steel_paxel' })
+
+    // ════ BRONZE CORE TOOLS · Primary: esketit_metallurgy (real, correctly-sorted tier) ════
+    // Same bypass as copper/steel armor above: create_ironworks' own bronze pickaxe/axe/
+    // shovel/hoe/sword are plain ingot+stick crafts with no quality mechanic, and used an
+    // unsorted tier that never actually gated anything above copper. Remove the source
+    // recipe; migrate pre-existing items at worst quality instead of silently swapping.
+    ;['pickaxe', 'axe', 'shovel', 'hoe', 'sword'].forEach(tool => {
+        const id = `create_ironworks:bronze_${tool}`
+        event.remove({ output: id })
+        event.replaceInput({}, id, `esketit_metallurgy:bronze_${tool}`)
+        event.shapeless(Item.of(`esketit_metallurgy:bronze_${tool}`, makeshiftNbt), [id])
+    })
+
+    // ════ TUNGSTEN · Primary: createmetallurgy ════
+    // (createloveandwar tungsten redirects removed — that mod isn't installed in this pack)
+
+    // NOTE: molten_metals mod removed (its fluids weren't applying burn/fire damage on
+    // contact — broken). createmetallurgy's own molten metal buckets are now the only
+    // version, no unification needed.
+
+    // ════ SHEETS · Create is primary where it has them ════
+    event.replaceInput({},  'vintage:brass_sheet', 'create:brass_sheet')
+    event.replaceOutput({}, 'vintage:brass_sheet', 'create:brass_sheet')
+    event.replaceInput({},  'vintage:bronze_sheet', 'create_ironworks:bronze_sheet')
+    event.replaceOutput({}, 'vintage:bronze_sheet', 'create_ironworks:bronze_sheet')
+    event.replaceInput({},  'vintage:tin_sheet', 'create_ironworks:tin_sheet')
+    event.replaceOutput({}, 'vintage:tin_sheet', 'create_ironworks:tin_sheet')
+    // Netherite sheet: vintage has it, CLW has it → vintage primary
+    event.replaceInput({},  'createloveandwar:netherite_sheet', 'vintage:netherite_sheet')
+    event.replaceOutput({}, 'createloveandwar:netherite_sheet', 'vintage:netherite_sheet')
+    // Platinum sheet: vintage vs illagerinvasion → illagerinvasion (has the mob that drops it)
+    event.replaceInput({},  'vintage:platinum_sheet', 'illagerinvasion:platinum_sheet')
+    event.replaceOutput({}, 'vintage:platinum_sheet', 'illagerinvasion:platinum_sheet')
+
+    // ════ MISC CREATE BLOCKS · Primary: create ════
+    event.replaceInput({},  'create_ironworks:rose_quartz_block', 'create:rose_quartz_block')
+    event.replaceOutput({}, 'create_ironworks:rose_quartz_block', 'create:rose_quartz_block')
+    event.replaceInput({},  'create_compressed:sturdy_sheet_block', 'create_ironworks:sturdy_sheet_block')
+    event.replaceOutput({}, 'create_compressed:sturdy_sheet_block', 'create_ironworks:sturdy_sheet_block')
+    event.replaceInput({},  'create_ironworks:crushed_raw_tin', 'create:crushed_raw_tin')
+    event.replaceOutput({}, 'create_ironworks:crushed_raw_tin', 'create:crushed_raw_tin')
+
+    // ════ COPPER NUGGET · Primary: create ════
+    event.replaceInput({},  'spelunkery:copper_nugget', 'create:copper_nugget')
+    event.replaceOutput({}, 'spelunkery:copper_nugget', 'create:copper_nugget')
+
+    // ════ SULFUR · Primary: vintage (most recipe uses) ════
+    ;['spelunkery:sulfur','the_deep_void:sulfur'].forEach(s => {
+        event.replaceInput({}, s, 'vintage:sulfur')
+        event.replaceOutput({}, s, 'vintage:sulfur')
+        event.shapeless('vintage:sulfur', [s])
+    })
+    event.replaceInput({},  'spelunkery:sulfur_block', 'vintage:sulfur_block')
+    event.replaceOutput({}, 'spelunkery:sulfur_block', 'vintage:sulfur_block')
+
+    // ════ DIAMOND SHARD · Primary: spelunkery ════
+    event.replaceInput({},  'cosmeticarmoursmod:diamond_shard', 'spelunkery:diamond_shard')
+    event.replaceOutput({}, 'cosmeticarmoursmod:diamond_shard', 'spelunkery:diamond_shard')
+
+    // NOTE: Chipped blocks (pillars, terracotta bricks, polished planks, paper lanterns) are
+    // NOT redirected. Chipped uses its own workbenches (Carpenter's Table, etc.) and has
+    // CTM (connected textures) via Fusion mod — it's a parallel building system, not a duplicate.
+    // create:andesite_pillar and chipped:andesite_pillar are different blocks for different purposes.
+})

@@ -1,0 +1,18 @@
+#The humble Config File
+#
+#Sharp as Netherite Toggle: Make Rose Gold way sharper.
+sharpAsNetherite = false
+#
+#Tough as Diamond Toggle: Makes Rose Gold Durability Tougher.
+toughAsDiamond = false
+#
+#Pink Diamonds Toggle: Makes Rose Gold Armor as safe as Diamond.
+pinkdiamonds = false
+#
+#Set Sharp as Netherite to true, and you can customize the bonus damage here. 0 (and 8) will still act as netherite.
+#Range: 0 ~ 30
+superSharpener = 0
+#
+#Set Not Hungry to true to disable all food items.
+notHungry = false
+

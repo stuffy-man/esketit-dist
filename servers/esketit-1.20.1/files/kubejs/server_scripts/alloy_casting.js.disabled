@@ -1,0 +1,53 @@
+// priority: 10
+// Second path to Bronze/Rose Gold tool HEADS via Overgeared's own casting system (the
+// no-minigame alternative to anvil forging), mirroring its existing copper/iron/steel/gold
+// cast_smelting + cast_blasting recipes exactly — outputs the HEAD, same as every other
+// material, so the result still needs the normal head+stick assembly step. (Originally this
+// pointed at the full tool item directly, completely bypassing the head/quality system —
+// that was a bug, not a deliberate shortcut.)
+
+ServerEvents.recipes(event => {
+
+    const toolAmounts = { sword: 18, pickaxe: 27, axe: 27, shovel: 9, hoe: 18 }
+    const headSuffix = {
+        sword: 'sword_blade', pickaxe: 'pickaxe_head', axe: 'axe_head',
+        shovel: 'shovel_head', hoe: 'hoe_head',
+    }
+
+    const materials = [
+        { material: 'bronze', namespace: 'esketit_metallurgy', experience: 0.8 },
+        { material: 'rose_gold', namespace: 'esketit_metallurgy', experience: 0.9 },
+    ]
+
+    materials.forEach(m => {
+        Object.keys(toolAmounts).forEach(tool => {
+            const amount = toolAmounts[tool]
+            const outputId = `${m.namespace}:${m.material}_${headSuffix[tool]}`
+            const input = {}
+            input[m.material] = amount
+
+            event.custom({
+                type: 'overgeared:cast_smelting',
+                category: 'misc',
+                cookingtime: 150,
+                experience: m.experience,
+                group: 'misc',
+                input: input,
+                need_polishing: true,
+                result: { item: outputId },
+                tool_type: tool,
+            })
+            event.custom({
+                type: 'overgeared:cast_blasting',
+                category: 'misc',
+                cookingtime: 75,
+                experience: m.experience,
+                group: 'misc',
+                input: input,
+                need_polishing: true,
+                result: { item: outputId },
+                tool_type: tool,
+            })
+        })
+    })
+})

@@ -1,0 +1,67 @@
+// priority: 10
+// Extends the mining-tier chain to modded ores, now that esketit_metallurgy adds a real
+// Bronze tier (sorted after Overgeared's Copper, before vanilla Iron) and a real Rose Gold
+// tier (sorted after Overgeared's Steel, before vanilla Diamond) into Forge's
+// TierSortingRegistry.
+//
+// Full chain: Stone -> Copper -> Bronze -> Iron -> Steel -> Rose Gold -> Diamond -> Netherite.
+// (Gold sits at iron-tier like vanilla default — no change needed there; ancient_debris/
+// netherite_block/respawn_anchor stay at full diamond-tier as the end-game gate;
+// obsidian/crying_obsidian stay at steel-tier as Overgeared shipped them.)
+
+ServerEvents.tags('block', event => {
+
+    // Tungsten (createmetallurgy) — very hard metal, steel-tier difficulty alongside obsidian.
+    event.add('overgeared:needs_steel_tool', 'createmetallurgy:wolframite_ore')
+    event.add('overgeared:needs_steel_tool', 'createmetallurgy:raw_wolframite_block')
+
+    // DIAMOND now needs Steel (or Rose Gold, which sorts above Steel) instead of plain Iron —
+    // this is the new gate requested for the chain. Covers vanilla + every modded
+    // alternate-stone-background diamond ore variant found in the pack.
+    event.add('overgeared:needs_steel_tool', [
+        'minecraft:diamond_ore',
+        'minecraft:deepslate_diamond_ore',
+        'spelunkery:andesite_diamond_ore',
+        'spelunkery:diorite_diamond_ore',
+        'spelunkery:granite_diamond_ore',
+        'spelunkery:tuff_diamond_ore',
+        'spelunkery:smooth_basalt_diamond_ore',
+        'deeperdarker:gloomslate_diamond_ore',
+        'deeperdarker:sculk_stone_diamond_ore',
+        'the_deep_void:deep_void_diamond_ore',
+    ])
+
+    // IRON now needs Bronze instead of plain Copper — the new mid-tier gate. Covers vanilla
+    // + every modded alternate-stone-background iron ore variant (previously these were on
+    // needs_copper_tool; moved up one tier to close the same stone-pickaxe-bypass gap).
+    event.add('esketit_metallurgy:needs_bronze_tool', [
+        'minecraft:iron_ore',
+        'minecraft:deepslate_iron_ore',
+        'minecraft:raw_iron_block',
+        'spelunkery:andesite_iron_ore',
+        'spelunkery:diorite_iron_ore',
+        'spelunkery:granite_iron_ore',
+        'spelunkery:tuff_iron_ore',
+        'spelunkery:raw_magnetite_block',   // magnetite = iron oxide, same family
+        'deeperdarker:gloomslate_iron_ore',
+        'deeperdarker:sculk_stone_iron_ore',
+        'the_deep_void:deep_void_iron_ore',
+    ])
+    // NOTE: vanilla iron_ore/deepslate_iron_ore/raw_iron_block are ALSO still listed in
+    // Overgeared's own overgeared:needs_copper_tool (shipped by the mod itself, not ours to
+    // remove from inside a KubeJS script). That tag alone no longer gates anything once
+    // copper tools stop being "good enough" — TierSortingRegistry checks the highest tag the
+    // block needs, and needs_bronze_tool (above copper) wins, so copper tools correctly can
+    // no longer mine iron once Bronze is registered above it.
+
+    // NOT changed (and why):
+    // - create:zinc_ore, create_ironworks:tin_ore — soft/common metals like copper itself,
+    //   correctly stay at stone-tier (same as vanilla copper_ore).
+    // - vanilla gold/redstone/emerald ore — stay at iron-tier (vanilla default), matching
+    //   "Iron: Gold" in the requested chain with zero changes needed.
+    // - spelunkery's *_lead/silver/zinc/jade_ore, sullysmod:jade_ore — no vanilla-tier
+    //   equivalent to mirror; left at default since Overgeared doesn't special-case them.
+    // - the_deep_void's bismuth/bloodstone/cinnabar/lavendite/onyx/sulfur/voidrium ores —
+    //   exotic, mod-unique materials with their own progression; not vanilla-equivalent,
+    //   so guessing a tier risks conflicting with that mod's own intended balance.
+})

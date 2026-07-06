@@ -1,0 +1,25 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:lava",
+    "minecraft:lava_cauldron",
+    "minecraft:fire",
+    "minecraft:campfire",
+    "minecraft:magma_block",
+    "minecraft:furnace",
+    "minecraft:smoker",
+    "minecraft:blast_furnace",
+    "cold_sweat:boiler",
+    "create:blaze_burner",
+    "create:lit_blaze_burner",
+    { "id": "mekanism:resistive_heater", "required": false },
+    { "id": "mekanism:fuelwood_heater", "required": false },
+    { "id": "mekanism:superheating_element", "required": false },
+    { "id": "mekanism:thermal_evaporation_controller", "required": false },
+    { "id": "thermal:machine_furnace", "required": false },
+    { "id": "thermal:machine_smelter", "required": false },
+    { "id": "thermal:machine_crucible", "required": false },
+    { "id": "thermal:machine_pyrolyzer", "required": false },
+    { "id": "thermal:dynamo_compression", "required": false }
+  ]
+}

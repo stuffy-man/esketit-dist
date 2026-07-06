@@ -1,0 +1,55 @@
+// priority: 10
+// Heating recipes (plain ingot → heated ingot via furnace/blast furnace) AND cooling
+// recipes (heated → plain via overgeared:cooling, triggered automatically over time
+// when the item is in the player's inventory).
+// Bronze/Rose Gold alloy-chain intermediates have their cooling in alloy_chains.js.
+
+ServerEvents.recipes(event => {
+
+    var heatable = [
+        { ingot: 'create:brass_ingot', heated: 'esketit_metallurgy:heated_brass_ingot' },
+        { ingot: 'create_ironworks:bronze_ingot', heated: 'esketit_metallurgy:heated_bronze_ingot' },
+        { ingot: 'esketit_metallurgy:rose_gold_ingot', heated: 'esketit_metallurgy:heated_rose_gold_ingot' },
+    ]
+
+    heatable.forEach(function(m) {
+        // Heat up (furnace + blast furnace)
+        event.custom({
+            type: 'minecraft:smelting',
+            category: 'misc',
+            cookingtime: 140,
+            experience: 0.0,
+            group: m.heated,
+            ingredient: { item: m.ingot },
+            result: m.heated,
+        })
+        event.custom({
+            type: 'minecraft:blasting',
+            category: 'misc',
+            cookingtime: 70,
+            experience: 0.0,
+            group: m.heated,
+            ingredient: { item: m.ingot },
+            result: m.heated,
+        })
+        // Cool down (overgeared's tick-based cooling system)
+        event.custom({
+            type: 'overgeared:cooling',
+            input: { item: m.heated },
+            output: { item: m.ingot },
+        })
+    })
+})
+
+// Add ALL our heated items to the overgeared:heated_metals item tag — without this,
+// Overgeared's ItemStackMixin won't check them for cooling (it only evaluates items
+// that are in this tag OR have the "Heated" NBT flag).
+ServerEvents.tags('item', function(event) {
+    event.add('overgeared:heated_metals', [
+        'esketit_metallurgy:heated_brass_ingot',
+        'esketit_metallurgy:heated_bronze_ingot',
+        'esketit_metallurgy:heated_rose_gold_ingot',
+        'esketit_metallurgy:heated_rose_gold_alloy',
+        'esketit_metallurgy:heated_bronze_alloy',
+    ])
+})

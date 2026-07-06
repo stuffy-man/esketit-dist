@@ -1,0 +1,20 @@
+[
+  {
+    "mob": [
+      "minecraft:zombie",
+      "minecraft:zombie_villager",
+      "minecraft:husk",
+      "minecraft:skeleton",
+      "minecraft:stray",
+      "minecraft:creeper",
+      "minecraft:spider",
+      "minecraft:drowned",
+      "minecraft:witch",
+      "minecraft:slime",
+      "minecraft:phantom"
+    ],
+    "dimension": "minecraft:overworld",
+    "seesky": true,
+    "result": "deny"
+  }
+]

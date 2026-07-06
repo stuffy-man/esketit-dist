@@ -1,0 +1,109 @@
+// Overgeared's quality-tool block-break logic bypasses the vanilla loot-table fortune
+// calculation, so Fortune enchantments have no effect on quality tools.
+// This script adds the missing bonus drops and also gives rose gold a built-in
+// quality-scaling fortune bonus (material property of the alloy).
+//
+// Root cause for enchantment being ignored: tool.enchantments uses Enchantment registry
+// objects as map keys — string-keyed .get() always returns null. NBT must be read directly.
+//
+// Case C — vanilla fortune-sensitive ores (diamond, emerald, coal, quartz, lapis, redstone)
+// Case B — raw ores (iron, gold, copper): vanilla 1.18+ excludes these, this pack opts in
+
+// Rose gold built-in fortune by quality tier (stacks additively with Fortune enchantment)
+const ROSE_GOLD_FORTUNE = {
+    'poor':    -1,
+    'well':     0,
+    'expert':   1,
+    'perfect':  2,
+    'master':   3,
+}
+
+BlockEvents.broken(event => {
+    const player = event.player
+    if (!player) return
+
+    const tool = player.mainHandItem
+    const toolNbt = tool.nbt
+    if (!toolNbt || !toolNbt.ForgingQuality) return
+
+    const quality = String(toolNbt.ForgingQuality)
+
+    // Rose gold material gives built-in fortune that scales with quality
+    const isRoseGold = String(tool.id).startsWith('esketit_metallurgy:rose_gold_')
+    const qualityFortune = isRoseGold ? (ROSE_GOLD_FORTUNE[quality] || 0) : 0
+
+    // Read Fortune + Silk Touch from NBT directly —
+    // tool.enchantments.get(string) always returns null (Enchantment object keys, not strings)
+    const enchList = toolNbt.Enchantments
+    let enchFortune = 0
+    let silkTouch = false
+    if (enchList) {
+        const enchCount = enchList.size()
+        for (let i = 0; i < enchCount; i++) {
+            const e = enchList.get(i)
+            const id = String(e.getString('id'))
+            const lvl = e.getShort('lvl')
+            if (id === 'minecraft:fortune')    enchFortune = lvl
+            if (id === 'minecraft:silk_touch') silkTouch   = true
+        }
+    }
+
+    if (silkTouch) return
+
+    const fortune = enchFortune + qualityFortune
+    if (fortune <= 0) return
+
+    const blockId = event.block.id
+
+    const dropMap = {
+        // ── Case C: vanilla fortune-sensitive ores ──────────────────────────────
+        'minecraft:diamond_ore':                  'minecraft:diamond',
+        'minecraft:deepslate_diamond_ore':        'minecraft:diamond',
+        'minecraft:emerald_ore':                  'minecraft:emerald',
+        'minecraft:deepslate_emerald_ore':        'minecraft:emerald',
+        'minecraft:coal_ore':                     'minecraft:coal',
+        'minecraft:deepslate_coal_ore':           'minecraft:coal',
+        'minecraft:nether_quartz_ore':            'minecraft:quartz',
+        'minecraft:nether_gold_ore':              'minecraft:gold_nugget',
+        'minecraft:lapis_ore':                    'minecraft:lapis_lazuli',
+        'minecraft:deepslate_lapis_ore':          'minecraft:lapis_lazuli',
+        'minecraft:redstone_ore':                 'minecraft:redstone',
+        'minecraft:deepslate_redstone_ore':       'minecraft:redstone',
+        // spelunkery / deeperdarker / the_deep_void diamond variants (overgeared_tiers.js)
+        'spelunkery:andesite_diamond_ore':        'minecraft:diamond',
+        'spelunkery:diorite_diamond_ore':         'minecraft:diamond',
+        'spelunkery:granite_diamond_ore':         'minecraft:diamond',
+        'spelunkery:tuff_diamond_ore':            'minecraft:diamond',
+        'spelunkery:smooth_basalt_diamond_ore':   'minecraft:diamond',
+        'deeperdarker:gloomslate_diamond_ore':    'minecraft:diamond',
+        'deeperdarker:sculk_stone_diamond_ore':   'minecraft:diamond',
+        'the_deep_void:deep_void_diamond_ore':    'minecraft:diamond',
+
+        // ── Case B: raw ores — Fortune opt-in for this pack ─────────────────────
+        'minecraft:iron_ore':                     'minecraft:raw_iron',
+        'minecraft:deepslate_iron_ore':           'minecraft:raw_iron',
+        'minecraft:gold_ore':                     'minecraft:raw_gold',
+        'minecraft:deepslate_gold_ore':           'minecraft:raw_gold',
+        'minecraft:copper_ore':                   'minecraft:raw_copper',
+        'minecraft:deepslate_copper_ore':         'minecraft:raw_copper',
+        // modded iron variants listed in overgeared_tiers.js
+        'spelunkery:andesite_iron_ore':           'minecraft:raw_iron',
+        'spelunkery:diorite_iron_ore':            'minecraft:raw_iron',
+        'spelunkery:granite_iron_ore':            'minecraft:raw_iron',
+        'spelunkery:tuff_iron_ore':               'minecraft:raw_iron',
+        'deeperdarker:gloomslate_iron_ore':       'minecraft:raw_iron',
+        'deeperdarker:sculk_stone_iron_ore':      'minecraft:raw_iron',
+        'the_deep_void:deep_void_iron_ore':       'minecraft:raw_iron',
+    }
+
+    const drop = dropMap[blockId]
+    if (!drop) return
+
+    // Vanilla ore_drops formula: multiply base count by random(1..fortune+1),
+    // then subtract the 1 item the loot table already dropped.
+    const multiplier = Math.floor(Math.random() * (fortune + 1)) + 1  // 1..fortune+1
+    const extra = multiplier - 1                                        // 0..fortune
+    for (let i = 0; i < extra; i++) {
+        event.block.popItem(Item.of(drop))
+    }
+})

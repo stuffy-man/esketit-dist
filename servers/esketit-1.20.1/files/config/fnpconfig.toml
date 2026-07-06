@@ -1,0 +1,7 @@
+#Multiplies damage dealt by player's firearms. The default value is set to 1.
+DamageMultiplier = 1.0
+#Multiplies cooldown of firearms while reloading, where lower values are making your weapons reload faster. The default value is set to 1.
+ReloadingSpeedMultiplier = 1.0
+#Multiplies cooldown of firearms while firing, where lower values are making your weapons reload faster. The default value is set to 1. The value 0 makes trigger finger useless:)
+FiringSpeedMultiplier = 1.0
+

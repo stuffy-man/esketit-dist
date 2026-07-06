@@ -1,0 +1,21 @@
+
+[drops]
+	#If true, livestock drop hides instead of leather (leather must be tanned).
+	replaceLeatherDrops = true
+	#Chance for a piece of bark to drop when stripping a log with an axe.
+	#Range: 0.0 ~ 1.0
+	barkDropChance = 0.5
+	#Chance for pigs/cows to drop a chunk of animal fat on death.
+	#Range: 0.0 ~ 1.0
+	animalFatChance = 0.5
+
+[tanning]
+	#Base ticks to fully dry a hide on a rack (open sun is ~3x faster, rain stalls it).
+	#Range: 20 ~ 1000000
+	rackDryTime = 12000
+	#Ticks to soak one dry hide into leather in a tanning barrel.
+	#Range: 20 ~ 1000000
+	barrelSoakTime = 400
+	#Optional realism: if true, a tanning barrel must be filled with a water bucket before adding tannic powder. Off by default (the original mod tans without water).
+	barrelRequiresWater = true
+

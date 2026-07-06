@@ -1,0 +1,22 @@
+[
+  {
+    "mob": "minecraft:zombie",
+    "biome": "minecraft:plains",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "biome": "minecraft:desert",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "biome": "minecraft:savanna",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:husk",
+    "biome": "minecraft:desert",
+    "result": "deny"
+  }
+]

@@ -1,0 +1,184 @@
+// priority: 10
+// Overgeared quality system overhaul:
+// 1) Enable the hammering minigame on every forging recipe that has quality (so quality
+//    becomes skill-based: poor -> well -> expert -> perfect -> master, instead of
+//    auto-resolving to "poor" because the minigame was shipped disabled).
+// 2) Add back simple vanilla-style (ingot + stick, crafting table) recipes for the affected
+//    tools/armor, explicitly tagged with quality:"poor" NBT, so players who skip the
+//    forging/casting system entirely still get a working but guaranteed-worst-quality item.
+
+ServerEvents.recipes(event => {
+
+    // ════════════════════════════════════════════════════════════
+    // PART 1 — enable minigame on all quality-bearing forging recipes
+    // (has_quality:false items — plates, arrow heads, tongs, heated_steel_ingot — are
+    // intermediate materials with no quality at all, left untouched)
+    // ════════════════════════════════════════════════════════════
+    const forgingRecipes = [
+        {"id":"iron_axe_head","blueprint":["axe"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_iron_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["##","# "],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:iron_axe_head"},"show_notification":true,"tier":"stone"},
+        {"id":"iron_axe_head_2","blueprint":["axe"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_iron_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["##"," #"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:iron_axe_head"},"show_notification":true,"tier":"stone"},
+        {"id":"iron_sword_blade","blueprint":["sword"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_iron_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["#","#"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:iron_sword_blade"},"show_notification":true,"tier":"stone"},
+        {"id":"iron_hoe_head","blueprint":["hoe"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_iron_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["##"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:iron_hoe_head"},"show_notification":true,"tier":"stone"},
+        {"id":"iron_shovel_head","blueprint":["shovel"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_iron_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["#"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:iron_shovel_head"},"show_notification":true,"tier":"stone"},
+        {"id":"iron_pickaxe_head","blueprint":["pickaxe"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_iron_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["###"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:iron_pickaxe_head"},"show_notification":true,"tier":"stone"},
+
+        {"id":"copper_axe_head","blueprint":["axe"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_copper_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["##","# "],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:copper_axe_head"},"show_notification":true,"tier":"stone"},
+        {"id":"copper_axe_head_2","blueprint":["axe"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_copper_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["##"," #"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:copper_axe_head"},"show_notification":true,"tier":"stone"},
+        {"id":"copper_sword_blade","blueprint":["sword"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_copper_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["#","#"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:copper_sword_blade"},"show_notification":true,"tier":"stone"},
+        {"id":"copper_hoe_head","blueprint":["hoe"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_copper_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["##"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:copper_hoe_head"},"show_notification":true,"tier":"stone"},
+        {"id":"copper_shovel_head","blueprint":["shovel"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_copper_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["#"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:copper_shovel_head"},"show_notification":true,"tier":"stone"},
+        {"id":"copper_pickaxe_head","blueprint":["pickaxe"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_copper_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["###"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:copper_pickaxe_head"},"show_notification":true,"tier":"stone"},
+        {"id":"copper_hammer_head","category":"tool_heads","group":"","hammering":3,"has_polishing":false,"key":{"#":{"item":"overgeared:heated_copper_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["# "," #"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:copper_hammer_head"},"show_notification":true,"tier":"stone"},
+        {"id":"copper_boots","category":"armors","group":"","hammering":3,"has_polishing":false,"key":{"#":{"tag":"overgeared:copper_plates"}},"minimum_quality":"poor","need_quenching":false,"pattern":["# #","# #"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:copper_boots"},"show_notification":true,"tier":"stone"},
+        {"id":"copper_helmet","category":"armors","group":"","hammering":3,"has_polishing":false,"key":{"#":{"tag":"overgeared:copper_plates"}},"minimum_quality":"poor","need_quenching":false,"pattern":["###","# #"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:copper_helmet"},"show_notification":true,"tier":"stone"},
+        {"id":"copper_leggings","category":"armors","group":"","hammering":4,"has_polishing":false,"key":{"#":{"tag":"overgeared:copper_plates"}},"minimum_quality":"poor","need_quenching":false,"pattern":["###","# #","# #"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:copper_leggings"},"show_notification":true,"tier":"stone"},
+        {"id":"copper_chestplate","category":"armors","group":"","hammering":5,"has_polishing":false,"key":{"#":{"tag":"overgeared:copper_plates"}},"minimum_quality":"poor","need_quenching":false,"pattern":["# #","###","###"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:copper_chestplate"},"show_notification":true,"tier":"stone"},
+
+        {"id":"steel_axe_head","blueprint":["axe"],"category":"tool_heads","group":"","hammering":4,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_steel_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["##","# "],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:steel_axe_head"},"show_notification":true},
+        {"id":"steel_axe_head_2","blueprint":["axe"],"category":"tool_heads","group":"","hammering":4,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_steel_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["##"," #"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:steel_axe_head"},"show_notification":true},
+        {"id":"steel_sword_blade","blueprint":["sword"],"category":"tool_heads","group":"","hammering":4,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_steel_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["#","#"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:steel_sword_blade"},"show_notification":true},
+        {"id":"steel_hoe_head","blueprint":["hoe"],"category":"tool_heads","group":"","hammering":4,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_steel_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["##"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:steel_hoe_head"},"show_notification":true},
+        {"id":"steel_shovel_head","blueprint":["shovel"],"category":"tool_heads","group":"","hammering":4,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_steel_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["#"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:steel_shovel_head"},"show_notification":true},
+        {"id":"steel_pickaxe_head","blueprint":["pickaxe"],"category":"tool_heads","group":"","hammering":4,"has_polishing":true,"key":{"#":{"item":"overgeared:heated_steel_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["###"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:steel_pickaxe_head"},"show_notification":true},
+        {"id":"steel_hammer_head","category":"tool_heads","group":"","hammering":4,"has_polishing":false,"key":{"#":{"item":"overgeared:heated_steel_ingot"}},"minimum_quality":"poor","need_quenching":true,"pattern":["# "," #"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:steel_hammer_head"},"show_notification":true},
+        {"id":"steel_boots","category":"armors","group":"","hammering":3,"has_polishing":false,"key":{"#":{"item":"overgeared:steel_plate"}},"minimum_quality":"poor","need_quenching":false,"pattern":["# #","# #"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:steel_boots"},"show_notification":true},
+        {"id":"steel_helmet","category":"armors","group":"","hammering":3,"has_polishing":false,"key":{"#":{"item":"overgeared:steel_plate"}},"minimum_quality":"poor","need_quenching":false,"pattern":["###","# #"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:steel_helmet"},"show_notification":true},
+        {"id":"steel_leggings","category":"armors","group":"","hammering":4,"has_polishing":false,"key":{"#":{"item":"overgeared:steel_plate"}},"minimum_quality":"poor","need_quenching":false,"pattern":["###","# #","# #"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:steel_leggings"},"show_notification":true},
+        {"id":"steel_chestplate","category":"armors","group":"","hammering":5,"has_polishing":false,"key":{"#":{"item":"overgeared:steel_plate"}},"minimum_quality":"poor","need_quenching":false,"pattern":["# #","###","###"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:steel_chestplate"},"show_notification":true},
+
+        {"id":"golden_axe_head","blueprint":["axe"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"minecraft:gold_ingot"}},"minimum_quality":"poor","need_quenching":false,"pattern":["##","# "],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:golden_axe_head"},"show_notification":true,"tier":"stone"},
+        {"id":"golden_axe_head_2","blueprint":["axe"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"minecraft:gold_ingot"}},"minimum_quality":"poor","need_quenching":false,"pattern":["##"," #"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:golden_axe_head"},"show_notification":true,"tier":"stone"},
+        {"id":"golden_sword_blade","blueprint":["sword"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"minecraft:gold_ingot"}},"minimum_quality":"poor","need_quenching":false,"pattern":["#","#"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:golden_sword_blade"},"show_notification":true,"tier":"stone"},
+        {"id":"golden_hoe_head","blueprint":["hoe"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"minecraft:gold_ingot"}},"minimum_quality":"poor","need_quenching":false,"pattern":["##"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:golden_hoe_head"},"show_notification":true,"tier":"stone"},
+        {"id":"golden_shovel_head","blueprint":["shovel"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"minecraft:gold_ingot"}},"minimum_quality":"poor","need_quenching":false,"pattern":["#"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:golden_shovel_head"},"show_notification":true,"tier":"stone"},
+        {"id":"golden_pickaxe_head","blueprint":["pickaxe"],"category":"tool_heads","group":"","hammering":3,"has_polishing":true,"key":{"#":{"item":"minecraft:gold_ingot"}},"minimum_quality":"poor","need_quenching":false,"pattern":["###"],"quality_difficulty":"none","requires_blueprint":false,"result":{"item":"overgeared:golden_pickaxe_head"},"show_notification":true,"tier":"stone"},
+    ]
+
+    forgingRecipes.forEach(r => {
+        event.remove({ id: `overgeared:${r.id}` })
+        // Build conditionally: KubeJS serializes a missing JS property as explicit JSON
+        // null, which Overgeared's parser rejects for "blueprint"/"tier" ('must be a
+        // string or array of strings' / 'Expected tier to be a string, was null').
+        // Only set these keys when the source recipe actually had them.
+        const recipe = {
+            type: 'overgeared:forging',
+            category: r.category,
+            group: r.group,
+            hammering: r.hammering,
+            has_polishing: r.has_polishing,
+            has_quality: true,
+            key: r.key,
+            minimum_quality: r.minimum_quality,
+            need_quenching: r.need_quenching,
+            needs_minigame: true,          // <- the actual fix: minigame now required for quality
+            pattern: r.pattern,
+            quality_difficulty: r.quality_difficulty,
+            requires_blueprint: r.requires_blueprint,
+            result: r.result,
+            show_notification: r.show_notification,
+        }
+        if (r.blueprint) recipe.blueprint = r.blueprint
+        if (r.tier) recipe.tier = r.tier
+        event.custom(recipe)
+    })
+
+    // ════════════════════════════════════════════════════════════
+    // PART 2 — vanilla-style recipes (ingot + stick, plain crafting table),
+    // always producing "poor" quality. Diamond/netherite are untouched — they
+    // come from the smithing_transform upgrade path and inherit base quality.
+    // ════════════════════════════════════════════════════════════
+    // NOTE: the mod's real durability/mining-speed bonus lookup (QualityHelper) and its
+    // own ForgingQuality enum both key off the NBT tag "ForgingQuality" — NOT "quality".
+    // Using the wrong key here silently means no bonus/penalty (and no native quality
+    // behavior at all) ever applies to vanilla-crafted "poor" items.
+    const poorNbt = '{ForgingQuality:"poor",Makeshift:1b,ReducedMaxDurability:10}'
+
+    function vanillaTool(material, ingotItem, outputs) {
+        // pickaxe
+        event.shaped(Item.of(outputs.pickaxe, poorNbt), ['###', ' S ', ' S '], { '#': ingotItem, S: 'minecraft:stick' })
+        // axe
+        event.shaped(Item.of(outputs.axe, poorNbt), ['##', '#S', ' S'], { '#': ingotItem, S: 'minecraft:stick' })
+        // shovel
+        event.shaped(Item.of(outputs.shovel, poorNbt), ['#', 'S', 'S'], { '#': ingotItem, S: 'minecraft:stick' })
+        // hoe
+        event.shaped(Item.of(outputs.hoe, poorNbt), ['##', ' S', ' S'], { '#': ingotItem, S: 'minecraft:stick' })
+        // sword
+        event.shaped(Item.of(outputs.sword, poorNbt), ['#', '#', 'S'], { '#': ingotItem, S: 'minecraft:stick' })
+    }
+
+    function vanillaArmor(ingotItem, outputs) {
+        event.shaped(Item.of(outputs.helmet, poorNbt), ['###', '# #'], { '#': ingotItem })
+        event.shaped(Item.of(outputs.chestplate, poorNbt), ['# #', '###', '###'], { '#': ingotItem })
+        event.shaped(Item.of(outputs.leggings, poorNbt), ['###', '# #', '# #'], { '#': ingotItem })
+        event.shaped(Item.of(outputs.boots, poorNbt), ['# #', '# #'], { '#': ingotItem })
+    }
+
+    // Plain restoration with no quality at all — for the starting tiers (stone/wood),
+    // where tracking quality doesn't add anything.
+    function vanillaToolNoQuality(material, ingotItem, outputs) {
+        event.shaped(outputs.pickaxe, ['###', ' S ', ' S '], { '#': ingotItem, S: 'minecraft:stick' })
+        event.shaped(outputs.axe, ['##', '#S', ' S'], { '#': ingotItem, S: 'minecraft:stick' })
+        event.shaped(outputs.shovel, ['#', 'S', 'S'], { '#': ingotItem, S: 'minecraft:stick' })
+        event.shaped(outputs.hoe, ['##', ' S', ' S'], { '#': ingotItem, S: 'minecraft:stick' })
+        event.shaped(outputs.sword, ['#', '#', 'S'], { '#': ingotItem, S: 'minecraft:stick' })
+    }
+
+    // STONE — Overgeared also removed this (replaced with knappable_rock + knapping).
+    // Restores the classic cobblestone + stick recipe, no quality.
+    vanillaToolNoQuality('stone', 'minecraft:cobblestone', {
+        pickaxe: 'minecraft:stone_pickaxe', axe: 'minecraft:stone_axe', shovel: 'minecraft:stone_shovel',
+        hoe: 'minecraft:stone_hoe', sword: 'minecraft:stone_sword',
+    })
+    // (no stone armor in vanilla — skip)
+
+    // WOOD — Overgeared never touched wooden tools at all (no override, no quality NBT
+    // ever applied) — nothing to remove, listed here only for clarity.
+
+    // IRON — restores the vanilla recipe Overgeared removed, but always "poor"
+    vanillaTool('iron', 'minecraft:iron_ingot', {
+        pickaxe: 'minecraft:iron_pickaxe', axe: 'minecraft:iron_axe', shovel: 'minecraft:iron_shovel',
+        hoe: 'minecraft:iron_hoe', sword: 'minecraft:iron_sword',
+    })
+    vanillaArmor('minecraft:iron_ingot', {
+        helmet: 'minecraft:iron_helmet', chestplate: 'minecraft:iron_chestplate',
+        leggings: 'minecraft:iron_leggings', boots: 'minecraft:iron_boots',
+    })
+
+    // GOLD
+    vanillaTool('gold', 'minecraft:gold_ingot', {
+        pickaxe: 'minecraft:golden_pickaxe', axe: 'minecraft:golden_axe', shovel: 'minecraft:golden_shovel',
+        hoe: 'minecraft:golden_hoe', sword: 'minecraft:golden_sword',
+    })
+    vanillaArmor('minecraft:gold_ingot', {
+        helmet: 'minecraft:golden_helmet', chestplate: 'minecraft:golden_chestplate',
+        leggings: 'minecraft:golden_leggings', boots: 'minecraft:golden_boots',
+    })
+
+    // COPPER (overgeared's own material — same classic pattern, just no vanilla precedent)
+    vanillaTool('copper', 'minecraft:copper_ingot', {
+        pickaxe: 'overgeared:copper_pickaxe', axe: 'overgeared:copper_axe', shovel: 'overgeared:copper_shovel',
+        hoe: 'overgeared:copper_hoe', sword: 'overgeared:copper_sword',
+    })
+    vanillaArmor('minecraft:copper_ingot', {
+        helmet: 'overgeared:copper_helmet', chestplate: 'overgeared:copper_chestplate',
+        leggings: 'overgeared:copper_leggings', boots: 'overgeared:copper_boots',
+    })
+
+    // BRONZE — sits at/below Iron in the chain (Copper->Bronze->Iron), so like copper it
+    // gets a vanilla-craft Makeshift fallback. Armor already had this (see
+    // overgeared_alloys.js's armorAlloys loop) but tools were missing it — only the
+    // proper head-forging path existed, so there was no "Makeshift" table-craft option.
+    // (Brass has no tools at all, by design — armor only.)
+    vanillaTool('bronze', 'create_ironworks:bronze_ingot', {
+        pickaxe: 'esketit_metallurgy:bronze_pickaxe', axe: 'esketit_metallurgy:bronze_axe', shovel: 'esketit_metallurgy:bronze_shovel',
+        hoe: 'esketit_metallurgy:bronze_hoe', sword: 'esketit_metallurgy:bronze_sword',
+    })
+
+    // STEEL — intentionally NOT given a plain table recipe. Steel sits above Iron in the
+    // chain (Stone->Copper->Bronze->Iron->Steel->RoseGold->Diamond->Netherite); anything
+    // above Iron must go through real anvil forging, no vanilla-craft bypass.
+
+    // DIAMOND — intentionally NOT restored to a plain table recipe. Diamond stays
+    // exclusive to the smithing_transform upgrade path (steel tool + diamond + template),
+    // inheriting the base tool's quality — this is the mod's intended progression gate.
+})

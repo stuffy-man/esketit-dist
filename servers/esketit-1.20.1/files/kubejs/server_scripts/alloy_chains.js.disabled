@@ -1,0 +1,125 @@
+// priority: 10
+// Multi-stage alloy chains, mirroring Overgeared's own steel chain exactly:
+//   crude_steel -> heated_crude_steel -> [forge] -> heated_steel_ingot -> [cool] -> steel_ingot
+// Replaces the old one-step "instant alloy" recipes (Create mixer for bronze, plain
+// crafting for rose gold) — these alloys now go through the same heat/forge/cool process
+// as steel, not a shortcut.
+
+ServerEvents.recipes(event => {
+
+    // ════════════════════════════════════════════════════════════
+    // ROSE GOLD — uses Overgeared's Alloy Furnace, same as steel
+    // 2 gold + 2 copper -> rose_gold_alloy -> heat -> forge -> heat -> cool -> ingot
+    // ════════════════════════════════════════════════════════════
+    event.remove({ output: 'esketit_metallurgy:rose_gold_ingot' }) // old 3 gold + 1 copper shortcut
+
+    event.custom({
+        type: 'overgeared:alloy_smelting',
+        category: 'misc',
+        group: 'misc',
+        experience: 0.5,
+        cookingtime: 250,
+        ingredients: [
+            { item: 'minecraft:gold_ingot' },
+            { item: 'minecraft:gold_ingot' },
+            { item: 'minecraft:copper_ingot' },
+            { item: 'minecraft:copper_ingot' },
+        ],
+        result: { item: 'esketit_metallurgy:rose_gold_alloy', count: 4 },
+    })
+    event.custom({
+        type: 'minecraft:blasting',
+        category: 'misc',
+        cookingtime: 100,
+        experience: 0.0,
+        group: 'rose_gold_ingot',
+        ingredient: { item: 'esketit_metallurgy:rose_gold_alloy' },
+        result: 'esketit_metallurgy:heated_rose_gold_alloy',
+    })
+    event.custom({
+        type: 'minecraft:smelting',
+        category: 'misc',
+        cookingtime: 200,
+        experience: 0.0,
+        group: 'rose_gold_ingot',
+        ingredient: { item: 'esketit_metallurgy:rose_gold_alloy' },
+        result: 'esketit_metallurgy:heated_rose_gold_alloy',
+    })
+    event.custom({
+        type: 'overgeared:forging',
+        category: 'misc',
+        group: '',
+        hammering: 3,
+        has_quality: false,
+        key: { '#': { item: 'esketit_metallurgy:heated_rose_gold_alloy' } },
+        need_quenching: false,
+        needs_minigame: false,
+        pattern: ['#'],
+        quality_difficulty: 'none',
+        requires_blueprint: false,
+        result: { item: 'esketit_metallurgy:heated_rose_gold_ingot' },
+        show_notification: true,
+    })
+    // Forging produces the HEATED ingot (mirrors steel chain) — cools to rose_gold_ingot
+    // over time if not used immediately. If not forged in time, alloy cools back too.
+    event.custom({
+        type: 'overgeared:cooling',
+        input: { item: 'esketit_metallurgy:heated_rose_gold_alloy' },
+        output: { item: 'esketit_metallurgy:rose_gold_alloy' },
+    })
+
+    // ════════════════════════════════════════════════════════════
+    // BRONZE — crafting table instead of an alloy furnace (no high-heat carbon-style
+    // alloying needed for copper+tin), but still needs heating + forging afterwards
+    // copper + tin -> bronze_alloy -> heat -> forge -> heat -> cool -> ingot
+    // ════════════════════════════════════════════════════════════
+    event.remove({ output: 'create_ironworks:bronze_ingot' }) // old instant Create-mixer shortcut
+
+    // 8 copper : 1 tin (realistic bronze ratio), filling the full 3x3 grid -> 9 bronze_alloy
+    event.shapeless(Item.of('esketit_metallurgy:bronze_alloy', 9), [
+        'minecraft:copper_ingot', 'minecraft:copper_ingot', 'minecraft:copper_ingot',
+        'minecraft:copper_ingot', 'minecraft:copper_ingot', 'minecraft:copper_ingot',
+        'minecraft:copper_ingot', 'minecraft:copper_ingot',
+        'create_ironworks:tin_ingot',
+    ])
+    event.custom({
+        type: 'minecraft:blasting',
+        category: 'misc',
+        cookingtime: 100,
+        experience: 0.0,
+        group: 'bronze_ingot',
+        ingredient: { item: 'esketit_metallurgy:bronze_alloy' },
+        result: 'esketit_metallurgy:heated_bronze_alloy',
+    })
+    event.custom({
+        type: 'minecraft:smelting',
+        category: 'misc',
+        cookingtime: 200,
+        experience: 0.0,
+        group: 'bronze_ingot',
+        ingredient: { item: 'esketit_metallurgy:bronze_alloy' },
+        result: 'esketit_metallurgy:heated_bronze_alloy',
+    })
+    event.custom({
+        type: 'overgeared:forging',
+        category: 'misc',
+        group: '',
+        hammering: 3,
+        has_quality: false,
+        key: { '#': { item: 'esketit_metallurgy:heated_bronze_alloy' } },
+        need_quenching: false,
+        needs_minigame: false,
+        pattern: ['#'],
+        quality_difficulty: 'none',
+        requires_blueprint: false,
+        result: { item: 'esketit_metallurgy:heated_bronze_ingot' },
+        show_notification: true,
+    })
+    // Forging produces the HEATED ingot (mirrors steel chain) — cools to bronze_ingot
+    // over time if not used immediately. If not forged in time, alloy cools back too.
+    event.custom({
+        type: 'overgeared:cooling',
+        input: { item: 'esketit_metallurgy:heated_bronze_alloy' },
+        output: { item: 'esketit_metallurgy:bronze_alloy' },
+    })
+})

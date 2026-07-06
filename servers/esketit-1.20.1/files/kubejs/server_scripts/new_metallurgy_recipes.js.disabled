@@ -1,0 +1,97 @@
+// priority: 10
+// HEAD-based forging + assembly for rose_gold tools, matching Overgeared's real chain:
+// heated ingot → [forge HEAD on anvil] → head + stick → tool.
+// This makes blueprints work correctly for this material.
+// (Tin and Zinc have no tools — by design, material only.)
+
+ServerEvents.recipes(event => {
+
+    var headShapes = {
+        pickaxe_head: { pattern: ['###'], blueprint: ['pickaxe'], hammering: 2 },
+        axe_head:     { pattern: ['##', '# '], blueprint: ['axe'], hammering: 2 },
+        hoe_head:     { pattern: ['##'], blueprint: ['hoe'], hammering: 2 },
+        shovel_head:  { pattern: ['#'], blueprint: ['shovel'], hammering: 2 },
+        sword_blade:  { pattern: ['#', '#'], blueprint: ['sword'], hammering: 2 },
+    }
+
+    var toolAssembly = {
+        pickaxe_head: 'pickaxe',
+        axe_head: 'axe',
+        hoe_head: 'hoe',
+        shovel_head: 'shovel',
+        sword_blade: 'sword',
+    }
+
+    // ════ ROSE GOLD — no quenching (like gold), slightly harder hammering ════
+    Object.keys(headShapes).forEach(function(head) {
+        var shape = headShapes[head]
+        var headId = 'esketit_metallurgy:rose_gold_' + head
+        var toolId = 'esketit_metallurgy:rose_gold_' + toolAssembly[head]
+
+        var recipe = {
+            type: 'overgeared:forging',
+            blueprint: shape.blueprint,
+            category: 'tool_heads',
+            group: '',
+            hammering: 3,
+            has_polishing: true,
+            has_quality: true,
+            key: { '#': { item: 'esketit_metallurgy:heated_rose_gold_ingot' } },
+            minimum_quality: 'poor',
+            need_quenching: true,
+            needs_minigame: true,
+            pattern: shape.pattern,
+            quality_difficulty: 'none',
+            requires_blueprint: false,
+            result: { item: headId },
+            show_notification: true,
+        }
+        event.custom(recipe)
+
+        event.custom({
+            type: 'overgeared:crafting_shapeless',
+            category: 'equipment',
+            ingredients: [
+                { item: headId },
+                { item: 'minecraft:stick' },
+            ],
+            result: { item: toolId },
+        })
+    })
+
+    // ════ ROSE GOLD ARMOR — real anvil forging only (no head system for armor, but also
+    // NO vanilla table-craft bypass — rose gold sits above Iron/Steel in the chain) ════
+    var armorShapes = {
+        helmet: { pattern: ['III', 'I I'], hammering: 3 },
+        chestplate: { pattern: ['I I', 'III', 'III'], hammering: 5 },
+        leggings: { pattern: ['III', 'I I', 'I I'], hammering: 4 },
+        boots: { pattern: ['I I', 'I I'], hammering: 3 },
+    }
+    Object.keys(armorShapes).forEach(function(piece) {
+        var shape = armorShapes[piece]
+        var outputId = 'esketit_metallurgy:rose_gold_' + piece
+        event.custom({
+            type: 'overgeared:forging',
+            category: 'armors',
+            group: '',
+            hammering: shape.hammering,
+            has_polishing: false,
+            has_quality: true,
+            key: { I: { item: 'esketit_metallurgy:rose_gold_ingot' } },
+            minimum_quality: 'poor',
+            need_quenching: false,
+            needs_minigame: true,
+            pattern: shape.pattern,
+            quality_difficulty: 'none',
+            requires_blueprint: false,
+            result: { item: outputId },
+            show_notification: true,
+        })
+    })
+
+    // ════ INGOT / NUGGET / BLOCK conversions for rose gold (replacing disabled mods) ════
+    event.shaped('esketit_metallurgy:rose_gold_ingot', ['###', '###', '###'],
+        { '#': 'esketit_metallurgy:rose_gold_nugget' })
+    event.shapeless(Item.of('esketit_metallurgy:rose_gold_nugget', 9),
+        ['esketit_metallurgy:rose_gold_ingot'])
+})

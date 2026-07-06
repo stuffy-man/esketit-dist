@@ -1,0 +1,17 @@
+// priority: 10
+// Overgeared only stamps the "Creator" NBT tag (the player-name tooltip line) on items
+// that come out of the real anvil forging minigame — table-crafted "poor" items from our
+// vanilla recipes skip that Java logic entirely, so they'd show no maker at all. This
+// stamps it ourselves for any freshly table-crafted item that has a quality tag but no
+// Creator yet.
+
+ItemEvents.crafted(event => {
+    const item = event.item
+    if (!item || !item.nbt || !item.nbt.ForgingQuality) return
+    if (item.nbt.Creator) return // already set (e.g. by the mod's own forging logic)
+
+    const player = event.player
+    if (!player) return
+
+    item.nbt.Creator = player.username
+})
