@@ -594,6 +594,16 @@
           }
         },
         {
+          "id": "de.mennomax:astikorcarts:1.1.8@jar",
+          "name": "AstikorCarts Redux",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 231706,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/astikorcarts-1.20.1-1.1.8.jar",
+            "MD5": "0165d0921a96ee41880446af6182fffe"
+          }
+        },
+        {
           "id": "earth.terrarium:athena:3.1.2@jar",
           "name": "Athena",
           "type": "ForgeMod",
@@ -1935,6 +1945,36 @@
             "size": 1892593,
             "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/fruits_delight.jar",
             "MD5": "8e8445ed024eb6fa1dd7b511564bf7d3"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftblibrary:2001.2.13@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 780558,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/ftb-library-forge-2001.2.13.jar",
+            "MD5": "9de2c76938392445e735a98b352da9d4"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbquests:2001.4.22@jar",
+          "name": "FTB Quests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1255469,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/ftb-quests-forge-2001.4.22.jar",
+            "MD5": "a05a49243da4a2505413d74e13102b16"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbteams:2001.3.2@jar",
+          "name": "FTB Teams",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 252579,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/ftb-teams-forge-2001.3.2.jar",
+            "MD5": "1c547d6f1b22f461f84c5fb79067b0ec"
           }
         },
         {
