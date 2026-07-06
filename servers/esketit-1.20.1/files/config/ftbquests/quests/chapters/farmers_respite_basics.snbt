@@ -1,0 +1,193 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farmers_respite_basics"
+	group: ""
+	id: "42CCACC1088805DD"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Чайник ставится над огнём, как обычный вариант с водой -"
+				"вскипятите воду, прежде чем заваривать в нём что-либо."
+			]
+			id: "2EBC2F6C5670639C"
+			rewards: [{
+				count: 2
+				id: "23D1C222C477AC7B"
+				item: {
+					Count: 1
+					id: "minecraft:stick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "595C02F6BA19BB09"
+				item: {
+					Count: 1
+					id: "farmersrespite:kettle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			description: [
+				"Чайный куст растёт не быстро, зато даёт лист за листом -"
+				"два листа, заваренные в чайнике, дают чашку простого чая."
+			]
+			id: "0CB2E68F6D36DE9E"
+			rewards: [{
+				count: 3
+				id: "637D771AB3DB7956"
+				item: {
+					Count: 1
+					id: "farmersrespite:green_tea_leaves"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "728419E863A3936B"
+				item: {
+					Count: 1
+					id: "farmersrespite:green_tea_leaves"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["0CB2E68F6D36DE9E"]
+			description: [
+				"Первая чашка чая готова. У каждого сорта - свой лёгкий"
+				"эффект, и чем внимательнее подобраны листья, тем он"
+				"заметнее."
+			]
+			id: "7CB8CD20A38884DE"
+			rewards: [{
+				id: "5B369269956D5DE2"
+				item: {
+					Count: 1
+					id: "farmersrespite:green_tea"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38A3A1613CD501F0"
+				item: {
+					Count: 1
+					id: "farmersrespite:green_tea"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.800000000000001d
+		}
+		{
+			dependencies: ["7CB8CD20A38884DE"]
+			description: [
+				"Кофейный куст растёт на грядке рядом с чайным - ягоды"
+				"с него завариваются в чайнике так же, как чайные листья,"
+				"только результат бодрит сильнее."
+			]
+			id: "5427404A8DB4756D"
+			rewards: [{
+				count: 3
+				id: "3AE763DBBC751F7B"
+				item: {
+					Count: 1
+					id: "farmersrespite:coffee_berries"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "697B3BC5FD4491E2"
+				item: {
+					Count: 1
+					id: "farmersrespite:coffee"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.4d
+		}
+		{
+			description: [
+				"Долейте в уже готовый напиток немного мёда и заварите"
+				"повторно - выйдет более крепкий вариант того же напитка."
+			]
+			id: "3B67D4B1EB20FF25"
+			tasks: [{
+				id: "1478D4FB2003D80D"
+				item: {
+					Count: 1
+					id: "farmersrespite:strong_coffee"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 7.300000000000001d
+		}
+		{
+			dependencies: ["7CB8CD20A38884DE"]
+			description: [
+				"Не всякая заварка идёт на пользу: нижняя вара с грибом"
+				"и адским наростом даёт чай, который лучше не пить без"
+				"крайней нужды."
+			]
+			id: "730C2AB04B0981AD"
+			tasks: [{
+				id: "2FDAC2E56EE7CAFD"
+				item: {
+					Count: 1
+					id: "farmersrespite:purulent_tea"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 5.700000000000001d
+		}
+		{
+			description: [
+				"Кофейный пирог со свечкой сверху - десерт, который"
+				"заодно освещает стол, за которым его подали."
+			]
+			id: "5AA2029C4E9ED8F5"
+			rewards: [{
+				count: 2
+				id: "74CBD12FF91393B7"
+				item: {
+					Count: 1
+					id: "farmersrespite:coffee_berries"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "622C9B566EE9FBF1"
+				item: {
+					Count: 1
+					id: "farmersrespite:coffee_cake_slice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+	title: "Farmer's Respite: чай и кофе"
+}

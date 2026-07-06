@@ -1,0 +1,270 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "meds_and_herbs_basics"
+	group: ""
+	id: "7F82E20BD4328439"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Ромашка - самая безобидная из лечебных трав отсюда:"
+				"сажайте, ждите цветения и собирайте цветы для дальнейшей"
+				"обработки."
+			]
+			id: "0F4494B661D00B55"
+			rewards: [{
+				count: 2
+				id: "41A33644CE51CB48"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:chamomile_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15B342312D2E4F5D"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:chamomile_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			description: [
+				"Ступка с пестиком перетирает собранные травы в порошок -"
+				"первый шаг на пути от цветка к лекарству."
+			]
+			id: "1914B5C9F39DD6E8"
+			rewards: [{
+				count: 2
+				id: "239C2E4C08997B9B"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:powder_chamomile"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16C3E8A9BD6FB7FD"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:grinder"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["1914B5C9F39DD6E8"]
+			description: [
+				"Кипящая колба над огнём вываривает из порошка первую"
+				"вытяжку - грубую, но уже пригодную для использования."
+			]
+			id: "3C43C11C14A59D08"
+			rewards: [{
+				id: "437E155623F8A198"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:extract_chamomile"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F28029DA6FA68F6"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:boiling_flask"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.800000000000001d
+		}
+		{
+			description: [
+				"Дистилляционный аппарат очищает вытяжку до чистого"
+				"экстракта или спирта - следующая ступень по сравнению"
+				"с кипящей колбой."
+			]
+			id: "4FA1F68FD1A93FA7"
+			rewards: [{
+				count: 2
+				id: "4D6C5ECD025CE17A"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:cotton_filter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "481B68E569D6B579"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:distillery_apparatus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.4d
+		}
+		{
+			description: [
+				"Простая повязка из нити и шерсти - на первое время сойдёт,"
+				"но по мере изучения трав можно делать повязки понадёжнее -"
+				"с алоэ, мёдом или спиртом."
+			]
+			id: "386AFBC25A5FEFA6"
+			rewards: [{
+				count: 3
+				id: "5E388AE6CEC4E426"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:cotton_fibers"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "269DB466E8092F2C"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:dressing_cheap"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"Шина из палок и ткани - фиксирует то, что повязкой"
+				"одной не обойтись."
+			]
+			id: "102EA6136FCF2B27"
+			tasks: [{
+				id: "3931E3C20BCEC744"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:splint"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 8.9d
+		}
+		{
+			description: [
+				"Пустой шприц заполняется любым готовым экстрактом -"
+				"и превращается в средство для срочной помощи или,"
+				"напротив, во что-то куда более опасное."
+			]
+			id: "2EECCA1FE4C6D4F0"
+			rewards: [{
+				count: 2
+				id: "76DE132C1FEBB155"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:glass_tube"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "593B29381039CD03"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:syringe_empty"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.6d
+		}
+		{
+			description: [
+				"Чашка Петри с питательной средой, оставленная в покое,"
+				"сама зарастает плесенью - а если повезёт с нужным её"
+				"видом, из плесени получают порошок пенициллина."
+			]
+			id: "6828296A19298FA0"
+			rewards: [{
+				count: 2
+				id: "01E998579E861A96"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:petridish"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E2AC1CFAA4BBA04"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:petridish_agar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.2d
+		}
+		{
+			dependencies: ["6828296A19298FA0"]
+			description: [
+				"Повязка, шприц, набор для шитья и запас крови, собранные"
+				"вместе - походная аптечка новичка, дальше есть варианты"
+				"и понадёжнее."
+			]
+			id: "0199152180387282"
+			rewards: [{
+				id: "7E3F9C371CB8BFF3"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:dressing_cheap"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C31878FC1A9750C"
+				item: {
+					Count: 1
+					id: "meds_and_herbs:medkit_novice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.799999999999999d
+		}
+	]
+	title: "Meds and Herbs: травы и медицина"
+}

@@ -1,0 +1,180 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_elixirum_basics"
+	group: ""
+	id: "3E05763534B39F0E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Стеклянный котёл ставится над источником тепла - костром,"
+				"магмой или обычным огнём. Вскипятите в нём воду, прежде"
+				"чем добавлять что-либо внутрь."
+			]
+			id: "06BFF2F0FE482C72"
+			rewards: [{
+				count: 3
+				id: "1CCA3A8CD7C8589F"
+				item: {
+					Count: 1
+					id: "minecraft:glass_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7853EA50E0309C51"
+				item: {
+					Count: 1
+					id: "elixirum:glass_cauldron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			description: [
+				"Медовый растворитель используется на верстаке зелий"
+				"(Brewing Stand), а не в котле. Он извлекает из ингредиента"
+				"одну случайную сущность и позволяет узнать, из чего"
+				"на самом деле состоит этот предмет."
+			]
+			id: "356C85080FA690CB"
+			rewards: [{
+				count: 2
+				id: "028B2A44F14E169E"
+				item: {
+					Count: 1
+					id: "minecraft:honeycomb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "14CDD0544F3B2402"
+				item: {
+					Count: 1
+					id: "elixirum:honey_solvent"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["356C85080FA690CB"]
+			description: [
+				"Глаз Алхимика, если его надеть, показывает состав уже"
+				"изученных ингредиентов - удобно, чтобы не открывать"
+				"книгу знаний каждый раз заново."
+			]
+			id: "6872680044A64990"
+			rewards: [{
+				id: "2E8E5BE518954D3E"
+				item: {
+					Count: 1
+					id: "minecraft:ender_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EEB01EE142D2DED"
+				item: {
+					Count: 1
+					id: "elixirum:alchemist_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.800000000000001d
+		}
+		{
+			dependencies: ["6872680044A64990"]
+			description: [
+				"Извлечённая сущность хранится в виде Экстракта - именно"
+				"экстракты потом смешивают в котле, чтобы сварить эликсир"
+				"с нужным набором эффектов."
+			]
+			id: "6DCCE892FF5D1338"
+			rewards: [{
+				count: 2
+				id: "35E5233D41E3C894"
+				item: {
+					Count: 1
+					id: "minecraft:glass_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "753D4873AC86BC90"
+				item: {
+					Count: 1
+					id: "elixirum:extract"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.4d
+		}
+		{
+			dependencies: ["6DCCE892FF5D1338"]
+			description: [
+				"Готовый эликсир получает собственное название по своим"
+				"эффектам и может выйти мутным, слабым, а то и легендарным -"
+				"чем лучше подобраны экстракты, тем выше качество варки."
+			]
+			id: "08402A47103071E7"
+			rewards: [{
+				count: 2
+				id: "2BB4C30B86D1F83A"
+				item: {
+					Count: 1
+					id: "minecraft:glass_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "545034018390F7A2"
+				item: {
+					Count: 1
+					id: "elixirum:elixir"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"Полка для зелий и эликсиров - хранит их на виду, а не"
+				"в тёмном сундуке."
+			]
+			id: "4C59AAD1B7E0BCF4"
+			tasks: [{
+				id: "00D39E22C4EAF4C7"
+				item: {
+					Count: 1
+					id: "elixirum:potion_shelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 8.9d
+		}
+	]
+	title: "Ars Elixirum: алхимия эликсиров"
+}

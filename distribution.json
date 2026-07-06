@@ -5796,6 +5796,296 @@
           }
         },
         {
+          "id": "backggr.png",
+          "name": "backggr.png",
+          "type": "File",
+          "artifact": {
+            "size": 29484,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/backggr.png",
+            "path": "config/fancymenu/fancymenu/assets/backggr.png"
+          }
+        },
+        {
+          "id": "backggrrr.png",
+          "name": "backggrrr.png",
+          "type": "File",
+          "artifact": {
+            "size": 22779,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/backggrrr.png",
+            "path": "config/fancymenu/fancymenu/assets/backggrrr.png"
+          }
+        },
+        {
+          "id": "eskotot.png",
+          "name": "eskotot.png",
+          "type": "File",
+          "artifact": {
+            "size": 11154,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/eskotot.png",
+            "path": "config/fancymenu/fancymenu/assets/eskotot.png"
+          }
+        },
+        {
+          "id": "image67.png",
+          "name": "image67.png",
+          "type": "File",
+          "artifact": {
+            "size": 4771,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/image67.png",
+            "path": "config/fancymenu/fancymenu/assets/image67.png"
+          }
+        },
+        {
+          "id": "image69.png",
+          "name": "image69.png",
+          "type": "File",
+          "artifact": {
+            "size": 3599,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/image69.png",
+            "path": "config/fancymenu/fancymenu/assets/image69.png"
+          }
+        },
+        {
+          "id": "penis.png",
+          "name": "penis.png",
+          "type": "File",
+          "artifact": {
+            "size": 16786,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/penis.png",
+            "path": "config/fancymenu/fancymenu/assets/penis.png"
+          }
+        },
+        {
+          "id": "sosiskicraft.png",
+          "name": "sosiskicraft.png",
+          "type": "File",
+          "artifact": {
+            "size": 136936,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/sosiskicraft.png",
+            "path": "config/fancymenu/fancymenu/assets/sosiskicraft.png"
+          }
+        },
+        {
+          "id": "splash_lore.txt",
+          "name": "splash_lore.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2069,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/splash_lore.txt",
+            "path": "config/fancymenu/fancymenu/assets/splash_lore.txt"
+          }
+        },
+        {
+          "id": "studotits.png",
+          "name": "studotits.png",
+          "type": "File",
+          "artifact": {
+            "size": 2794,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/studotits.png",
+            "path": "config/fancymenu/fancymenu/assets/studotits.png"
+          }
+        },
+        {
+          "id": "wildwest.png",
+          "name": "wildwest.png",
+          "type": "File",
+          "artifact": {
+            "size": 131855,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/wildwest.png",
+            "path": "config/fancymenu/fancymenu/assets/wildwest.png"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 149,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/customizablemenus.txt",
+            "path": "config/fancymenu/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "steamhappy_loading_overlay_layout.txt",
+          "name": "steamhappy_loading_overlay_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 8513,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/customization/steamhappy_loading_overlay_layout.txt",
+            "path": "config/fancymenu/fancymenu/customization/steamhappy_loading_overlay_layout.txt"
+          }
+        },
+        {
+          "id": "title_screen_layout.txt",
+          "name": "title_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 41828,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/customization/title_screen_layout.txt",
+            "path": "config/fancymenu/fancymenu/customization/title_screen_layout.txt"
+          }
+        },
+        {
+          "id": "title_screen_layout.txt.bak",
+          "name": "title_screen_layout.txt.bak",
+          "type": "File",
+          "artifact": {
+            "size": 39512,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/customization/title_screen_layout.txt.bak",
+            "path": "config/fancymenu/fancymenu/customization/title_screen_layout.txt.bak"
+          }
+        },
+        {
+          "id": "custom_gui_screens.txt",
+          "name": "custom_gui_screens.txt",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/custom_gui_screens.txt",
+            "path": "config/fancymenu/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "element_layer_control.lewidget",
+          "name": "element_layer_control.lewidget",
+          "type": "File",
+          "artifact": {
+            "size": 197,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "path": "config/fancymenu/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+          }
+        },
+        {
+          "id": "legacy_checklist.txt",
+          "name": "legacy_checklist.txt",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/legacy_checklist.txt",
+            "path": "config/fancymenu/fancymenu/legacy_checklist.txt"
+          }
+        },
+        {
+          "id": "normalized_scroll_screens.json",
+          "name": "normalized_scroll_screens.json",
+          "type": "File",
+          "artifact": {
+            "size": 36,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/normalized_scroll_screens.json",
+            "path": "config/fancymenu/fancymenu/normalized_scroll_screens.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2128,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/options.txt",
+            "path": "config/fancymenu/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "panorama_0.png",
+          "name": "panorama_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 712820,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_0.png",
+            "path": "config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1.png",
+          "name": "panorama_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 671569,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_1.png",
+            "path": "config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2.png",
+          "name": "panorama_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 702221,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_2.png",
+            "path": "config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3.png",
+          "name": "panorama_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 689787,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_3.png",
+            "path": "config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4.png",
+          "name": "panorama_4.png",
+          "type": "File",
+          "artifact": {
+            "size": 734339,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_4.png",
+            "path": "config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5.png",
+          "name": "panorama_5.png",
+          "type": "File",
+          "artifact": {
+            "size": 684597,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_5.png",
+            "path": "config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_5.png"
+          }
+        },
+        {
+          "id": "properties.txt",
+          "name": "properties.txt",
+          "type": "File",
+          "artifact": {
+            "size": 138,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/panoramas/mypanorama/properties.txt",
+            "path": "config/fancymenu/fancymenu/panoramas/mypanorama/properties.txt"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 6218,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/ui_themes/dark.json",
+            "path": "config/fancymenu/fancymenu/ui_themes/dark.json"
+          }
+        },
+        {
+          "id": "light.json",
+          "name": "light.json",
+          "type": "File",
+          "artifact": {
+            "size": 6220,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/ui_themes/light.json",
+            "path": "config/fancymenu/fancymenu/ui_themes/light.json"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/user_variables.db",
+            "path": "config/fancymenu/fancymenu/user_variables.db"
+          }
+        },
+        {
           "id": "element_layer_control.lewidget",
           "name": "element_layer_control.lewidget",
           "type": "File",
@@ -6623,6 +6913,96 @@
             "size": 933,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fruitsdelight-common.toml",
             "path": "config/fruitsdelight-common.toml"
+          }
+        },
+        {
+          "id": "76CBFFB53E088046.snbt",
+          "name": "76CBFFB53E088046.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 6571,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/76CBFFB53E088046.snbt",
+            "path": "config/ftbquests/quests/chapters/76CBFFB53E088046.snbt"
+          }
+        },
+        {
+          "id": "ars_elixirum_basics.snbt",
+          "name": "ars_elixirum_basics.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 4326,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/ars_elixirum_basics.snbt",
+            "path": "config/ftbquests/quests/chapters/ars_elixirum_basics.snbt"
+          }
+        },
+        {
+          "id": "brewin_and_chewin_basics.snbt",
+          "name": "brewin_and_chewin_basics.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 4659,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/brewin_and_chewin_basics.snbt",
+            "path": "config/ftbquests/quests/chapters/brewin_and_chewin_basics.snbt"
+          }
+        },
+        {
+          "id": "cold_sweat_intro.snbt",
+          "name": "cold_sweat_intro.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 17310,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/cold_sweat_intro.snbt",
+            "path": "config/ftbquests/quests/chapters/cold_sweat_intro.snbt"
+          }
+        },
+        {
+          "id": "delight_chefs_path.snbt",
+          "name": "delight_chefs_path.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 56977,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/delight_chefs_path.snbt",
+            "path": "config/ftbquests/quests/chapters/delight_chefs_path.snbt"
+          }
+        },
+        {
+          "id": "farmers_respite_basics.snbt",
+          "name": "farmers_respite_basics.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 4538,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/farmers_respite_basics.snbt",
+            "path": "config/ftbquests/quests/chapters/farmers_respite_basics.snbt"
+          }
+        },
+        {
+          "id": "meds_and_herbs_basics.snbt",
+          "name": "meds_and_herbs_basics.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 6179,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/meds_and_herbs_basics.snbt",
+            "path": "config/ftbquests/quests/chapters/meds_and_herbs_basics.snbt"
+          }
+        },
+        {
+          "id": "chapter_groups.snbt",
+          "name": "chapter_groups.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 28,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapter_groups.snbt",
+            "path": "config/ftbquests/quests/chapter_groups.snbt"
+          }
+        },
+        {
+          "id": "data.snbt",
+          "name": "data.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 530,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/data.snbt",
+            "path": "config/ftbquests/quests/data.snbt"
           }
         },
         {

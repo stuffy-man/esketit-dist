@@ -1,0 +1,194 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "brewin_and_chewin_basics"
+	group: ""
+	id: "609C56AAAD76E077"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Бочонок заполняется водой или другой основой, внутрь"
+				"добавляются ингредиенты (например, пшеница и гриб для"
+				"пива), и напиток бродит некоторое время сам по себе."
+			]
+			id: "39263F5D75DFE9C6"
+			rewards: [{
+				count: 4
+				id: "7E51E44EB7A03543"
+				item: {
+					Count: 1
+					id: "minecraft:wheat"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ADAB6C2D6E6355B"
+				item: {
+					Count: 1
+					id: "brewinandchewin:keg"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			description: [
+				"Первый напиток из бочонка. Для брожения важна температура"
+				"рядом с бочонком - огонь или лёд поблизости меняют"
+				"результат и скорость созревания."
+			]
+			id: "03CAF578D0435C73"
+			rewards: [{
+				id: "3384A7F088FA0A0B"
+				item: {
+					Count: 1
+					id: "brewinandchewin:tankard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70257B9EE1122A6D"
+				item: {
+					Count: 1
+					id: "brewinandchewin:beer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["03CAF578D0435C73"]
+			description: [
+				"Нагревательная бочка выдерживает напиток при постоянном"
+				"тепле - так простые напитки превращаются в более крепкие"
+				"и выдержанные, вроде рома или эля со стажем."
+			]
+			id: "6D06EDACD8D153BE"
+			rewards: [{
+				count: 3
+				id: "6F07CA691FF73F56"
+				item: {
+					Count: 1
+					id: "minecraft:coal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EDF97D27D50A8F0"
+				item: {
+					Count: 1
+					id: "brewinandchewin:heating_cask"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.800000000000001d
+		}
+		{
+			dependencies: ["6D06EDACD8D153BE"]
+			description: [
+				"Ящик для льда - противоположность нагревательной бочки:"
+				"держит напитки холодными для рецептов, которым нужен холод,"
+				"а не жар."
+			]
+			id: "091E3ED41254EE0A"
+			tasks: [{
+				id: "6C3F15315F143456"
+				item: {
+					Count: 1
+					id: "brewinandchewin:ice_crate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 5.700000000000001d
+		}
+		{
+			dependencies: ["6D06EDACD8D153BE"]
+			description: [
+				"Сырный круг из молока сперва незрелый - оставьте его"
+				"полежать, и через время он дозреет и будет готов к нарезке"
+				"на ломтики."
+			]
+			id: "122863735CEC3E92"
+			rewards: [{
+				id: "2E2BC3D23515A167"
+				item: {
+					Count: 1
+					id: "minecraft:milk_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63C4BC920AAE3906"
+				item: {
+					Count: 1
+					id: "brewinandchewin:flaxen_cheese_wheel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.4d
+		}
+		{
+			description: [
+				"Горшочек с огненным фондю держится на огне, чтобы сыр"
+				"внутри не застывал - обмакивайте что угодно, пока горячий."
+			]
+			id: "11FF7C566229E032"
+			rewards: [{
+				count: 2
+				id: "0D09529B73649235"
+				item: {
+					Count: 1
+					id: "minecraft:bread"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26AB1FFE96EA315D"
+				item: {
+					Count: 1
+					id: "brewinandchewin:fiery_fondue_pot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"Подстаканник - мелочь, но без него кружка на столе"
+				"оставляет мокрые круги."
+			]
+			id: "7BEADD30BE0714B0"
+			tasks: [{
+				id: "22015B0485B9708F"
+				item: {
+					Count: 1
+					id: "brewinandchewin:coaster"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 8.9d
+		}
+	]
+	title: "Brewin' Chewin': бочонок и сыроварня"
+}

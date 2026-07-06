@@ -1,0 +1,2358 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "delight_chefs_path"
+	group: ""
+	id: "67FD41F4B7B0BA9B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Странник без ножа - не шеф. Свяжите кремень с палкой -"
+				"и продолжайте путь с ножом наготове. Со временем его можно"
+				"перековать: железо, золото, алмаз, а там и незерит."
+			]
+			id: "584505B2A03DF523"
+			rewards: [{
+				count: 8
+				id: "34E391FA4BFE4E2F"
+				item: {
+					Count: 1
+					id: "farmersdelight:straw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78E791957D03AFC3"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			description: [
+				"Сколотите доску из досок и палок. Держите нож в руке,"
+				"ударьте по продукту, лежащему на доске - и он развалится"
+				"на части: филе, ломтики, листья. Этой доске найдётся дело"
+				"почти на каждом следующем шагу пути."
+			]
+			id: "571342C3967D286C"
+			rewards: [{
+				count: 3
+				id: "5DB6FE577165FEC8"
+				item: {
+					Count: 1
+					id: "farmersdelight:tomato_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0136A57991FDE783"
+				item: {
+					Count: 1
+					id: "farmersdelight:cutting_board"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["571342C3967D286C"]
+			description: [
+				"Кирпичи, немного железа и огонь внутри - готова плита,"
+				"которая не спалит дом дотла."
+			]
+			id: "7BD3D733606D293A"
+			rewards: [{
+				count: 3
+				id: "46FEA8B7C1CCAAB6"
+				item: {
+					Count: 1
+					id: "farmersdelight:cabbage_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F77B5AA4E8329EE"
+				item: {
+					Count: 1
+					id: "farmersdelight:stove"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.800000000000001d
+		}
+		{
+			description: [
+				"Поставьте сковороду на огонь, возьмите сырой ингредиент в"
+				"руку - и жарьте порцию за порцией, не отходя от плиты."
+			]
+			id: "66A02402F6D2C624"
+			rewards: [{
+				count: 3
+				id: "075B3B9BF0E1CEEE"
+				item: {
+					Count: 1
+					id: "farmersdelight:onion"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CFDA82A5CFF0047"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.4d
+		}
+		{
+			dependencies: ["66A02402F6D2C624"]
+			description: [
+				"Котёл встаёт только на настоящий костёр, не на плиту."
+				"Зато варит сразу на несколько голодных ртов."
+			]
+			id: "51184813C751B2B3"
+			rewards: [{
+				count: 3
+				id: "197B9B9E176FBA32"
+				item: {
+					Count: 1
+					id: "farmersdelight:rice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "197FE5D5E3C5AE6A"
+				item: {
+					Count: 1
+					id: "farmersdelight:cooking_pot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["51184813C751B2B3"]
+			description: [
+				"Сгрузите испорченную еду в компост и оставьте гнить -"
+				"рядом с солнцем и водой процесс идёт быстрее. Дождитесь,"
+				"и под ногами появится плодородная почва."
+			]
+			id: "73231EC4C070F907"
+			rewards: [{
+				count: 2
+				id: "6C13E18CFF594253"
+				item: {
+					Count: 1
+					id: "farmersdelight:tomato_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30DA9DCBA108A942"
+				item: {
+					Count: 1
+					id: "farmersdelight:organic_compost"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.6d
+		}
+		{
+			description: [
+				"Урожай девать некуда - сплетите корзину. Дальше в пути"
+				"встретится ещё немало сундуков и шкафчиков на любой вкус -"
+				"берите тот, что приглянется, суть одна."
+			]
+			id: "299310CDFB72D73C"
+			rewards: [{
+				count: 2
+				id: "4BC47FBEFB5ABBB0"
+				item: {
+					Count: 1
+					id: "farmersdelight:canvas"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FE0DEA2161815E2"
+				item: {
+					Count: 1
+					id: "farmersdelight:basket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.2d
+		}
+		{
+			dependencies: ["299310CDFB72D73C"]
+			description: [
+				"На кухне нашёлся пустой угол под шкафчик - готовые"
+				"плиты дерева и люк складываются в аккуратную кладовую."
+			]
+			id: "0B6104F3D139C75C"
+			rewards: [{
+				count: 2
+				id: "00DAE026EE15BE70"
+				item: {
+					Count: 1
+					id: "farmersdelight:rope"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "517FA669622B8D7F"
+				item: {
+					Count: 1
+					id: "farmersdelight:oak_cabinet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 12.1d
+		}
+		{
+			dependencies: ["299310CDFB72D73C"]
+			description: [
+				"Однажды кухня перестанет справляться в одиночку. Обычная"
+				"воронка, поставленная у доски, сковороды или котла, вдруг"
+				"начинает сама подавать продукты и забирать готовое -"
+				"будто по кухне бродит невидимый помощник."
+			]
+			id: "17898AF68FA38561"
+			rewards: [{
+				count: 4
+				id: "64AB845AB1EEC113"
+				item: {
+					Count: 1
+					id: "farmersdelight:straw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "76A3497E5581E9DA"
+				item: {
+					Count: 1
+					id: "minecraft:hopper"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.799999999999999d
+		}
+		{
+			description: [
+				"На краю поля кто-то посеял странные золотые зёрна."
+				"Из выросших початков получаются тортильи, тако, начос"
+				"и попкорн - целая отдельная кухня из одной культуры."
+			]
+			id: "532AA6CF78BDC746"
+			rewards: [{
+				count: 3
+				id: "7FB1E714215D8BF9"
+				item: {
+					Count: 1
+					id: "corn_delight:corn_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "005668F4CC5A69BE"
+				item: {
+					Count: 1
+					id: "corn_delight:corn"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.399999999999999d
+		}
+		{
+			description: [
+				"Раскрошите тортилью, добавьте сыра и всё, что найдётся"
+				"под рукой - вот и начос на скорую руку."
+			]
+			id: "65FEC25F820D9292"
+			rewards: [{
+				count: 2
+				id: "31919EBB37289501"
+				item: {
+					Count: 1
+					id: "corn_delight:popcorn"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17B0397B5B568C20"
+				item: {
+					Count: 1
+					id: "corn_delight:nachos_bowl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 15.299999999999999d
+		}
+		{
+			description: [
+				"Из той же муки выходит и простой кукурузный хлеб -"
+				"не такой эффектный, зато сытный и быстрый."
+			]
+			id: "7433FE1F10B7E7BF"
+			tasks: [{
+				id: "4C252EFFC1B9BF1B"
+				item: {
+					Count: 1
+					id: "corn_delight:cornbread"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 15.299999999999999d
+		}
+		{
+			description: [
+				"Яркий болгарский перец режется на доске так же легко,"
+				"как обычный овощ - хорош и в сыром виде, и в любом блюде."
+			]
+			id: "7121DD22615220BF"
+			rewards: [{
+				count: 2
+				id: "76FE9E13820F6AB6"
+				item: {
+					Count: 1
+					id: "rusticdelight:bell_pepper_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6270EE73AFE4B619"
+				item: {
+					Count: 1
+					id: "rusticdelight:bell_pepper_red"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.999999999999998d
+		}
+		{
+			dependencies: ["7121DD22615220BF"]
+			description: [
+				"Обжаренные зёрна, залитые кипятком, бодрят не хуже"
+				"настоящего кофе. По соседству курчавится хлопковый куст -"
+				"нить и пушистые блины на завтрак почти сами просятся."
+			]
+			id: "4E86F250CB06E40F"
+			rewards: [{
+				count: 2
+				id: "7643F28E8C839C50"
+				item: {
+					Count: 1
+					id: "farmersdelight:milk_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E3D9CE3FDE11CA3"
+				item: {
+					Count: 1
+					id: "rusticdelight:coffee"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 16.9d
+		}
+		{
+			dependencies: ["7121DD22615220BF"]
+			description: [
+				"Немного муки, молока и жара сковороды - и на тарелке"
+				"уже высится стопка блинов."
+			]
+			id: "23C302DBDAC314F8"
+			tasks: [{
+				id: "50F1DD595787E731"
+				item: {
+					Count: 1
+					id: "rusticdelight:pancakes"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 16.9d
+		}
+		{
+			dependencies: ["7121DD22615220BF"]
+			description: [
+				"Плотная тёмная кожура прячет мягкую мякоть - разрежьте"
+				"авокадо ножом на доске, и рядом сама собой вспоминается"
+				"мысль о свежих роллах и тако."
+			]
+			id: "270860E803D18FA7"
+			rewards: [{
+				count: 2
+				id: "23E1A2090AADB223"
+				item: {
+					Count: 1
+					id: "culturaldelights:cucumber_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FE9B59ADE9C2B43"
+				item: {
+					Count: 1
+					id: "culturaldelights:avocado"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.599999999999998d
+		}
+		{
+			dependencies: ["270860E803D18FA7"]
+			description: [
+				"Рис, нори, немного огурца и авокадо, свёрнутые в ролл -"
+				"получилось что-то совсем не похожее на привычную кухню."
+			]
+			id: "184915BC0930AE7D"
+			rewards: [{
+				count: 2
+				id: "513BCAC4B09D2730"
+				item: {
+					Count: 1
+					id: "culturaldelights:eggplant_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "265232DC79288311"
+				item: {
+					Count: 1
+					id: "culturaldelights:midori_roll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 18.499999999999996d
+		}
+		{
+			dependencies: ["270860E803D18FA7"]
+			description: [
+				"Початок в сливочной обмазке с сыром и специями - уличная"
+				"закуска, от которой руки становятся липкими, а настроение -"
+				"отличным."
+			]
+			id: "7239B76B3F284C53"
+			tasks: [{
+				id: "4F9E718928CF8DCA"
+				item: {
+					Count: 1
+					id: "culturaldelights:elote"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 18.499999999999996d
+		}
+		{
+			dependencies: ["270860E803D18FA7"]
+			description: [
+				"Где-то на юге вымахало целое дерево-исполин, увешанное"
+				"ананасами - зрелище настолько нелепое, что грех не сорвать"
+				"хотя бы один плод."
+			]
+			id: "59AF582C514B8710"
+			rewards: [{
+				count: 2
+				id: "6E35EB9587A1B78C"
+				item: {
+					Count: 1
+					id: "pineapple_delight:pineapple"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "553220963DDE01A0"
+				item: {
+					Count: 1
+					id: "pineapple_delight:pineapple"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.2d
+		}
+		{
+			description: [
+				"Позолоченный ананас светится изнутри, будто в нём"
+				"застыл кусочек солнца - редкая находка среди зарослей."
+			]
+			id: "0F260A3FF5CEC685"
+			rewards: [{
+				id: "2D7EE8DFC10E12D2"
+				item: {
+					Count: 1
+					id: "pineapple_delight:pineapple"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E434A11DC3EF344"
+				item: {
+					Count: 1
+					id: "pineapple_delight:golden_pineapple"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 20.099999999999998d
+		}
+		{
+			description: [
+				"Кусочки ананаса, обжаренные вместе с рисом, дают"
+				"неожиданно удачное сочетание сладкого и солёного."
+			]
+			id: "124A53CCC4BB86AC"
+			tasks: [{
+				id: "3FF7992FE1CDDE5B"
+				item: {
+					Count: 1
+					id: "pineapple_delight:pineapple_fried_rice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 20.099999999999998d
+		}
+		{
+			description: [
+				"Поле подсолнухов поворачивается вслед за солнцем. Семечки"
+				"идут на перекус, а из самих цветов настаиваются странные"
+				"напитки с непредсказуемым эффектом."
+			]
+			id: "5550908FD2894EF7"
+			rewards: [{
+				count: 4
+				id: "2E79A2F4CB53DC04"
+				item: {
+					Count: 1
+					id: "sunflowerdelight:sunflower_seed"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "751C4241A32CADB3"
+				item: {
+					Count: 1
+					id: "sunflowerdelight:sunflower_seed"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.8d
+		}
+		{
+			dependencies: ["5550908FD2894EF7"]
+			description: [
+				"Настойка из лепестков даёт кратковременный эффект -"
+				"каждый раз разный. Пить или не пить - решайте сами."
+			]
+			id: "5A4B18B053E4A64D"
+			rewards: [{
+				count: 2
+				id: "04D092BC9594A4EE"
+				item: {
+					Count: 1
+					id: "sunflowerdelight:golden_sunflower_seed"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CEE62B590C56690"
+				item: {
+					Count: 1
+					id: "sunflowerdelight:pitcher_plant_drink"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 21.7d
+		}
+		{
+			dependencies: ["5550908FD2894EF7"]
+			description: [
+				"Розовый лимонад из того же поля - куда безопаснее"
+				"загадочной настойки, и не менее вкусный."
+			]
+			id: "66D01BFB1BCED635"
+			tasks: [{
+				id: "3A6C0253F13ABC59"
+				item: {
+					Count: 1
+					id: "sunflowerdelight:rose_lemonade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 21.7d
+		}
+		{
+			dependencies: ["5550908FD2894EF7"]
+			description: [
+				"Под ногами в лесу шуршат жёлуди, шишки, шиповник - то,"
+				"что раньше просто валялось без дела, теперь идёт в дело:"
+				"хлеб, орешки, варенье, вино."
+			]
+			id: "2B87F50A75016A94"
+			rewards: [{
+				count: 3
+				id: "457C6BB08607CE40"
+				item: {
+					Count: 1
+					id: "seeddelight:acorn"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07297CF84F13FA7B"
+				item: {
+					Count: 1
+					id: "seeddelight:acorn"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.400000000000002d
+		}
+		{
+			dependencies: ["2B87F50A75016A94"]
+			description: [
+				"Жёлуди перемалываются в муку не хуже пшеничной -"
+				"необычный, но вполне съедобный хлеб."
+			]
+			id: "32620D05CAC6F000"
+			rewards: [{
+				count: 2
+				id: "3F38DC03AF858CE7"
+				item: {
+					Count: 1
+					id: "seeddelight:pinecone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "428FE768203EC851"
+				item: {
+					Count: 1
+					id: "seeddelight:acorn_bread"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 23.3d
+		}
+		{
+			dependencies: ["2B87F50A75016A94"]
+			description: [
+				"Дикая вишня по пути в лес идёт и в вино, и в мороженое -"
+				"а шиповник рядом заваривается в согревающий чай."
+			]
+			id: "6404A0869D2C9C33"
+			rewards: [{
+				id: "7681533168920638"
+				item: {
+					Count: 1
+					id: "seeddelight:rosehip_tea"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E4AEA5578335262"
+				item: {
+					Count: 1
+					id: "seeddelight:cherry"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 23.3d
+		}
+		{
+			dependencies: ["2B87F50A75016A94"]
+			description: [
+				"На дальнем поле проклюнулся овёс, а рядом - призрачный"
+				"перец и грядка огурцов. Начинается цепочка от урожая до"
+				"заготовок впрок."
+			]
+			id: "1E93606E3899705D"
+			rewards: [{
+				count: 3
+				id: "31341F3C0D76DC33"
+				item: {
+					Count: 1
+					id: "vintagedelight:oat_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "180DA5D1EA58C0E4"
+				item: {
+					Count: 1
+					id: "vintagedelight:oat_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 24.000000000000004d
+		}
+		{
+			dependencies: ["1E93606E3899705D"]
+			description: [
+				"Овсянка на воде, печенье, ореховое молоко - скромный"
+				"походный паёк, который не стыдно взять в дальнюю дорогу."
+			]
+			id: "177D33633FAA3B9E"
+			rewards: [{
+				count: 3
+				id: "28491A3A7E293034"
+				item: {
+					Count: 1
+					id: "vintagedelight:peanut"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24D49E487E6C3020"
+				item: {
+					Count: 1
+					id: "vintagedelight:oatmeal_cookie"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 24.900000000000002d
+		}
+		{
+			dependencies: ["1E93606E3899705D"]
+			description: [
+				"Арахисовая паста и ягодный джем между двух ломтей"
+				"хлеба - простой, но безотказный перекус в пути."
+			]
+			id: "23DD5174DB6BD15A"
+			tasks: [{
+				id: "510F49C16027CBB3"
+				item: {
+					Count: 1
+					id: "vintagedelight:pb_j"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 24.900000000000002d
+		}
+		{
+			dependencies: ["1E93606E3899705D"]
+			description: [
+				"Сколотите стеклянную банку и глиняный кувшин для брожения."
+				"Сложите внутрь огурцы или капусту, запечатайте и ждите -"
+				"через время внутри созреют соленья и острая закваска."
+			]
+			id: "5FBA4FCFD1FFD7ED"
+			rewards: [{
+				count: 2
+				id: "727BDE5E0575B7EE"
+				item: {
+					Count: 1
+					id: "vintagedelight:cucumber_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55F4593ABE9A0035"
+				item: {
+					Count: 1
+					id: "vintagedelight:mason_jar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 25.600000000000005d
+		}
+		{
+			description: [
+				"Перец, свёкла, лук и даже яйцо - для каждого продукта"
+				"в этом деле находится своя банка и свой срок выдержки."
+			]
+			id: "35777CEE0FA2B752"
+			rewards: [{
+				count: 2
+				id: "188EB996C909AD62"
+				item: {
+					Count: 1
+					id: "vintagedelight:pickle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3115BA09B1D1A9AD"
+				item: {
+					Count: 1
+					id: "vintagedelight:kimchi"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 26.500000000000004d
+		}
+		{
+			description: [
+				"Уксус из той же банки идёт не столько в стол, сколько"
+				"в дело - им приправляют почти все остальные заготовки."
+			]
+			id: "0790306E3C85294D"
+			tasks: [{
+				id: "1BD122FB44C8AE8E"
+				item: {
+					Count: 1
+					id: "vintagedelight:vinegar_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 26.500000000000004d
+		}
+		{
+			description: [
+				"Морская вода, оставленная испаряться, превращается в"
+				"белые кристаллы соли - из них выходят и блоки для стройки,"
+				"и приправа для стола."
+			]
+			id: "569F9FAE1F22DA2F"
+			rewards: [{
+				count: 4
+				id: "735302866F4B7092"
+				item: {
+					Count: 1
+					id: "vintagedelight:salt_dust"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "286C84E45BE294AE"
+				item: {
+					Count: 1
+					id: "vintagedelight:salt_block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 27.200000000000006d
+		}
+		{
+			dependencies: ["569F9FAE1F22DA2F"]
+			description: [
+				"Кусок соли, подсвеченный изнутри, становится уютным"
+				"ночником - и таких оттенков находится не меньше десятка."
+			]
+			id: "54FDF309E28580AE"
+			rewards: [{
+				count: 2
+				id: "3725BC61C1C40B0F"
+				item: {
+					Count: 1
+					id: "vintagedelight:salt_dust"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E62A2474A5B197F"
+				item: {
+					Count: 1
+					id: "vintagedelight:salt_lamp_default"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 28.100000000000005d
+		}
+		{
+			dependencies: ["569F9FAE1F22DA2F"]
+			description: [
+				"Сам испаритель - несложная конструкция, которая день"
+				"за днём тянет соль прямо из морской воды без всякого"
+				"участия шефа."
+			]
+			id: "1B1B281612162F05"
+			tasks: [{
+				id: "43130CA790F5191C"
+				item: {
+					Count: 1
+					id: "vintagedelight:evaporator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 28.100000000000005d
+		}
+		{
+			dependencies: ["569F9FAE1F22DA2F"]
+			description: [
+				"Молоко, свёрнутое в форме, вызревает в плотный сырный"
+				"круг - его режут ломтиками, плавят на пиццу, трут в пасту."
+			]
+			id: "280815B978ED9C66"
+			rewards: [{
+				count: 2
+				id: "2FDC80230504674A"
+				item: {
+					Count: 1
+					id: "farmersdelight:milk_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13F81C58E21BCD96"
+				item: {
+					Count: 1
+					id: "vintagedelight:cheese_wheel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 28.800000000000008d
+		}
+		{
+			description: [
+				"Раскатанное тесто, слой соуса, гора сыра - и вот уже"
+				"румянится в печи что-то очень похожее на пиццу."
+			]
+			id: "2629C550C256C14C"
+			tasks: [{
+				id: "5F06C4DD1544C5CB"
+				item: {
+					Count: 1
+					id: "vintagedelight:cheese_pizza_slice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 29.700000000000006d
+		}
+		{
+			description: [
+				"Дорога привела к старому портному, который шьёт"
+				"поварские колпаки - просто на удачу, брони в них нет,"
+				"зато выглядит теперь странник настоящим шефом."
+			]
+			id: "766F6D8E7C288450"
+			rewards: [{
+				count: 2
+				id: "21FA3AAA9DC14010"
+				item: {
+					Count: 1
+					id: "vintagedelight:oat_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2281F51F992FC88B"
+				item: {
+					Count: 1
+					id: "vintagedelight:white_chefs_hat"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 30.40000000000001d
+		}
+		{
+			dependencies: ["766F6D8E7C288450"]
+			description: [
+				"Заморские косточки прорастают не кустом, а настоящим"
+				"деревом с живыми ветками - манго, персик, личи, дуриан"
+				"растут теперь прямо у дома."
+			]
+			id: "72089449DFECDFBC"
+			rewards: [{
+				count: 2
+				id: "5C39967ED503B37B"
+				item: {
+					Count: 1
+					id: "dtfruitsdelight:peach_seed"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A60BCD1DD3CBCC7"
+				item: {
+					Count: 1
+					id: "dtfruitsdelight:mango_seed"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 32.00000000000001d
+		}
+		{
+			description: [
+				"Ещё пара косточек из дальних краёв - киви и мангостин"
+				"приживаются на удивление легко."
+			]
+			id: "20BEB7E0E8A5B296"
+			rewards: [{
+				id: "21674B2E4CB89B56"
+				item: {
+					Count: 1
+					id: "dtfruitsdelight:lychee_seed"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78768E4B5591C315"
+				item: {
+					Count: 1
+					id: "dtfruitsdelight:kiwi_seed"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 32.900000000000006d
+		}
+		{
+			description: [
+				"Фрукт, брошенный в котёл с водой, разваривается в"
+				"густой джем - способ сохранить урожай надолго, будь то"
+				"яблоки, черника, клюква или что-то более странное."
+			]
+			id: "1BD8624C4CD3C050"
+			rewards: [{
+				id: "113EDE3BCD7FE913"
+				item: {
+					Count: 1
+					id: "fruitsdelight:apple_crate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46F828C806523278"
+				item: {
+					Count: 1
+					id: "fruitsdelight:apple_jelly"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 33.60000000000001d
+		}
+		{
+			description: [
+				"Дуриан пахнет так, что хочется зажать нос, но варенье"
+				"из него всё равно выходит отменное. Рядом варится ещё"
+				"и джем из мелкой лесной ягоды."
+			]
+			id: "291DCD4229928360"
+			rewards: [{
+				id: "0BAACA5C7A509D4D"
+				item: {
+					Count: 1
+					id: "fruitsdelight:cranberry_jelly"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08194B219420A8F9"
+				item: {
+					Count: 1
+					id: "fruitsdelight:bayberry_jelly"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 34.50000000000001d
+		}
+		{
+			description: [
+				"Инжир, уваренный до густоты, превращается в плотный"
+				"сладкий пудинг - десерт, который не стыдно подать гостю."
+			]
+			id: "5B865A07260C0F01"
+			tasks: [{
+				id: "7E3D69BD6B78F518"
+				item: {
+					Count: 1
+					id: "fruitsdelight:fig_pudding"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 34.50000000000001d
+		}
+		{
+			description: [
+				"Ещё дальше в лесу находится непуганая морошка, дынный"
+				"куст и мрачная тыква - и почти для каждого фрукта уже"
+				"готов свой пирог."
+			]
+			id: "6992D662326A1E58"
+			rewards: [{
+				count: 2
+				id: "429C956BFF4AC80C"
+				item: {
+					Count: 1
+					id: "delightful:acorn"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "433288C5C01F31BC"
+				item: {
+					Count: 1
+					id: "delightful:salmonberry_pie"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 35.20000000000001d
+		}
+		{
+			dependencies: ["6992D662326A1E58"]
+			description: [
+				"По соседству кто-то настоял молочный коктейль на маття"
+				"прямо в котле, а из орехов и мёда вышла хрустящая пахлава."
+			]
+			id: "35E2F2CABF618C09"
+			rewards: [{
+				id: "0758BAE34EEA68F7"
+				item: {
+					Count: 1
+					id: "delightful:mulberry_pie"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B2D319F593EC724"
+				item: {
+					Count: 1
+					id: "delightful:baklava_slice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 36.10000000000001d
+		}
+		{
+			dependencies: ["6992D662326A1E58"]
+			description: [
+				"Мороженое с маття застывает прямо в котелке -"
+				"зелёное, горьковатое и совсем не похожее на обычное."
+			]
+			id: "1D0B2464EEAEF76F"
+			tasks: [{
+				id: "5F8DE2D293621D2A"
+				item: {
+					Count: 1
+					id: "delightful:matcha_ice_cream_block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 36.10000000000001d
+		}
+		{
+			dependencies: ["6992D662326A1E58"]
+			description: [
+				"В прибрежных зарослях промышляют утки, а в реке -"
+				"окунь со щукой. Разделайте добычу ножом на доске,"
+				"как и всё остальное на этом пути."
+			]
+			id: "20744E6060D32094"
+			rewards: [{
+				count: 2
+				id: "4F1AAF264CF47D69"
+				item: {
+					Count: 1
+					id: "abnormals_delight:duck_fillet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "418DF465112F3BD6"
+				item: {
+					Count: 1
+					id: "abnormals_delight:duck_fillet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 36.80000000000001d
+		}
+		{
+			description: [
+				"Утка идёт в лапшу, олень - в блюдо с бамбуком, а"
+				"собранные по пути улитки превращаются в изысканное эскарго."
+			]
+			id: "142B28838ED6C69C"
+			rewards: [{
+				count: 2
+				id: "38D7C235058B73DB"
+				item: {
+					Count: 1
+					id: "abnormals_delight:cooked_duck_fillet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04BADC87A8793E7D"
+				item: {
+					Count: 1
+					id: "abnormals_delight:duck_noodles"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 37.70000000000001d
+		}
+		{
+			description: [
+				"Оленьи голяшки, обжаренные с молодыми побегами бамбука -"
+				"простое лесное блюдо, но выглядит как из хорошего трактира."
+			]
+			id: "7E0CC4FF8E0CE538"
+			tasks: [{
+				id: "2B83851C293C407A"
+				item: {
+					Count: 1
+					id: "abnormals_delight:venison_with_bamboo_shoots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 37.70000000000001d
+		}
+		{
+			description: [
+				"Розовые лепестки, кружащие в воздухе, завариваются в"
+				"чай, а фонарные плоды на длинной лозе прячут внутри"
+				"сладкую мякоть."
+			]
+			id: "1BF629BB0B7A4593"
+			rewards: [{
+				count: 2
+				id: "7698746B8B332738"
+				item: {
+					Count: 1
+					id: "trailandtales_delight:lantern_fruit_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "191C88813FD7A049"
+				item: {
+					Count: 1
+					id: "trailandtales_delight:cherry_petal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 38.40000000000001d
+		}
+		{
+			description: [
+				"Творог, забытый в тёмном погребе, сам вызревает в"
+				"сырный круг. А из яйца древнего зверя выходит блюдо,"
+				"которое стоит попробовать хотя бы ради истории."
+			]
+			id: "3D29B70F5D51BDCB"
+			rewards: [{
+				id: "7AE2F43F114176A2"
+				item: {
+					Count: 1
+					id: "trailandtales_delight:stuffed_sniffer_egg"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FC509319DC618A1"
+				item: {
+					Count: 1
+					id: "trailandtales_delight:cherry_cake"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 39.30000000000001d
+		}
+		{
+			description: [
+				"Растение-кувшин прячет в основании клубень таро -"
+				"разрежьте его ножом на доске, чтобы добраться до мякоти."
+			]
+			id: "6A7A11034C5104D1"
+			tasks: [{
+				id: "658B741CF0038835"
+				item: {
+					Count: 1
+					id: "trailandtales_delight:pitcher_taro"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 39.30000000000001d
+		}
+		{
+			description: [
+				"Сложите очаг из камня и решётки - настоящий мангал."
+				"Нанизывайте мясо и овощи на шампуры и жарьте партиями,"
+				"не дожидаясь, пока прогорит уголь."
+			]
+			id: "06E221EBB4C47FA2"
+			rewards: [{
+				count: 2
+				id: "3EDDC0B43E834E0E"
+				item: {
+					Count: 1
+					id: "barbequesdelight:raw_vegetable_skewer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AE662818622D10D"
+				item: {
+					Count: 1
+					id: "barbequesdelight:grill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 40.000000000000014d
+		}
+		{
+			description: [
+				"Три соуса на выбор - классический, острый и медово-"
+				"горчичный. А рядом на решётке подрумянивается рис,"
+				"смешанный с овощами и мясом, - почти пир в миске."
+			]
+			id: "10218B17820661C0"
+			rewards: [{
+				id: "4857AB4A1A72CBA5"
+				item: {
+					Count: 1
+					id: "barbequesdelight:kebab_wrap"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F78CCA4CF6A6857"
+				item: {
+					Count: 1
+					id: "barbequesdelight:barbeque_sauce"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 40.90000000000001d
+		}
+		{
+			description: [
+				"Рис, овощи и мясо со шпажек, собранные в одной миске -"
+				"яркое блюдо, которое сначала жалко есть."
+			]
+			id: "29D47DAF8FB7D627"
+			tasks: [{
+				id: "6B81A27AA454111E"
+				item: {
+					Count: 1
+					id: "barbequesdelight:bibimbap"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 40.90000000000001d
+		}
+		{
+			description: [
+				"Глубокая сковорода для фритюра открывает дорогу к"
+				"уличной кухне: хрустящая корочка, масло, шкворчание."
+			]
+			id: "187E75BB810A9203"
+			rewards: [{
+				count: 2
+				id: "66C5F7C8AB91F92E"
+				item: {
+					Count: 1
+					id: "farmersdelight:onion"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "643280921FE72048"
+				item: {
+					Count: 1
+					id: "casualness_delight:deep_frying_pan"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 41.600000000000016d
+		}
+		{
+			dependencies: ["187E75BB810A9203"]
+			description: [
+				"Тонкое тесто, острая начинка, панировка - весенние"
+				"роллы, рыба с картошкой и хрустящая котлета готовы"
+				"разлететься со стола первыми."
+			]
+			id: "35970EBE3C74A021"
+			rewards: [{
+				id: "5687ACE7C40D0C67"
+				item: {
+					Count: 1
+					id: "casualness_delight:tonkatsu"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A52CE58D5955D33"
+				item: {
+					Count: 1
+					id: "casualness_delight:spring_roll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 42.500000000000014d
+		}
+		{
+			dependencies: ["187E75BB810A9203"]
+			description: [
+				"Кусок рыбы во фритюре с горкой жареной картошки -"
+				"простая, но безотказная классика уличной еды."
+			]
+			id: "013A2A13151C6807"
+			tasks: [{
+				id: "4092A8EAB13202DC"
+				item: {
+					Count: 1
+					id: "casualness_delight:fish_and_chips"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 42.500000000000014d
+		}
+		{
+			dependencies: ["187E75BB810A9203"]
+			description: [
+				"Фиолетовый клубень, найденный на грядке, красит"
+				"тесто в необычный цвет - а рядом зреют чеснок, имбирь"
+				"и высокий лемонграсс."
+			]
+			id: "1576E206FAD20920"
+			rewards: [{
+				count: 3
+				id: "2635CB97471EDAE0"
+				item: {
+					Count: 1
+					id: "ubesdelight:garlic"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70F54B33150117C3"
+				item: {
+					Count: 1
+					id: "ubesdelight:ube_cake"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 43.20000000000002d
+		}
+		{
+			dependencies: ["1576E206FAD20920"]
+			description: [
+				"Рисовая каша с курицей, наваристый суп с бычьим хвостом"
+				"и десерт со льдом - три блюда, поданных прямо на широком"
+				"листе вместо тарелки."
+			]
+			id: "028AC7C203C53352"
+			rewards: [{
+				id: "093F968961871144"
+				item: {
+					Count: 1
+					id: "ubesdelight:bulalo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28AE198D56E27203"
+				item: {
+					Count: 1
+					id: "ubesdelight:arroz_caldo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 44.100000000000016d
+		}
+		{
+			dependencies: ["1576E206FAD20920"]
+			description: [
+				"Колотый лёд, сгущённое молоко и целая горка сладостей"
+				"сверху - десерт, который выглядит наряднее самого стола."
+			]
+			id: "761A26F06B9AFDB2"
+			tasks: [{
+				id: "3196C636CB8202F6"
+				item: {
+					Count: 1
+					id: "ubesdelight:halo_halo_feast"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 44.100000000000016d
+		}
+		{
+			dependencies: ["1576E206FAD20920"]
+			description: [
+				"В темноте забоя, куда не заглядывает солнце, растёт"
+				"бледная пещерная морковь, а среди руды изредка"
+				"попадается медный котелок - готовка прямо в шахте."
+			]
+			id: "763E043CF08B5FB0"
+			rewards: [{
+				count: 3
+				id: "685237E1AC6334DD"
+				item: {
+					Count: 1
+					id: "miners_delight:cave_carrot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F4690D9A821CCAB"
+				item: {
+					Count: 1
+					id: "miners_delight:cave_carrot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 44.80000000000002d
+		}
+		{
+			description: [
+				"Сэндвич с хрустящими насекомыми и морковь с прожилками"
+				"меди - не самое аппетитное меню, но шахтёру не до"
+				"эстетики."
+			]
+			id: "6F161076C8467DEB"
+			rewards: [{
+				id: "62915F4F960AF0EA"
+				item: {
+					Count: 1
+					id: "miners_delight:copper_carrot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E60AB7F6EBE1B0C"
+				item: {
+					Count: 1
+					id: "miners_delight:insect_sandwich"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 45.70000000000002d
+		}
+		{
+			description: [
+				"Суп из летучей мыши - блюдо на любителя, но в холодной"
+				"штольне согревает не хуже костра."
+			]
+			id: "09A4212FFDBFB94F"
+			tasks: [{
+				id: "59122E2BD90B21B0"
+				item: {
+					Count: 1
+					id: "miners_delight:bat_soup"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 45.70000000000002d
+		}
+		{
+			description: [
+				"На пляже под пальмами шуршат крабы и зарываются в"
+				"песок моллюски - самое время обзавестись ведёрком"
+				"для добычи."
+			]
+			id: "3248D125DF562B39"
+			rewards: [{
+				id: "273B5CC8D09B14B5"
+				item: {
+					Count: 1
+					id: "crabbersdelight:crab_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20B8C7DF2D1A685F"
+				item: {
+					Count: 1
+					id: "crabbersdelight:crab"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 46.40000000000002d
+		}
+		{
+			description: [
+				"Крабовые котлеты, наваристый суп из моллюсков, а из"
+				"найденных жемчужин выходит просто красивое ожерелье -"
+				"без единого очка защиты."
+			]
+			id: "54D7D61036AE1174"
+			rewards: [{
+				id: "1522A926E16663DC"
+				item: {
+					Count: 1
+					id: "crabbersdelight:pearl_necklace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D7295FD153276A1"
+				item: {
+					Count: 1
+					id: "crabbersdelight:clam_chowder"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 47.30000000000002d
+		}
+		{
+			description: [
+				"Крабовые ножки, зажаренные прямо в панцире - есть"
+				"их неудобно, зато вкус того стоит."
+			]
+			id: "392C902B2C67C6A3"
+			tasks: [{
+				id: "209000094A444E66"
+				item: {
+					Count: 1
+					id: "crabbersdelight:crab_legs"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 47.30000000000002d
+		}
+		{
+			description: [
+				"Страж морей - опасная добыча, но разделанный на доске"
+				"он идёт в дело целиком, вплоть до хвоста."
+			]
+			id: "37CFD92BAA26B29A"
+			rewards: [{
+				id: "46F1ADD9F441FB94"
+				item: {
+					Count: 1
+					id: "oceansdelight:seagrass_salad"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "30A2283E618B98A7"
+				item: {
+					Count: 1
+					id: "oceansdelight:guardian"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 48.00000000000002d
+		}
+		{
+			description: [
+				"Фаршированная треска и ролл из иглобрюха - рискованное,"
+				"но по-настоящему изысканное меню для смелых едоков."
+			]
+			id: "1C5AB0824E0D61D7"
+			rewards: [{
+				id: "04DE8DBD0ABB4964"
+				item: {
+					Count: 1
+					id: "oceansdelight:honey_fried_kelp"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E9FE7AB822F579E"
+				item: {
+					Count: 1
+					id: "oceansdelight:stuffed_cod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 48.90000000000002d
+		}
+		{
+			description: [
+				"Ролл из иглобрюха готовят с особой осторожностью -"
+				"одна ошибка в разделке, и ужин может стать последним."
+			]
+			id: "491EE1982124CA1C"
+			tasks: [{
+				id: "0D93D56BF5CE33E9"
+				item: {
+					Count: 1
+					id: "oceansdelight:fugu_roll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 48.90000000000002d
+		}
+		{
+			description: [
+				"На мелководье вызревает диковинный морской виноград,"
+				"а самодельная рыболовная сеть таскает из воды рыбу"
+				"куда быстрее удочки."
+			]
+			id: "78878A3C9EC33B86"
+			rewards: [{
+				count: 2
+				id: "79BF739DCD33EB1F"
+				item: {
+					Count: 1
+					id: "oceanic_delight:sea_grape"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7191518BE609DE38"
+				item: {
+					Count: 1
+					id: "oceanic_delight:sea_grape"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 49.60000000000002d
+		}
+		{
+			description: [
+				"Круглые шарики с кусочком осьминога внутри, а рядом"
+				"томится большая сковорода паэльи на всю компанию."
+			]
+			id: "63C793A173EECD6B"
+			rewards: [{
+				count: 2
+				id: "5A006D44E7552508"
+				item: {
+					Count: 1
+					id: "oceanic_delight:shrimp"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "28580D10F1F8D519"
+				item: {
+					Count: 1
+					id: "oceanic_delight:takoyaki"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 50.50000000000002d
+		}
+		{
+			description: [
+				"Икра морского винограда на поджаренном тосте -"
+				"маленькая, но изысканная закуска для особого случая."
+			]
+			id: "6AE708BB53F704CF"
+			tasks: [{
+				id: "41DACFAC6D644D8C"
+				item: {
+					Count: 1
+					id: "oceanic_delight:caviar_toast"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 50.50000000000002d
+		}
+		{
+			description: [
+				"Среди адского пепла нашёлся жгучий перец - растёт"
+				"он прямо на возрождённой почве, будто здесь тоже"
+				"когда-то была ферма."
+			]
+			id: "1095FB32DCBEFB95"
+			rewards: [{
+				count: 3
+				id: "60E0A8F7F2B29C6D"
+				item: {
+					Count: 1
+					id: "mynethersdelight:bullet_pepper"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "766F16AA587B4B5D"
+				item: {
+					Count: 1
+					id: "mynethersdelight:bullet_pepper"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 51.200000000000024d
+		}
+		{
+			description: [
+				"Острый бефстроганов и целый поднос для завтрака -"
+				"даже в Нижнем мире находится время на нормальный приём"
+				"пищи."
+			]
+			id: "553888579CD8C519"
+			rewards: [{
+				id: "70B8C563955E9526"
+				item: {
+					Count: 1
+					id: "mynethersdelight:breakfast_sampler"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75921875EC563508"
+				item: {
+					Count: 1
+					id: "mynethersdelight:crimson_stroganoff"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 52.10000000000002d
+		}
+		{
+			description: [
+				"Хот-дог с острым перцем - блюдо специально для тех,"
+				"кто скучает по вкусам родного мира даже в Нижнем."
+			]
+			id: "23F9C30DDCBB01EA"
+			tasks: [{
+				id: "510DC5B6FAA954ED"
+				item: {
+					Count: 1
+					id: "mynethersdelight:chilidog"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 52.10000000000002d
+		}
+		{
+			description: [
+				"Плод хоруса поддаётся ножу так же легко, как обычный"
+				"фрукт - а из застывшего эндер-камня выходит подходящий"
+				"инструмент, чтобы резать его дальше."
+			]
+			id: "49095156E5DCB1E5"
+			rewards: [{
+				count: 2
+				id: "2FE72C6EE4C46ED0"
+				item: {
+					Count: 1
+					id: "ends_delight:ender_pearl_grain"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DAB7D5F6D02BBA5"
+				item: {
+					Count: 1
+					id: "ends_delight:chorus_fruit_grain"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 52.800000000000026d
+		}
+		{
+			description: [
+				"Омлет из мяса шалкера и жареная колбаса из чего-то"
+				"неопределённого - на такое решится не каждый едок."
+			]
+			id: "07257E902B2BE6F4"
+			rewards: [{
+				id: "0884C91AE623E570"
+				item: {
+					Count: 1
+					id: "ends_delight:ender_sausage"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D275BA4E0D95E47"
+				item: {
+					Count: 1
+					id: "ends_delight:shulker_omelette"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 53.700000000000024d
+		}
+		{
+			description: [
+				"Драконья нога - самый смелый трофей всего пути."
+				"Приготовить её решится только настоящий искатель"
+				"приключений."
+			]
+			id: "134971E8753BEFC1"
+			tasks: [{
+				id: "1CF124EF33A1EBEA"
+				item: {
+					Count: 1
+					id: "ends_delight:dragon_leg"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 53.700000000000024d
+		}
+		{
+			description: [
+				"В самых мрачных уголках подземелий гниют забытые овощи,"
+				"а рядом тлеет костёр, который будто сам следит за собой"
+				"и не гаснет."
+			]
+			id: "34FBA62BFE3732DC"
+			rewards: [{
+				id: "38BEDE478E4E38E3"
+				item: {
+					Count: 1
+					id: "dungeonsdelight:ancient_egg"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31FABF7112AC0B8D"
+				item: {
+					Count: 1
+					id: "farmersdelight:rotten_tomato"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 54.40000000000003d
+		}
+		{
+			dependencies: ["34FBA62BFE3732DC"]
+			description: [
+				"Кровяная колбаса из чего-то пылающего и леденец из"
+				"чистого аметиста - подземелье не перестаёт удивлять"
+				"странными рецептами."
+			]
+			id: "5DCCD4915667511B"
+			rewards: [{
+				count: 2
+				id: "49DB22013170FB43"
+				item: {
+					Count: 1
+					id: "dungeonsdelight:amethyst_rock_candy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "655EC41C3D868563"
+				item: {
+					Count: 1
+					id: "dungeonsdelight:blazing_blood_sausage"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 55.300000000000026d
+		}
+		{
+			dependencies: ["34FBA62BFE3732DC"]
+			description: [
+				"Тарт со скалком тихо потрескивает на тарелке - будто"
+				"прислушивается к каждому шагу вокруг."
+			]
+			id: "7857F9063B7BF054"
+			tasks: [{
+				id: "2FBD600C79348B2C"
+				item: {
+					Count: 1
+					id: "dungeonsdelight:sculk_tart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 55.300000000000026d
+		}
+		{
+			dependencies: ["34FBA62BFE3732DC"]
+			description: [
+				"Урожая теперь столько, что одной корзины мало -"
+				"выдвижной комод вмещает в разы больше и не занимает"
+				"лишнего места."
+			]
+			id: "71D4F386992FEA21"
+			rewards: [{
+				count: 3
+				id: "48222843D6818CB5"
+				item: {
+					Count: 1
+					id: "farmersdelight:rope"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "194D543A315F7CCD"
+				item: {
+					Count: 1
+					id: "storagedelight:oak_drawer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 56.00000000000003d
+		}
+		{
+			description: [
+				"А для рецептов и записок о пройденном пути нашёлся"
+				"книжный шкаф с дверцей - заодно и от пыли бережёт."
+			]
+			id: "5A3C71AEA6E0B06F"
+			tasks: [{
+				id: "06474BBDADBE41CD"
+				item: {
+					Count: 1
+					id: "storagedelight:oak_bookshelf_with_door"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 56.90000000000003d
+		}
+		{
+			description: [
+				"Готовое блюдо теперь не обязательно прятать в сундук -"
+				"поставьте его на тарелку, и стол наконец выглядит так,"
+				"как должна выглядеть кухня в конце долгого пути."
+			]
+			id: "756AA6373C2A5C53"
+			rewards: [{
+				count: 2
+				id: "057902F80CAD94AB"
+				item: {
+					Count: 1
+					id: "farmersdelight:canvas"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63075BDC09C91844"
+				item: {
+					Count: 1
+					id: "displaydelight:food_plate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 57.60000000000003d
+		}
+		{
+			dependencies: ["756AA6373C2A5C53"]
+			description: [
+				"Для мелочи вроде печенья и ломтиков нашлась тарелка"
+				"поменьше - на большом столе теперь порядок."
+			]
+			id: "77B8A18F94BD04EB"
+			tasks: [{
+				id: "6CD9EA15A530FB38"
+				item: {
+					Count: 1
+					id: "displaydelight:small_food_plate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 58.50000000000003d
+		}
+		{
+			dependencies: ["756AA6373C2A5C53"]
+			description: [
+				"Однажды выяснилось, что суп и соус можно зачерпнуть"
+				"ведром не хуже воды - и пустить по трубам через весь дом."
+			]
+			id: "56481A4471A21276"
+			rewards: [{
+				id: "10975BFE66757259"
+				item: {
+					Count: 1
+					id: "delightfulcreators:hot_cocoa_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "143F5C68C68FC0D0"
+				item: {
+					Count: 1
+					id: "delightfulcreators:tomato_sauce_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 59.20000000000003d
+		}
+		{
+			dependencies: [
+				"766F6D8E7C288450"
+				"6992D662326A1E58"
+				"1576E206FAD20920"
+				"34FBA62BFE3732DC"
+				"756AA6373C2A5C53"
+			]
+			description: [
+				"Долгий путь подошёл к концу. На одном столе наконец"
+				"встретились мясо и морепродукты, огород и Нижний мир,"
+				"лес и подземелья - вся кухня, собранная по кусочку."
+				""
+				"Выставьте угощение на тарелку и позовите гостей -"
+				"странник, начинавший с кремневого ножа, стал настоящим"
+				"шеф-поваром."
+			]
+			id: "3087CB3390BFB32A"
+			rewards: [
+				{
+					id: "05D997DAB227F099"
+					item: {
+						Count: 1
+						id: "vintagedelight:black_chefs_hat"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2C5BB9E4C4A11509"
+					item: {
+						Count: 1
+						id: "farmersdelight:canvas"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "54C184071EF836AC"
+					item: {
+						Count: 1
+						id: "seeddelight:acorn"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "557C3968E5B1DC48"
+				item: {
+					Count: 1
+					id: "crabbersdelight:surf_and_turf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 61.00000000000003d
+		}
+	]
+	title: "Я Повар,а вы портите моё блюдо"
+}

@@ -1,0 +1,287 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "76CBFFB53E088046"
+	group: ""
+	id: "76CBFFB53E088046"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["607B6AF2C1C29074"]
+			id: "44F997A139FB11F9"
+			tasks: [{
+				id: "550D27901DF3E160"
+				item: {
+					Count: 1
+					id: "esketit_metallurgy:forge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "607B6AF2C1C29074"
+			tasks: [{
+				id: "662A1EF108E146BF"
+				item: {
+					Count: 1
+					id: "esketit_metallurgy:bloomery_base"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["607B6AF2C1C29074"]
+			description: ["Расположить на печь"]
+			id: "2444253C67B2EAAA"
+			tasks: [{
+				id: "1CD87CCB7785E7DC"
+				item: {
+					Count: 1
+					id: "esketit_metallurgy:bloomery_chimney"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			id: "6DC3376148F43454"
+			tasks: [{
+				id: "70203E644EB53B47"
+				item: {
+					Count: 1
+					id: "esketit_metallurgy:iron_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["607B6AF2C1C29074"]
+			id: "5F577807C29D14CC"
+			rewards: [{
+				id: "087A46A3CB98C21D"
+				item: {
+					Count: 1
+					id: "esketit_metallurgy:wooden_tongs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "501318D669F6054E"
+				item: {
+					Count: 1
+					id: "esketit_metallurgy:crucible"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["607B6AF2C1C29074"]
+			id: "70637A51ECB0AD19"
+			tasks: [{
+				id: "2DC3B3156E76DE6C"
+				item: {
+					Count: 1
+					id: "esketit_metallurgy:iron_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"1. Положить в доменную печь железную руду, тигель"
+				""
+				"2. Дождаться переплавки в тигель слитка"
+				""
+				"3. Вылить расплавленный металл в изложницу"
+				""
+				"4. Скрафтить железную наковальню, кузнечный молот"
+				""
+				"5. Повторить пункты 1,2,3"
+				""
+				"6. Разогреть полученный слиток в горне (положить уголь в горн, затем слиток, дождаться покраснения металла)"
+				""
+				"7. Разогретый слиток положить на наковальню, взять молот в руки"
+				""
+				"8. Кнопкой Y перейти в редактор слитка. Необходимо заполнить металлом зеленые квадраты. Колесиком мыши изменять направление ковки."
+				""
+				"9. Когда все зеленые квадраты заполнены, выбрать режим удара (Y), и удалить лишний металл правой кнопкой мыши"
+				""
+				"10. Взять готовую голову кирки, и бросить в воду для охлаждения."
+				""
+				"11. Нажать правой кнопкой мыши по точилу"
+				""
+				"12. скрафтить кирку  - -) "
+			]
+			id: "2F94636618E147B6"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "esketit_metallurgy:iron_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7F305D440A17DE9B"
+				title: "Info"
+				type: "custom"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6DC3376148F43454"]
+			id: "49C8BE2CAD40E293"
+			rewards: [{
+				id: "768D2EA212D539B3"
+				item: {
+					Count: 1
+					id: "minecraft:stick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4586067632EB065F"
+				item: {
+					Count: 1
+					id: "esketit_metallurgy:iron_pickaxe_head"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["607B6AF2C1C29074"]
+			id: "73DE1236575165EC"
+			tasks: [{
+				id: "7D1C168CC04366CD"
+				item: {
+					Count: 1
+					id: "minecraft:grindstone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F577807C29D14CC"]
+			id: "2912A7949E099724"
+			tasks: [{
+				id: "40EEFD92C6C1CFAC"
+				item: {
+					Count: 1
+					id: "esketit_metallurgy:ingot_mold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2912A7949E099724"]
+			id: "065ACA541342921D"
+			tasks: [{
+				id: "3050CD6058E2DEBB"
+				item: {
+					Count: 1
+					id: "minecraft:iron_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49C8BE2CAD40E293"]
+			id: "1490F8FD405004C5"
+			tasks: [{
+				id: "3FE66920EC146E4D"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				""
+				""
+				"1. Put iron ore and a crucible into the blast furnace."
+				""
+				"2. Wait for the ore to melt into an ingot inside the crucible."
+				""
+				"3. Pour the molten metal into a casting mold."
+				""
+				"4. Craft an iron anvil and a forging hammer."
+				""
+				"5. Repeat steps 1, 2, and 3."
+				""
+				"6. Heat the obtained ingot in a forge (put coal in the forge, then the ingot, and wait until the metal turns red-hot)."
+				""
+				"7. Place the heated ingot on the anvil and hold the hammer in your hand."
+				""
+				"8. Press the Y key to open the ingot editor. Fill the green squares with metal. Use the mouse wheel to change the forging direction."
+				""
+				"9. When all the green squares are filled, select the strike mode (Y) and remove excess metal by right-clicking."
+				""
+				"10. Take the finished pickaxe head and quench it in water."
+				""
+				"11. Right-click on the grindstone."
+				""
+				"12. Craft the pickaxe. — Done!"
+			]
+			id: "302CF35A993C49DD"
+			tasks: [{
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "esketit_metallurgy:iron_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2125E43D69D661A8"
+				title: "Info ENG"
+				type: "custom"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+	]
+	title: "Esketit Metallurgy: Куй железо"
+}
