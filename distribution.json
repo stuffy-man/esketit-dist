@@ -1759,16 +1759,6 @@
           }
         },
         {
-          "id": "dev.esketitcoldcellar:esketit_coldcellar:1.0.0@jar",
-          "name": "Esketit Cold Cellar",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 17615,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_coldcellar-1.0.0.jar",
-            "MD5": "37da5022ceaaa52d4a064e72fd37b28f"
-          }
-        },
-        {
           "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.0@jar",
           "name": "Esketit Metallurgy",
           "type": "ForgeMod",
