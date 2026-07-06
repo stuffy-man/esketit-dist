@@ -3942,6 +3942,7 @@
           "artifact": {
             "size": 8820,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/aluminum.cfg",
+            "MD5": "c18adfc17c7940189355a96986b5a275",
             "path": "config/adlods/Deposits/aluminum.cfg"
           }
         },
@@ -3952,6 +3953,7 @@
           "artifact": {
             "size": 8807,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/amethyst.cfg",
+            "MD5": "9296aabac16258fc8bb10654c2a9286f",
             "path": "config/adlods/Deposits/amethyst.cfg"
           }
         },
@@ -3962,6 +3964,7 @@
           "artifact": {
             "size": 8604,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/ancient_debris.cfg",
+            "MD5": "40cd8c1c8186ac3fe8194c64a5382b31",
             "path": "config/adlods/Deposits/ancient_debris.cfg"
           }
         },
@@ -3972,6 +3975,7 @@
           "artifact": {
             "size": 8873,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/coal.cfg",
+            "MD5": "00d4323ea5938739a236856f65a95170",
             "path": "config/adlods/Deposits/coal.cfg"
           }
         },
@@ -3982,6 +3986,7 @@
           "artifact": {
             "size": 8821,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/cobalt.cfg",
+            "MD5": "d6ec9a4c8f4d21057ff6f4d6e7fb9ab4",
             "path": "config/adlods/Deposits/cobalt.cfg"
           }
         },
@@ -3992,6 +3997,7 @@
           "artifact": {
             "size": 8919,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/copper.cfg",
+            "MD5": "289ca784252445bbcc94afa09d1631da",
             "path": "config/adlods/Deposits/copper.cfg"
           }
         },
@@ -4002,6 +4008,7 @@
           "artifact": {
             "size": 8870,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/diamond.cfg",
+            "MD5": "d8d241a17e2a3ccdf7ff7c2431e101d1",
             "path": "config/adlods/Deposits/diamond.cfg"
           }
         },
@@ -4012,6 +4019,7 @@
           "artifact": {
             "size": 8952,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/emerald.cfg",
+            "MD5": "f31dd64e3b8a7fceeb740082454c86bc",
             "path": "config/adlods/Deposits/emerald.cfg"
           }
         },
@@ -4022,6 +4030,7 @@
           "artifact": {
             "size": 8622,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/gas_pocket.cfg",
+            "MD5": "b3c9546f8caf07dfc8b4d10d64a98a05",
             "path": "config/adlods/Deposits/gas_pocket.cfg"
           }
         },
@@ -4032,6 +4041,7 @@
           "artifact": {
             "size": 8858,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/gold.cfg",
+            "MD5": "20b0910432982312910bec93aebe2822",
             "path": "config/adlods/Deposits/gold.cfg"
           }
         },
@@ -4042,6 +4052,7 @@
           "artifact": {
             "size": 8803,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/iridium.cfg",
+            "MD5": "d415a1f87334b3e35edaa78233dc6dc4",
             "path": "config/adlods/Deposits/iridium.cfg"
           }
         },
@@ -4052,6 +4063,7 @@
           "artifact": {
             "size": 8864,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/iron.cfg",
+            "MD5": "d045d815bd0c5953d251a55e5e077aba",
             "path": "config/adlods/Deposits/iron.cfg"
           }
         },
@@ -4062,6 +4074,7 @@
           "artifact": {
             "size": 8866,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/lapis.cfg",
+            "MD5": "6c96bb3c04cd8a87445fc51c9b9a8e7c",
             "path": "config/adlods/Deposits/lapis.cfg"
           }
         },
@@ -4072,6 +4085,7 @@
           "artifact": {
             "size": 8831,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/lead.cfg",
+            "MD5": "303f9f6eb01dfbefe7e4ea4e028083cc",
             "path": "config/adlods/Deposits/lead.cfg"
           }
         },
@@ -4082,6 +4096,7 @@
           "artifact": {
             "size": 8522,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/nether_gold.cfg",
+            "MD5": "00abbe532a115c8afed69567942b6a7e",
             "path": "config/adlods/Deposits/nether_gold.cfg"
           }
         },
@@ -4092,6 +4107,7 @@
           "artifact": {
             "size": 8524,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/nether_quartz.cfg",
+            "MD5": "6276042f25e75a50aaf1ece8d2acf66d",
             "path": "config/adlods/Deposits/nether_quartz.cfg"
           }
         },
@@ -4102,6 +4118,7 @@
           "artifact": {
             "size": 8900,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/nickel.cfg",
+            "MD5": "ecc17dc91e11220ef369db8c5902ed7a",
             "path": "config/adlods/Deposits/nickel.cfg"
           }
         },
@@ -4112,6 +4129,7 @@
           "artifact": {
             "size": 8825,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/osmium.cfg",
+            "MD5": "8a1a2e96c8bb283520eec643bb17766f",
             "path": "config/adlods/Deposits/osmium.cfg"
           }
         },
@@ -4122,6 +4140,7 @@
           "artifact": {
             "size": 8802,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/palladium.cfg",
+            "MD5": "8507d2796ef4923b4e421ca7abf4efd2",
             "path": "config/adlods/Deposits/palladium.cfg"
           }
         },
@@ -4132,6 +4151,7 @@
           "artifact": {
             "size": 8813,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/platinum.cfg",
+            "MD5": "52aa9f4fad82e5891f2efdb2e96167d9",
             "path": "config/adlods/Deposits/platinum.cfg"
           }
         },
@@ -4142,6 +4162,7 @@
           "artifact": {
             "size": 8860,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/redstone.cfg",
+            "MD5": "b1b47bdaa29558afaaf95917fc7d6411",
             "path": "config/adlods/Deposits/redstone.cfg"
           }
         },
@@ -4152,6 +4173,7 @@
           "artifact": {
             "size": 8800,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/rhodium.cfg",
+            "MD5": "d0c3dee5a08ded0d2aecff1f2bbb8e77",
             "path": "config/adlods/Deposits/rhodium.cfg"
           }
         },
@@ -4162,6 +4184,7 @@
           "artifact": {
             "size": 8787,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/ruby.cfg",
+            "MD5": "d648501c24b5456a09d89223fb2e0939",
             "path": "config/adlods/Deposits/ruby.cfg"
           }
         },
@@ -4172,6 +4195,7 @@
           "artifact": {
             "size": 8819,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/ruthenium.cfg",
+            "MD5": "ce526575e7100b3419a2dbc4560fab8f",
             "path": "config/adlods/Deposits/ruthenium.cfg"
           }
         },
@@ -4182,6 +4206,7 @@
           "artifact": {
             "size": 8803,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/sapphire.cfg",
+            "MD5": "8f6d72134802d71fb4d59a75b062531a",
             "path": "config/adlods/Deposits/sapphire.cfg"
           }
         },
@@ -4192,6 +4217,7 @@
           "artifact": {
             "size": 8872,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/silver.cfg",
+            "MD5": "2a6a0ecec22fba981ce2231ef5d283a3",
             "path": "config/adlods/Deposits/silver.cfg"
           }
         },
@@ -4202,6 +4228,7 @@
           "artifact": {
             "size": 8816,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/tin.cfg",
+            "MD5": "f47c6d0dff59e968a9bec53e1fec0afe",
             "path": "config/adlods/Deposits/tin.cfg"
           }
         },
@@ -4212,6 +4239,7 @@
           "artifact": {
             "size": 8802,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/topaz.cfg",
+            "MD5": "0fef9edd156ed1bf584abb90e4d6572a",
             "path": "config/adlods/Deposits/topaz.cfg"
           }
         },
@@ -4222,6 +4250,7 @@
           "artifact": {
             "size": 8811,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/uranium.cfg",
+            "MD5": "f2457fe0933d3f50d10e73cf48ceb21a",
             "path": "config/adlods/Deposits/uranium.cfg"
           }
         },
@@ -4232,6 +4261,7 @@
           "artifact": {
             "size": 8825,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/zinc.cfg",
+            "MD5": "e9dd44f9b1e3f3f8ea15d38f0c6fd484",
             "path": "config/adlods/Deposits/zinc.cfg"
           }
         },
@@ -4242,6 +4272,7 @@
           "artifact": {
             "size": 12074,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Geodes/amethyst.cfg",
+            "MD5": "ee563f8e5971e43335cc9a7d82baaf30",
             "path": "config/adlods/Geodes/amethyst.cfg"
           }
         },
@@ -4252,6 +4283,7 @@
           "artifact": {
             "size": 5998,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/ancient_debris.cfg",
+            "MD5": "5c47e4962c66f3719cfb5f344fd7e8a7",
             "path": "config/adlods/VanillaOres/ancient_debris.cfg"
           }
         },
@@ -4262,6 +4294,7 @@
           "artifact": {
             "size": 6008,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/andesite.cfg",
+            "MD5": "43e42d9fd8bbfb0ddaf8e13a2af686dc",
             "path": "config/adlods/VanillaOres/andesite.cfg"
           }
         },
@@ -4272,6 +4305,7 @@
           "artifact": {
             "size": 5988,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/blackstone.cfg",
+            "MD5": "b14235aecea6ed6aade9bd726ce3c8f7",
             "path": "config/adlods/VanillaOres/blackstone.cfg"
           }
         },
@@ -4282,6 +4316,7 @@
           "artifact": {
             "size": 6008,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/clay.cfg",
+            "MD5": "7f07d218f47dd3bf43421c80584d80e0",
             "path": "config/adlods/VanillaOres/clay.cfg"
           }
         },
@@ -4292,6 +4327,7 @@
           "artifact": {
             "size": 5943,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/coal_ore.cfg",
+            "MD5": "627eec55b00cdbec18d790de345a7bc6",
             "path": "config/adlods/VanillaOres/coal_ore.cfg"
           }
         },
@@ -4302,6 +4338,7 @@
           "artifact": {
             "size": 5953,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/copper_ore.cfg",
+            "MD5": "7112439a02a352808eebfa08844c85fd",
             "path": "config/adlods/VanillaOres/copper_ore.cfg"
           }
         },
@@ -4312,6 +4349,7 @@
           "artifact": {
             "size": 5950,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/diamond_ore.cfg",
+            "MD5": "53002a08b5078025b0d7121446a0e58d",
             "path": "config/adlods/VanillaOres/diamond_ore.cfg"
           }
         },
@@ -4322,6 +4360,7 @@
           "artifact": {
             "size": 6006,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/diorite.cfg",
+            "MD5": "ae55aef5d6082c7cc4550856cbfad0cf",
             "path": "config/adlods/VanillaOres/diorite.cfg"
           }
         },
@@ -4332,6 +4371,7 @@
           "artifact": {
             "size": 6000,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/dirt.cfg",
+            "MD5": "60bf1da0badefe19dcec64a7e3bd3837",
             "path": "config/adlods/VanillaOres/dirt.cfg"
           }
         },
@@ -4342,6 +4382,7 @@
           "artifact": {
             "size": 5958,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/emerald_ore.cfg",
+            "MD5": "d0a876f5842c89c405f8e87ee5751fc2",
             "path": "config/adlods/VanillaOres/emerald_ore.cfg"
           }
         },
@@ -4352,6 +4393,7 @@
           "artifact": {
             "size": 5939,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/gold_ore.cfg",
+            "MD5": "628e9270a8de95e86dda24417d67542a",
             "path": "config/adlods/VanillaOres/gold_ore.cfg"
           }
         },
@@ -4362,6 +4404,7 @@
           "artifact": {
             "size": 6006,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/granite.cfg",
+            "MD5": "b257e2424e7d7b2c4afb3dc366a32d64",
             "path": "config/adlods/VanillaOres/granite.cfg"
           }
         },
@@ -4372,6 +4415,7 @@
           "artifact": {
             "size": 6012,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/gravel.cfg",
+            "MD5": "96f7ac28e0eb1471386e225f71b0a10e",
             "path": "config/adlods/VanillaOres/gravel.cfg"
           }
         },
@@ -4382,6 +4426,7 @@
           "artifact": {
             "size": 6093,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/infested_stone.cfg",
+            "MD5": "b1caea1ef095c281bd9e6e0238ea2696",
             "path": "config/adlods/VanillaOres/infested_stone.cfg"
           }
         },
@@ -4392,6 +4437,7 @@
           "artifact": {
             "size": 5949,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/iron_ore.cfg",
+            "MD5": "e1c4f9b46f0679e4445e935f055cae44",
             "path": "config/adlods/VanillaOres/iron_ore.cfg"
           }
         },
@@ -4402,6 +4448,7 @@
           "artifact": {
             "size": 5942,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/lapis_ore.cfg",
+            "MD5": "ac195b4f162421ff587e19e280971613",
             "path": "config/adlods/VanillaOres/lapis_ore.cfg"
           }
         },
@@ -4412,6 +4459,7 @@
           "artifact": {
             "size": 5992,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/magma_block.cfg",
+            "MD5": "c8308c7d143c5cb71bcf1540cb5a5bea",
             "path": "config/adlods/VanillaOres/magma_block.cfg"
           }
         },
@@ -4422,6 +4470,7 @@
           "artifact": {
             "size": 6006,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/nether_gold_ore.cfg",
+            "MD5": "c04af49fcef3de9e0e4358b00f3986d1",
             "path": "config/adlods/VanillaOres/nether_gold_ore.cfg"
           }
         },
@@ -4432,6 +4481,7 @@
           "artifact": {
             "size": 6010,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/nether_quartz_ore.cfg",
+            "MD5": "2a621c7fc3ac3bebc9a54568b2712aea",
             "path": "config/adlods/VanillaOres/nether_quartz_ore.cfg"
           }
         },
@@ -4442,6 +4492,7 @@
           "artifact": {
             "size": 5951,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/redstone_ore.cfg",
+            "MD5": "0ca5c1a323c0528ec0a9fee9f34f8fa6",
             "path": "config/adlods/VanillaOres/redstone_ore.cfg"
           }
         },
@@ -4452,6 +4503,7 @@
           "artifact": {
             "size": 5990,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/soul_sand.cfg",
+            "MD5": "156fa5e49dbd86063add187124e8bc4c",
             "path": "config/adlods/VanillaOres/soul_sand.cfg"
           }
         },
@@ -4462,6 +4514,7 @@
           "artifact": {
             "size": 6000,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/tuff.cfg",
+            "MD5": "409d788fb6fe30c70fdc923af9eeca2f",
             "path": "config/adlods/VanillaOres/tuff.cfg"
           }
         },
@@ -4472,6 +4525,7 @@
           "artifact": {
             "size": 2282,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods-common.toml",
+            "MD5": "513c0c29a4874d12c5db8bb33c6d5c55",
             "path": "config/adlods-common.toml"
           }
         },
@@ -4482,6 +4536,7 @@
           "artifact": {
             "size": 3024,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/advancementplaques-common.toml",
+            "MD5": "fbcb9e811eada0a09154da04a72f1ddc",
             "path": "config/advancementplaques-common.toml"
           }
         },
@@ -4492,6 +4547,7 @@
           "artifact": {
             "size": 981,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ageingspawners-common.toml",
+            "MD5": "5b2021a856c6ebf11c20f8da3d0344b8",
             "path": "config/ageingspawners-common.toml"
           }
         },
@@ -4502,6 +4558,7 @@
           "artifact": {
             "size": 6211,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/aiimprovements-common.toml",
+            "MD5": "71450aa2f5b19702f457be0d519bf725",
             "path": "config/aiimprovements-common.toml"
           }
         },
@@ -4512,6 +4569,7 @@
           "artifact": {
             "size": 150,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/alekiships-client.toml",
+            "MD5": "0af8710596d9d4f9c2b0d03ff59b85ea",
             "path": "config/alekiships-client.toml"
           }
         },
@@ -4522,6 +4580,7 @@
           "artifact": {
             "size": 217,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/allurement-client.toml",
+            "MD5": "045908c7c23ce5de7f57e0da7dcce589",
             "path": "config/allurement-client.toml"
           }
         },
@@ -4532,6 +4591,7 @@
           "artifact": {
             "size": 6074,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/allurement-common.toml",
+            "MD5": "49197c2b528c756aef43f811b5254c69",
             "path": "config/allurement-common.toml"
           }
         },
@@ -4542,6 +4602,7 @@
           "artifact": {
             "size": 4363,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/amendments-client.toml",
+            "MD5": "a95e6751ac0775eaa8472509a9617474",
             "path": "config/amendments-client.toml"
           }
         },
@@ -4552,6 +4613,7 @@
           "artifact": {
             "size": 5008,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/amendments-common.toml",
+            "MD5": "c17ae4d3c922fbc0de475f0e877ba5c9",
             "path": "config/amendments-common.toml"
           }
         },
@@ -4562,6 +4624,7 @@
           "artifact": {
             "size": 795,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/armorstatues-client.toml",
+            "MD5": "fec86dec48ca9c30bee7476e222a15e9",
             "path": "config/armorstatues-client.toml"
           }
         },
@@ -4572,6 +4635,7 @@
           "artifact": {
             "size": 551,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/artifacts/client.json5",
+            "MD5": "c421cf24deff6c2774366fa9b6de3020",
             "path": "config/artifacts/client.json5"
           }
         },
@@ -4582,6 +4646,7 @@
           "artifact": {
             "size": 1584,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/artifacts/common.json5",
+            "MD5": "1b1e1f00fbb688a7fa95536ebf7abc6c",
             "path": "config/artifacts/common.json5"
           }
         },
@@ -4592,6 +4657,7 @@
           "artifact": {
             "size": 15113,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/attributefix.json",
+            "MD5": "e2e55daf6f79e82c28076909913ce66c",
             "path": "config/attributefix.json"
           }
         },
@@ -4602,6 +4668,7 @@
           "artifact": {
             "size": 3458,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/badoptimizations.txt",
+            "MD5": "7714652525dd4a0c873ddfc124aac217",
             "path": "config/badoptimizations.txt"
           }
         },
@@ -4612,6 +4679,7 @@
           "artifact": {
             "size": 346,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/bagus_lib-client.toml",
+            "MD5": "9f0c0cb11a2f33c34c66eac2ea0ce15c",
             "path": "config/bagus_lib-client.toml"
           }
         },
@@ -4622,6 +4690,7 @@
           "artifact": {
             "size": 103,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/bagus_lib-common.toml",
+            "MD5": "84da9b4dae5f5546c42a1b558cc4f30b",
             "path": "config/bagus_lib-common.toml"
           }
         },
@@ -4632,6 +4701,7 @@
           "artifact": {
             "size": 195,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/benssharks/benssharks-common.toml",
+            "MD5": "4c9efdd7abf92e687474680a56ef7cf2",
             "path": "config/benssharks/benssharks-common.toml"
           }
         },
@@ -4642,6 +4712,7 @@
           "artifact": {
             "size": 17986,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/benssharks/benssharks-spawns.toml",
+            "MD5": "ad998aff32b81d8dc791f9811778741c",
             "path": "config/benssharks/benssharks-spawns.toml"
           }
         },
@@ -4652,6 +4723,7 @@
           "artifact": {
             "size": 598,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/berry_good-common.toml",
+            "MD5": "fcf1ffeeb53566486e76d5fd5338a91e",
             "path": "config/berry_good-common.toml"
           }
         },
@@ -4662,6 +4734,7 @@
           "artifact": {
             "size": 924,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/betteradvancements-client.toml",
+            "MD5": "e8413a183920aaf802f27fc1e69ac1f6",
             "path": "config/betteradvancements-client.toml"
           }
         },
@@ -4672,6 +4745,7 @@
           "artifact": {
             "size": 9814,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/betteranimationscollection-client.toml",
+            "MD5": "7ac01e5766deb96f43d49a9221f65a7f",
             "path": "config/betteranimationscollection-client.toml"
           }
         },
@@ -4682,6 +4756,7 @@
           "artifact": {
             "size": 4734,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/betterarcheology-common.toml",
+            "MD5": "37f340e7ac7ec0f81a5101a9b12b2c89",
             "path": "config/betterarcheology-common.toml"
           }
         },
@@ -4692,6 +4767,7 @@
           "artifact": {
             "size": 1444,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/betterburning-common.toml",
+            "MD5": "9729c1aafd26fbf9195d27017fc1d105",
             "path": "config/betterburning-common.toml"
           }
         },
@@ -4702,6 +4778,7 @@
           "artifact": {
             "size": 1450,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/betterclouds-v1.json",
+            "MD5": "e49b58bb61e4bb097258552ce8beab8c",
             "path": "config/betterclouds-v1.json"
           }
         },
@@ -4712,6 +4789,7 @@
           "artifact": {
             "size": 941,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/betterdays-client.toml",
+            "MD5": "08410a6bf8e52f960307be3ef3f1d07b",
             "path": "config/betterdays-client.toml"
           }
         },
@@ -4722,6 +4800,7 @@
           "artifact": {
             "size": 11182,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/betterdays-common.toml",
+            "MD5": "5acdfb56dcfca46c80d8dce4d3656b87",
             "path": "config/betterdays-common.toml"
           }
         },
@@ -4732,6 +4811,7 @@
           "artifact": {
             "size": 153,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/bettertridents-common.toml",
+            "MD5": "e87edfccd27fa6b02769e8bc59df2b04",
             "path": "config/bettertridents-common.toml"
           }
         },
@@ -4742,6 +4822,7 @@
           "artifact": {
             "size": 563,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/bettertridents-server.toml",
+            "MD5": "ad1d4d1f53649b9d329e8074c4cc6608",
             "path": "config/bettertridents-server.toml"
           }
         },
@@ -4752,6 +4833,7 @@
           "artifact": {
             "size": 239,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/blockrunner-client.toml",
+            "MD5": "3168ba277f5b53061f6e4a7ec16ded30",
             "path": "config/blockrunner-client.toml"
           }
         },
@@ -4762,6 +4844,7 @@
           "artifact": {
             "size": 340,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/blockrunner.json",
+            "MD5": "5a181ee83adde5d63207d9d265aa3176",
             "path": "config/blockrunner.json"
           }
         },
@@ -4772,6 +4855,7 @@
           "artifact": {
             "size": 770,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/blueprint-client.toml",
+            "MD5": "274bf9121f5d934bbbb1a93fb65c40df",
             "path": "config/blueprint-client.toml"
           }
         },
@@ -4782,6 +4866,7 @@
           "artifact": {
             "size": 614,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/blueprint-common.toml",
+            "MD5": "fb65738d716b26bd26d85764ebacecda",
             "path": "config/blueprint-common.toml"
           }
         },
@@ -4792,6 +4877,7 @@
           "artifact": {
             "size": 695,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/brewinandchewin-client.toml",
+            "MD5": "1753456bb7083c86f99a27835ebadc18",
             "path": "config/brewinandchewin-client.toml"
           }
         },
@@ -4802,6 +4888,7 @@
           "artifact": {
             "size": 1184,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/brewinandchewin-common.toml",
+            "MD5": "76369c3ceece234054fe19cf3e8478c3",
             "path": "config/brewinandchewin-common.toml"
           }
         },
@@ -4812,6 +4899,7 @@
           "artifact": {
             "size": 528,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/bridgingmod.json",
+            "MD5": "72a532fd6c56c7b32b09515904dd2fd6",
             "path": "config/bridgingmod.json"
           }
         },
@@ -4822,6 +4910,7 @@
           "artifact": {
             "size": 590,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/carryon-client.toml",
+            "MD5": "0b6ae0f2806ffd1f653c7c8613c409e1",
             "path": "config/carryon-client.toml"
           }
         },
@@ -4832,6 +4921,7 @@
           "artifact": {
             "size": 7153,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/carryon-common.toml",
+            "MD5": "df7191661a0b382b15fb527969a5cefd",
             "path": "config/carryon-common.toml"
           }
         },
@@ -4842,6 +4932,7 @@
           "artifact": {
             "size": 930,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/cavedust.toml",
+            "MD5": "4dfdd4088a2e110f21a6d8cd91bb0768",
             "path": "config/cavedust.toml"
           }
         },
@@ -4852,6 +4943,7 @@
           "artifact": {
             "size": 677,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/caverns_and_chasms-client.toml",
+            "MD5": "c6b7ea22319ecc6bec870a743f75d135",
             "path": "config/caverns_and_chasms-client.toml"
           }
         },
@@ -4862,6 +4954,7 @@
           "artifact": {
             "size": 1992,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/caverns_and_chasms-common.toml",
+            "MD5": "54c7f90c01e1963bc2ee56488a0450e4",
             "path": "config/caverns_and_chasms-common.toml"
           }
         },
@@ -4872,6 +4965,7 @@
           "artifact": {
             "size": 160,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/chatanimation.json",
+            "MD5": "becdb77b7a63beeaaf7b194c501ea626",
             "path": "config/chatanimation.json"
           }
         },
@@ -4882,6 +4976,7 @@
           "artifact": {
             "size": 1929,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/chloride-client.json",
+            "MD5": "a68e218ff9154db02d4a8ebde1f9029c",
             "path": "config/chloride-client.json"
           }
         },
@@ -4892,6 +4987,7 @@
           "artifact": {
             "size": 270,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/clayworks-common.toml",
+            "MD5": "11a74bfc03dadbd898571f5040a8eb7c",
             "path": "config/clayworks-common.toml"
           }
         },
@@ -4902,6 +4998,7 @@
           "artifact": {
             "size": 370,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/coalexplosion-common.toml",
+            "MD5": "096688ac2a7bc9cdfa3e034bb3d63a2d",
             "path": "config/coalexplosion-common.toml"
           }
         },
@@ -4912,6 +5009,7 @@
           "artifact": {
             "size": 13188,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/coldsweat/client.toml",
+            "MD5": "ac70f13c0c10fa193d05908f34f652ae",
             "path": "config/coldsweat/client.toml"
           }
         },
@@ -4922,6 +5020,7 @@
           "artifact": {
             "size": 152,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/coldsweat/disabled_mods.txt",
+            "MD5": "456ca86673ae3961b00f4ddaa99507a4",
             "path": "config/coldsweat/disabled_mods.txt"
           }
         },
@@ -4932,6 +5031,7 @@
           "artifact": {
             "size": 8340,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/coldsweat/entity.toml",
+            "MD5": "08333eeab4c354446bd43c817b3d0ccd",
             "path": "config/coldsweat/entity.toml"
           }
         },
@@ -4942,6 +5042,7 @@
           "artifact": {
             "size": 17469,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/coldsweat/item.toml",
+            "MD5": "e8e375615beefa9b0878eef4180b5781",
             "path": "config/coldsweat/item.toml"
           }
         },
@@ -4952,6 +5053,7 @@
           "artifact": {
             "size": 8326,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/coldsweat/main.toml",
+            "MD5": "258432c7ee23ab14019a0ce910bb6d70",
             "path": "config/coldsweat/main.toml"
           }
         },
@@ -4962,6 +5064,7 @@
           "artifact": {
             "size": 26385,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/coldsweat/world.toml",
+            "MD5": "ea63dcea6a6e9ddd394d313238d3b704",
             "path": "config/coldsweat/world.toml"
           }
         },
@@ -4972,6 +5075,7 @@
           "artifact": {
             "size": 7838,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/collectorsreap-common.toml",
+            "MD5": "4e7f10d77dcec353cefea6d845dd04b8",
             "path": "config/collectorsreap-common.toml"
           }
         },
@@ -4982,6 +5086,7 @@
           "artifact": {
             "size": 521,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/combatnouveau-client.toml",
+            "MD5": "5d2629c5c5da88ac5441a8eb291026f3",
             "path": "config/combatnouveau-client.toml"
           }
         },
@@ -4992,6 +5097,7 @@
           "artifact": {
             "size": 6387,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/combatnouveau-server.toml",
+            "MD5": "4158a139406ab1337f6f6bb13818998d",
             "path": "config/combatnouveau-server.toml"
           }
         },
@@ -5002,6 +5108,7 @@
           "artifact": {
             "size": 4048,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/compatdelight-common.toml",
+            "MD5": "8ec94c23ea0814460cb367dbdba10813",
             "path": "config/compatdelight-common.toml"
           }
         },
@@ -5012,6 +5119,7 @@
           "artifact": {
             "size": 93,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/configured-client.toml",
+            "MD5": "c832c4889e1cd0bfe147658abbcfd62c",
             "path": "config/configured-client.toml"
           }
         },
@@ -5022,6 +5130,7 @@
           "artifact": {
             "size": 110,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/cookyourfood-client.toml",
+            "MD5": "511ffca826657fdc007b67323835557f",
             "path": "config/cookyourfood-client.toml"
           }
         },
@@ -5032,6 +5141,7 @@
           "artifact": {
             "size": 823,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/cookyourfood-common.toml",
+            "MD5": "411feec9af2e9ff27ef2fe1683455529",
             "path": "config/cookyourfood-common.toml"
           }
         },
@@ -5042,6 +5152,7 @@
           "artifact": {
             "size": 7073,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/cookyourfood-potion-effects.json",
+            "MD5": "0ce70b47bbef6d6fd235ef57ef66dac9",
             "path": "config/cookyourfood-potion-effects.json"
           }
         },
@@ -5052,6 +5163,7 @@
           "artifact": {
             "size": 342,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/copycats-client.toml",
+            "MD5": "ab8d56d84f2f6e457c812b76fa598c36",
             "path": "config/copycats-client.toml"
           }
         },
@@ -5062,6 +5174,7 @@
           "artifact": {
             "size": 2167,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/copycats-common.toml",
+            "MD5": "7e6ab8a22a025a2460d9efa6158b28aa",
             "path": "config/copycats-common.toml"
           }
         },
@@ -5072,6 +5185,7 @@
           "artifact": {
             "size": 256,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/corn_delight-common.toml",
+            "MD5": "157dc544fe004d486456ce58d3a41937",
             "path": "config/corn_delight-common.toml"
           }
         },
@@ -5082,6 +5196,7 @@
           "artifact": {
             "size": 1230,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/cosmeticarmorreworked-client.toml",
+            "MD5": "efabbdb6c08be2cbf33d14c8f5d14a27",
             "path": "config/cosmeticarmorreworked-client.toml"
           }
         },
@@ -5092,6 +5207,7 @@
           "artifact": {
             "size": 379,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/cosmeticarmorreworked-common.toml",
+            "MD5": "72142fb70ba132624cf5a6fb12ed7805",
             "path": "config/cosmeticarmorreworked-common.toml"
           }
         },
@@ -5102,6 +5218,7 @@
           "artifact": {
             "size": 86,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/cosmopolitan-client.toml",
+            "MD5": "bda7951e3b1bac3a452525cb429ff454",
             "path": "config/cosmopolitan-client.toml"
           }
         },
@@ -5112,6 +5229,7 @@
           "artifact": {
             "size": 2616,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/cosmopolitan-common.toml",
+            "MD5": "7b6dd28a60356bdf587162a3bc36d113",
             "path": "config/cosmopolitan-common.toml"
           }
         },
@@ -5122,6 +5240,7 @@
           "artifact": {
             "size": 833,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/crabbersdelight-common.toml",
+            "MD5": "f0b4ec00a3a5a4d92bcc328e0bc802d3",
             "path": "config/crabbersdelight-common.toml"
           }
         },
@@ -5132,6 +5251,7 @@
           "artifact": {
             "size": 4397,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/create-client.toml",
+            "MD5": "d276f313790d54d07df0fbb1916f6350",
             "path": "config/create-client.toml"
           }
         },
@@ -5142,6 +5262,7 @@
           "artifact": {
             "size": 157,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/create-common.toml",
+            "MD5": "7503e1571dd136604d3a78582d1a6cb0",
             "path": "config/create-common.toml"
           }
         },
@@ -5152,6 +5273,7 @@
           "artifact": {
             "size": 3449,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/createbigcannons-client.toml",
+            "MD5": "4bffcd7d221536ce06bc658d91b07440",
             "path": "config/createbigcannons-client.toml"
           }
         },
@@ -5162,6 +5284,7 @@
           "artifact": {
             "size": 20851,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/createcasing-common.toml",
+            "MD5": "84123a6b1753af6459d38ba2b924bb0e",
             "path": "config/createcasing-common.toml"
           }
         },
@@ -5172,6 +5295,7 @@
           "artifact": {
             "size": 1343,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/create_central_kitchen-common.toml",
+            "MD5": "987149050d7531b0adab8a1eb44fa492",
             "path": "config/create_central_kitchen-common.toml"
           }
         },
@@ -5182,6 +5306,7 @@
           "artifact": {
             "size": 348,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/crittersandcompanions-common.toml",
+            "MD5": "7f4c8b474b673303690ec786049b81c5",
             "path": "config/crittersandcompanions-common.toml"
           }
         },
@@ -5192,6 +5317,7 @@
           "artifact": {
             "size": 706,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/curios-client.toml",
+            "MD5": "67aaec1814836fed2d3e021c29ef6848",
             "path": "config/curios-client.toml"
           }
         },
@@ -5202,6 +5328,7 @@
           "artifact": {
             "size": 161,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/curios-common.toml",
+            "MD5": "4e1978c603823135e91f736983a96649",
             "path": "config/curios-common.toml"
           }
         },
@@ -5212,6 +5339,7 @@
           "artifact": {
             "size": 122,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/curious-lanterns-client.toml",
+            "MD5": "2d274046d2d63dbb41c52c866e5a85ca",
             "path": "config/curious-lanterns-client.toml"
           }
         },
@@ -5222,6 +5350,7 @@
           "artifact": {
             "size": 201,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/curious-lanterns-common.toml",
+            "MD5": "3fa12e4034114e89a0c402e2432d2794",
             "path": "config/curious-lanterns-common.toml"
           }
         },
@@ -5232,6 +5361,7 @@
           "artifact": {
             "size": 227,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/cutthrough-client.toml",
+            "MD5": "f6281b25b333d111e2535f3344a7553a",
             "path": "config/cutthrough-client.toml"
           }
         },
@@ -5242,6 +5372,7 @@
           "artifact": {
             "size": 11097,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/Deep%20Void%20Config.toml",
+            "MD5": "8719f5fdf702f069f18cb0d859a2cffa",
             "path": "config/Deep Void Config.toml"
           }
         },
@@ -5252,6 +5383,7 @@
           "artifact": {
             "size": 756,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/deeperdarker-common.toml",
+            "MD5": "24a8409d2e00e9dcc226b188eeaa5c59",
             "path": "config/deeperdarker-common.toml"
           }
         },
@@ -5262,6 +5394,7 @@
           "artifact": {
             "size": 55,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/deeper_oceans.json",
+            "MD5": "053ac3eeadfacc8314e41dfda26ba670",
             "path": "config/deeper_oceans.json"
           }
         },
@@ -5272,6 +5405,7 @@
           "artifact": {
             "size": 381,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/defaultoptions-common.toml",
+            "MD5": "083d969a19f2ff58483dcb436a18cbdd",
             "path": "config/defaultoptions-common.toml"
           }
         },
@@ -5282,6 +5416,7 @@
           "artifact": {
             "size": 5013,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/delightful-common.toml",
+            "MD5": "2f3de9b9a04d0fb4e7134147adeb4da0",
             "path": "config/delightful-common.toml"
           }
         },
@@ -5292,6 +5427,7 @@
           "artifact": {
             "size": 370,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/deltaboxlib.common.conf",
+            "MD5": "885b7754cc6eb3539cf4caca5ff597f0",
             "path": "config/deltaboxlib.common.conf"
           }
         },
@@ -5302,6 +5438,7 @@
           "artifact": {
             "size": 389,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/diet-client.toml",
+            "MD5": "5182d53e92eca737460d33d8c8177c49",
             "path": "config/diet-client.toml"
           }
         },
@@ -5312,6 +5449,7 @@
           "artifact": {
             "size": 1073,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/diet-server.toml",
+            "MD5": "17d434215a6fc7e269926667ab127664",
             "path": "config/diet-server.toml"
           }
         },
@@ -5322,6 +5460,7 @@
           "artifact": {
             "size": 876,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/displaydelight-common.toml",
+            "MD5": "9bfbf510d595b8ebf04a3fbbb61feb03",
             "path": "config/displaydelight-common.toml"
           }
         },
@@ -5332,6 +5471,7 @@
           "artifact": {
             "size": 32494,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/DistantHorizons.toml",
+            "MD5": "b98ef0f74218efb0a77d33548e8a572a",
             "path": "config/DistantHorizons.toml"
           }
         },
@@ -5342,6 +5482,7 @@
           "artifact": {
             "size": 366,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/distraction_free_recipes-client.toml",
+            "MD5": "fed932f3ede2aeade3073455d7db4a5a",
             "path": "config/distraction_free_recipes-client.toml"
           }
         },
@@ -5352,6 +5493,7 @@
           "artifact": {
             "size": 2465,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/drippyloadingscreen/options.txt",
+            "MD5": "8cb60f41a51a70a5c4912e3d24d904b6",
             "path": "config/drippyloadingscreen/options.txt"
           }
         },
@@ -5362,6 +5504,7 @@
           "artifact": {
             "size": 468,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/dtterralithconfig.toml",
+            "MD5": "1a97013ab52aa59f90944a5bdeec64f6",
             "path": "config/dtterralithconfig.toml"
           }
         },
@@ -5372,6 +5515,7 @@
           "artifact": {
             "size": 1611,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/dummmmmmy-client.toml",
+            "MD5": "86afd86670d67415fadcb6abacaadc26",
             "path": "config/dummmmmmy-client.toml"
           }
         },
@@ -5382,6 +5526,7 @@
           "artifact": {
             "size": 1277,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/dummmmmmy-common.toml",
+            "MD5": "fb9bbc2f199f4937fcf18b76d77008a8",
             "path": "config/dummmmmmy-common.toml"
           }
         },
@@ -5392,6 +5537,7 @@
           "artifact": {
             "size": 683,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/dungeonsdelight-client-config.toml",
+            "MD5": "dec39631e76fc4e79a892c98744f9730",
             "path": "config/dungeonsdelight-client-config.toml"
           }
         },
@@ -5402,6 +5548,7 @@
           "artifact": {
             "size": 796,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/dungeonsdelight-config.toml",
+            "MD5": "8efcd55e89e6a7f2e24b06b915b99c9e",
             "path": "config/dungeonsdelight-config.toml"
           }
         },
@@ -5412,6 +5559,7 @@
           "artifact": {
             "size": 3694,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/dynamiccrosshair.json5",
+            "MD5": "e02de4d4433e4d0964535c490a83a7c2",
             "path": "config/dynamiccrosshair.json5"
           }
         },
@@ -5422,6 +5570,7 @@
           "artifact": {
             "size": 1555,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/dynamictrees-common.toml",
+            "MD5": "65e5efe3a7b0ddcd92713d801596f35c",
             "path": "config/dynamictrees-common.toml"
           }
         },
@@ -5432,6 +5581,7 @@
           "artifact": {
             "size": 510,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/dynamictreesplus-common.toml",
+            "MD5": "183f2e2c56d1e3c978916555309fc7c2",
             "path": "config/dynamictreesplus-common.toml"
           }
         },
@@ -5442,6 +5592,7 @@
           "artifact": {
             "size": 3,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/dynamic_fps.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
             "path": "config/dynamic_fps.json"
           }
         },
@@ -5452,6 +5603,7 @@
           "artifact": {
             "size": 73,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/easyanvils-client.toml",
+            "MD5": "54c2205cf1bcfc9015908147f38e4d45",
             "path": "config/easyanvils-client.toml"
           }
         },
@@ -5462,6 +5614,7 @@
           "artifact": {
             "size": 3484,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/easyanvils-server.toml",
+            "MD5": "0265ff69a64dda61971234110a9c59b7",
             "path": "config/easyanvils-server.toml"
           }
         },
@@ -5472,6 +5625,7 @@
           "artifact": {
             "size": 615,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ecologics-common.toml",
+            "MD5": "63c928b4641804d967be1a4785cfaf80",
             "path": "config/ecologics-common.toml"
           }
         },
@@ -5482,6 +5636,7 @@
           "artifact": {
             "size": 201,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/effortless-client.toml",
+            "MD5": "e659a63602e0466773bd2e1397ad5dfe",
             "path": "config/effortless-client.toml"
           }
         },
@@ -5492,6 +5647,7 @@
           "artifact": {
             "size": 2048,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/effortless.toml",
+            "MD5": "d61ae76724a3b7b63bf4d0a3b5db507f",
             "path": "config/effortless.toml"
           }
         },
@@ -5502,6 +5658,7 @@
           "artifact": {
             "size": 427,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/embeddium-fingerprint.json",
+            "MD5": "0090c2a3685a3b6248461707395bf6f4",
             "path": "config/embeddium-fingerprint.json"
           }
         },
@@ -5512,6 +5669,7 @@
           "artifact": {
             "size": 269,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/embeddium-mixins.properties",
+            "MD5": "a9176524f816153a7967217b53bb75a1",
             "path": "config/embeddium-mixins.properties"
           }
         },
@@ -5522,6 +5680,7 @@
           "artifact": {
             "size": 846,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/embeddium-options.json",
+            "MD5": "e38f5bce926826f8460727f9c62eb9dd",
             "path": "config/embeddium-options.json"
           }
         },
@@ -5532,6 +5691,7 @@
           "artifact": {
             "size": 832,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/emojiful-client.toml",
+            "MD5": "c7a00f29ed2d6f2504f3d9b7e683e1ec",
             "path": "config/emojiful-client.toml"
           }
         },
@@ -5542,6 +5702,7 @@
           "artifact": {
             "size": 723,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/endrem.toml",
+            "MD5": "2db2eb19bd2cfa0a57112ec56acf27a3",
             "path": "config/endrem.toml"
           }
         },
@@ -5552,6 +5713,7 @@
           "artifact": {
             "size": 675,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ends_delight-common.toml",
+            "MD5": "475a69247b9819169346a9db860d73b9",
             "path": "config/ends_delight-common.toml"
           }
         },
@@ -5562,6 +5724,7 @@
           "artifact": {
             "size": 1897,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/entityculling.json",
+            "MD5": "422b1718498a957ece2de2453634102a",
             "path": "config/entityculling.json"
           }
         },
@@ -5572,6 +5735,7 @@
           "artifact": {
             "size": 1144,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/entity_model_features.json",
+            "MD5": "9faec30149b093ddd36a508847ed5de5",
             "path": "config/entity_model_features.json"
           }
         },
@@ -5582,6 +5746,7 @@
           "artifact": {
             "size": 126,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/entity_sound_features.json",
+            "MD5": "5756aab42afd46471accf76bc0c1f490",
             "path": "config/entity_sound_features.json"
           }
         },
@@ -5592,6 +5757,7 @@
           "artifact": {
             "size": 1410,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/entity_texture_features.json",
+            "MD5": "84c25c2da23cdb449e8b627fead22ed3",
             "path": "config/entity_texture_features.json"
           }
         },
@@ -5602,6 +5768,7 @@
           "artifact": {
             "size": 1592,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/esketit_coldcellar-common.toml",
+            "MD5": "0d4d96ca52a41ba6b30fbc9c4f422ec3",
             "path": "config/esketit_coldcellar-common.toml"
           }
         },
@@ -5612,6 +5779,7 @@
           "artifact": {
             "size": 791,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/esketit_tannery-common.toml",
+            "MD5": "44007fb0bbf5365e3a1071cdd90980fa",
             "path": "config/esketit_tannery-common.toml"
           }
         },
@@ -5622,6 +5790,7 @@
           "artifact": {
             "size": 28,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/etf_warnings.json",
+            "MD5": "b49b5603d2df29fa132f89ec91974572",
             "path": "config/etf_warnings.json"
           }
         },
@@ -5632,6 +5801,7 @@
           "artifact": {
             "size": 163,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/euphoria_patcher/data.json",
+            "MD5": "dd3b5ee8aa05f75a2aa7d29886060bf5",
             "path": "config/euphoria_patcher/data.json"
           }
         },
@@ -5642,6 +5812,7 @@
           "artifact": {
             "size": 2641,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/euphoria_patcher/settings.toml",
+            "MD5": "21dd85e4faefeffbe9a17f89f4c18e95",
             "path": "config/euphoria_patcher/settings.toml"
           }
         },
@@ -5652,6 +5823,7 @@
           "artifact": {
             "size": 1639,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/explosiveenhancement.toml",
+            "MD5": "a1229c831b387bbc86617dfad00cd11c",
             "path": "config/explosiveenhancement.toml"
           }
         },
@@ -5662,6 +5834,7 @@
           "artifact": {
             "size": 7541,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/exposure-client.toml",
+            "MD5": "8debf999fd21e5f5bd82fdf1eb277487",
             "path": "config/exposure-client.toml"
           }
         },
@@ -5672,6 +5845,7 @@
           "artifact": {
             "size": 564,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/exposure-common.toml",
+            "MD5": "8b69fa069cc0eee9190d5e11bb6d2c96",
             "path": "config/exposure-common.toml"
           }
         },
@@ -5682,6 +5856,7 @@
           "artifact": {
             "size": 290,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fabric/indigo-renderer.properties",
+            "MD5": "de1102a9f22b400b6bc35963331f98cc",
             "path": "config/fabric/indigo-renderer.properties"
           }
         },
@@ -5692,6 +5867,7 @@
           "artifact": {
             "size": 29484,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/backggr.png",
+            "MD5": "204702b6a508605f139188eb217bbde9",
             "path": "config/fancymenu/fancymenu/assets/backggr.png"
           }
         },
@@ -5702,6 +5878,7 @@
           "artifact": {
             "size": 22779,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/backggrrr.png",
+            "MD5": "54022e2ed9134a79e331d088c10709f8",
             "path": "config/fancymenu/fancymenu/assets/backggrrr.png"
           }
         },
@@ -5712,6 +5889,7 @@
           "artifact": {
             "size": 11154,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/eskotot.png",
+            "MD5": "9c5a2755d4ca100c32ebd73447d35dda",
             "path": "config/fancymenu/fancymenu/assets/eskotot.png"
           }
         },
@@ -5722,6 +5900,7 @@
           "artifact": {
             "size": 4771,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/image67.png",
+            "MD5": "20f6bae541fd3820cc1eea339f73d2a3",
             "path": "config/fancymenu/fancymenu/assets/image67.png"
           }
         },
@@ -5732,6 +5911,7 @@
           "artifact": {
             "size": 3599,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/image69.png",
+            "MD5": "a07429c689669150470b87268078de44",
             "path": "config/fancymenu/fancymenu/assets/image69.png"
           }
         },
@@ -5742,6 +5922,7 @@
           "artifact": {
             "size": 16786,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/penis.png",
+            "MD5": "1abceee747baa33c8679f719fb44ea6e",
             "path": "config/fancymenu/fancymenu/assets/penis.png"
           }
         },
@@ -5752,6 +5933,7 @@
           "artifact": {
             "size": 136936,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/sosiskicraft.png",
+            "MD5": "27f8fac3ba08b385ca1ef67513270db2",
             "path": "config/fancymenu/fancymenu/assets/sosiskicraft.png"
           }
         },
@@ -5762,6 +5944,7 @@
           "artifact": {
             "size": 2069,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/splash_lore.txt",
+            "MD5": "c727afb9dbe9a6bf6a95d7fb976aaed9",
             "path": "config/fancymenu/fancymenu/assets/splash_lore.txt"
           }
         },
@@ -5772,6 +5955,7 @@
           "artifact": {
             "size": 2794,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/studotits.png",
+            "MD5": "7abe77eb0a929951c9b3333d5d9216f6",
             "path": "config/fancymenu/fancymenu/assets/studotits.png"
           }
         },
@@ -5782,6 +5966,7 @@
           "artifact": {
             "size": 131855,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/assets/wildwest.png",
+            "MD5": "66b490cb67ad681ba1fd809ee319c1c9",
             "path": "config/fancymenu/fancymenu/assets/wildwest.png"
           }
         },
@@ -5792,6 +5977,7 @@
           "artifact": {
             "size": 149,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/customizablemenus.txt",
+            "MD5": "39258e860af82448f75579dfa8077eb6",
             "path": "config/fancymenu/fancymenu/customizablemenus.txt"
           }
         },
@@ -5802,6 +5988,7 @@
           "artifact": {
             "size": 8513,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/customization/steamhappy_loading_overlay_layout.txt",
+            "MD5": "8fb55ad730cc871356f2dfa668dc3a47",
             "path": "config/fancymenu/fancymenu/customization/steamhappy_loading_overlay_layout.txt"
           }
         },
@@ -5812,6 +5999,7 @@
           "artifact": {
             "size": 41828,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/customization/title_screen_layout.txt",
+            "MD5": "a6c058ab4e894f92671cf18874315f09",
             "path": "config/fancymenu/fancymenu/customization/title_screen_layout.txt"
           }
         },
@@ -5822,6 +6010,7 @@
           "artifact": {
             "size": 39512,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/customization/title_screen_layout.txt.bak",
+            "MD5": "ee9c9078d5ca1ef91876f5dedab6aecb",
             "path": "config/fancymenu/fancymenu/customization/title_screen_layout.txt.bak"
           }
         },
@@ -5832,6 +6021,7 @@
           "artifact": {
             "size": 51,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/custom_gui_screens.txt",
+            "MD5": "106e52948415f0879c53304f50783b28",
             "path": "config/fancymenu/fancymenu/custom_gui_screens.txt"
           }
         },
@@ -5842,6 +6032,7 @@
           "artifact": {
             "size": 197,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "MD5": "70546b71ee503f0bf790bfbd1a1b8c2d",
             "path": "config/fancymenu/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
           }
         },
@@ -5852,6 +6043,7 @@
           "artifact": {
             "size": 42,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/legacy_checklist.txt",
+            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
             "path": "config/fancymenu/fancymenu/legacy_checklist.txt"
           }
         },
@@ -5862,6 +6054,7 @@
           "artifact": {
             "size": 36,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/normalized_scroll_screens.json",
+            "MD5": "2e7e80065085785908aac14a50a8f859",
             "path": "config/fancymenu/fancymenu/normalized_scroll_screens.json"
           }
         },
@@ -5872,6 +6065,7 @@
           "artifact": {
             "size": 2128,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/options.txt",
+            "MD5": "431793786e27feb93b9459d865152051",
             "path": "config/fancymenu/fancymenu/options.txt"
           }
         },
@@ -5882,6 +6076,7 @@
           "artifact": {
             "size": 712820,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_0.png",
+            "MD5": "9847e7539cf2f3180cf85a57fc4eebf3",
             "path": "config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_0.png"
           }
         },
@@ -5892,6 +6087,7 @@
           "artifact": {
             "size": 671569,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_1.png",
+            "MD5": "8495a11b7bef6c8be88063403f88262e",
             "path": "config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_1.png"
           }
         },
@@ -5902,6 +6098,7 @@
           "artifact": {
             "size": 702221,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_2.png",
+            "MD5": "4fc61fa9f329d67acb7071de4bfd8310",
             "path": "config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_2.png"
           }
         },
@@ -5912,6 +6109,7 @@
           "artifact": {
             "size": 689787,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_3.png",
+            "MD5": "cbbae94db94ba840e9cd7ea17fe24d6d",
             "path": "config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_3.png"
           }
         },
@@ -5922,6 +6120,7 @@
           "artifact": {
             "size": 734339,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_4.png",
+            "MD5": "4b72916cc4c0c5da90f8c6f46c2752ff",
             "path": "config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_4.png"
           }
         },
@@ -5932,6 +6131,7 @@
           "artifact": {
             "size": 684597,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_5.png",
+            "MD5": "4ac456c38792e58731676395dd303aa0",
             "path": "config/fancymenu/fancymenu/panoramas/mypanorama/panorama/panorama_5.png"
           }
         },
@@ -5942,6 +6142,7 @@
           "artifact": {
             "size": 138,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/panoramas/mypanorama/properties.txt",
+            "MD5": "f7fedf623863f2827031433b48ca4e51",
             "path": "config/fancymenu/fancymenu/panoramas/mypanorama/properties.txt"
           }
         },
@@ -5952,6 +6153,7 @@
           "artifact": {
             "size": 6218,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/ui_themes/dark.json",
+            "MD5": "df90c4d23315ff6e63e15541b3031197",
             "path": "config/fancymenu/fancymenu/ui_themes/dark.json"
           }
         },
@@ -5962,6 +6164,7 @@
           "artifact": {
             "size": 6220,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/ui_themes/light.json",
+            "MD5": "21a51e7a223939c9fae277fcd02cf4fc",
             "path": "config/fancymenu/fancymenu/ui_themes/light.json"
           }
         },
@@ -5972,6 +6175,7 @@
           "artifact": {
             "size": 23,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/fancymenu/user_variables.db",
+            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
             "path": "config/fancymenu/fancymenu/user_variables.db"
           }
         },
@@ -5982,6 +6186,7 @@
           "artifact": {
             "size": 369,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/farmersdelight-client.toml",
+            "MD5": "b00b8b023174e9f208b0a7649c87ad7b",
             "path": "config/farmersdelight-client.toml"
           }
         },
@@ -5992,6 +6197,7 @@
           "artifact": {
             "size": 4540,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/farmersdelight-common.toml",
+            "MD5": "82ba75bba9643dc70a6f985a6a4396da",
             "path": "config/farmersdelight-common.toml"
           }
         },
@@ -6002,6 +6208,7 @@
           "artifact": {
             "size": 166,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/farmersrespite-common.toml",
+            "MD5": "0df79c2f6f198600a3eb72f42412be6a",
             "path": "config/farmersrespite-common.toml"
           }
         },
@@ -6012,6 +6219,7 @@
           "artifact": {
             "size": 1516,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ferritecore-mixin.toml",
+            "MD5": "ab9006eb6d50292a11f757c0ae658ac0",
             "path": "config/ferritecore-mixin.toml"
           }
         },
@@ -6022,6 +6230,7 @@
           "artifact": {
             "size": 939,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/flans-general.toml",
+            "MD5": "b4c77f0acf3e9c132864bb4d903fd863",
             "path": "config/flans-general.toml"
           }
         },
@@ -6032,6 +6241,7 @@
           "artifact": {
             "size": 100,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/flerovium.json",
+            "MD5": "75732b6f5c94550a227cba7cb456c255",
             "path": "config/flerovium.json"
           }
         },
@@ -6042,6 +6252,7 @@
           "artifact": {
             "size": 623,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/flywheel-client.toml",
+            "MD5": "b02a7238689e44033dc34adc1debc008",
             "path": "config/flywheel-client.toml"
           }
         },
@@ -6052,6 +6263,7 @@
           "artifact": {
             "size": 1147,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fml.toml",
+            "MD5": "69de99a0b6537f52ae3c9c239d7f0e42",
             "path": "config/fml.toml"
           }
         },
@@ -6062,6 +6274,7 @@
           "artifact": {
             "size": 486,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fnpconfig.toml",
+            "MD5": "0e2b15c8cc7ca832bca45ccb13ea30ab",
             "path": "config/fnpconfig.toml"
           }
         },
@@ -6072,6 +6285,7 @@
           "artifact": {
             "size": 1628,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forge-client.toml",
+            "MD5": "94d0dcbf248b1ee18bf1266c672327a1",
             "path": "config/forge-client.toml"
           }
         },
@@ -6082,6 +6296,7 @@
           "artifact": {
             "size": 781,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/climaterivers$cold_river.cfg",
+            "MD5": "c98693f41882fd2448b1285afd36e2be",
             "path": "config/forgeendertech/Biomes/climaterivers$cold_river.cfg"
           }
         },
@@ -6092,6 +6307,7 @@
           "artifact": {
             "size": 791,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/deeperdarker$overcast_columns.cfg",
+            "MD5": "a8b3236c587f273ce632d036f1214b98",
             "path": "config/forgeendertech/Biomes/deeperdarker$overcast_columns.cfg"
           }
         },
@@ -6102,6 +6318,7 @@
           "artifact": {
             "size": 769,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$badlands.cfg",
+            "MD5": "e2c65d67656a53a9586048a991be1ec5",
             "path": "config/forgeendertech/Biomes/minecraft$badlands.cfg"
           }
         },
@@ -6112,6 +6329,7 @@
           "artifact": {
             "size": 779,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$bamboo_jungle.cfg",
+            "MD5": "3d1a3e6b3bb1c523d0658bf2f0feccf8",
             "path": "config/forgeendertech/Biomes/minecraft$bamboo_jungle.cfg"
           }
         },
@@ -6122,6 +6340,7 @@
           "artifact": {
             "size": 777,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$birch_forest.cfg",
+            "MD5": "a9b60d8f7a4dc94a727b65a664a9a727",
             "path": "config/forgeendertech/Biomes/minecraft$birch_forest.cfg"
           }
         },
@@ -6132,6 +6351,7 @@
           "artifact": {
             "size": 777,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$cherry_grove.cfg",
+            "MD5": "95fd598a7cc3d343cf483fdac3aa8574",
             "path": "config/forgeendertech/Biomes/minecraft$cherry_grove.cfg"
           }
         },
@@ -6142,6 +6362,7 @@
           "artifact": {
             "size": 783,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$deep_cold_ocean.cfg",
+            "MD5": "46aacfdcfef5c384de1a7eb8561f218b",
             "path": "config/forgeendertech/Biomes/minecraft$deep_cold_ocean.cfg"
           }
         },
@@ -6152,6 +6373,7 @@
           "artifact": {
             "size": 791,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$deep_lukewarm_ocean.cfg",
+            "MD5": "4018929a48ef37312ffe120dfce96435",
             "path": "config/forgeendertech/Biomes/minecraft$deep_lukewarm_ocean.cfg"
           }
         },
@@ -6162,6 +6384,7 @@
           "artifact": {
             "size": 773,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$deep_ocean.cfg",
+            "MD5": "5774cad5d935d3d215d1b81fb7f3ee08",
             "path": "config/forgeendertech/Biomes/minecraft$deep_ocean.cfg"
           }
         },
@@ -6172,6 +6395,7 @@
           "artifact": {
             "size": 783,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$dripstone_caves.cfg",
+            "MD5": "65fd9f193eb291abed7e2eea4cf947ea",
             "path": "config/forgeendertech/Biomes/minecraft$dripstone_caves.cfg"
           }
         },
@@ -6182,6 +6406,7 @@
           "artifact": {
             "size": 777,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$end_midlands.cfg",
+            "MD5": "04331e0cf8e5719bee41610d25fa219e",
             "path": "config/forgeendertech/Biomes/minecraft$end_midlands.cfg"
           }
         },
@@ -6192,6 +6417,7 @@
           "artifact": {
             "size": 779,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$flower_forest.cfg",
+            "MD5": "fbf25cfb92fafc2237c6dc6f0ad9e2f5",
             "path": "config/forgeendertech/Biomes/minecraft$flower_forest.cfg"
           }
         },
@@ -6202,6 +6428,7 @@
           "artifact": {
             "size": 765,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$forest.cfg",
+            "MD5": "688b2843f84c1cf66762f0b14870b9b8",
             "path": "config/forgeendertech/Biomes/minecraft$forest.cfg"
           }
         },
@@ -6212,6 +6439,7 @@
           "artifact": {
             "size": 777,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$frozen_ocean.cfg",
+            "MD5": "835b8eda5d5c21f515737976170523e4",
             "path": "config/forgeendertech/Biomes/minecraft$frozen_ocean.cfg"
           }
         },
@@ -6222,6 +6450,7 @@
           "artifact": {
             "size": 777,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$frozen_peaks.cfg",
+            "MD5": "b53c93dc4bacf28a18465671db321635",
             "path": "config/forgeendertech/Biomes/minecraft$frozen_peaks.cfg"
           }
         },
@@ -6232,6 +6461,7 @@
           "artifact": {
             "size": 763,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$grove.cfg",
+            "MD5": "6721d0d45496db2ea086b14e592e8ca1",
             "path": "config/forgeendertech/Biomes/minecraft$grove.cfg"
           }
         },
@@ -6242,6 +6472,7 @@
           "artifact": {
             "size": 773,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$ice_spikes.cfg",
+            "MD5": "519ba9bd603eb95cf33b58e90b45e1f1",
             "path": "config/forgeendertech/Biomes/minecraft$ice_spikes.cfg"
           }
         },
@@ -6252,6 +6483,7 @@
           "artifact": {
             "size": 773,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$lush_caves.cfg",
+            "MD5": "0ac576b8485979ff21212f1d39047c7f",
             "path": "config/forgeendertech/Biomes/minecraft$lush_caves.cfg"
           }
         },
@@ -6262,6 +6494,7 @@
           "artifact": {
             "size": 799,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$old_growth_birch_forest.cfg",
+            "MD5": "29422ef670c4a5c8d2d3017458b43302",
             "path": "config/forgeendertech/Biomes/minecraft$old_growth_birch_forest.cfg"
           }
         },
@@ -6272,6 +6505,7 @@
           "artifact": {
             "size": 799,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$old_growth_spruce_taiga.cfg",
+            "MD5": "02aeaaa15d7870d966a688ff8c54e433",
             "path": "config/forgeendertech/Biomes/minecraft$old_growth_spruce_taiga.cfg"
           }
         },
@@ -6282,6 +6516,7 @@
           "artifact": {
             "size": 775,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$pale_garden.cfg",
+            "MD5": "f7174b9ea7e3e22e837ef9454089bd2c",
             "path": "config/forgeendertech/Biomes/minecraft$pale_garden.cfg"
           }
         },
@@ -6292,6 +6527,7 @@
           "artifact": {
             "size": 765,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$plains.cfg",
+            "MD5": "b712122ea787e8d570a81770c0b8ed12",
             "path": "config/forgeendertech/Biomes/minecraft$plains.cfg"
           }
         },
@@ -6302,6 +6538,7 @@
           "artifact": {
             "size": 767,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$savanna.cfg",
+            "MD5": "07f839485346437ee5a67565729df487",
             "path": "config/forgeendertech/Biomes/minecraft$savanna.cfg"
           }
         },
@@ -6312,6 +6549,7 @@
           "artifact": {
             "size": 783,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$savanna_plateau.cfg",
+            "MD5": "00fe17e107fc4890ceba252afba385f8",
             "path": "config/forgeendertech/Biomes/minecraft$savanna_plateau.cfg"
           }
         },
@@ -6322,6 +6560,7 @@
           "artifact": {
             "size": 775,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$snowy_beach.cfg",
+            "MD5": "08a9c8949ce349d12441f200dbcc40c8",
             "path": "config/forgeendertech/Biomes/minecraft$snowy_beach.cfg"
           }
         },
@@ -6332,6 +6571,7 @@
           "artifact": {
             "size": 777,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$snowy_slopes.cfg",
+            "MD5": "fb826e7d60d9ef6238b96d04e6b5f3f7",
             "path": "config/forgeendertech/Biomes/minecraft$snowy_slopes.cfg"
           }
         },
@@ -6342,6 +6582,7 @@
           "artifact": {
             "size": 775,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$snowy_taiga.cfg",
+            "MD5": "51728ff6062d66aee223cd69e29da5aa",
             "path": "config/forgeendertech/Biomes/minecraft$snowy_taiga.cfg"
           }
         },
@@ -6352,6 +6593,7 @@
           "artifact": {
             "size": 779,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$sparse_jungle.cfg",
+            "MD5": "83d804b0b804bfa85bba330b59e76cee",
             "path": "config/forgeendertech/Biomes/minecraft$sparse_jungle.cfg"
           }
         },
@@ -6362,6 +6604,7 @@
           "artifact": {
             "size": 775,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$stony_shore.cfg",
+            "MD5": "10e5ba496a1b2eca9ee37fc6fa652651",
             "path": "config/forgeendertech/Biomes/minecraft$stony_shore.cfg"
           }
         },
@@ -6372,6 +6615,7 @@
           "artifact": {
             "size": 763,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$swamp.cfg",
+            "MD5": "5e3948a58b87f75e801b83929e94af33",
             "path": "config/forgeendertech/Biomes/minecraft$swamp.cfg"
           }
         },
@@ -6382,6 +6626,7 @@
           "artifact": {
             "size": 763,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$taiga.cfg",
+            "MD5": "b71b1c492932d3aad544c798f893d871",
             "path": "config/forgeendertech/Biomes/minecraft$taiga.cfg"
           }
         },
@@ -6392,6 +6637,7 @@
           "artifact": {
             "size": 773,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$warm_ocean.cfg",
+            "MD5": "aa68dc6d969ded84a52a00db7a750a3b",
             "path": "config/forgeendertech/Biomes/minecraft$warm_ocean.cfg"
           }
         },
@@ -6402,6 +6648,7 @@
           "artifact": {
             "size": 779,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$warped_forest.cfg",
+            "MD5": "7fac3b504027d015229ee759e13ebb70",
             "path": "config/forgeendertech/Biomes/minecraft$warped_forest.cfg"
           }
         },
@@ -6412,6 +6659,7 @@
           "artifact": {
             "size": 785,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$windswept_forest.cfg",
+            "MD5": "bfb6bc9a15827a444c88bed633563eb4",
             "path": "config/forgeendertech/Biomes/minecraft$windswept_forest.cfg"
           }
         },
@@ -6422,6 +6670,7 @@
           "artifact": {
             "size": 787,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$windswept_savanna.cfg",
+            "MD5": "58ccff3b342372c73c6d8c15c8539c1c",
             "path": "config/forgeendertech/Biomes/minecraft$windswept_savanna.cfg"
           }
         },
@@ -6432,6 +6681,7 @@
           "artifact": {
             "size": 783,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/minecraft$wooded_badlands.cfg",
+            "MD5": "ca9cfc7c7779209831ce5b227d6dd3cd",
             "path": "config/forgeendertech/Biomes/minecraft$wooded_badlands.cfg"
           }
         },
@@ -6442,6 +6692,7 @@
           "artifact": {
             "size": 777,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/riverredux$sandy_river.cfg",
+            "MD5": "4fadbcf46abaa72ea0a859aa93d67d6e",
             "path": "config/forgeendertech/Biomes/riverredux$sandy_river.cfg"
           }
         },
@@ -6452,6 +6703,7 @@
           "artifact": {
             "size": 783,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/riverredux$tropical_river.cfg",
+            "MD5": "14f677c0c6b31684f8efebd59d91226e",
             "path": "config/forgeendertech/Biomes/riverredux$tropical_river.cfg"
           }
         },
@@ -6462,6 +6714,7 @@
           "artifact": {
             "size": 767,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/spawn$ant_gardens.cfg",
+            "MD5": "cc8867349fece59e1bb91e392c25a5a5",
             "path": "config/forgeendertech/Biomes/spawn$ant_gardens.cfg"
           }
         },
@@ -6472,6 +6725,7 @@
           "artifact": {
             "size": 775,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/spawn$deep_warm_ocean.cfg",
+            "MD5": "dd68bc4ec1fbb3dbda793376b320a65d",
             "path": "config/forgeendertech/Biomes/spawn$deep_warm_ocean.cfg"
           }
         },
@@ -6482,6 +6736,7 @@
           "artifact": {
             "size": 775,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/spawn$seagrass_meadow.cfg",
+            "MD5": "bf5046470369a0e6c9d7682009d3726a",
             "path": "config/forgeendertech/Biomes/spawn$seagrass_meadow.cfg"
           }
         },
@@ -6492,6 +6747,7 @@
           "artifact": {
             "size": 799,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/terrablender$deferred_placeholder.cfg",
+            "MD5": "3a4684c975110531815bd99479261a70",
             "path": "config/forgeendertech/Biomes/terrablender$deferred_placeholder.cfg"
           }
         },
@@ -6502,6 +6758,7 @@
           "artifact": {
             "size": 791,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/terralith$cave$andesite_caves.cfg",
+            "MD5": "746ed80ca218ef673eb0fb28bb9776f7",
             "path": "config/forgeendertech/Biomes/terralith$cave$andesite_caves.cfg"
           }
         },
@@ -6512,6 +6769,7 @@
           "artifact": {
             "size": 781,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/terralith$cold_shrubland.cfg",
+            "MD5": "d2db5247e69d0e6482ba8ec94c69df27",
             "path": "config/forgeendertech/Biomes/terralith$cold_shrubland.cfg"
           }
         },
@@ -6522,6 +6780,7 @@
           "artifact": {
             "size": 771,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/terralith$ice_marsh.cfg",
+            "MD5": "f012ba5d93f76f9ac25e7cd688a65418",
             "path": "config/forgeendertech/Biomes/terralith$ice_marsh.cfg"
           }
         },
@@ -6532,6 +6791,7 @@
           "artifact": {
             "size": 783,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/terralith$lavender_forest.cfg",
+            "MD5": "ff6ddcf17b809a43d1c98650f0bf80a4",
             "path": "config/forgeendertech/Biomes/terralith$lavender_forest.cfg"
           }
         },
@@ -6542,6 +6802,7 @@
           "artifact": {
             "size": 783,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/terralith$lavender_valley.cfg",
+            "MD5": "1e45754db22322ab248c807822a16fc0",
             "path": "config/forgeendertech/Biomes/terralith$lavender_valley.cfg"
           }
         },
@@ -6552,6 +6813,7 @@
           "artifact": {
             "size": 771,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/terralith$red_oasis.cfg",
+            "MD5": "662ea66da68e39f565ebe28dec956513",
             "path": "config/forgeendertech/Biomes/terralith$red_oasis.cfg"
           }
         },
@@ -6562,6 +6824,7 @@
           "artifact": {
             "size": 787,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/terralith$scarlet_mountains.cfg",
+            "MD5": "39803946fd80fcae7a130be58297c25e",
             "path": "config/forgeendertech/Biomes/terralith$scarlet_mountains.cfg"
           }
         },
@@ -6572,6 +6835,7 @@
           "artifact": {
             "size": 781,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/terralith$snowy_badlands.cfg",
+            "MD5": "95ff07afe6c2b547b263b4ddd2f5bcf5",
             "path": "config/forgeendertech/Biomes/terralith$snowy_badlands.cfg"
           }
         },
@@ -6582,6 +6846,7 @@
           "artifact": {
             "size": 789,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/terralith$snowy_maple_forest.cfg",
+            "MD5": "ea9b5894ca1fa2e293392e2a65ae9ea4",
             "path": "config/forgeendertech/Biomes/terralith$snowy_maple_forest.cfg"
           }
         },
@@ -6592,6 +6857,7 @@
           "artifact": {
             "size": 783,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/terralith$tropical_jungle.cfg",
+            "MD5": "b6674b10de6be18ac14d71d6f1131736",
             "path": "config/forgeendertech/Biomes/terralith$tropical_jungle.cfg"
           }
         },
@@ -6602,6 +6868,7 @@
           "artifact": {
             "size": 781,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/terralith$volcanic_peaks.cfg",
+            "MD5": "9eedd4c2e4ef3bae8ab6261b56fc5911",
             "path": "config/forgeendertech/Biomes/terralith$volcanic_peaks.cfg"
           }
         },
@@ -6612,6 +6879,7 @@
           "artifact": {
             "size": 777,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Biomes/terralith$white_cliffs.cfg",
+            "MD5": "db16b2c0bf5af16a5f1c50621f7b7383",
             "path": "config/forgeendertech/Biomes/terralith$white_cliffs.cfg"
           }
         },
@@ -6622,6 +6890,7 @@
           "artifact": {
             "size": 5313,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/cached.dat",
+            "MD5": "0357c56e26e54e7cec6203bae4807282",
             "path": "config/forgeendertech/cached.dat"
           }
         },
@@ -6632,6 +6901,7 @@
           "artifact": {
             "size": 647,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech/Wind.cfg",
+            "MD5": "c31112a7c1171128345e16c16e2c641c",
             "path": "config/forgeendertech/Wind.cfg"
           }
         },
@@ -6642,6 +6912,7 @@
           "artifact": {
             "size": 932,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/forgeendertech-common.toml",
+            "MD5": "7b85c4807a876ceb88d8f9a5bd684a22",
             "path": "config/forgeendertech-common.toml"
           }
         },
@@ -6652,6 +6923,7 @@
           "artifact": {
             "size": 1936,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/friendsandfoes.json",
+            "MD5": "ed510a1253fd1721385c7814d36d3f4a",
             "path": "config/friendsandfoes.json"
           }
         },
@@ -6662,6 +6934,7 @@
           "artifact": {
             "size": 933,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fruitsdelight-common.toml",
+            "MD5": "82f0192cfe1f413b10df65591457b8f2",
             "path": "config/fruitsdelight-common.toml"
           }
         },
@@ -6672,6 +6945,7 @@
           "artifact": {
             "size": 6571,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/76CBFFB53E088046.snbt",
+            "MD5": "f10e14141c680d52eb853565e96229f7",
             "path": "config/ftbquests/quests/chapters/76CBFFB53E088046.snbt"
           }
         },
@@ -6682,6 +6956,7 @@
           "artifact": {
             "size": 4326,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/ars_elixirum_basics.snbt",
+            "MD5": "b04ef63465bdbe28d5b7c2608c9bb596",
             "path": "config/ftbquests/quests/chapters/ars_elixirum_basics.snbt"
           }
         },
@@ -6692,6 +6967,7 @@
           "artifact": {
             "size": 4659,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/brewin_and_chewin_basics.snbt",
+            "MD5": "e480e82a5bd251d24a96c1617e18241f",
             "path": "config/ftbquests/quests/chapters/brewin_and_chewin_basics.snbt"
           }
         },
@@ -6702,6 +6978,7 @@
           "artifact": {
             "size": 17310,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/cold_sweat_intro.snbt",
+            "MD5": "fd4018345efad6aad18575ab2ca4a5f1",
             "path": "config/ftbquests/quests/chapters/cold_sweat_intro.snbt"
           }
         },
@@ -6712,6 +6989,7 @@
           "artifact": {
             "size": 56977,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/delight_chefs_path.snbt",
+            "MD5": "4b1e4053b08a9c49d2f82c2b0ab31767",
             "path": "config/ftbquests/quests/chapters/delight_chefs_path.snbt"
           }
         },
@@ -6722,6 +7000,7 @@
           "artifact": {
             "size": 4538,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/farmers_respite_basics.snbt",
+            "MD5": "97e236a3b4bd0f2d3f20c4dc11118edd",
             "path": "config/ftbquests/quests/chapters/farmers_respite_basics.snbt"
           }
         },
@@ -6732,6 +7011,7 @@
           "artifact": {
             "size": 6179,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/meds_and_herbs_basics.snbt",
+            "MD5": "c345d30363fd9c602d30efbc5f0eaf91",
             "path": "config/ftbquests/quests/chapters/meds_and_herbs_basics.snbt"
           }
         },
@@ -6742,6 +7022,7 @@
           "artifact": {
             "size": 28,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapter_groups.snbt",
+            "MD5": "45bf725b255be56682eb92c63d66ebeb",
             "path": "config/ftbquests/quests/chapter_groups.snbt"
           }
         },
@@ -6752,6 +7033,7 @@
           "artifact": {
             "size": 530,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/data.snbt",
+            "MD5": "5c8b469da8ca0947718dfdd0ee21a8c3",
             "path": "config/ftbquests/quests/data.snbt"
           }
         },
@@ -6762,6 +7044,7 @@
           "artifact": {
             "size": 6403,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fzzy_config/keybinds.toml",
+            "MD5": "db29914636f6e1455464345f8e91d353",
             "path": "config/fzzy_config/keybinds.toml"
           }
         },
@@ -6772,6 +7055,7 @@
           "artifact": {
             "size": 510,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fzzy_config/search.toml",
+            "MD5": "df7a521629251dd1e77205589fed6fbc",
             "path": "config/fzzy_config/search.toml"
           }
         },
@@ -6782,6 +7066,7 @@
           "artifact": {
             "size": 75,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/gallery-client.toml",
+            "MD5": "cc3a55453c2e67eda0e69af7ff902d96",
             "path": "config/gallery-client.toml"
           }
         },
@@ -6792,6 +7077,7 @@
           "artifact": {
             "size": 766,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/gallery-common.toml",
+            "MD5": "f1d99eeb3c337962fd01ae86be3264d1",
             "path": "config/gallery-common.toml"
           }
         },
@@ -6802,6 +7088,7 @@
           "artifact": {
             "size": 353,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/galosphere-common.toml",
+            "MD5": "4cdeb129323e025c3fc564a18c077b86",
             "path": "config/galosphere-common.toml"
           }
         },
@@ -6812,6 +7099,7 @@
           "artifact": {
             "size": 2525,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/harderbranchmining-common.toml",
+            "MD5": "2365f68c17750d9bb20693131daca1d8",
             "path": "config/harderbranchmining-common.toml"
           }
         },
@@ -6822,6 +7110,7 @@
           "artifact": {
             "size": 739,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/Harmful-smoke-config.toml",
+            "MD5": "d7ac145b78058e2482f40e1c06fa8633",
             "path": "config/Harmful-smoke-config.toml"
           }
         },
@@ -6832,6 +7121,7 @@
           "artifact": {
             "size": 2850,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/hauntedharvest-common.toml",
+            "MD5": "35c5373f40babdb0385eac6dff9e428d",
             "path": "config/hauntedharvest-common.toml"
           }
         },
@@ -6842,6 +7132,7 @@
           "artifact": {
             "size": 269,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/hearthandharvest-common.toml",
+            "MD5": "1b2c43696e00c5b49cfb894f8ef091e4",
             "path": "config/hearthandharvest-common.toml"
           }
         },
@@ -6852,6 +7143,7 @@
           "artifact": {
             "size": 2104,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/horseman-client.toml",
+            "MD5": "6fb12659af25d84cdc9d4699b25ce0a4",
             "path": "config/horseman-client.toml"
           }
         },
@@ -6862,6 +7154,7 @@
           "artifact": {
             "size": 3306,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/horseman-common.toml",
+            "MD5": "e64f17f983619645af0165aa80f1d696",
             "path": "config/horseman-common.toml"
           }
         },
@@ -6872,6 +7165,7 @@
           "artifact": {
             "size": 114,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/hunters_return-client.toml",
+            "MD5": "a047a6b5621f1f5804621d85c4d649aa",
             "path": "config/hunters_return-client.toml"
           }
         },
@@ -6882,6 +7176,7 @@
           "artifact": {
             "size": 911,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/hunters_return-common.toml",
+            "MD5": "7642cfb5c9468de2aa4477d56e661362",
             "path": "config/hunters_return-common.toml"
           }
         },
@@ -6892,6 +7187,7 @@
           "artifact": {
             "size": 2380,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/icterine.yml",
+            "MD5": "c883e57ab8c574d9008de9a0c0668b79",
             "path": "config/icterine.yml"
           }
         },
@@ -6902,6 +7198,7 @@
           "artifact": {
             "size": 1411,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/illagerinvasion-server.toml",
+            "MD5": "8babec801b0a8de49a9da1dd47ff0a57",
             "path": "config/illagerinvasion-server.toml"
           }
         },
@@ -6912,6 +7209,7 @@
           "artifact": {
             "size": 1060,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/immediatelyfast.json",
+            "MD5": "7b2d05a9b2f2745055edf3c8d1d0b155",
             "path": "config/immediatelyfast.json"
           }
         },
@@ -6922,6 +7220,7 @@
           "artifact": {
             "size": 487,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/immersivelanterns-client.toml",
+            "MD5": "33e429cb4f0284c0173fe3034bf49a68",
             "path": "config/immersivelanterns-client.toml"
           }
         },
@@ -6932,6 +7231,7 @@
           "artifact": {
             "size": 994,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/immersive_melodies.json",
+            "MD5": "bd0fdc9a3ca054de132d3d3167174165",
             "path": "config/immersive_melodies.json"
           }
         },
@@ -6942,6 +7242,7 @@
           "artifact": {
             "size": 923,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/immersive_optimization.json",
+            "MD5": "305b956a5a19066e43ef5ee32e6da822",
             "path": "config/immersive_optimization.json"
           }
         },
@@ -6952,6 +7253,7 @@
           "artifact": {
             "size": 584,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/immersive_paintings.json",
+            "MD5": "72c5293b46e5663c3fef32c654217721",
             "path": "config/immersive_paintings.json"
           }
         },
@@ -6962,6 +7264,7 @@
           "artifact": {
             "size": 298,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/immersive_weathering-client.toml",
+            "MD5": "0ccfda2c73ca9d40afa2abbbbcabfd17",
             "path": "config/immersive_weathering-client.toml"
           }
         },
@@ -6972,6 +7275,7 @@
           "artifact": {
             "size": 2449,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/immersive_weathering-common.toml",
+            "MD5": "2572118008b7563f0af452ab51a20de4",
             "path": "config/immersive_weathering-common.toml"
           }
         },
@@ -6982,6 +7286,7 @@
           "artifact": {
             "size": 2,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/areas.json",
+            "MD5": "d751713988987e9331980363e24189ce",
             "path": "config/incontrol/areas.json"
           }
         },
@@ -6992,6 +7297,7 @@
           "artifact": {
             "size": 2,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/breakevents.json",
+            "MD5": "d751713988987e9331980363e24189ce",
             "path": "config/incontrol/breakevents.json"
           }
         },
@@ -7002,6 +7308,7 @@
           "artifact": {
             "size": 2,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/effects.json",
+            "MD5": "d751713988987e9331980363e24189ce",
             "path": "config/incontrol/effects.json"
           }
         },
@@ -7012,6 +7319,7 @@
           "artifact": {
             "size": 2,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/events.json",
+            "MD5": "d751713988987e9331980363e24189ce",
             "path": "config/incontrol/events.json"
           }
         },
@@ -7022,6 +7330,7 @@
           "artifact": {
             "size": 2,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/experience.json",
+            "MD5": "d751713988987e9331980363e24189ce",
             "path": "config/incontrol/experience.json"
           }
         },
@@ -7032,6 +7341,7 @@
           "artifact": {
             "size": 2,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/leftclicks.json",
+            "MD5": "d751713988987e9331980363e24189ce",
             "path": "config/incontrol/leftclicks.json"
           }
         },
@@ -7042,6 +7352,7 @@
           "artifact": {
             "size": 2,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/loot.json",
+            "MD5": "d751713988987e9331980363e24189ce",
             "path": "config/incontrol/loot.json"
           }
         },
@@ -7052,6 +7363,7 @@
           "artifact": {
             "size": 2,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/phases.json",
+            "MD5": "d751713988987e9331980363e24189ce",
             "path": "config/incontrol/phases.json"
           }
         },
@@ -7062,6 +7374,7 @@
           "artifact": {
             "size": 2,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/placeevents.json",
+            "MD5": "d751713988987e9331980363e24189ce",
             "path": "config/incontrol/placeevents.json"
           }
         },
@@ -7072,6 +7385,7 @@
           "artifact": {
             "size": 2,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/rightclicks.json",
+            "MD5": "d751713988987e9331980363e24189ce",
             "path": "config/incontrol/rightclicks.json"
           }
         },
@@ -7082,6 +7396,7 @@
           "artifact": {
             "size": 407,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/spawn.json",
+            "MD5": "087b5b7f92a0ec9857ad3e6f0edea679",
             "path": "config/incontrol/spawn.json"
           }
         },
@@ -7092,6 +7407,7 @@
           "artifact": {
             "size": 378,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/spawn.json.bak",
+            "MD5": "51289cf2359454d2a2bc3e85ff0de889",
             "path": "config/incontrol/spawn.json.bak"
           }
         },
@@ -7102,6 +7418,7 @@
           "artifact": {
             "size": 1042,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/spawner.json",
+            "MD5": "a1d3c26a8871a13c6aa92d1eecd18492",
             "path": "config/incontrol/spawner.json"
           }
         },
@@ -7112,6 +7429,7 @@
           "artifact": {
             "size": 812,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/spawner.json.bak",
+            "MD5": "8a7747639f8010f2efd394ef70cfc019",
             "path": "config/incontrol/spawner.json.bak"
           }
         },
@@ -7122,6 +7440,7 @@
           "artifact": {
             "size": 2,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/summonaid.json",
+            "MD5": "d751713988987e9331980363e24189ce",
             "path": "config/incontrol/summonaid.json"
           }
         },
@@ -7132,6 +7451,7 @@
           "artifact": {
             "size": 1177,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/inventoryprofilesnext/195.58.152.22&25599/villager-trading-config.json",
+            "MD5": "de09544857b72ba08fecdf74c26cbdb9",
             "path": "config/inventoryprofilesnext/195.58.152.22&25599/villager-trading-config.json"
           }
         },
@@ -7142,6 +7462,7 @@
           "artifact": {
             "size": 1450,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
+            "MD5": "1a018549a3d0f945870f75056ce7e5eb",
             "path": "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
           }
         },
@@ -7152,6 +7473,7 @@
           "artifact": {
             "size": 186,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/inventoryprofilesnext/inventoryprofiles.json",
+            "MD5": "921a0325905370edd58950f0de94d80b",
             "path": "config/inventoryprofilesnext/inventoryprofiles.json"
           }
         },
@@ -7162,6 +7484,7 @@
           "artifact": {
             "size": 1177,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/inventoryprofilesnext/New%20World/prev-villager-trading-config.json",
+            "MD5": "de09544857b72ba08fecdf74c26cbdb9",
             "path": "config/inventoryprofilesnext/New World/prev-villager-trading-config.json"
           }
         },
@@ -7172,6 +7495,7 @@
           "artifact": {
             "size": 1177,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/inventoryprofilesnext/New%20World/villager-trading-config.json",
+            "MD5": "de09544857b72ba08fecdf74c26cbdb9",
             "path": "config/inventoryprofilesnext/New World/villager-trading-config.json"
           }
         },
@@ -7182,6 +7506,7 @@
           "artifact": {
             "size": 1177,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/inventoryprofilesnext/villager-trading-config.json",
+            "MD5": "de09544857b72ba08fecdf74c26cbdb9",
             "path": "config/inventoryprofilesnext/villager-trading-config.json"
           }
         },
@@ -7192,6 +7517,7 @@
           "artifact": {
             "size": 654,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/itemphysic-client.json",
+            "MD5": "6e3a0d8e01e687b22dcc4d6123c1ce79",
             "path": "config/itemphysic-client.json"
           }
         },
@@ -7200,8 +7526,9 @@
           "name": "itemphysic.json",
           "type": "File",
           "artifact": {
-            "size": 5272,
+            "size": 5273,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/itemphysic.json",
+            "MD5": "fedf2f9eb462674ca1e9e3ca0018f3e1",
             "path": "config/itemphysic.json"
           }
         },
@@ -7212,6 +7539,7 @@
           "artifact": {
             "size": 549,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/item_obliterator.json",
+            "MD5": "c86de149d15f12a7db764bfcc82cc6e1",
             "path": "config/item_obliterator.json"
           }
         },
@@ -7222,6 +7550,7 @@
           "artifact": {
             "size": 1505,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ixeris.toml",
+            "MD5": "09a9517693fd421cb2c9f0a09103e243",
             "path": "config/ixeris.toml"
           }
         },
@@ -7232,6 +7561,7 @@
           "artifact": {
             "size": 191,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jade/hide-blocks.json",
+            "MD5": "da56a1383649dd1ebbbf41d9cfddb0da",
             "path": "config/jade/hide-blocks.json"
           }
         },
@@ -7242,6 +7572,7 @@
           "artifact": {
             "size": 325,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jade/hide-entities.json",
+            "MD5": "7b674db14cfdc978fa9786641eec8df6",
             "path": "config/jade/hide-entities.json"
           }
         },
@@ -7252,6 +7583,7 @@
           "artifact": {
             "size": 974,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jade/jade.json",
+            "MD5": "bfdbc8df70932e88399bd6c039163be0",
             "path": "config/jade/jade.json"
           }
         },
@@ -7262,6 +7594,7 @@
           "artifact": {
             "size": 2737,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jade/plugins.json",
+            "MD5": "a5917638c8c4bd1ac06689c0a443a0a7",
             "path": "config/jade/plugins.json"
           }
         },
@@ -7272,6 +7605,7 @@
           "artifact": {
             "size": 2837,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jade/sort-order.json",
+            "MD5": "6fbfd4730adf6244f53e9252ead37ed5",
             "path": "config/jade/sort-order.json"
           }
         },
@@ -7282,6 +7616,7 @@
           "artifact": {
             "size": 536,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jeed-client.toml",
+            "MD5": "9812ad6369c005325cad852e9da67427",
             "path": "config/jeed-client.toml"
           }
         },
@@ -7292,6 +7627,7 @@
           "artifact": {
             "size": 0,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/blacklist.cfg",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
             "path": "config/jei/blacklist.cfg"
           }
         },
@@ -7302,6 +7638,7 @@
           "artifact": {
             "size": 2119,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/ingredient-list-mod-sort-order.ini",
+            "MD5": "c45a327cd43852b4354e25b70af78b2d",
             "path": "config/jei/ingredient-list-mod-sort-order.ini"
           }
         },
@@ -7312,6 +7649,7 @@
           "artifact": {
             "size": 120,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/ingredient-list-type-sort-order.ini",
+            "MD5": "31cf67977474a0de4d685e4c2f31cce7",
             "path": "config/jei/ingredient-list-type-sort-order.ini"
           }
         },
@@ -7322,6 +7660,7 @@
           "artifact": {
             "size": 8658,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/jei-client.ini",
+            "MD5": "d84fcde71cc89202a32f5b10f2c3c89f",
             "path": "config/jei/jei-client.ini"
           }
         },
@@ -7332,6 +7671,7 @@
           "artifact": {
             "size": 1338,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/jei-colors.ini",
+            "MD5": "54322062602d3aabb6b11455e07de765",
             "path": "config/jei/jei-colors.ini"
           }
         },
@@ -7342,6 +7682,7 @@
           "artifact": {
             "size": 918,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/jei-debug.ini",
+            "MD5": "4dd10e2f07441d4820fe65e804aac24c",
             "path": "config/jei/jei-debug.ini"
           }
         },
@@ -7352,6 +7693,7 @@
           "artifact": {
             "size": 567,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/jei-mod-id-format.ini",
+            "MD5": "09b3f15dbd467a9934b87dca4ca1f717",
             "path": "config/jei/jei-mod-id-format.ini"
           }
         },
@@ -7362,6 +7704,7 @@
           "artifact": {
             "size": 2940,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/recipe-category-sort-order.ini",
+            "MD5": "eb9435d15ac28cd94edd748c15f74cb4",
             "path": "config/jei/recipe-category-sort-order.ini"
           }
         },
@@ -7372,6 +7715,7 @@
           "artifact": {
             "size": 3088,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/world/local/New_World/lookupHistory.ini",
+            "MD5": "2cd8db5185ae4e8beaa7b6764a1b5196",
             "path": "config/jei/world/local/New_World/lookupHistory.ini"
           }
         },
@@ -7382,6 +7726,7 @@
           "artifact": {
             "size": 3079,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/world/local/New_World__1/lookupHistory.ini",
+            "MD5": "61c530c19e54589ca8336330cb4e62e5",
             "path": "config/jei/world/local/New_World__1/lookupHistory.ini"
           }
         },
@@ -7392,6 +7737,7 @@
           "artifact": {
             "size": 2551,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/world/local/New_World__2/lookupHistory.ini",
+            "MD5": "1d553073f29417516550d1b85e02cd4e",
             "path": "config/jei/world/local/New_World__2/lookupHistory.ini"
           }
         },
@@ -7402,6 +7748,7 @@
           "artifact": {
             "size": 659,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/world/local/New_World__3/lookupHistory.ini",
+            "MD5": "a2e6057dc64ba7bccf222a34044426e4",
             "path": "config/jei/world/local/New_World__3/lookupHistory.ini"
           }
         },
@@ -7412,6 +7759,7 @@
           "artifact": {
             "size": 236,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jeresources-common.toml",
+            "MD5": "b8403bd156cd5a1adbeca3850c42384f",
             "path": "config/jeresources-common.toml"
           }
         },
@@ -7422,6 +7770,7 @@
           "artifact": {
             "size": 236,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jeresources.toml",
+            "MD5": "b8403bd156cd5a1adbeca3850c42384f",
             "path": "config/jeresources.toml"
           }
         },
@@ -7432,6 +7781,7 @@
           "artifact": {
             "size": 343,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/kiwi-client.yaml",
+            "MD5": "8d72d9a21d7f201ca2db5a0060a47588",
             "path": "config/kiwi-client.yaml"
           }
         },
@@ -7442,6 +7792,7 @@
           "artifact": {
             "size": 104,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/kiwi-common.yaml",
+            "MD5": "e877426b2f10cff67cdac6456bb830ad",
             "path": "config/kiwi-common.yaml"
           }
         },
@@ -7452,6 +7803,7 @@
           "artifact": {
             "size": 369,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/konkrete/locals/de_de.local",
+            "MD5": "3aac3df2519057d2305f894c37771e30",
             "path": "config/konkrete/locals/de_de.local"
           }
         },
@@ -7462,6 +7814,7 @@
           "artifact": {
             "size": 426,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/konkrete/locals/en_us.local",
+            "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
             "path": "config/konkrete/locals/en_us.local"
           }
         },
@@ -7472,6 +7825,7 @@
           "artifact": {
             "size": 313,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/konkrete/locals/pl_pl.local",
+            "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
             "path": "config/konkrete/locals/pl_pl.local"
           }
         },
@@ -7482,6 +7836,7 @@
           "artifact": {
             "size": 322,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/konkrete/locals/pt_br.local",
+            "MD5": "2d055da094c115b94f0e4373a2e06ebe",
             "path": "config/konkrete/locals/pt_br.local"
           }
         },
@@ -7492,6 +7847,7 @@
           "artifact": {
             "size": 453,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/krypton_fnp.yaml",
+            "MD5": "003caa083c66481d133826c4444169f6",
             "path": "config/krypton_fnp.yaml"
           }
         },
@@ -7502,6 +7858,7 @@
           "artifact": {
             "size": 439,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/l2_configs/l2library-client.toml",
+            "MD5": "0553dadf13e257bcea424723f72a245f",
             "path": "config/l2_configs/l2library-client.toml"
           }
         },
@@ -7512,6 +7869,7 @@
           "artifact": {
             "size": 70,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/l2_configs/l2library-common.toml",
+            "MD5": "a9541cd66e9bc7434a105a7944828a5f",
             "path": "config/l2_configs/l2library-common.toml"
           }
         },
@@ -7522,6 +7880,7 @@
           "artifact": {
             "size": 72,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/letmedespawn.json",
+            "MD5": "f55dac234677303b177e54160ff86403",
             "path": "config/letmedespawn.json"
           }
         },
@@ -7532,6 +7891,7 @@
           "artifact": {
             "size": 284,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/lithostitched.json",
+            "MD5": "345e5fd8f4228a78675c761850e85ba9",
             "path": "config/lithostitched.json"
           }
         },
@@ -7542,6 +7902,7 @@
           "artifact": {
             "size": 5171,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/map_atlases-client.toml",
+            "MD5": "d73c3a9ad885fa0a1cc7ae1fb3fa6903",
             "path": "config/map_atlases-client.toml"
           }
         },
@@ -7552,6 +7913,7 @@
           "artifact": {
             "size": 2210,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/map_atlases-common.toml",
+            "MD5": "68f63fb224f74271069b0ebce0c7b1b3",
             "path": "config/map_atlases-common.toml"
           }
         },
@@ -7562,6 +7924,7 @@
           "artifact": {
             "size": 1676,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/mcqoy.toml",
+            "MD5": "c8e150f49bc032242f69cfcd83105ad6",
             "path": "config/mcqoy.toml"
           }
         },
@@ -7572,6 +7935,7 @@
           "artifact": {
             "size": 34,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/midnightlib.json",
+            "MD5": "96bc8c4809d1b71f3fb24d7b83aaa56e",
             "path": "config/midnightlib.json"
           }
         },
@@ -7582,6 +7946,7 @@
           "artifact": {
             "size": 107,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/modernfix-common.toml",
+            "MD5": "1d50de2e9c0bda2952844de7a3306d10",
             "path": "config/modernfix-common.toml"
           }
         },
@@ -7592,6 +7957,7 @@
           "artifact": {
             "size": 5885,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/modernfix-mixins.properties",
+            "MD5": "8a32c88c2b118dffc2941bba64886172",
             "path": "config/modernfix-mixins.properties"
           }
         },
@@ -7602,6 +7968,7 @@
           "artifact": {
             "size": 1374,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/monobank-common.toml",
+            "MD5": "05c3a635e1e36cd154663a586b1c6ea6",
             "path": "config/monobank-common.toml"
           }
         },
@@ -7612,6 +7979,7 @@
           "artifact": {
             "size": 1027,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/moonlight-client.toml",
+            "MD5": "12be1e89e835cca57c9017fa96f2d7e0",
             "path": "config/moonlight-client.toml"
           }
         },
@@ -7622,6 +7990,7 @@
           "artifact": {
             "size": 1023,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/moonlight-common.toml",
+            "MD5": "00729a29d2b24292a06e174c24a3a831",
             "path": "config/moonlight-common.toml"
           }
         },
@@ -7632,6 +8001,7 @@
           "artifact": {
             "size": 34,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/mosaic_cosmetics-client.toml",
+            "MD5": "8b9459594b795dcc482043c6018b758f",
             "path": "config/mosaic_cosmetics-client.toml"
           }
         },
@@ -7642,6 +8012,7 @@
           "artifact": {
             "size": 135,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/MouseTweaks.cfg",
+            "MD5": "ff577ca09e989c07c056c7cdff465be3",
             "path": "config/MouseTweaks.cfg"
           }
         },
@@ -7652,6 +8023,7 @@
           "artifact": {
             "size": 92,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/mysterious_mountain_lib-common.toml",
+            "MD5": "c848005fab843ea7220d6fbe586c9e29",
             "path": "config/mysterious_mountain_lib-common.toml"
           }
         },
@@ -7662,6 +8034,7 @@
           "artifact": {
             "size": 3703,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/naturalist.json",
+            "MD5": "e275786fdf986ae94faffc7846dee906",
             "path": "config/naturalist.json"
           }
         },
@@ -7672,6 +8045,7 @@
           "artifact": {
             "size": 5076,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/nbt_ac.txt",
+            "MD5": "93c110ff1a88a48f3da4d5362ecd554c",
             "path": "config/nbt_ac.txt"
           }
         },
@@ -7682,6 +8056,7 @@
           "artifact": {
             "size": 1884,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/neapolitan-common.toml",
+            "MD5": "fa57cfffa833b1da2e51ab2d75f37299",
             "path": "config/neapolitan-common.toml"
           }
         },
@@ -7692,6 +8067,7 @@
           "artifact": {
             "size": 266,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/necronomicon.json5",
+            "MD5": "f5d72523e51844112485d6c21b8d51c3",
             "path": "config/necronomicon.json5"
           }
         },
@@ -7702,6 +8078,7 @@
           "artifact": {
             "size": 549,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/nerb.yaml",
+            "MD5": "73dc61c4e80da814987fac9f6c2767e1",
             "path": "config/nerb.yaml"
           }
         },
@@ -7712,6 +8089,7 @@
           "artifact": {
             "size": 181,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/netherdepthsupgrade-common.toml",
+            "MD5": "a2194231d132531ad1d35eb7b65cbae2",
             "path": "config/netherdepthsupgrade-common.toml"
           }
         },
@@ -7722,6 +8100,7 @@
           "artifact": {
             "size": 3357,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/notenoughanimations.json",
+            "MD5": "3f3d7ed03466549ea2daa6c566c2fb93",
             "path": "config/notenoughanimations.json"
           }
         },
@@ -7732,6 +8111,7 @@
           "artifact": {
             "size": 2024,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/obscuria/accents-common.toml",
+            "MD5": "37d712621e677ee4d2fa320a9beada31",
             "path": "config/obscuria/accents-common.toml"
           }
         },
@@ -7742,6 +8122,7 @@
           "artifact": {
             "size": 299,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/obscuria/ars_elixirum-generation.toml",
+            "MD5": "8992584118afe85c5e4ec4b55c0e3747",
             "path": "config/obscuria/ars_elixirum-generation.toml"
           }
         },
@@ -7752,6 +8133,7 @@
           "artifact": {
             "size": 5031,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/obscuria/loot_journal-client.toml",
+            "MD5": "159412f66bfd138772be37e5897225b0",
             "path": "config/obscuria/loot_journal-client.toml"
           }
         },
@@ -7762,6 +8144,7 @@
           "artifact": {
             "size": 5392,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/obscuria/obscure_tooltips-client.toml",
+            "MD5": "fd12de274d994b9281f426af1291b91a",
             "path": "config/obscuria/obscure_tooltips-client.toml"
           }
         },
@@ -7772,6 +8155,7 @@
           "artifact": {
             "size": 1747,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/obscuria/pillager_caravans-common.toml",
+            "MD5": "2ce0b1485f16af6b30588d4210051ba1",
             "path": "config/obscuria/pillager_caravans-common.toml"
           }
         },
@@ -7782,6 +8166,7 @@
           "artifact": {
             "size": 271,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/oculus.properties",
+            "MD5": "f5536ed8196bb7d9dc19c87c29f5ed92",
             "path": "config/oculus.properties"
           }
         },
@@ -7792,6 +8177,7 @@
           "artifact": {
             "size": 94,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/overweight_farming-common.toml",
+            "MD5": "b88582353e902a0e8464b80253e8abe0",
             "path": "config/overweight_farming-common.toml"
           }
         },
@@ -7802,6 +8188,7 @@
           "artifact": {
             "size": 1163,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/particlerain/config.json",
+            "MD5": "80ddd562fd2e128d071903c964c7d871",
             "path": "config/particlerain/config.json"
           }
         },
@@ -7812,6 +8199,7 @@
           "artifact": {
             "size": 306,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/particle_core_config.toml",
+            "MD5": "ea1852750fc32d40ae3813a1c9fd5dcf",
             "path": "config/particle_core_config.toml"
           }
         },
@@ -7822,6 +8210,7 @@
           "artifact": {
             "size": 1558,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/particle_core_disabled_optimizations_v2.json",
+            "MD5": "7414f2ec8283a7974fd5c357f3a5c547",
             "path": "config/particle_core_disabled_optimizations_v2.json"
           }
         },
@@ -7832,6 +8221,7 @@
           "artifact": {
             "size": 25,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/particle_effects.json5",
+            "MD5": "a1573620b9e2308d1a682f6f49ce4a46",
             "path": "config/particle_effects.json5"
           }
         },
@@ -7842,6 +8232,7 @@
           "artifact": {
             "size": 3083,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/particular-common.toml",
+            "MD5": "84479ac770b9cf0557ca18ebde5dfb4a",
             "path": "config/particular-common.toml"
           }
         },
@@ -7852,6 +8243,7 @@
           "artifact": {
             "size": 1091,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/patchouli-client.toml",
+            "MD5": "8abc03f47eb092528e4d5bda3e2ff172",
             "path": "config/patchouli-client.toml"
           }
         },
@@ -7862,6 +8254,7 @@
           "artifact": {
             "size": 21,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/paxi/datapack_load_order.json",
+            "MD5": "2b5a68474a47e7ef0a7185933f38b114",
             "path": "config/paxi/datapack_load_order.json"
           }
         },
@@ -7872,6 +8265,7 @@
           "artifact": {
             "size": 1,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/paxi/resourcepacks/EsketitSplashes/assets/minecraft/texts/splashes.txt",
+            "MD5": "68b329da9893e34099c7d8ad5cb9c940",
             "path": "config/paxi/resourcepacks/EsketitSplashes/assets/minecraft/texts/splashes.txt"
           }
         },
@@ -7882,6 +8276,7 @@
           "artifact": {
             "size": 97,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/paxi/resourcepacks/EsketitSplashes/pack.mcmeta",
+            "MD5": "0e2da61b297650235f77c0ea1a9d8295",
             "path": "config/paxi/resourcepacks/EsketitSplashes/pack.mcmeta"
           }
         },
@@ -7892,6 +8287,7 @@
           "artifact": {
             "size": 46,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/paxi/resourcepack_load_order.json",
+            "MD5": "ebc5d33942db9e07f37a90faa2b85804",
             "path": "config/paxi/resourcepack_load_order.json"
           }
         },
@@ -7902,6 +8298,7 @@
           "artifact": {
             "size": 1279,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/personality-client.toml",
+            "MD5": "50fab3adfa4cd81587b959279024b6d2",
             "path": "config/personality-client.toml"
           }
         },
@@ -7912,6 +8309,7 @@
           "artifact": {
             "size": 171,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/personality-common.toml",
+            "MD5": "f0bbe44b79c886056357016a9698d600",
             "path": "config/personality-common.toml"
           }
         },
@@ -7922,6 +8320,7 @@
           "artifact": {
             "size": 619,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ponder-client.toml",
+            "MD5": "e923797057f201aaabb470187e768971",
             "path": "config/ponder-client.toml"
           }
         },
@@ -7932,6 +8331,7 @@
           "artifact": {
             "size": 2988,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/puzzlesapi-iteminteractions-client.toml",
+            "MD5": "f79cc373816ebde9fd9a1e76f6238fe5",
             "path": "config/puzzlesapi-iteminteractions-client.toml"
           }
         },
@@ -7942,6 +8342,7 @@
           "artifact": {
             "size": 675,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/puzzlesapi-iteminteractions-server.toml",
+            "MD5": "a8cda9b3a3072104ae6c27492b31dc07",
             "path": "config/puzzlesapi-iteminteractions-server.toml"
           }
         },
@@ -7952,6 +8353,7 @@
           "artifact": {
             "size": 1065,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/puzzlesapi-slotcycling-client.toml",
+            "MD5": "c8c660b8c997a8e1c6622cb4df128891",
             "path": "config/puzzlesapi-slotcycling-client.toml"
           }
         },
@@ -7962,6 +8364,7 @@
           "artifact": {
             "size": 1389,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/raided-common.toml",
+            "MD5": "66643e69d5358cc1993a43b937bd66c7",
             "path": "config/raided-common.toml"
           }
         },
@@ -7972,6 +8375,7 @@
           "artifact": {
             "size": 1979,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/railways-client.toml",
+            "MD5": "25788e0c5fd366d0f1bd1a5243820a4b",
             "path": "config/railways-client.toml"
           }
         },
@@ -7982,6 +8386,7 @@
           "artifact": {
             "size": 337,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/railways-common.toml",
+            "MD5": "610bef1feadf0f47c94628067e90b6fb",
             "path": "config/railways-common.toml"
           }
         },
@@ -7992,6 +8397,7 @@
           "artifact": {
             "size": 196,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/resourceful-config-web.json",
+            "MD5": "11546be3b54818e874d1415e9f7c6195",
             "path": "config/resourceful-config-web.json"
           }
         },
@@ -8002,6 +8408,7 @@
           "artifact": {
             "size": 542,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/respiteful-common.toml",
+            "MD5": "3c87b4bbf1414118a8b707884aef8298",
             "path": "config/respiteful-common.toml"
           }
         },
@@ -8012,6 +8419,7 @@
           "artifact": {
             "size": 525,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/rosegoldequipment-common.toml",
+            "MD5": "37c6a89af6fba070d305052b61003158",
             "path": "config/rosegoldequipment-common.toml"
           }
         },
@@ -8022,6 +8430,7 @@
           "artifact": {
             "size": 834,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/rusticdelight-common.toml",
+            "MD5": "e079e8b62fe4ece4e7377af2eeb43f8a",
             "path": "config/rusticdelight-common.toml"
           }
         },
@@ -8032,6 +8441,7 @@
           "artifact": {
             "size": 526,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/salt-client.toml",
+            "MD5": "b3543948674d1087ea84bf7d0b573aab",
             "path": "config/salt-client.toml"
           }
         },
@@ -8042,6 +8452,7 @@
           "artifact": {
             "size": 3448,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/salt-common.toml",
+            "MD5": "49079f05c04b4bafd932c983baa64fcd",
             "path": "config/salt-common.toml"
           }
         },
@@ -8052,6 +8463,7 @@
           "artifact": {
             "size": 81,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/savage_and_ravage-client.toml",
+            "MD5": "8ae013a4c25d825733ca6fd512f5d2e8",
             "path": "config/savage_and_ravage-client.toml"
           }
         },
@@ -8062,6 +8474,7 @@
           "artifact": {
             "size": 1323,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/savage_and_ravage-common.toml",
+            "MD5": "75a527695733d433ac57ef5864caca5e",
             "path": "config/savage_and_ravage-common.toml"
           }
         },
@@ -8072,6 +8485,7 @@
           "artifact": {
             "size": 2404,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/sawmill-common.toml",
+            "MD5": "6c2fd7ebdd61194e97da2f7452317f52",
             "path": "config/sawmill-common.toml"
           }
         },
@@ -8082,6 +8496,7 @@
           "artifact": {
             "size": 1092,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/scholar-client.toml",
+            "MD5": "72cd9aba904688ce6d706e2cfd04f130",
             "path": "config/scholar-client.toml"
           }
         },
@@ -8092,6 +8507,7 @@
           "artifact": {
             "size": 1500,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/scholar-common.toml",
+            "MD5": "4a3980dd8cf38f0995753c2e18a4708d",
             "path": "config/scholar-common.toml"
           }
         },
@@ -8102,6 +8518,7 @@
           "artifact": {
             "size": 310,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/seasonals-common.toml",
+            "MD5": "db2cbb01f5ee827f2e7a664d0be89dd3",
             "path": "config/seasonals-common.toml"
           }
         },
@@ -8112,6 +8529,7 @@
           "artifact": {
             "size": 485,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/sereneseasons/fertility.toml",
+            "MD5": "ae451352517a88686c0da213678135f3",
             "path": "config/sereneseasons/fertility.toml"
           }
         },
@@ -8122,6 +8540,7 @@
           "artifact": {
             "size": 6779,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/sereneseasons/seasons.toml",
+            "MD5": "1cffb83af65492c22c8438a687f21efb",
             "path": "config/sereneseasons/seasons.toml"
           }
         },
@@ -8132,6 +8551,7 @@
           "artifact": {
             "size": 1483,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/sereneseasonsplus-common.toml",
+            "MD5": "b935b2858856b7e92deed1616043cebe",
             "path": "config/sereneseasonsplus-common.toml"
           }
         },
@@ -8142,6 +8562,7 @@
           "artifact": {
             "size": 11196,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/serializationisbad-remotecache.json",
+            "MD5": "23ef7b1bf56879d41a4c51d34904b672",
             "path": "config/serializationisbad-remotecache.json"
           }
         },
@@ -8152,6 +8573,7 @@
           "artifact": {
             "size": 213,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/serializationisbad.json",
+            "MD5": "b56e0ad9a273872695cdd29f2c8be458",
             "path": "config/serializationisbad.json"
           }
         },
@@ -8162,6 +8584,7 @@
           "artifact": {
             "size": 10646,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/servercore/config.yml",
+            "MD5": "19cafab86253069fbe65755a1d23fc67",
             "path": "config/servercore/config.yml"
           }
         },
@@ -8172,6 +8595,7 @@
           "artifact": {
             "size": 1204,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/servercore/optimizations.yml",
+            "MD5": "55cd75127ddf4e9e74497cfabcff9ca3",
             "path": "config/servercore/optimizations.yml"
           }
         },
@@ -8182,6 +8606,7 @@
           "artifact": {
             "size": 1516,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/sleep_tight-client.toml",
+            "MD5": "0bf0dab680ef873a616a7999128e2a0b",
             "path": "config/sleep_tight-client.toml"
           }
         },
@@ -8192,6 +8617,7 @@
           "artifact": {
             "size": 6488,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/sleep_tight-common.toml",
+            "MD5": "a313c2b6869df6eca09c06e1ef368ddb",
             "path": "config/sleep_tight-common.toml"
           }
         },
@@ -8202,6 +8628,7 @@
           "artifact": {
             "size": 33,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/sliceanddice-client.toml",
+            "MD5": "7a8c7c0f1926d114d379579234e67c4b",
             "path": "config/sliceanddice-client.toml"
           }
         },
@@ -8212,6 +8639,7 @@
           "artifact": {
             "size": 427,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/sliceanddice-common.toml",
+            "MD5": "aa0e76d7920f37ae052b299596179e79",
             "path": "config/sliceanddice-common.toml"
           }
         },
@@ -8222,6 +8650,7 @@
           "artifact": {
             "size": 514,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/smarterfarmers-common.toml",
+            "MD5": "022eaf7014b30cc78a1313c7004cf67a",
             "path": "config/smarterfarmers-common.toml"
           }
         },
@@ -8232,6 +8661,7 @@
           "artifact": {
             "size": 198,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/smoothboot.json",
+            "MD5": "70ffc7bd8c3159c1675727386fcea810",
             "path": "config/smoothboot.json"
           }
         },
@@ -8242,6 +8672,7 @@
           "artifact": {
             "size": 96,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/snowrealmagic-client.yaml",
+            "MD5": "207a180bff4ebaefe768036674fe1bb4",
             "path": "config/snowrealmagic-client.yaml"
           }
         },
@@ -8252,6 +8683,7 @@
           "artifact": {
             "size": 799,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/snowrealmagic-common.yaml",
+            "MD5": "fb42ea5a1bfc41e735b116cd60f5e8cd",
             "path": "config/snowrealmagic-common.yaml"
           }
         },
@@ -8262,6 +8694,7 @@
           "artifact": {
             "size": 659,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/sodiumdynamiclights-client.toml",
+            "MD5": "1fab45cf525f45c88b1ae169d8a74f53",
             "path": "config/sodiumdynamiclights-client.toml"
           }
         },
@@ -8272,6 +8705,7 @@
           "artifact": {
             "size": 167,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/sootychimneys-client.toml",
+            "MD5": "493dd790a3213ec43496091d1e48191c",
             "path": "config/sootychimneys-client.toml"
           }
         },
@@ -8282,6 +8716,7 @@
           "artifact": {
             "size": 703,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/sootychimneys-common.toml",
+            "MD5": "8567e48e59475ea4580452dd38a39a92",
             "path": "config/sootychimneys-common.toml"
           }
         },
@@ -8292,6 +8727,7 @@
           "artifact": {
             "size": 1684,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/SoundPhysicsPerfected.json5",
+            "MD5": "a9a52ffaef69e710d36b3fbf97642609",
             "path": "config/SoundPhysicsPerfected.json5"
           }
         },
@@ -8302,6 +8738,7 @@
           "artifact": {
             "size": 133,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/spawn-server.toml",
+            "MD5": "2b1c90c9b1fd836dd4326810e37b8874",
             "path": "config/spawn-server.toml"
           }
         },
@@ -8312,6 +8749,7 @@
           "artifact": {
             "size": 106,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/spelunkery-client.toml",
+            "MD5": "e85f239e4e0c6a68d79aeda94ecaea96",
             "path": "config/spelunkery-client.toml"
           }
         },
@@ -8322,6 +8760,7 @@
           "artifact": {
             "size": 1480,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/spelunkery-common.toml",
+            "MD5": "e4e424f15d74dc3a9583b09b088283a6",
             "path": "config/spelunkery-common.toml"
           }
         },
@@ -8332,6 +8771,7 @@
           "artifact": {
             "size": 5534,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/stellarview-client.toml",
+            "MD5": "a175060771ba07072ea66ae302fc9ad6",
             "path": "config/stellarview-client.toml"
           }
         },
@@ -8342,6 +8782,7 @@
           "artifact": {
             "size": 938,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/structure_layout_optimizer.jsonc",
+            "MD5": "4f385b53fd6c9b761bfc3931e1664787",
             "path": "config/structure_layout_optimizer.jsonc"
           }
         },
@@ -8352,6 +8793,7 @@
           "artifact": {
             "size": 5052,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/subtle_effects/blocks.toml",
+            "MD5": "5eabd1f0401abeb6ac42673b4f5c2034",
             "path": "config/subtle_effects/blocks.toml"
           }
         },
@@ -8362,6 +8804,7 @@
           "artifact": {
             "size": 3072,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/subtle_effects/entities.toml",
+            "MD5": "8eefe1f78bfc82b4dba04bacf2ca0894",
             "path": "config/subtle_effects/entities.toml"
           }
         },
@@ -8372,6 +8815,7 @@
           "artifact": {
             "size": 2517,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/subtle_effects/environment.toml",
+            "MD5": "52211e7af8027237fd13771f1a2c679b",
             "path": "config/subtle_effects/environment.toml"
           }
         },
@@ -8382,6 +8826,7 @@
           "artifact": {
             "size": 1104,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/subtle_effects/general.toml",
+            "MD5": "363547b40c83805490a6f827d16e0865",
             "path": "config/subtle_effects/general.toml"
           }
         },
@@ -8392,6 +8837,7 @@
           "artifact": {
             "size": 1027,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/subtle_effects/items.toml",
+            "MD5": "2ce3ff5114d3d8f1afd9b2a6145ad20b",
             "path": "config/subtle_effects/items.toml"
           }
         },
@@ -8402,6 +8848,7 @@
           "artifact": {
             "size": 93,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/sullysmod-client.toml",
+            "MD5": "d3834cfe0e352cb0816e2210ec8b5cfc",
             "path": "config/sullysmod-client.toml"
           }
         },
@@ -8412,6 +8859,7 @@
           "artifact": {
             "size": 2140,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/sullysmod-common.toml",
+            "MD5": "97e44eeabcbd4624c3a259d23d14c273",
             "path": "config/sullysmod-common.toml"
           }
         },
@@ -8422,6 +8870,7 @@
           "artifact": {
             "size": 9371,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/supplementaries-client.toml",
+            "MD5": "c6a2283587ccb486b21d989c05f1f0f6",
             "path": "config/supplementaries-client.toml"
           }
         },
@@ -8432,6 +8881,7 @@
           "artifact": {
             "size": 24787,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/supplementaries-common.toml",
+            "MD5": "350e977ed210dec7bc6b0f9f39eb0e41",
             "path": "config/supplementaries-common.toml"
           }
         },
@@ -8442,6 +8892,7 @@
           "artifact": {
             "size": 88,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/suppsquared-common.toml",
+            "MD5": "049a6a2dba51b2dea9a0df2f3ff66bd7",
             "path": "config/suppsquared-common.toml"
           }
         },
@@ -8452,6 +8903,7 @@
           "artifact": {
             "size": 466,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/swampier_swamps-client.toml",
+            "MD5": "a2d0fe370b4d72f5da8ff0fb2016ae1c",
             "path": "config/swampier_swamps-client.toml"
           }
         },
@@ -8462,6 +8914,7 @@
           "artifact": {
             "size": 3486,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/swampier_swamps-common.toml",
+            "MD5": "48f768fa1f929a7115f7017ae6056400",
             "path": "config/swampier_swamps-common.toml"
           }
         },
@@ -8472,6 +8925,7 @@
           "artifact": {
             "size": 612,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/takesapillage-common.toml",
+            "MD5": "822325788aca8d907bdc780005f23f90",
             "path": "config/takesapillage-common.toml"
           }
         },
@@ -8482,6 +8936,7 @@
           "artifact": {
             "size": 1267,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/tectonic.json",
+            "MD5": "8077b29730a09ef4d3b9fba0ae228349",
             "path": "config/tectonic.json"
           }
         },
@@ -8492,6 +8947,7 @@
           "artifact": {
             "size": 552,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/terrablender.toml",
+            "MD5": "1763bac9f3719c03860c25aeba872b0b",
             "path": "config/terrablender.toml"
           }
         },
@@ -8502,6 +8958,7 @@
           "artifact": {
             "size": 1723,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/thinair-server.toml",
+            "MD5": "c112778052188a5b4e1c8930067b68dd",
             "path": "config/thinair-server.toml"
           }
         },
@@ -8512,6 +8969,7 @@
           "artifact": {
             "size": 1192,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/tide.json",
+            "MD5": "ebbb1c29670d3bed8753fd29ec46b2aa",
             "path": "config/tide.json"
           }
         },
@@ -8522,6 +8980,7 @@
           "artifact": {
             "size": 427,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/toughasnails/client.toml",
+            "MD5": "35630cb19e8b400711f13a4a4bcfe441",
             "path": "config/toughasnails/client.toml"
           }
         },
@@ -8532,6 +8991,7 @@
           "artifact": {
             "size": 2739,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/toughasnails/temperature.toml",
+            "MD5": "082b15766235eefbb8fa834dfaf9bcf4",
             "path": "config/toughasnails/temperature.toml"
           }
         },
@@ -8542,6 +9002,7 @@
           "artifact": {
             "size": 666,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/toughasnails/thirst.toml",
+            "MD5": "96b0044846fe95696c744781a0de8d9e",
             "path": "config/toughasnails/thirst.toml"
           }
         },
@@ -8552,6 +9013,7 @@
           "artifact": {
             "size": 62,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/transition.json",
+            "MD5": "939cbb1d75f242d47e2aa1a9d536a3e7",
             "path": "config/transition.json"
           }
         },
@@ -8562,6 +9024,7 @@
           "artifact": {
             "size": 44,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/trender.json",
+            "MD5": "57d19d218711f08f8d7ce8c69f21d59f",
             "path": "config/trender.json"
           }
         },
@@ -8572,6 +9035,7 @@
           "artifact": {
             "size": 315,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ubesdelight.json",
+            "MD5": "c0370118dd975fe3378904644afd3ec1",
             "path": "config/ubesdelight.json"
           }
         },
@@ -8582,6 +9046,7 @@
           "artifact": {
             "size": 1595,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/universalbonemeal-server.toml",
+            "MD5": "b1ed299058e63b63ed805f210cc39deb",
             "path": "config/universalbonemeal-server.toml"
           }
         },
@@ -8592,6 +9057,7 @@
           "artifact": {
             "size": 436,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/upgrade_aquatic-client.toml",
+            "MD5": "258404648b01a8f31bf903d4cf409bcb",
             "path": "config/upgrade_aquatic-client.toml"
           }
         },
@@ -8602,6 +9068,7 @@
           "artifact": {
             "size": 1583,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/upgrade_aquatic-common.toml",
+            "MD5": "d9ef0da67c5907e789c4965d77a9fca2",
             "path": "config/upgrade_aquatic-common.toml"
           }
         },
@@ -8612,6 +9079,7 @@
           "artifact": {
             "size": 434,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/vanillabackport-client.toml",
+            "MD5": "fd40863e78dd7eb1b656b74223b65c28",
             "path": "config/vanillabackport-client.toml"
           }
         },
@@ -8622,6 +9090,7 @@
           "artifact": {
             "size": 2504,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/vanillabackport-common.toml",
+            "MD5": "894a84127de056bc25f9171488a2fc06",
             "path": "config/vanillabackport-common.toml"
           }
         },
@@ -8632,6 +9101,7 @@
           "artifact": {
             "size": 1546,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/vanillin-client.toml",
+            "MD5": "b016e4741f3ab7ce7647812df8d43021",
             "path": "config/vanillin-client.toml"
           }
         },
@@ -8642,6 +9112,7 @@
           "artifact": {
             "size": 2014,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/vintage-client.toml",
+            "MD5": "8a02e990427bdef4cfdb9d80b43cfbff",
             "path": "config/vintage-client.toml"
           }
         },
@@ -8652,6 +9123,7 @@
           "artifact": {
             "size": 136,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/vintage-common.toml",
+            "MD5": "a5c0f2c600561ed7dbfc9bdd6658cc7a",
             "path": "config/vintage-common.toml"
           }
         },
@@ -8662,6 +9134,7 @@
           "artifact": {
             "size": 315,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/visualworkbench-client.toml",
+            "MD5": "e7857329c8e27a79077e0350264da2e4",
             "path": "config/visualworkbench-client.toml"
           }
         },
@@ -8672,6 +9145,7 @@
           "artifact": {
             "size": 11520,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/visual_workbench.json",
+            "MD5": "7c4eddfce31cc30fdf0c293a2142d4bd",
             "path": "config/visual_workbench.json"
           }
         },
@@ -8682,6 +9156,7 @@
           "artifact": {
             "size": 46,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/voicechat/category-volumes.properties",
+            "MD5": "47731f53ffef4a8a57c766a8091a5651",
             "path": "config/voicechat/category-volumes.properties"
           }
         },
@@ -8692,6 +9167,7 @@
           "artifact": {
             "size": 44,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/voicechat/player-volumes.properties",
+            "MD5": "881435f0ba9a0f1af1d2082d1298dcc4",
             "path": "config/voicechat/player-volumes.properties"
           }
         },
@@ -8702,6 +9178,7 @@
           "artifact": {
             "size": 1182,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/voicechat/translations.properties",
+            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
             "path": "config/voicechat/translations.properties"
           }
         },
@@ -8712,6 +9189,7 @@
           "artifact": {
             "size": 2,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/voicechat/username-cache.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
             "path": "config/voicechat/username-cache.json"
           }
         },
@@ -8722,6 +9200,7 @@
           "artifact": {
             "size": 4899,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/voicechat/voicechat-client.properties",
+            "MD5": "11ce0aa963f383404878cfe5baa02b93",
             "path": "config/voicechat/voicechat-client.properties"
           }
         },
@@ -8732,6 +9211,7 @@
           "artifact": {
             "size": 2838,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/voicechat/voicechat-server.properties",
+            "MD5": "72991a21ea0b82a2e74530e8855c2ad0",
             "path": "config/voicechat/voicechat-server.properties"
           }
         },
@@ -8742,6 +9222,7 @@
           "artifact": {
             "size": 94,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/voicechat-client.toml",
+            "MD5": "2fb2989fe60bf9a60eb6e8946ce4bb12",
             "path": "config/voicechat-client.toml"
           }
         },
@@ -8752,6 +9233,7 @@
           "artifact": {
             "size": 143,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/whitenoise-client.toml",
+            "MD5": "266e8bfb977c3b0bb4602ea24ccf0b47",
             "path": "config/whitenoise-client.toml"
           }
         },
@@ -8762,6 +9244,7 @@
           "artifact": {
             "size": 475,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/woodworks-common.toml",
+            "MD5": "edf13d4585a8bdc13383962396f7b13d",
             "path": "config/woodworks-common.toml"
           }
         },
@@ -8772,6 +9255,7 @@
           "artifact": {
             "size": 35,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/yacl.json5",
+            "MD5": "81d542abb72c4750c7218e0d975e3368",
             "path": "config/yacl.json5"
           }
         },
@@ -8782,6 +9266,7 @@
           "artifact": {
             "size": 920,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ysns/disabled_entities.json5",
+            "MD5": "adf68ad763db69301b0eb23932ea31e3",
             "path": "config/ysns/disabled_entities.json5"
           }
         },
@@ -8792,6 +9277,7 @@
           "artifact": {
             "size": 1663,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ysns/per_dimension_entities.json5",
+            "MD5": "29d40d89113a572026822dbe031dca34",
             "path": "config/ysns/per_dimension_entities.json5"
           }
         },

@@ -18,9 +18,7 @@
         "files"
       ],
       "patterns": [
-        "options.txt",
         "servers.dat",
-        "config/**",
         "resourcepacks/**"
       ]
     }
