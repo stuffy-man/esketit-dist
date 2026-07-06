@@ -19,7 +19,8 @@
       ],
       "patterns": [
         "servers.dat",
-        "resourcepacks/**"
+        "resourcepacks/**",
+        "fancymenu_data/**"
       ]
     }
   ]
