@@ -3,3 +3,4 @@ meta/
 modpacks/
 .env
 *.localhost.json.bak
+servers/*/forgemods/
