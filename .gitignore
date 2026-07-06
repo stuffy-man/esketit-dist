@@ -1,0 +1,5 @@
+cache/
+meta/
+modpacks/
+.env
+*.localhost.json.bak

@@ -1,0 +1,3904 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "esketit-1.20.1",
+      "name": "Esketit",
+      "description": "Сервер Esketit — Minecraft 1.20.1, Forge",
+      "icon": "https://stuffy-man.github.io/esketit-dist/icon.png",
+      "version": "1.0.0",
+      "address": "play.esketit.example:25565",
+      "minecraftVersion": "1.20.1",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7399,
+            "MD5": "a839d5603a05491f84f6c36284ab0ea8",
+            "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16612,
+                "MD5": "029daa8b97e10cedd4d6726a563379ab",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/versions/1.20.1-forge-47.4.0/1.20.1-forge-47.4.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118914,
+                "MD5": "bc798cdec9ec7eeb3354b550d5e67652",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16855,
+                "MD5": "10ca1edc0a62ea799c4327bfc44e5ad6",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4998,
+                "MD5": "cd3d6af64b394583aa83090915469f9e",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2776081,
+                "MD5": "f373b63ab9bfe53f7b35aaa425afa136",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4826828,
+                "MD5": "1940b09c4b066287963bde17aa375cec",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 267079,
+                "MD5": "5b26aba9f44796d54094022c1e73a49e",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.0/fmlloader-1.20.1-47.4.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170517,
+                "MD5": "68747d96f635b0a0dc9e070d3596a562",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.0/fmlearlydisplay-1.20.1-47.4.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.teamabnormals.abnormals_delight.core:abnormals_delight:5.0.1@jar",
+          "name": "Abnormals Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 614066,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/abnormals_delight.jar",
+            "MD5": "b78c57ab902353cd316c1b5110fc7645"
+          }
+        },
+        {
+          "id": "dev.obscuria:accents:1.1.0@jar",
+          "name": "Accents",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1336984,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/accents.jar",
+            "MD5": "484a50ee46f76f24c0c0aa1dd04c5d32"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.endertech.minecraft.mods:adlods:8.1.10.0@jar",
+          "name": "Large Ore Deposits",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 218100,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/AdLods-1.20.1-8.1.10.0-build.2196.jar",
+            "MD5": "5ec962dc42a11dca5d1f1066f96e358c"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:advancementplaques:1.6.9@jar",
+          "name": "Advancement Plaques",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 208850,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/advancement_plaques.jar",
+            "MD5": "508c73f2941ae3d48cbf197ba390ecdd"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.mrbysco:ageingspawners:2.0.0@jar",
+          "name": "Ageing Spawners",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19957,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/ageing_spawners.jar",
+            "MD5": "6b1e8a88ed1b05dba102de2d04cc4de0"
+          }
+        },
+        {
+          "id": "com.builtbroken.ai.improvements:aiimprovements:0.5.2@jar",
+          "name": "AI-Improvements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 29553,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/ai_improvements.jar",
+            "MD5": "9a6776ce2deab597d198e8755daa56ff"
+          }
+        },
+        {
+          "id": "com.alekiponi:alekiships:1.0.14@jar",
+          "name": "Aleki's Nifty Ships",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22335232,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/aleki_s_nifty_ships.jar",
+            "MD5": "826feae586b23c81db1efc902bdaf481"
+          }
+        },
+        {
+          "id": "com.teamabnormals.allurement.core:allurement:4.0.0@jar",
+          "name": "Allurement",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 637694,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/allurement.jar",
+            "MD5": "5706903bcecd690da35da6468d779e51"
+          }
+        },
+        {
+          "id": "com.frikinjay:almanac:1.0.2@jar",
+          "name": "Almanac",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15906,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/almanac.jar",
+            "MD5": "20f9b054f4caceebda02847c149901af"
+          }
+        },
+        {
+          "id": "alternate.current:alternate_current:1.7.0@jar",
+          "name": "Alternate Current",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 36703,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/alternate_current.jar",
+            "MD5": "43d4d8efddfa77a80aa7b1ae1a04ab48"
+          }
+        },
+        {
+          "id": "com.blamejared:ambientenvironment:11.0.0.1@jar",
+          "name": "Ambient Environment",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7335,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/ambient_environment.jar",
+            "MD5": "f276026bccb75aa1d683d10ec1a79547"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:amendments:1.20-2.2.5@jar",
+          "name": "Amendments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1301022,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/amendments.jar",
+            "MD5": "3e821a83a3a12bc9ca0fecb73a980dba"
+          }
+        },
+        {
+          "id": "generated.forgemod:amplified_nether:1.2.14@jar",
+          "name": "Amplified Nether",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 108425,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/amplified_nether.jar",
+            "MD5": "cddf979ee9793e60eb0d7b7f2f186115"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/architectury.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "dev.obscuria:archivist:1.1.12@jar",
+          "name": "Archivist",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 67563,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/archivist-forge-1.20.1-1.1.12.jar",
+            "MD5": "7e7fd6e9d02c57acddfd03c390714d36"
+          }
+        },
+        {
+          "id": "fuzs.armorstatues:armorstatues:8.0.6@jar",
+          "name": "Armor Statues",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 528017,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/armor_statues.jar",
+            "MD5": "ef01e94b3584095ecc1cbded1b164030"
+          }
+        },
+        {
+          "id": "artifacts:artifacts:9.5.16@jar",
+          "name": "Artifacts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 850457,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/artifacts.jar",
+            "MD5": "85081468e7498005f5dfdab2ae520097"
+          }
+        },
+        {
+          "id": "earth.terrarium:athena:3.1.2@jar",
+          "name": "Athena",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91808,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/athena.jar",
+            "MD5": "2086e326e8f0ff2f8d7d05c66c291484"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.darkhax:attributefix:21.0.5@jar",
+          "name": "AttributeFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19499,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/attributefix.jar",
+            "MD5": "e43cd5f7fc4b04e20127359e5bf9af80"
+          }
+        },
+        {
+          "id": "snownee.autochefsdelight:autochefsdelight:1.0.7+forge@jar",
+          "name": "Autochef's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 198495,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/autochef_s_delight.jar",
+            "MD5": "53a1853bbcf8a32e2aa6836b470eb2b0"
+          }
+        },
+        {
+          "id": "forge.me.thosea:badoptimizations:2.4.1@jar",
+          "name": "BadOptimizations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 460234,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/badoptimizations.jar",
+            "MD5": "f8dd994ef309213c5dae5cbeef53123c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "bagu_chan.bagus_lib:bagus_lib:1.20.1-5.6.1@jar",
+          "name": "Bagus Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 185510,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/bagus_lib.jar",
+            "MD5": "169b60e1fa35f0ba689a3d5c7d3021e1"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:7.3.38@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 591398,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/balm.jar",
+            "MD5": "2ff18975f2b4d0570f8eeeae85b66e42"
+          }
+        },
+        {
+          "id": "generated.forgemod:mr_banner_flags:2.3@jar",
+          "name": "Banner Flags",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46176,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/banner_flags.jar",
+            "MD5": "9491f03823389e7743d5e113c54b21ef"
+          }
+        },
+        {
+          "id": "com.mao.barbequesdelight.init:barbequesdelight:1.0.5@jar",
+          "name": "Barbeque's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 867081,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/barbeque_s_delight.jar",
+            "MD5": "baf9db3e45974887e0e73cd2f1f35efb"
+          }
+        },
+        {
+          "id": "com.illusivesoulworks:bedspreads:6.3.0+1.20.1@jar",
+          "name": "Bedspreads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 212376,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/bedspreads.jar",
+            "MD5": "09de7b5450bd8018f08009fac4f441f7"
+          }
+        },
+        {
+          "id": "net.mcreator.sharks:benssharks:1.3.0@jar",
+          "name": "Ben's Sharks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2952922,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/ben_s_sharks.jar",
+            "MD5": "657cde57e637069b4d704f91e730b72d"
+          }
+        },
+        {
+          "id": "com.teamabnormals.berry_good.core:berry_good:7.0.0@jar",
+          "name": "Berry Good",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3058543,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/berry_good.jar",
+            "MD5": "870c3f8e59347cea1cb978bef708d445"
+          }
+        },
+        {
+          "id": "betteradvancements:betteradvancements:0.4.2.25@jar",
+          "name": "Better Advancements",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 98124,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/better_advancements.jar",
+            "MD5": "30f0ea1a5da2f22cb25d7794544b3c1f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.betteranimationscollection:betteranimationscollection:8.0.1@jar",
+          "name": "Better Animations Collection",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 198755,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/better_animations_collection.jar",
+            "MD5": "048868835237883e835fdfaa410dee79"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.pandarix:betterarcheology:1.2.1-1.20.1@jar",
+          "name": "Better Archeology",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 982838,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/better_archeology.jar",
+            "MD5": "44d12515764cd4202481b73b82626aae"
+          }
+        },
+        {
+          "id": "fionathemortal.betterbiomeblend:betterbiomereblend:1.5.3@jar",
+          "name": "Better Biome Reblend",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 226772,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/better_biome_reblend.jar",
+            "MD5": "ccb56f4e24e10d8f54ab3a7b29ab4941"
+          }
+        },
+        {
+          "id": "betterdays:betterdays:3.3.4.5@jar",
+          "name": "BetterDays",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 543969,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/better_days.jar",
+            "MD5": "f9036bfa119af0943a198f7746086813"
+          }
+        },
+        {
+          "id": "fuzs.bettertridents:bettertridents:8.0.1@jar",
+          "name": "Better Tridents",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 89292,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/better_tridents.jar",
+            "MD5": "c5ebdc186bb24ed16e599e29fba237f0"
+          }
+        },
+        {
+          "id": "com.qendolin:betterclouds:1.3.37-beta+1.20.1-forge.rev.e63efe2@jar",
+          "name": "Better Clouds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 969149,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/better-clouds-1.3.37-beta+1.20.1-forge.rev.e63efe2.jar",
+            "MD5": "d3e86ac9307524cf4cff33e794f7195d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.darkhax:betterburning:9.0.3@jar",
+          "name": "BetterBurning",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12868,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/betterburning.jar",
+            "MD5": "06c0acd4b9adc4fec86389126ba75801"
+          }
+        },
+        {
+          "id": "fuzs.blockrunner:blockrunner:8.0.4@jar",
+          "name": "Block Runner",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76565,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/block_runner.jar",
+            "MD5": "599fa317751adc86fafeef00fa9eb753"
+          }
+        },
+        {
+          "id": "com.teamabnormals.blueprint.core:blueprint:7.1.3@jar",
+          "name": "Blueprint",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1151213,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/blueprint.jar",
+            "MD5": "de8703f1bd1de5c64ebd411e37b19d47"
+          }
+        },
+        {
+          "id": "com.teamabnormals.boatload.core:boatload:5.0.1@jar",
+          "name": "Boatload",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 372407,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/boatload.jar",
+            "MD5": "3e5fc34641f0fcea0da676183ece5074"
+          }
+        },
+        {
+          "id": "net.darkhax:bookshelf:20.2.15@jar",
+          "name": "Bookshelf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 343925,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/bookshelf.jar",
+            "MD5": "984cc53b314436f57e3bf72b8a1ba62b"
+          }
+        },
+        {
+          "id": "umpaz.brewinandchewin:brewinandchewin:1.20.1-3.2.1@jar",
+          "name": "Brewin' And Chewin'",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1206255,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/brewin_and_chewin.jar",
+            "MD5": "a9764338cbfe60d1e67c578b246c79ba"
+          }
+        },
+        {
+          "id": "me.cg360.mod.bridging.entrypoint:bridgingmod:2.5.1+1.20.1@jar",
+          "name": "Bridging Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3581195,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/bridging_mod.jar",
+            "MD5": "b14c0b898e506c1e0b99266b998220c7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.pandarix:bushierflowers:0.0.3-1.20.1@jar",
+          "name": "Bushier Flowers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 319549,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/bushier_flowers.jar",
+            "MD5": "1ad63c850623e4e694938c30ada5fb1c"
+          }
+        },
+        {
+          "id": "tschipp.carryon:carryon:2.1.2.7@jar",
+          "name": "Carry On",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 439457,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/carryon.jar",
+            "MD5": "8956b37c2ae11cc5522c8404a262c6b7"
+          }
+        },
+        {
+          "id": "com.va11halla:casualness_delight:1.20.1-0.4n@jar",
+          "name": "Casualness Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 233593,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/casualness_delight.jar",
+            "MD5": "ac3848ccc70360f72d00035b266efd10"
+          }
+        },
+        {
+          "id": "net.lizistired:cavedust:2.0.4@jar",
+          "name": "Cave Dust",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 32512,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/cave_dust.jar",
+            "MD5": "be740dbb420d53d0107704e8951b330c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.teamabnormals.caverns_and_chasms.core:caverns_and_chasms:2.1.3@jar",
+          "name": "Caverns & Chasms",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38734591,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/caverns_and_chasms-1.20.1-2.1.3.jar",
+            "MD5": "7a748df92f252ce022b7aeaf642e5041"
+          }
+        },
+        {
+          "id": "com.ezzenix:chatanimation:1.1.3@jar",
+          "name": "ChatAnimation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 381473,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/chat_animation_smooth_chat.jar",
+            "MD5": "4d20168e4327b7e6357eb108030a0baf"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "earth.terrarium:chipped:3.0.7@jar",
+          "name": "Chipped",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15060263,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/chipped.jar",
+            "MD5": "c6c76e78805b357757bf47b04c7286e7"
+          }
+        },
+        {
+          "id": "me.srrapero720:chloride:1.7.7@jar",
+          "name": "Chloride",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 956960,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/chloride-FORGE-mc1.20.1-v1.7.7.jar",
+            "MD5": "5a6f3e9435e3a5ae8a4d2c616c24267f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.teamabnormals.clayworks.core:clayworks:3.0.4@jar",
+          "name": "Clayworks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1195583,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/clayworks.jar",
+            "MD5": "8fbd0a5d62ab7f35ddac918c771d7a26"
+          }
+        },
+        {
+          "id": "fuzs.climaterivers:climaterivers:20.1.0@jar",
+          "name": "Climate Rivers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52731,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/climate_rivers.jar",
+            "MD5": "8cb4b1686705ce0521a0228a8b6d4f3f"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/cloth_config_api.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          }
+        },
+        {
+          "id": "com.natamus:coalexplosion:1.9.1@jar",
+          "name": "Coal Explosion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13794,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/coal_explosion.jar",
+            "MD5": "7b59d4ffe60ce1d020f92631f021f680"
+          }
+        },
+        {
+          "id": "com.momosoftworks.coldsweat:cold_sweat:2.4.2@jar",
+          "name": "Cold Sweat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2705107,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/ColdSweat-2.4.2.jar",
+            "MD5": "97004c76eb6b4be3570f727b9743fa54"
+          }
+        },
+        {
+          "id": "net.brdle:collectorsreap:1.5.5@jar",
+          "name": "Collector's Reap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1547312,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/collector_s_reap.jar",
+            "MD5": "531c312811157f981d21d1dc03933eb8"
+          }
+        },
+        {
+          "id": "fuzs.combatnouveau:combatnouveau:8.0.5@jar",
+          "name": "Combat Nouveau",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 111738,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/combat_nouveau.jar",
+            "MD5": "7454aee6b7e822f1af2194acd8c6aeea"
+          }
+        },
+        {
+          "id": "net.fixerlink:compatdelight:1.0.1.1@jar",
+          "name": "Compat Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2081238,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/compatdelight-1.0.1.1.jar",
+            "MD5": "11f4f12afbacbeeaf4f6762954ed501d"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:configured:2.2.3@jar",
+          "name": "Configured",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 418929,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/configured-forge-1.20.1-2.2.3.jar",
+            "MD5": "9380dc31c599c523a5682a4025fceb92"
+          }
+        },
+        {
+          "id": "generated.forgemod:configureddefaults_v8_0_4_1_20_1_forge:0.0.0@jar",
+          "name": "Configureddefaults_v8_0_4_1_20_1_forge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 42866,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/configureddefaults_v8_0_4_1_20_1_forge.jar",
+            "MD5": "344e3a4599ad289fb1d0554f963f3031"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:12.0.2@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 115280,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/controlling.jar",
+            "MD5": "dc94fc03e516d96aad393b26910c81ad"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "moonfather.cookyourfood:cookyourfood:1.11@jar",
+          "name": "Cook your food",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25570,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/cook_your_food.jar",
+            "MD5": "7e3ec3d83b6902ae1dbf58781e607d39"
+          }
+        },
+        {
+          "id": "cn.mcmod:corn_delight:1.1.9-1.20.1@jar",
+          "name": "Corn Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 172982,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/corn_delight.jar",
+            "MD5": "6508fafce7069f384c3cb70ea1999df7"
+          }
+        },
+        {
+          "id": "net.muksvtwo:corpsebutbetter:1.0.8@jar",
+          "name": "Corpse, But Better",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 827225,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/corpse_but_better.jar",
+            "MD5": "d9cbdcbf6dc054202e0f248cff229a6f"
+          }
+        },
+        {
+          "id": "lain.mods.cos.init:cosmeticarmorreworked:1.20.1-v1a@jar",
+          "name": "CosmeticArmorReworked",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 88752,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/cosmeticarmorreworked-1.20.1-v1a.jar",
+            "MD5": "2454075e9a25cbadc0fce66502e3261d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "cosmeticarmoursmod:cosmeticarmoursmod:1.5.3.1@jar",
+          "name": "CosmeticArmours",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17337641,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/cosmeticarmours.jar",
+            "MD5": "0cd9e615032f2e84e749dcf74670b578"
+          }
+        },
+        {
+          "id": "com.gumillea:cosmopolitan:1.1.0@jar",
+          "name": "Cosmopolitan",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1487173,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/cosmopolitan.jar",
+            "MD5": "6da70ecc30b999aab6941570514b13d3"
+          }
+        },
+        {
+          "id": "alabaster.crabbersdelight:crabbersdelight:1.2.3@jar",
+          "name": "Crabber's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 616366,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/crabber_s_delight.jar",
+            "MD5": "14d9db5a9087adc79435d1f7c375c67a"
+          }
+        },
+        {
+          "id": "net.davio.aquaticambitions:create_aquatic_ambitions:1.20.1-2.0.2@jar",
+          "name": "Create: Aquatic Ambitions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1035179,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/create_aquatic_ambitions.jar",
+            "MD5": "15b79fc27ed78c194ee25662bb274617"
+          }
+        },
+        {
+          "id": "systems.alexander:bellsandwhistles:0.4.3-1.20.x@jar",
+          "name": "Create: Bells & Whistles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 199902,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/create_bells_whistles.jar",
+            "MD5": "05c50f0abc8e5d389329e14b912c0603"
+          }
+        },
+        {
+          "id": "com.weido:create_bb:1.0.7@jar",
+          "name": "Create: Blocks & Bogies",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2634656,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/create_blocks_bogies.jar",
+            "MD5": "82faec466247fc2c92a73f8dc3ba5c97"
+          }
+        },
+        {
+          "id": "plus.dragons.createcentralkitchen:create_central_kitchen:1.4.3b@jar",
+          "name": "Create: Central Kitchen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 822499,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/create_central_kitchen.jar",
+            "MD5": "cf941597532a7837327ee891b36f0596"
+          }
+        },
+        {
+          "id": "net.mcreator.createcompressed:create_compressed:2.1.0@jar",
+          "name": "Create Compressed",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 153989,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/create_compressed.jar",
+            "MD5": "86b63d9245ba6e21c0421d021c104adb"
+          }
+        },
+        {
+          "id": "com.copycatsplus:copycats:3.0.7+mc.1.20.1-forge@jar",
+          "name": "Create: Copycats+",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1996097,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/create_copycats.jar",
+            "MD5": "47e13c8058d400e4a6316d00f451b29c"
+          }
+        },
+        {
+          "id": "fr.iglee42:createcasing:1.8-ht2@jar",
+          "name": "Create Encased",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2482520,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/create_encased.jar",
+            "MD5": "0d786cecf79e06414f1552e554a3e99c"
+          }
+        },
+        {
+          "id": "plus.dragons.createenchantmentindustry:create_enchantment_industry:1.3.3-for-create-6.0.6@jar",
+          "name": "Create Enchantment Industry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 488060,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/create_enchantment_industry.jar",
+            "MD5": "6f5f44bb2db0d2916a8ce3e60dae02cf"
+          }
+        },
+        {
+          "id": "com.aesefficio:interiors:0.6.0@jar",
+          "name": "Create: Interiors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 489265,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/create_interiors.jar",
+            "MD5": "ce68bdf83822db82b2e258b49ee3d074"
+          }
+        },
+        {
+          "id": "com.kreidev:cmparallelpipes:2.0.3@jar",
+          "name": "Create More: Parallel Pipes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30815,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/create_more_parallel_pipes.jar",
+            "MD5": "4c1537ecdaedfb3ebe3a9c46ec99ed0a"
+          }
+        },
+        {
+          "id": "com.possible_triangle:sliceanddice:3.6.0@jar",
+          "name": "Create Slice & Dice",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 588268,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/create_slice_dice.jar",
+            "MD5": "d32f1794294f473f0a63296cac72802d"
+          }
+        },
+        {
+          "id": "someassemblyrequired:some_assembly_required:1.20.1-4.2.3@jar",
+          "name": "Some Assembly Required",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 421627,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/create_some_assembly_required.jar",
+            "MD5": "fd9401365bb15f6436ae867c7b0119e3"
+          }
+        },
+        {
+          "id": "com.simibubi:create:6.0.8@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19170905,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/create.jar",
+            "MD5": "6ebc5c57638c1678359eac65b924c310"
+          }
+        },
+        {
+          "id": "rbasamoyai.createbigcannons:createbigcannons:5.11.4@jar",
+          "name": "Create Big Cannons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4058306,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/createbigcannons-5.11.4-mc.1.20.1-forge.jar",
+            "MD5": "aef557085e3d995f8838061a3ce4f0be"
+          }
+        },
+        {
+          "id": "dev.ithundxr.createnumismatics:numismatics:1.0.15+forge-mc1.20.1@jar",
+          "name": "Create: Numismatics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 885623,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/CreateNumismatics-1.0.15+forge-mc1.20.1.jar",
+            "MD5": "4943d40efd8e79c800f495b572ad4282"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.12.35@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1143788,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/creativecore.jar",
+            "MD5": "a58f958ab8b789af3c6b3a9d93ca415d"
+          }
+        },
+        {
+          "id": "com.github.eterdelta:crittersandcompanions:1.20.1-2.3.5@jar",
+          "name": "Critters and Companions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1594359,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/critters_and_companions.jar",
+            "MD5": "758bf538d42daea117e2d7fd51e7e29a"
+          }
+        },
+        {
+          "id": "com.baisylia:culturaldelights:0.16.5@jar",
+          "name": "Cultural Delights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 262495,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/cultural_delights.jar",
+            "MD5": "d8c58392edc3f92e591f7273a068559b"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 398066,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/curios_api.jar",
+            "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
+          }
+        },
+        {
+          "id": "com.psilocke:curiouslanterns:1.20.1-1.3.7@jar",
+          "name": "Curious Lanterns",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 35886,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/curious_lanterns.jar",
+            "MD5": "019d0c8d88f742b86ac25148a6b3f6f1"
+          }
+        },
+        {
+          "id": "customskinloader:customskinloader:14.28@jar",
+          "name": "CustomSkinLoader",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 153877,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/customskinloader.jar",
+            "MD5": "902406300ff7da3811d46523fad84734"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.cutthrough:cutthrough:8.0.2@jar",
+          "name": "Cut Through",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 57764,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/cut_through.jar",
+            "MD5": "271dffd231164a07c4f855f31a78afa5"
+          }
+        },
+        {
+          "id": "com.kyanite:deeperdarker:1.3.3@jar",
+          "name": "Deeper and Darker",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17844266,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/deeper_and_darker.jar",
+            "MD5": "0a71e15737a134276edb310ea02db5f4"
+          }
+        },
+        {
+          "id": "dev.worldgen.deeper.oceans:deeper_oceans:2.0.0@jar",
+          "name": "Deeper Oceans",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17062,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/deeper_oceans.jar",
+            "MD5": "a6d12c18d80c976d59cb496a336aeab9"
+          }
+        },
+        {
+          "id": "net.blay09.mods:defaultoptions:18.0.4@jar",
+          "name": "Default Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 94684,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/default_options.jar",
+            "MD5": "2a453bba939907b55d4d7e0c31e6d8ad"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.flomik:delightfulcreators:1.2@jar",
+          "name": "Delightful Creators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 357197,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/delightful_creators.jar",
+            "MD5": "4b32fe27c9cb6f1551f89bdd8b8313a0"
+          }
+        },
+        {
+          "id": "net.brnbrd:delightful:3.7.8@jar",
+          "name": "Delightful",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1609113,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/delightful.jar",
+            "MD5": "3e3b2379ffdc42ef32538221c779337c"
+          }
+        },
+        {
+          "id": "com.dannbrown.deltaboxlib.platform:deltaboxlib:2.2.0@jar",
+          "name": "Deltabox Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 804529,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/deltabox_lib.jar",
+            "MD5": "0b99cd9f14b23e69f1427e34bd211702"
+          }
+        },
+        {
+          "id": "com.illusivesoulworks:diet:2.1.1+1.20.1@jar",
+          "name": "Diet",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 368483,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/diet.jar",
+            "MD5": "9a3d884e073eb6791be3fbcafd38f2b2"
+          }
+        },
+        {
+          "id": "com.teampotato:dimensionalsycnfixes:1.20.1-0.0.1@jar",
+          "name": "DimensionalSycnFixes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3081,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/dimensionalsycnfixes.jar",
+            "MD5": "b960de4daf0e9e2908ac7ca9b6fdbfb3"
+          }
+        },
+        {
+          "id": "com.jkvin114:displaydelight:1.4.0@jar",
+          "name": "Display Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1018387,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/display_delight.jar",
+            "MD5": "b8102e7532f80b02356a814f86ce9263"
+          }
+        },
+        {
+          "id": "com.seibel:distanthorizons:2.4.5-b@jar",
+          "name": "Distant Horizons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25378978,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/distant_horizons.jar",
+            "MD5": "9d238e4b055990d7e202d9d24f410a5e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "toni.distractionfreerecipes:distraction_free_recipes:1.2.1@jar",
+          "name": "Distraction Free Recipes (EMI)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 241822,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/distraction_free_recipes_emi_rei_jei.jar",
+            "MD5": "093eb577627f1707e64575b4d767b529"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.keksuccino:drippyloadingscreen:3.1.0@jar",
+          "name": "Drippy Loading Screen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 285003,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/drippy_loading_screen.jar",
+            "MD5": "029b16e576071b67f3de0df7215a1062"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:dummmmmmy:1.20-2.0.9@jar",
+          "name": "MmmMmmMmmmmm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 363044,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/dummy_target_dummy.jar",
+            "MD5": "4d3c04e63f560cfb51d100b7a4e78563"
+          }
+        },
+        {
+          "id": "net.yirmiri:dungeonsdelight:1.2.10@jar",
+          "name": "Dungeon's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1844636,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/dungeon_s_delight.jar",
+            "MD5": "0ee1afffb66e375a604bc12b47d0d8d9"
+          }
+        },
+        {
+          "id": "mod.crend:dynamiccrosshair:9.10@jar",
+          "name": "Dynamic Crosshair",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 879924,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/dynamic_crosshair.jar",
+            "MD5": "1ac0e508f5fe40bd1608ea4cb4b60247"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl:dynamic_fps:3.11.4@jar",
+          "name": "Dynamic FPS",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 402345,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/dynamic_fps.jar",
+            "MD5": "f8df69d0af455b6f47acb88ab747d1a3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "maxhyper.dtecologics:dtecologics:1.20.1-1.1.0@jar",
+          "name": "Dynamic Trees for Ecologics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 98104,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/dynamic_trees_for_ecologics.jar",
+            "MD5": "9b14856201e2aca76c207b0dfc3e898f"
+          }
+        },
+        {
+          "id": "com.dtteam:dtfruitsdelight:1.20.1-1.0.0@jar",
+          "name": "Dynamic Trees for Fruits Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1093655,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/dynamic_trees_for_fruits_delight.jar",
+            "MD5": "2d49c9b4c3053d06d4c8abb13cd6d754"
+          }
+        },
+        {
+          "id": "com.ferreusveritas:dynamictreesplus:1.20.1-1.2.2@jar",
+          "name": "Dynamic Trees Plus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 534713,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/dynamic_trees_plus.jar",
+            "MD5": "cbf483b0f1c2b9faafd95ff9f3e47233"
+          }
+        },
+        {
+          "id": "com.ferreusveritas:dynamictrees:1.20.1-1.4.10@jar",
+          "name": "Dynamic Trees",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3754640,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/dynamic_trees.jar",
+            "MD5": "5894dcd9b389c1c0252ceb006e97ab52"
+          }
+        },
+        {
+          "id": "maxhyper.dtneapolitan:dtneapolitan:1.20.1-1.3.2@jar",
+          "name": "Dynamic Trees for Neapolitan",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 139462,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/DynamicTreesNeapolitan-1.20.1-1.3.2.jar",
+            "MD5": "126ffe801f6e11c99a1c5b0c17c4056b"
+          }
+        },
+        {
+          "id": "io.github.andrew6rant:dynamictrim:1.4.1@jar",
+          "name": "DynamicTrim",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 293540,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/dynamictrim.jar",
+            "MD5": "e28b0a6462426b6b934b97a23d2dcc7c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.easyanvils:easyanvils:8.0.2@jar",
+          "name": "Easy Anvils",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 141744,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/easy_anvils.jar",
+            "MD5": "d77ef2d7251b53392862f371f2e33163"
+          }
+        },
+        {
+          "id": "samebutdifferent.ecologics:ecologics:2.2.4@jar",
+          "name": "Ecologics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1828904,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/ecologics.jar",
+            "MD5": "9263661a799e44144d390aba0fffa8bf"
+          }
+        },
+        {
+          "id": "dev.huskuraft.effortless.forge.platform:effortless:3.4.0@jar",
+          "name": "Effortless Structure",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1906064,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/effortless_structure.jar",
+            "MD5": "1289feaa7d14ff2f6a9e45335ab2dbf6"
+          }
+        },
+        {
+          "id": "dev.obscuria:elixirum:0.12.0@jar",
+          "name": "Ars Elixirum",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14217056,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/elixirum-forge-1.20.1-0.12.0.jar",
+            "MD5": "800b78d01c0c2279e1108cee42bffc08"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/embeddium.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:3.0.17@jar",
+          "name": "Entity Model Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 685153,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/emf_entity_model_features.jar",
+            "MD5": "fee3c92f8e755c5b54ab87c489325406"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.hrznstudio:emojiful:4.2.0@jar",
+          "name": "Emojiful",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 262412,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/emojiful.jar",
+            "MD5": "0ba360de4747e64c6325b74c0055479a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.teamremastered:endrem:5.3.3-R-1.20.1@jar",
+          "name": "End Remastered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 889634,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/end_remastered.jar",
+            "MD5": "1de1aa97b353be8fe243f3a60cfc902e"
+          }
+        },
+        {
+          "id": "cn.foggyhillside:ends_delight:2.5.1+forge.1.20.1@jar",
+          "name": "End's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 279150,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/end_s_delight.jar",
+            "MD5": "303457bc0094382b8eeec41b64ee38b7"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.10.0@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1577833,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/entity_culling.jar",
+            "MD5": "ccac3c3197dda5d4ac4ccdb3d0af312e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "traben.entity_sound_features:entity_sound_features:0.7.1@jar",
+          "name": "Entity Sound Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 284151,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/entity_sound_features.jar",
+            "MD5": "bc546772c8a61706798a7e27852761e7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:7.0.13@jar",
+          "name": "Entity Texture Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 927665,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/entity_texture_features.jar",
+            "MD5": "aad82446323176e4c914d531ad4eb706"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.esketitcoldcellar:esketit_coldcellar:1.0.0@jar",
+          "name": "Esketit Cold Cellar",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15396,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/esketit_coldcellar-1.0.0.jar",
+            "MD5": "a8dcd191a249d6d19b5256ba4fc62714"
+          }
+        },
+        {
+          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.0@jar",
+          "name": "Esketit Metallurgy",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 375071,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/esketit_metallurgy-1.0.0.jar",
+            "MD5": "848e7c06bbfb69440848f292de014c1b"
+          }
+        },
+        {
+          "id": "dev.esketittannery:esketit_tannery:1.0.0@jar",
+          "name": "Esketit Tannery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 274383,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/esketit_tannery-1.0.0.jar",
+            "MD5": "bab03013a592afcc0ec00401461dc2ed"
+          }
+        },
+        {
+          "id": "generated.forgemod:explorify:1.6.4@jar",
+          "name": "Explorify",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 951495,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/Explorify%20v1.6.4%20f15-88.mod.jar",
+            "MD5": "aef04ab27f59e69257a7c5278e0ef758"
+          }
+        },
+        {
+          "id": "dev.xylonity:explosiveenhancement:1.1.0@jar",
+          "name": "Explosive Enhancement",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 85868,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/explosive_enhancement.jar",
+            "MD5": "4efddb7f44fb0b0512446692304d63a5"
+          }
+        },
+        {
+          "id": "io.github.mortuusars:exposure:1.9.20@jar",
+          "name": "Exposure",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2249505,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/exposure.jar",
+            "MD5": "b4adbdc1368921a238a039d28ad83d7e"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:3.8.1@jar",
+          "name": "FancyMenu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4472193,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/fancymenu.jar",
+            "MD5": "bf41a4251d431d92b89b6c91f84d5546"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.11@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2963127,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/farmer_s_delight.jar",
+            "MD5": "50a4531d1ec39a9d314d48ac79f15271"
+          }
+        },
+        {
+          "id": "umpaz.farmersrespite:farmersrespite:1.20.1-2.1@jar",
+          "name": "Farmer's Respite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 537307,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/farmer_s_respite.jar",
+            "MD5": "13d46fc2bfb1e4f7176381a98b29eaf5"
+          }
+        },
+        {
+          "id": "fuzs.fastitemframes:fastitemframes:20.1.5@jar",
+          "name": "Fast Item Frames",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 99737,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/fast_item_frames.jar",
+            "MD5": "168f0c9cc65f5e41f8507563d99e86e7"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/ferrite_core.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.moepus:flerovium:1.2.18@jar",
+          "name": "Flerovium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 253961,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/flerovium.jar",
+            "MD5": "545576a1fb62ccd77f0192f004ac9a69"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mcreator:flintnpowder:1.0.0@jar",
+          "name": "Flint'N'Powder - Guns Mod!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4491769,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/flintnpowder-1.0.0-patch-forge-1.20.1.jar",
+            "MD5": "ace45585d155770bfa3656744cd250b5"
+          }
+        },
+        {
+          "id": "com.endertech.minecraft:forgeendertech:11.1.10.1@jar",
+          "name": "ForgeEndertech",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 552673,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/ForgeEndertech-1.20.1-11.1.10.1-build.2196.jar",
+            "MD5": "3371ebe33cdf3943c21ea7458cc13b97"
+          }
+        },
+        {
+          "id": "dev.obscuria:fragmentum:1.3.0@jar",
+          "name": "Fragmentum",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2733846,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/fragmentum-forge-1.20.1-1.3.0.jar",
+            "MD5": "0c30cad87d3a41bb12e57e295ce1a55c"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:framework:0.8.0@jar",
+          "name": "Framework",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 383868,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/framework-forge-1.20.1-0.8.0.jar",
+            "MD5": "6d9a54cd004b15028673b309243e07a2"
+          }
+        },
+        {
+          "id": "com.faboslav.friendsandfoes:flowerymooblooms:2.0.2@jar",
+          "name": "Friends&Foes - Flowery Mooblooms",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 208327,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/friends_foes_flowery_mooblooms.jar",
+            "MD5": "188b66756c6b6c7847713846d9c5ecf5"
+          }
+        },
+        {
+          "id": "com.faboslav:friendsandfoes:3.0.9@jar",
+          "name": "Friends&Foes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3622128,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/friends_foes.jar",
+            "MD5": "d85705f9ccc062d77f1204f86aff8e1d"
+          }
+        },
+        {
+          "id": "dev.xkmc.fruitsdelight.init:fruitsdelight:1.1.1@jar",
+          "name": "Fruits Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1892593,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/fruits_delight.jar",
+            "MD5": "8e8445ed024eb6fa1dd7b511564bf7d3"
+          }
+        },
+        {
+          "id": "com.supermartijn642:fusion:1.2.12@jar",
+          "name": "Fusion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 544586,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/fusion.jar",
+            "MD5": "aad8a16b48cd54cd75e34bf4f40eec1b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:fzzy_config:0.7.6+1.20.1+forge@jar",
+          "name": "Fzzy Config",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2374667,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/fzzy_config.jar",
+            "MD5": "f48f8112f6e2d161c655b750f6bfd0c8"
+          }
+        },
+        {
+          "id": "net.gabou:gaboulibs:1.7.1@jar",
+          "name": "Gaboulibs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25349,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/gaboulibs.jar",
+            "MD5": "a831f7f8d6d5f42fb7eaa4583241c41e"
+          }
+        },
+        {
+          "id": "com.teamabnormals.gallery.core:gallery:1.0.3@jar",
+          "name": "Gallery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 241777,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/gallery.jar",
+            "MD5": "27001f76b53b1089135df0f8ba47bbd8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:mr_gardeners_dream:1@jar",
+          "name": "Gardener's Dream",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 64819,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/gardeners_dream.jar",
+            "MD5": "01e400da22a8f8f9ac8809b31a955f4d"
+          }
+        },
+        {
+          "id": "gardensofthedead:gardens_of_the_dead:4.0.4@jar",
+          "name": "Gardens of the Dead",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11866957,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/gardens_of_the_dead.jar",
+            "MD5": "2139f4a527c3ab443a678c3266ab2969"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.8.3@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1039047,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/geckolib.jar",
+            "MD5": "60b7bce466abc60377785bf3dc84974c"
+          }
+        },
+        {
+          "id": "generated.forgemod:geophilic:3.4.6@jar",
+          "name": "Geophilic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 751598,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/geophilic.jar",
+            "MD5": "e0354e4a2630e5467d484a129d047e47"
+          }
+        },
+        {
+          "id": "glitchcore:glitchcore:0.0.1.1@jar",
+          "name": "GlitchCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87550,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+            "MD5": "6d24b09db12acdab40437a1929259352"
+          }
+        },
+        {
+          "id": "glitchcore:glitchcore:0.0.1.1@jar",
+          "name": "GlitchCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87551,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/glitchcore.jar",
+            "MD5": "87d2b7104f4069d44741f58ebe1bb2bd"
+          }
+        },
+        {
+          "id": "de.cadentem:goat_man:2.8@jar",
+          "name": "Goat_man",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2378540,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/goat_man.jar",
+            "MD5": "3a618c5a3adbae1bd22c064163552706"
+          }
+        },
+        {
+          "id": "com.mactso:harderbranchmining:46.0.14@jar",
+          "name": "Harder Branch Mining Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 83678,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/harderbranchmining-1.20-46.0.14.jar",
+            "MD5": "7d19f6c9398eb1207e712aa532a35145"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:hauntedharvest:1.20-3.2.0@jar",
+          "name": "Haunted Harvest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 718867,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/haunted_harvest.jar",
+            "MD5": "3e5ac8dea2ba1df24c9e026969bc3a1d"
+          }
+        },
+        {
+          "id": "alabaster.hearthandharvest:hearthandharvest:1.0.12@jar",
+          "name": "Hearth and Harvest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1151974,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/hearth_and_harvest.jar",
+            "MD5": "8af77cb76768837b4631a2694f278068"
+          }
+        },
+        {
+          "id": "generated.forgemod:hearths:1.0.5@jar",
+          "name": "Hearths",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 334560,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/Hearths%20v1.0.5.mod.jar",
+            "MD5": "1cb462378e1b97e57e3fd606ccf96ec0"
+          }
+        },
+        {
+          "id": "generated.forgemod:highlight:2.0.1@jar",
+          "name": "Highlight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 296161,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/highlight.jar",
+            "MD5": "51efcfecf948df6c80cce6c1be33e0af"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "io.github.ohponopono:hoporp:1.3.7c@jar",
+          "name": "HopoBetterRuinedPortals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 350519,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/hopobetterruinedportals.jar",
+            "MD5": "1261295941f90449e02ac51e4357b895"
+          }
+        },
+        {
+          "id": "io.github.mortuusars:horseman:1.3.15@jar",
+          "name": "Horseman",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 329030,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/horseman.jar",
+            "MD5": "fa43502c093d2655d89cb7ac74fb96a4"
+          }
+        },
+        {
+          "id": "baguchan.hunters_return:hunters_return:1.20.1-11.8.0@jar",
+          "name": "Hunters Returns",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 521616,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/hunter_s_return.jar",
+            "MD5": "b8bcd2df597d037151f60f82b8c7c271"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.25@jar",
+          "name": "Iceberg",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134551,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/iceberg.jar",
+            "MD5": "cda8af806d0de012f5c7012ea51c155f"
+          }
+        },
+        {
+          "id": "pm.meh:icterine:1.3.0@jar",
+          "name": "Icterine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 38848,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/icterine.jar",
+            "MD5": "d7442dfca7ccad12c119871e5f08ee81"
+          }
+        },
+        {
+          "id": "fuzs.illagerinvasion:illagerinvasion:8.0.7@jar",
+          "name": "Illager Invasion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2341695,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/illager_invasion.jar",
+            "MD5": "0f249a47d8ac6c20e0ba6b0b8890e29b"
+          }
+        },
+        {
+          "id": "net.raphimc:immediatelyfast:1.5.4+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 538992,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/immediatelyfast.jar",
+            "MD5": "8fb21bb328cc322c6d9749eff087509f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "toni.immersivelanterns:immersivelanterns:1.0.6@jar",
+          "name": "Immersive Lanterns",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 367298,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/immersive_lanterns.jar",
+            "MD5": "72b6415358f9751e4316338d8f9d2622"
+          }
+        },
+        {
+          "id": "immersive_melodies:immersive_melodies:0.6.0+1.20.1@jar",
+          "name": "Immersive Melodies",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5517578,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/immersive_melodies.jar",
+            "MD5": "9b2903b86fbc565a3996b2d1fd78eb0d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.conczin:immersive_optimization:0.1.4@jar",
+          "name": "Immersive Optimization",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52117,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/immersive_optimization.jar",
+            "MD5": "87fdcac14a93791786c5a7214b2c3936"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "immersive_paintings:immersive_paintings:0.6.11+1.20.1@jar",
+          "name": "Immersive Paintings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4855090,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/immersive_paintings.jar",
+            "MD5": "e2792bcbd158966f3e99454afe7ed50a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.ordana:immersive_weathering:1.20.1-2.0.5@jar",
+          "name": "Immersive Weathering",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2269048,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/immersive_weathering.jar",
+            "MD5": "f424b363799c2fd29362c618c8a30bda"
+          }
+        },
+        {
+          "id": "net.sashiro:ipo:5@jar",
+          "name": "ImprovedPillagerOutpost",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 619296,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/improvedpillageroutpost.jar",
+            "MD5": "a67ff2b6b87dd1222b694b888705999d"
+          }
+        },
+        {
+          "id": "mcjty.incontrol:incontrol:1.20-9.4.6@jar",
+          "name": "InControl",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 361895,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/incontrol.jar",
+            "MD5": "68e6122a9a37afaed7b2c50eb581ffdb"
+          }
+        },
+        {
+          "id": "com.teamabnormals.incubation.core:incubation:4.0.4@jar",
+          "name": "Incubation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 482946,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/incubation.jar",
+            "MD5": "fc7a00011c4be172e9b97c955ff9014f"
+          }
+        },
+        {
+          "id": "org.anti_ad.mc.ipnext:inventoryprofilesnext:1.10.20@jar",
+          "name": "Inventory Profiles Next",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1457354,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/inventory_profiles_next.jar",
+            "MD5": "7e883e59d6e544574ef58c52562881a9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.izofar:takesapillage:1.0.3@jar",
+          "name": "It Takes A Pillage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3758273,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/it_takes_a_pillage.jar",
+            "MD5": "df4c3678bd5e37a14bb0a3f65071ea8a"
+          }
+        },
+        {
+          "id": "elocindev.item_obliterator:item_obliterator:1.7.0@jar",
+          "name": "Item Obliterator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19728,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/item_obliterator.jar",
+            "MD5": "9f4ef99cbe9aea986f41f4590f7c3a8b"
+          }
+        },
+        {
+          "id": "team.creative:itemphysic:1.8.11@jar",
+          "name": "ItemPhysic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55238,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/itemphysic.jar",
+            "MD5": "b883a92b9d129c00deecc6df49c2cd29"
+          }
+        },
+        {
+          "id": "me.decce:ixeris:4.1.6+1.20.1-forge@jar",
+          "name": "Ixeris",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1457629,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/ixeris.jar",
+            "MD5": "035580ea67acd65fe38b10ad2c7fd778"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "snownee.jade.addon:jadeaddons:5.5.0+forge@jar",
+          "name": "Jade Addons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91771,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/jade_addons.jar",
+            "MD5": "3e2fa5d8b2ec994ba416ec4f84d5ea60"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.13.2+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 552486,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/jade.jar",
+            "MD5": "7c349670f77fd64b9e9854c4a8d82fcc"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.christofmeg:justenoughbreeding:2.5.0@jar",
+          "name": "Just Enough Breeding",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 566806,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/just_enough_breeding_jebr.jar",
+            "MD5": "4e1fb3c18e7bc232068cba108c57cf49"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:jeed:1.20-2.2.5@jar",
+          "name": "Just Enough Effects Descriptions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 159288,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/just_enough_effects_descriptions.jar",
+            "MD5": "6792ef4a197457dcff0b4353e956a94d"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.129@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1409642,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/just_enough_items_jei.jar",
+            "MD5": "a5192227a15e0fe0e367828b32c1f472"
+          }
+        },
+        {
+          "id": "com.mrbysco:justenoughprofessions:3.0.1@jar",
+          "name": "Just Enough Professions (JEP)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 24607,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/just_enough_professions_jep.jar",
+            "MD5": "bee91e2889507c9264155b4eb8e1b864"
+          }
+        },
+        {
+          "id": "jeresources:jeresources:1.4.0.247@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 276231,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/just_enough_resources.jar",
+            "MD5": "413f7d427a16254ec8e08f78094a206d"
+          }
+        },
+        {
+          "id": "com.github.ysbbbbbb.kaleidoscopetavern:kaleidoscope_tavern:1.0.1-forge+mc1.20.1@jar",
+          "name": "Kaleidoscope Tavern",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 924824,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/kaleidoscopetavern-1.0.1-forge+mc1.20.1.jar",
+            "MD5": "83aebcfbf0fe02e1af96b012972c2fc8"
+          }
+        },
+        {
+          "id": "snownee.kiwi:kiwi:11.10.1+forge@jar",
+          "name": "Kiwi Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1677051,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/kiwi.jar",
+            "MD5": "731b7999bae7362aa155a8fe50ff61cf"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.8.0@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 625185,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/konkrete.jar",
+            "MD5": "d69107c593e361e1b7b96733250bd098"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge_4_12_0_all:0.0.0@jar",
+          "name": "Kotlinforforge_4_12_0_all",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7442998,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/kotlinforforge_4_12_0_all.jar",
+            "MD5": "d6a40dede74edbe646b34a1bafd53b4d"
+          }
+        },
+        {
+          "id": "one.pkg.kfnp:krypton_fnp:0.2.28.2-1.20.1@jar",
+          "name": "Krypton FNP",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1794016,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/krypton_reno.jar",
+            "MD5": "cdf00793d38e0d689d4bb4edb18d78ff"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ru.vidtu.ksyxis.platform:ksyxis:1.3.4@jar",
+          "name": "Ksyxis",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 29869,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/ksyxis.jar",
+            "MD5": "665af2d0045f1ff0fde3898a49155145"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "pie.ilikepiefoo:kubejsadditions:4.3.4@jar",
+          "name": "KubeJS Addditions (Forge)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 321976,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/kubejs_addditions_forge.jar",
+            "MD5": "3fd00cc0a566ed51706fedb677b19217"
+          }
+        },
+        {
+          "id": "dev.latvian.mods.kubejs.create:kubejs_create:2001.3.0-build.8@jar",
+          "name": "KubeJS Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30960,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/kubejs_create.jar",
+            "MD5": "c76f71ba6d16e6fe50e76b1862b58dff"
+          }
+        },
+        {
+          "id": "dev.latvian.mods:kubejs:2001.6.5-build.16@jar",
+          "name": "KubeJS",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1654660,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/kubejs.jar",
+            "MD5": "f4c6924bef764748d26ee51e4d4c0b00"
+          }
+        },
+        {
+          "id": "com.frikinjay:letmedespawn:1.5.0@jar",
+          "name": "Let Me Despawn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14789,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/let_me_despawn.jar",
+            "MD5": "0ff799ece663ddafab61ad32704fc51c"
+          }
+        },
+        {
+          "id": "org.anti_ad.mc:libipn:4.0.2@jar",
+          "name": "LibIPN",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 693301,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/libipn.jar",
+            "MD5": "ef3a86f4867dba031dd6adef7e45d396"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.ccr4ft3r:lightspeed:1.20.1-1.1.2hotfix@jar",
+          "name": "Lightspeed",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 40285,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/lightspeed.jar",
+            "MD5": "1ee49d412c9755d52533a511156d4468"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.worldgen:lithostitched:1.4.11@jar",
+          "name": "Lithostitched",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 476347,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/lithostitched.jar",
+            "MD5": "3c596bbc1b5f769f22be751e9c21a6c8"
+          }
+        },
+        {
+          "id": "dev.obscuria.lootjournal:loot_journal:6.1.2@jar",
+          "name": "Loot Journal",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 935450,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/loot_journal_pickup_notifier.jar",
+            "MD5": "b853517657d983e7b7de5bd075950967"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.almostreliable:lootjs:1.20.1-2.13.1@jar",
+          "name": "LootJS",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 242267,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/lootjs_kubejs_addon.jar",
+            "MD5": "0fbdbf49778f694de153bf5962ec03ee"
+          }
+        },
+        {
+          "id": "pepjebs.mapatlases:map_atlases:1.20-6.0.19@jar",
+          "name": "Map Atlases",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 743277,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/map_atlases.jar",
+            "MD5": "e3d5febe1fbc9c80524b7b9c8311422a"
+          }
+        },
+        {
+          "id": "dev.sisby:mcqoy:0.4.1+forge-1.20@jar",
+          "name": "Barebones McQoy",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 310916,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/mcqoy.jar",
+            "MD5": "d4c4f4f3431e73bbc8e356a691a193c5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mcreator.medsandherbs:meds_and_herbs:2.0.3@jar",
+          "name": "Meds and herbs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3881655,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/meds_and_herbs-1.20.1-2.0.3.jar",
+            "MD5": "dc87d6fb7cfca99e70418031c021c05f"
+          }
+        },
+        {
+          "id": "de.keksuccino:melody:1.0.2@jar",
+          "name": "Melody",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37178,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/melody.jar",
+            "MD5": "6b528d368f7fcbf737df28f2457cdec6"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 227925,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/memory_leak_fix.jar",
+            "MD5": "5dd9149414ca375ceab146242c6e84ab"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "eu.midnightdust.core:midnightlib:1.9.2@jar",
+          "name": "MidnightLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61987,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/midnightlib.jar",
+            "MD5": "e4903bab4c3cf86d64cadb21cd4f279e"
+          }
+        },
+        {
+          "id": "com.sammy.minersdelight:miners_delight:1.20.1-1.2.3@jar",
+          "name": "Miner's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 474112,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/miner_s_delight.jar",
+            "MD5": "4effe2385d9e691d31469e04b1391b02"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.26.2+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 826829,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/modernfix-forge-5.26.2+mc1.20.1.jar",
+            "MD5": "61332114c9c317080faaf35f8183d67b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "io.github.mortuusars:monobank:1.1.5@jar",
+          "name": "Monobank",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 380460,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/monobank.jar",
+            "MD5": "b5a626bbe14c02b05107c6af2bf11810"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moonlight:1.20-2.16.28@jar",
+          "name": "Moonlight Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1393921,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/moonlight_lib.jar",
+            "MD5": "16b9f89e07b2c567c610881f784cf6d1"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.25.1@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76237,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/mouse_tweaks.jar",
+            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moyai:1.20-2.0.2@jar",
+          "name": "Moyai",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 467231,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/moyai.jar",
+            "MD5": "bd6feac04a55ab4368a0693120aff677"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.soytutta:mynethersdelight:1.20.1-1.7.5@jar",
+          "name": "My Nether's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 783106,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/my_nether_s_delight.jar",
+            "MD5": "0a7796bfca2d661d07e6e3323bde8a3d"
+          }
+        },
+        {
+          "id": "cn.mcmod_mmf.mmlib:mysterious_mountain_lib:1.6.34-1.20.1@jar",
+          "name": "Mysterious Mountain Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 325616,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/mysterious_mountain_lib.jar",
+            "MD5": "8bdcbdb09e08e9ba79dc8f8c3b4215bc"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:mysticaloaktree:1.20-1.11@jar",
+          "name": "Mystical Oak Tree",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 231836,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/mystical_oak_tree.jar",
+            "MD5": "52b84ce21ca85530418519cc782b650b"
+          }
+        },
+        {
+          "id": "com.starfish_studios:naturalist:5.0pre3@jar",
+          "name": "Naturalist",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3806919,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/naturalist.jar",
+            "MD5": "6d2eb7ccac3277a9ad69c71ef88f4cc0"
+          }
+        },
+        {
+          "id": "com.mt1006:nbt_ac:1.3.10@jar",
+          "name": "NBT Autocomplete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 229695,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/nbt_autocomplete.jar",
+            "MD5": "4311325533feb1901ce6dc82ab1a21f2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.teamabnormals.neapolitan.core:neapolitan:5.1.0@jar",
+          "name": "Neapolitan",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4797150,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/neapolitan.jar",
+            "MD5": "3e63c5504cadd3c421f3941030e5d84b"
+          }
+        },
+        {
+          "id": "elocindev.necronomicon:necronomicon:1.6.0@jar",
+          "name": "Necronomicon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33251,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/necronomicon_api.jar",
+            "MD5": "a1f1433ea551925436e6b170ac2ff619"
+          }
+        },
+        {
+          "id": "com.scouter:netherdepthsupgrade:3.1.5-1.20@jar",
+          "name": "Nether Depths Upgrade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 595410,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/nether_depths_upgrade.jar",
+            "MD5": "ba46064717d5a66eca40582a0bd434ba"
+          }
+        },
+        {
+          "id": "net.blay09.mods:netherportalfix:13.0.1@jar",
+          "name": "NetherPortalFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 217831,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/netherportalfix.jar",
+            "MD5": "4e4dba3baee926c98b77ccf684fab947"
+          }
+        },
+        {
+          "id": "generated.forgemod:mr_netherweather:1.1.2_backport@jar",
+          "name": "Nether Weather",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 98329,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/netherweather.jar",
+            "MD5": "94b03774d3ea8f1f621bbdbc4b20cf75"
+          }
+        },
+        {
+          "id": "dev.tr7zw:notenoughanimations:1.12.0@jar",
+          "name": "NotEnoughAnimations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1937062,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/not_enough_animations.jar",
+            "MD5": "1feda2052a5bf8828037761ca57de330"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "it.hurts.octostudios:nerb:0.4.1@jar",
+          "name": "Not Enough Recipe Book",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21667,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/not_enough_recipe_book.jar",
+            "MD5": "fa8240906f36683f66de537b34587643"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.obscuria.tooltips:obscure_tooltips:3.10.0@jar",
+          "name": "Obscure Tooltips",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1137730,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/obscure_tooltips.jar",
+            "MD5": "56f4fed0f411e4a95e72dc32fd88ff07"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.scouter:oceansdelight:1.0.2-1.20@jar",
+          "name": "Ocean's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 90353,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/ocean_s_delight.jar",
+            "MD5": "eaa8c0ba3771042829fd5396ad8b5e06"
+          }
+        },
+        {
+          "id": "net.mcreator.oceanicdelight:oceanic_delight:1.0.3@jar",
+          "name": "Oceanic Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 289149,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/oceanic_delight.jar",
+            "MD5": "1dba09659c212c657e2987cfdcb38ac3"
+          }
+        },
+        {
+          "id": "it.hurts.octostudios:octolib:0.5.0.1@jar",
+          "name": "OctoLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 424035,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/octolib.jar",
+            "MD5": "6b2fd012966b13a96ce4f68ae42eab8c"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2851119,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/oculus.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.orcinus.overweightfarming:overweight_farming:1.20.1-2.1.0-forge@jar",
+          "name": "Overweight Farming",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 268241,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/overweight_farming.jar",
+            "MD5": "06478991ae296d15078384372446b785"
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:particle_core:0.3.3+1.20.1+forge@jar",
+          "name": "Particle Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 773448,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/particle_core.jar",
+            "MD5": "eb8ce770b3ddc793df437bfcec169a6d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.lopymine.pe.entrypoint:particle_effects:1.3.0+1.20.1+forge@jar",
+          "name": "Particle Effects",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 500939,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/particle_effects.jar",
+            "MD5": "11a82e69393c29ad3d21a7ce11a4a67c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "pigcart.particlerain.loaders:particlerain:4.0.0-beta.9@jar",
+          "name": "Particle Rain",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1236542,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/particle_rain.jar",
+            "MD5": "52f46c25cd8dd0f6fb2d5d1e25ee3f87"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "vazkii.patchouli:patchouli:1.20.1-85-FORGE@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 642732,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/patchouli.jar",
+            "MD5": "78bd223d069fa9491e940d99a8f426b3"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:paxi:1.20-Forge-4.0@jar",
+          "name": "Paxi",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96892,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/paxi.jar",
+            "MD5": "e0dbfe0f77e5a07d6fc8389b2398f266"
+          }
+        },
+        {
+          "id": "com.teamabnormals.personality.core:personality:4.1.0@jar",
+          "name": "Personality",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 321702,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/personality.jar",
+            "MD5": "d6da1e6704953df5f4c2a01506af442e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.obscuria:caravans:1.5.1@jar",
+          "name": "Pillager Caravans",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1033713,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/pillager_caravans.jar",
+            "MD5": "b3a6154ef1b70d1a473fcea94c23f535"
+          }
+        },
+        {
+          "id": "club.someoneice.pineapple:pineapple_delight:1.1.1-1.20.1-forge@jar",
+          "name": "Pineapple Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 100885,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/pineapple_delight.jar",
+            "MD5": "1e2637c039e33cd908cdedac82ccfa1b"
+          }
+        },
+        {
+          "id": "com.blackgear:platform:1.3@jar",
+          "name": "Platform",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 494539,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/platform.jar",
+            "MD5": "e4b633f3471e2d4b1fe57784225178ba"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:polytone:1.20-3.5.23@jar",
+          "name": "Polytone",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1168491,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/polytone-1.20-3.5.23.jar",
+            "MD5": "0f901c10f73739f741588b1ab63c65e4"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.33@jar",
+          "name": "Puzzles Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1342987,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/puzzles_lib.jar",
+            "MD5": "19f23e3040eaadc7c30ae38f5a3dec68"
+          }
+        },
+        {
+          "id": "io.github.lieonlion:quad:1.2.9@jar",
+          "name": "Quad",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 225213,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/quad.jar",
+            "MD5": "9b53ee44e4883921a898505c93790c4f"
+          }
+        },
+        {
+          "id": "com.illusivesoulworks:radiantgear:2.2.0+1.20.1@jar",
+          "name": "Radiant Gear",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47170,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/radiant_gear.jar",
+            "MD5": "19cb99849c8fe9856530b8173240b90a"
+          }
+        },
+        {
+          "id": "com.mrbysco:raided:0.1.6@jar",
+          "name": "Raided",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 133741,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/raided.jar",
+            "MD5": "bce0c714a5fb8ca6db55707b27d5a9fc"
+          }
+        },
+        {
+          "id": "com.delta:redeco:1.14.1@jar",
+          "name": "Re:Deco",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3216552,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/re_deco.jar",
+            "MD5": "262810452b5592c9c16454060446685c"
+          }
+        },
+        {
+          "id": "net.mcreator.realmrpgskeletons:realmrpg_skeletons:1.1.0@jar",
+          "name": "Realm RPG: Fallen Adventurers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 652022,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/realm_rpg_fallen_adventurers.jar",
+            "MD5": "39a9a0fbe5cba2765f46090dc0c245b8"
+          }
+        },
+        {
+          "id": "generated.forgemod:reintegrated_chipped:1.0.0@jar",
+          "name": "Reintegrated Chipped",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 70847,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/reintegrated_chipped.jar",
+            "MD5": "fbb06f44e6652f28bf820c1c332e9101"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefullib:2.1.29@jar",
+          "name": "Resourceful Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 432753,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/resourceful_lib.jar",
+            "MD5": "a040c6cc86f653fddf280ff3af9068f0"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefulconfig:2.1.3@jar",
+          "name": "Resourcefulconfig",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 136923,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/resourcefulconfig.jar",
+            "MD5": "947463b04c043937cd24506842f737a3"
+          }
+        },
+        {
+          "id": "plus.dragons:respiteful:1.3.0@jar",
+          "name": "Respiteful",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 562533,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/respiteful.jar",
+            "MD5": "3eb73891ee1bdf0134accf12e3adccf3"
+          }
+        },
+        {
+          "id": "dev.latvian.mods.rhino.mod:rhino:2001.2.3-build.10@jar",
+          "name": "Rhino",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1798244,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/rhino.jar",
+            "MD5": "59387620b0ef6becbff02c7c1636ad3e"
+          }
+        },
+        {
+          "id": "rbasamoyai.ritchiesprojectilelib:ritchiesprojectilelib:2.1.1@jar",
+          "name": "Ritchie's Projectile Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 78625,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/ritchiesprojectilelib-2.1.1+mc.1.20.1-forge.jar",
+            "MD5": "75c9b3b1a1ac271342b7e7161b4da2f2"
+          }
+        },
+        {
+          "id": "supercoder79.riverredux:riverredux:0.3.1@jar",
+          "name": "RiverRedux",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18323,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/riverredux.jar",
+            "MD5": "2c33769505bb65df58a6af919c70ce75"
+          }
+        },
+        {
+          "id": "com.sopro:roomclimate:1.0.0@jar",
+          "name": "Room Climate",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 63873,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/roomclimate-1.0.0.jar",
+            "MD5": "64d58860480209d6bf06b78b2de261e7"
+          }
+        },
+        {
+          "id": "net.darkhax:runelic:18.0.4@jar",
+          "name": "Runelic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 68626,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/runelic.jar",
+            "MD5": "e79015a88f88a4ae542c76ec221cdba7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.azurune:runiclib:4.3.8@jar",
+          "name": "RunicLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134878,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/runiclib.jar",
+            "MD5": "1b597428a68e55343fe473f10300f355"
+          }
+        },
+        {
+          "id": "com.phantomwing:rusticdelight:1.5.1@jar",
+          "name": "Rustic Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 562461,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/rustic_delight.jar",
+            "MD5": "ad3f92341cd7b8da6ac26dc95a7a2c8b"
+          }
+        },
+        {
+          "id": "io.github.mortuusars:salt:1.2.6@jar",
+          "name": "Salt",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 254604,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/salt.jar",
+            "MD5": "2abea43cafc71276efa3e25815ab9e1a"
+          }
+        },
+        {
+          "id": "com.teamabnormals.savage_and_ravage.core:savage_and_ravage:6.0.1@jar",
+          "name": "Savage & Ravage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1316206,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/savage_ravage.jar",
+            "MD5": "b91abb90214aa6d101daa7918643bff0"
+          }
+        },
+        {
+          "id": "io.github.mortuusars:scholar:1.1.9@jar",
+          "name": "Scholar",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 692365,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/scholar.jar",
+            "MD5": "80d36c35caeb0087f3f4e0175ce9f94c"
+          }
+        },
+        {
+          "id": "com.blamejared:searchables:1.0.3@jar",
+          "name": "Searchables",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 77732,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/searchables.jar",
+            "MD5": "68fb3fa702de7e10194c5b8a3d25b5b0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.cosmicgelatin.seasonals.core:seasonals:1.20.1-5.0.2@jar",
+          "name": "Seasonals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 245317,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/seasonals.jar",
+            "MD5": "ed825bbc8bc0414d4904fd7c6119ad1d"
+          }
+        },
+        {
+          "id": "org.hiedacamellia:seeddelight:1.20.1-0.1@jar",
+          "name": "Seed Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 95795,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/seed_delight.jar",
+            "MD5": "ad86700bcb744ed6b95cf171ecb90010"
+          }
+        },
+        {
+          "id": "oros.sereneseasonsfix.core:sereneseasonsfix:1.1.1.0@jar",
+          "name": "Serene Seasons Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22415,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/serene_seasons_fix.jar",
+            "MD5": "5ca8dbbc0a0d7d4b0b017113af720d9f"
+          }
+        },
+        {
+          "id": "com.gabou:sereneseasonsplus:0.5.0.0@jar",
+          "name": "Serene Seasons Plus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 404387,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/serene_seasons_plus.jar",
+            "MD5": "b4ef4c1fdfc958a497c665c481931df2"
+          }
+        },
+        {
+          "id": "sereneseasons.forge.core:sereneseasons:9.1.0.2@jar",
+          "name": "Serene Seasons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 160888,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/serene_seasons.jar",
+            "MD5": "4e4dd95e401825a9437fa696b598b46a"
+          }
+        },
+        {
+          "id": "generated.forgemod:serializationisbad_1_5_2:0.0.0@jar",
+          "name": "Serializationisbad_1_5_2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 511085,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/serializationisbad_1_5_2.jar",
+            "MD5": "b85803f2a07ac38c7a0cf4c9dc1d0f18"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.wesley1808:servercore:1.5.2+1.20.1@jar",
+          "name": "ServerCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1508496,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/servercore.jar",
+            "MD5": "7ba2ff373f4f1a44a01513c49a2e8b65"
+          }
+        },
+        {
+          "id": "de.maxhenkel.voicechat:voicechat:1.20.1-2.6.14@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4895899,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/simple_voice_chat.jar",
+            "MD5": "b666d0e41401eb860db28363f67b7f7f"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:sleep_tight:1.20-1.4.7@jar",
+          "name": "Sleep Tight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 944948,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/sleep_tight-1.20-1.4.7.jar",
+            "MD5": "c4ccd3ef2f0ece9f092800d400aa0e4f"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:smarterfarmers:1.20-2.1.2@jar",
+          "name": "Smarter Farmers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 223368,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/smarter_farmers.jar",
+            "MD5": "b04ef82625bceef8b7b04f554cf965d9"
+          }
+        },
+        {
+          "id": "com.abdelaziz:smoothboot:0.0.4@jar",
+          "name": "Smooth Boot (Reloaded)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 41044,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/smooth_boot_reloaded.jar",
+            "MD5": "c8cd5ae14d99796fd92c95a353e96211"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "snownee.snow:snowrealmagic:10.7.0@jar",
+          "name": "Snow! Real Magic!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 346619,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/snow_real_magic.jar",
+            "MD5": "d1736ff9c822c4fb02616c17de03e350"
+          }
+        },
+        {
+          "id": "toni.sodiumdynamiclights:sodiumdynamiclights:1.0.9@jar",
+          "name": "Sodium Dynamic Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 511601,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/sodium_dynamic_lights.jar",
+            "MD5": "687c18cefa558ca8101ef97914d9ba6b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "toni.sodiumoptionsapi:sodiumoptionsapi:1.0.10@jar",
+          "name": "Sodium Options API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 443978,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/sodium_options_api.jar",
+            "MD5": "75807590ae2648ecdeb855705868ce59"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "toni.sodiumoptionsmodcompat:sodiumoptionsmodcompat:1.0.0@jar",
+          "name": "Sodium Options Mod Compat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181056,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/sodium_options_mod_compat.jar",
+            "MD5": "b4ba44d85f2714e818cc8534f46c8914"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "io.github.mortuusars:sootychimneys:1.3.4@jar",
+          "name": "Sooty Chimneys",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 363887,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/sootychimneys-forge-1.20.1-1.3.4.jar",
+            "MD5": "63a4c7bf6d8b45978ac333dd00246c8d"
+          }
+        },
+        {
+          "id": "com.redsmods:sound_physics_perfected:1.17.0-alpha@jar",
+          "name": "Sound Physics Perfected",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 430444,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/sound_physics_perfected.jar",
+            "MD5": "f7071b00b74aab88a06074f33b489c64"
+          }
+        },
+        {
+          "id": "com.ninni:spawn:3.3@jar",
+          "name": "Spawn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27777409,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/spawn-3.3.jar",
+            "MD5": "ad09131a4621d04661e3174d4f4dfe21"
+          }
+        },
+        {
+          "id": "com.ordana:spelunkery:1.20.1-0.3.16@jar",
+          "name": "Spelunkery",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2754568,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/spelunkery.jar",
+            "MD5": "43bff31a7a0c81d604e3044856450cbe"
+          }
+        },
+        {
+          "id": "com.railwayteam:railways:1.7.2+forge-mc1.20.1@jar",
+          "name": "Create: Steam 'n' Rails",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16819720,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/Steam_Rails-1.7.2+forge-mc1.20.1.jar",
+            "MD5": "ec91d63c97ff08beb324f34399f1bf1a"
+          }
+        },
+        {
+          "id": "net.povstalec:stellarview:0.5.2@jar",
+          "name": "Stellar View",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 571676,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/Stellar%20View-1.20.1-0.5.2-Forge.jar",
+            "MD5": "33effb64670ca0d3efd1ce51fa4196d1"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:stonycliffs:1.1.2@jar",
+          "name": "Stony Cliffs Are Cool",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 43941,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/stony_cliffs_are_cool.jar",
+            "MD5": "71cd84ce2693aefd746e2544a8d7e8b1"
+          }
+        },
+        {
+          "id": "com.axperty:storagedelight:25.12.09-1.20-forge@jar",
+          "name": "Storage Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 622996,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/storage_delight.jar",
+            "MD5": "bd3a34d20c02a40c18cc6529df41b32f"
+          }
+        },
+        {
+          "id": "generated.forgemod:structory:1.3.5@jar",
+          "name": "Structory",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1286462,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/structory.jar",
+            "MD5": "be42d17e7e1ea2da3b59701f6dd21088"
+          }
+        },
+        {
+          "id": "telepathicgrunt.structure_layout_optimizer.forge.entrypoints:structure_layout_optimizer:1.0.11@jar",
+          "name": "Structure Layout Optimizer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 246413,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/structure_layout_optimizer.jar",
+            "MD5": "327e60386890b5f0e4b0dc2c62dc4a71"
+          }
+        },
+        {
+          "id": "com.uraneptus:sullysmod:3.2.1-beta@jar",
+          "name": "Sully's Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9068792,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/sully_s_mod.jar",
+            "MD5": "22736a3c9c36b14592ef8ddba10b37a6"
+          }
+        },
+        {
+          "id": "net.mcreator:sunflowerdelight:1.0.5.1@jar",
+          "name": "Sunflower Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3163904,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/sunflower_delight.jar",
+            "MD5": "9f951446774959db779d01887886f98d"
+          }
+        },
+        {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8@jar",
+          "name": "SuperMartijn642's Config Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206584,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/supermartijn642_s_config_library.jar",
+            "MD5": "cbece61946d4e059e90806c19dd66082"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.21@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 554977,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/supermartijn642_s_core_lib.jar",
+            "MD5": "eb67e7fea407250cfa9fcf897f9b63b9"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:suppsquared:1.20-1.1.29@jar",
+          "name": "Supplementaries Squared",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 922956,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/supplementaries_squared.jar",
+            "MD5": "e98f37dc78fe78f50b6d618943e3b7a2"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:supplementaries:0.0.0@jar",
+          "name": "Supplementaries",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13661432,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/supplementaries.jar",
+            "MD5": "842a30b8172f55adefc4eb8435dc40ee"
+          }
+        },
+        {
+          "id": "andrews.swampier_swamps:swampier_swamps:1.20-4.0.0@jar",
+          "name": "Swampier Swamps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 716088,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/swampier_swamps.jar",
+            "MD5": "9c72939293f290665fb78a59ee39316b"
+          }
+        },
+        {
+          "id": "generated.forgemod:mr_limesplatus_ending:1-v1.1.0c@jar",
+          "name": "True Ending: Ender Dragon Overhaul",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5525883,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/t_ending.jar",
+            "MD5": "c83ccd876af0ac3cac72d2880b7c1a18"
+          }
+        },
+        {
+          "id": "dev.worldgen:tectonic:3.0.17@jar",
+          "name": "Tectonic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 322575,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/tectonic.jar",
+            "MD5": "9b621f402383c0d4243a9bf15cd022d2"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:3.0.1.10@jar",
+          "name": "TerraBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 107533,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/terrablender.jar",
+            "MD5": "1f88ad1b2e0d196f0caf7c03a4abf893"
+          }
+        },
+        {
+          "id": "generated.forgemod:terralith:2.5.4@jar",
+          "name": "Terralith",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3156901,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/Terralith_1.20.x_v2.5.4.jar",
+            "MD5": "b143cfd648086c68d7f47a86b8994ee3"
+          }
+        },
+        {
+          "id": "fuzs.thinair:thinair:8.1.7@jar",
+          "name": "Thin Air",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 201857,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/thin_air.jar",
+            "MD5": "a75fc227124b3dbe524b9379b872d0c7"
+          }
+        },
+        {
+          "id": "lol.richy:threatengl:2.0.4-release.10@jar",
+          "name": "ThreatenGL",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 51241,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/threatengl.jar",
+            "MD5": "d2509095de3aa9f207aa1e2fb3fdba12"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.li64.tide.loaders:tide:2.0.3@jar",
+          "name": "Tide",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2006809,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/tide_2.jar",
+            "MD5": "ec9633a7b3a3613afb2d79016666055d"
+          }
+        },
+        {
+          "id": "generated.forgemod:tool_trims:2.2.1@jar",
+          "name": "Tool Trims",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1817918,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/tool_trims.jar",
+            "MD5": "6041667c0ce5fa4ab786369e9d2d0b9a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.modrinth.l45eongd:mr_trade_villagerhats:0.1.0@jar",
+          "name": "Gen's Villager Hats",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 144101,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/trade_villager_hats.jar",
+            "MD5": "3c7a03aa3626cdeb6d9467a571c272fe"
+          }
+        },
+        {
+          "id": "show.tatd.mod:trailandtales_delight:1.4@jar",
+          "name": "Trail&Tales Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 359005,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/trail_tales_delight.jar",
+            "MD5": "6d672069d6f61089053b0c5d14cb1c26"
+          }
+        },
+        {
+          "id": "net.favouriteless:trotting_wagons:1.0.4@jar",
+          "name": "Trotting Wagons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1399413,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/trotting_wagons.jar",
+            "MD5": "1827e0bef6458ab33ee580b8a886c09e"
+          }
+        },
+        {
+          "id": "toni.lib:txnilib:1.0.24@jar",
+          "name": "TxniLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3743339,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/txnilib.jar",
+            "MD5": "31823d0999fda413af6dc226481e404a"
+          }
+        },
+        {
+          "id": "com.chefmooon:ubesdelight:0.4.11@jar",
+          "name": "Ube's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 953798,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/ube_s_delight.jar",
+            "MD5": "462287fe3e72a57c3d4268c6ca72c714"
+          }
+        },
+        {
+          "id": "fuzs.universalbonemeal:universalbonemeal:8.0.1@jar",
+          "name": "Universal Bone Meal",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 85511,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/universal_bone_meal.jar",
+            "MD5": "908607035ad1d4193b252585db51fdbf"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:sawmill:1.20-1.4.10@jar",
+          "name": "Universal Sawmill",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 644298,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/universal_sawmill.jar",
+            "MD5": "fa74a173a390409754af770c77197111"
+          }
+        },
+        {
+          "id": "com.teamabnormals.upgrade_aquatic.core:upgrade_aquatic:6.0.3@jar",
+          "name": "Upgrade Aquatic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4981396,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/upgrade_aquatic.jar",
+            "MD5": "7a716707609063fb3fe6261a6c76a305"
+          }
+        },
+        {
+          "id": "com.blackgear.vanillabackport.core:vanillabackport:1.1.6.3@jar",
+          "name": "VanillaBackport",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28404574,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/vanilla_backport.jar",
+            "MD5": "8c1fd3d3e1df90dcd93ad40464e5be0d"
+          }
+        },
+        {
+          "id": "dev.engine_room:vanillin:1.1.3@jar",
+          "name": "Vanillin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1055068,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/vanillin.jar",
+            "MD5": "f30485347ab8852e6ca01970aebe5371"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.ribs:vintagedelight:0.1.6@jar",
+          "name": "Vintage Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1120218,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/vintage_delight.jar",
+            "MD5": "7fd01c5fec5c8ed7c8c99c100696c91c"
+          }
+        },
+        {
+          "id": "dev.bluephs:vintage:1.20.1-1.5.7@jar",
+          "name": "Create: Vintage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1236813,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/vintage_programmer_art_remade.jar",
+            "MD5": "733045204e5949952d0d47bfc7141a48"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "fuzs.visualworkbench:visualworkbench:8.0.1@jar",
+          "name": "Visual Workbench",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 82557,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/visual_workbench.jar",
+            "MD5": "d934aa0d32ebd83941099737faa5d99f"
+          }
+        },
+        {
+          "id": "net.lixir:vminus:3.3.1@jar",
+          "name": "VMinus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1221242,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/vminus.jar",
+            "MD5": "c8542aefe9602ad067583686da8ccfc9"
+          }
+        },
+        {
+          "id": "net.mcreator.wildweststructuresforge:wild_west_structures_forge:1.0.0@jar",
+          "name": "Wild west structures forge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 149735,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/wild_west_structures_forge-1.2.0-forge-1.20.1.jar",
+            "MD5": "652d25947c7f5f600816c46559c09292"
+          }
+        },
+        {
+          "id": "de.cristelknight999:wwoo_forge:2.0.0@jar",
+          "name": "William Wythers Overhauled Overworld [FORGE]",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2172855,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/william_wythers_overhauled_overworld.jar",
+            "MD5": "edac266d810af52de52a4243c74e1a2b"
+          }
+        },
+        {
+          "id": "generated.forgemod:mr_withering_heights:1-alpha-1@jar",
+          "name": "Withering Heights: Revamped Wither",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 140291,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/withering_heights.jar",
+            "MD5": "1f23a3cfd7ff9c3612a75ab7ce6e5dca"
+          }
+        },
+        {
+          "id": "com.telepathicgrunt:wits:1.1.0+1.20.1-forge@jar",
+          "name": "WITS",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13903,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/wits_what_is_this_structure.jar",
+            "MD5": "d0636bc871d66a2cd8700f507b5ef572"
+          }
+        },
+        {
+          "id": "com.teamabnormals.woodworks.core:woodworks:3.0.2@jar",
+          "name": "Woodworks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1438278,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/woodworks.jar",
+            "MD5": "0c37a0b4776056c5c3aa3cc39283c077"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.6+1.20.1-forge@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1105891,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/yetanotherconfiglib.jar",
+            "MD5": "2437cb642e24726a83f864e345f24479"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "elocindev.ysns:ysns:2.0.2@jar",
+          "name": "You Shall Not Spawn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 218712,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/you_shall_not_spawn.jar",
+            "MD5": "752ce190c3e96105781a6b6ef2a8533e"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.20-Forge-4.0.6@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 370524,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/yung_s_api.jar",
+            "MD5": "fe79f43dba8edbb8ede99f4e358e5b0c"
+          }
+        }
+      ]
+    }
+  ]
+}
