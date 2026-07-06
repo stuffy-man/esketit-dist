@@ -3004,6 +3004,16 @@
           }
         },
         {
+          "id": "com.illusivesoulworks:polymorph:0.49.10+1.20.1@jar",
+          "name": "Polymorph",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 299601,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/polymorph-forge-0.49.10%2B1.20.1.jar",
+            "MD5": "8e93675b33a89243d27f272f84e88338"
+          }
+        },
+        {
           "id": "net.mehvahdjukaar:polytone:1.20-3.5.23@jar",
           "name": "Polytone",
           "type": "ForgeMod",
