@@ -2589,16 +2589,6 @@
           }
         },
         {
-          "id": "pepjebs.mapatlases:map_atlases:1.20-6.0.19@jar",
-          "name": "Map Atlases",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 743277,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/map_atlases.jar",
-            "MD5": "e3d5febe1fbc9c80524b7b9c8311422a"
-          }
-        },
-        {
           "id": "dev.sisby:mcqoy:0.4.1+forge-1.20@jar",
           "name": "Barebones McQoy",
           "type": "ForgeMod",
@@ -2665,19 +2655,6 @@
             "size": 474112,
             "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/miner_s_delight.jar",
             "MD5": "4effe2385d9e691d31469e04b1391b02"
-          }
-        },
-        {
-          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.26.2+mc1.20.1@jar",
-          "name": "ModernFix",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 826829,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/modernfix-forge-5.26.2%2Bmc1.20.1.jar",
-            "MD5": "61332114c9c317080faaf35f8183d67b"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -3568,26 +3545,6 @@
             "size": 554977,
             "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/supermartijn642_s_core_lib.jar",
             "MD5": "eb67e7fea407250cfa9fcf897f9b63b9"
-          }
-        },
-        {
-          "id": "net.mehvahdjukaar:suppsquared:1.20-1.1.29@jar",
-          "name": "Supplementaries Squared",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 922956,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/supplementaries_squared.jar",
-            "MD5": "e98f37dc78fe78f50b6d618943e3b7a2"
-          }
-        },
-        {
-          "id": "net.mehvahdjukaar:supplementaries:0.0.0@jar",
-          "name": "Supplementaries",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 13661432,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/supplementaries.jar",
-            "MD5": "842a30b8172f55adefc4eb8435dc40ee"
           }
         },
         {
