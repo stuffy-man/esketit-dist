@@ -8510,7 +8510,7 @@
           "name": "tide.json",
           "type": "File",
           "artifact": {
-            "size": 1191,
+            "size": 1192,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/tide.json",
             "path": "config/tide.json"
           }
