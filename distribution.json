@@ -461,19 +461,6 @@
           }
         },
         {
-          "id": "com.anthonyhilyard:advancementplaques:1.6.9@jar",
-          "name": "Advancement Plaques",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 208850,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/optionalon/advancement_plaques.jar",
-            "MD5": "508c73f2941ae3d48cbf197ba390ecdd"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "com.mrbysco:ageingspawners:2.0.0@jar",
           "name": "Ageing Spawners",
           "type": "ForgeMod",
@@ -1601,6 +1588,16 @@
           }
         },
         {
+          "id": "maxhyper.dtterralith:dtterralith:1.20.1-1.2.6@jar",
+          "name": "Dynamic Trees for Terralith",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 514225,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/DynamicTreesTerralith-1.20.1-1.2.6.jar",
+            "MD5": "026f7aec0be82e8286c5e8eeca66e6ec"
+          }
+        },
+        {
           "id": "io.github.andrew6rant:dynamictrim:1.4.1@jar",
           "name": "DynamicTrim",
           "type": "ForgeMod",
@@ -1756,9 +1753,9 @@
           "name": "Esketit Cold Cellar",
           "type": "ForgeMod",
           "artifact": {
-            "size": 15396,
+            "size": 17615,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/esketit_coldcellar-1.0.0.jar",
-            "MD5": "a8dcd191a249d6d19b5256ba4fc62714"
+            "MD5": "37da5022ceaaa52d4a064e72fd37b28f"
           }
         },
         {
@@ -1766,9 +1763,9 @@
           "name": "Esketit Metallurgy",
           "type": "ForgeMod",
           "artifact": {
-            "size": 375071,
+            "size": 375065,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/esketit_metallurgy-1.0.0.jar",
-            "MD5": "848e7c06bbfb69440848f292de014c1b"
+            "MD5": "6c037a9eb4ad7fa971c2eae89cb7a729"
           }
         },
         {
@@ -1878,16 +1875,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "net.mcreator:flintnpowder:1.0.0@jar",
-          "name": "Flint'N'Powder - Guns Mod!",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4491769,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/flintnpowder-1.0.0-patch-forge-1.20.1.jar",
-            "MD5": "ace45585d155770bfa3656744cd250b5"
           }
         },
         {
