@@ -19,83 +19,83 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.0",
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.20",
           "name": "Minecraft Forge (lowcodelanguage)",
           "type": "ForgeHosted",
           "classpath": true,
           "artifact": {
-            "size": 7399,
-            "MD5": "a839d5603a05491f84f6c36284ab0ea8",
-            "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar"
+            "size": 7394,
+            "MD5": "07f68bfdea3e3cdc7aefa32749bea73f",
+            "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.20/lowcodelanguage-1.20.1-47.4.20.jar"
           },
           "subModules": [
             {
-              "id": "1.20.1-47.4.0",
+              "id": "1.20.1-47.4.20",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 16612,
-                "MD5": "029daa8b97e10cedd4d6726a563379ab",
-                "url": "https://stuffy-man.github.io/esketit-dist/repo/versions/1.20.1-forge-47.4.0/1.20.1-forge-47.4.0.json"
+                "size": 16629,
+                "MD5": "164e2a500d5c3ba06ddb5da9d64c4f3d",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/versions/1.20.1-forge-47.4.20/1.20.1-forge-47.4.20.json"
               }
             },
             {
-              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.0",
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.20",
               "name": "Minecraft Forge (fmlcore)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 118914,
-                "MD5": "bc798cdec9ec7eeb3354b550d5e67652",
-                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar"
+                "size": 118909,
+                "MD5": "e8e34ef2ce04f87145a6cc2095c341c4",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.20/fmlcore-1.20.1-47.4.20.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.0",
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.20",
               "name": "Minecraft Forge (javafmllanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 16855,
-                "MD5": "10ca1edc0a62ea799c4327bfc44e5ad6",
-                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar"
+                "size": 16851,
+                "MD5": "f1f54e5194c89f78a95d1366cec09caa",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.20/javafmllanguage-1.20.1-47.4.20.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.0",
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.20",
               "name": "Minecraft Forge (mclanguage)",
               "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 4998,
-                "MD5": "cd3d6af64b394583aa83090915469f9e",
-                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar"
+                "size": 4994,
+                "MD5": "7a20845b12c924d53fb3c6a412e3ac02",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.20/mclanguage-1.20.1-47.4.20.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.20.1-47.4.0:universal",
+              "id": "net.minecraftforge:forge:1.20.1-47.4.20:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 2776081,
-                "MD5": "f373b63ab9bfe53f7b35aaa425afa136",
-                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar"
+                "size": 2507935,
+                "MD5": "f132738665fd7159682af85b9742f887",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/forge/1.20.1-47.4.20/forge-1.20.1-47.4.20-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.20.1-47.4.0:client",
+              "id": "net.minecraftforge:forge:1.20.1-47.4.20:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
               "classpath": false,
               "artifact": {
-                "size": 4826828,
-                "MD5": "1940b09c4b066287963bde17aa375cec",
-                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-client.jar"
+                "size": 4848917,
+                "MD5": "a653895344f94e59c864480cda1031d1",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/forge/1.20.1-47.4.20/forge-1.20.1-47.4.20-client.jar"
               },
               "subModules": []
             },
@@ -146,53 +146,53 @@
               }
             },
             {
-              "id": "org.ow2.asm:asm:9.7.1",
+              "id": "org.ow2.asm:asm:9.9.1",
               "name": "Minecraft Forge (asm)",
               "type": "Library",
               "artifact": {
-                "size": 126093,
-                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
-                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+                "size": 126252,
+                "MD5": "1888ad1f49038441bb2d12aa6dffe396",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "id": "org.ow2.asm:asm-commons:9.9.1",
               "name": "Minecraft Forge (asm-commons)",
               "type": "Library",
               "artifact": {
-                "size": 73459,
-                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
-                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+                "size": 75010,
+                "MD5": "7e0ef716c43d92d29e666f820df24e2c",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "id": "org.ow2.asm:asm-tree:9.9.1",
               "name": "Minecraft Forge (asm-tree)",
               "type": "Library",
               "artifact": {
-                "size": 51939,
-                "MD5": "e85029f613b6469989cc7cf53fe06b74",
-                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+                "size": 51963,
+                "MD5": "7eb17cd0d09b03fbe473e51edfc6e4d2",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:9.7.1",
+              "id": "org.ow2.asm:asm-util:9.9.1",
               "name": "Minecraft Forge (asm-util)",
               "type": "Library",
               "artifact": {
-                "size": 94519,
-                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
-                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+                "size": 94643,
+                "MD5": "fd4d359daf227302ab9cefd36476ca72",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "id": "org.ow2.asm:asm-analysis:9.9.1",
               "name": "Minecraft Forge (asm-analysis)",
               "type": "Library",
               "artifact": {
-                "size": 35126,
-                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
-                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+                "size": 35170,
+                "MD5": "68bd4a0266ad181cfca3f1603401ca68",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar"
               }
             },
             {
@@ -216,13 +216,13 @@
               }
             },
             {
-              "id": "net.minecraftforge:eventbus:6.0.5",
+              "id": "net.minecraftforge:eventbus:6.2.33",
               "name": "Minecraft Forge (eventbus)",
               "type": "Library",
               "artifact": {
-                "size": 53985,
-                "MD5": "2a6245210b446b2144071e71ca13432b",
-                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+                "size": 64014,
+                "MD5": "0b419ea48f46de30ee4e6241e4fdf9d4",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/eventbus/6.2.33/eventbus-6.2.33.jar"
               }
             },
             {
@@ -406,23 +406,23 @@
               }
             },
             {
-              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.0",
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.20",
               "name": "Minecraft Forge (fmlloader)",
               "type": "Library",
               "artifact": {
-                "size": 267079,
-                "MD5": "5b26aba9f44796d54094022c1e73a49e",
-                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.0/fmlloader-1.20.1-47.4.0.jar"
+                "size": 270672,
+                "MD5": "29197f7093c8b9d058bdd22bc871c5cc",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.20/fmlloader-1.20.1-47.4.20.jar"
               }
             },
             {
-              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.0",
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.20",
               "name": "Minecraft Forge (fmlearlydisplay)",
               "type": "Library",
               "artifact": {
-                "size": 170517,
-                "MD5": "68747d96f635b0a0dc9e070d3596a562",
-                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.0/fmlearlydisplay-1.20.1-47.4.0.jar"
+                "size": 170513,
+                "MD5": "bddd8e57abdc41ebaac63f1ae74d9fa3",
+                "url": "https://stuffy-man.github.io/esketit-dist/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.20/fmlearlydisplay-1.20.1-47.4.20.jar"
               }
             }
           ]

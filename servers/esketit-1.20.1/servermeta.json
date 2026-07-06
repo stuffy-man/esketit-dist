@@ -4,13 +4,13 @@
     "version": "1.0.0",
     "name": "Esketit",
     "description": "Сервер Esketit — Minecraft 1.20.1, Forge",
-    "icon": "http://localhost:8099/icon.png",
+    "icon": "https://stuffy-man.github.io/esketit-dist/icon.png",
     "address": "195.58.152.22:25599",
     "mainServer": true,
     "autoconnect": true
   },
   "forge": {
-    "version": "47.4.0"
+    "version": "47.4.20"
   },
   "untrackedFiles": []
 }
