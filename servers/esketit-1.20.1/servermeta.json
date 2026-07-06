@@ -7,7 +7,7 @@
     "icon": "https://stuffy-man.github.io/esketit-dist/icon.png",
     "address": "195.58.152.22:25599",
     "mainServer": true,
-    "autoconnect": true
+    "autoconnect": false
   },
   "forge": {
     "version": "47.4.20"
