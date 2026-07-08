@@ -1750,6 +1750,16 @@
           }
         },
         {
+          "id": "dev.esketitsettingslock:esketit_settingslock:1.0.0@jar",
+          "name": "Esketit Settings Lock",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3615,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_settingslock-1.0.0.jar",
+            "MD5": "1b9670c4221a5473cf42fef0784f0a80"
+          }
+        },
+        {
           "id": "dev.esketittannery:esketit_tannery:1.0.0@jar",
           "name": "Esketit Tannery",
           "type": "ForgeMod",
@@ -4904,9 +4914,9 @@
           "name": "chloride-client.json",
           "type": "File",
           "artifact": {
-            "size": 1929,
+            "size": 1931,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/chloride-client.json",
-            "MD5": "a68e218ff9154db02d4a8ebde1f9029c",
+            "MD5": "3d4b02a37547d58295009cdb0c3d7545",
             "path": "config/chloride-client.json"
           }
         },
