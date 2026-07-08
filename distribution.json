@@ -1592,16 +1592,6 @@
           }
         },
         {
-          "id": "dev.huskuraft.effortless.forge.platform:effortless:3.4.0@jar",
-          "name": "Effortless Structure",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1906064,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/effortless_structure.jar",
-            "MD5": "1289feaa7d14ff2f6a9e45335ab2dbf6"
-          }
-        },
-        {
           "id": "dev.obscuria:elixirum:0.12.0@jar",
           "name": "Ars Elixirum",
           "type": "ForgeMod",
