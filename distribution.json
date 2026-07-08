@@ -1651,6 +1651,19 @@
           }
         },
         {
+          "id": "dev.emi.emi.platform:emi:1.1.24+1.20.1+forge@jar",
+          "name": "EMI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1121750,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/emi-1.1.24%2B1.20.1%2Bforge.jar",
+            "MD5": "c86d5772fba9fbd4d612f2fe82397f72"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "com.hrznstudio:emojiful:4.2.0@jar",
           "name": "Emojiful",
           "type": "ForgeMod",
@@ -1727,6 +1740,19 @@
             "size": 12084,
             "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/equipmentpacketfix-1.0.0.jar",
             "MD5": "1270f9e3839bb7af43a7630288ea3d56"
+          }
+        },
+        {
+          "id": "comfortable_andy.equipmentpacketfix:equipmentpacketfix:1.0.0@jar",
+          "name": "EquipmentPacketFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12084,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/equipmentpacketfix-1.0.0.jar",
+            "MD5": "1270f9e3839bb7af43a7630288ea3d56"
+          },
+          "required": {
+            "value": false
           }
         },
         {
