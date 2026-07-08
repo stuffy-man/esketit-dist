@@ -10,7 +10,7 @@
     {
       "id": "esketit-1.20.1",
       "name": "Esketit",
-      "description": "Сервер Esketit — Minecraft 1.20.1, Forge",
+      "description": "\u0421\u0435\u0440\u0432\u0435\u0440 Esketit \u2014 Minecraft 1.20.1, Forge",
       "icon": "https://stuffy-man.github.io/esketit-dist/icon.png",
       "version": "1.0.0",
       "address": "195.58.152.22:25599",
@@ -9832,6 +9832,39 @@
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ysns/per_dimension_entities.json5",
             "MD5": "29d40d89113a572026822dbe031dca34",
             "path": "config/ysns/per_dimension_entities.json5"
+          }
+        },
+        {
+          "id": "give_quest_book.json",
+          "name": "give_quest_book.json",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/datapacks/data/givebook/advancements/give_quest_book.json",
+            "MD5": "a71ce8a3e3a5803f03bbf318e0306c99",
+            "path": "datapacks/data/givebook/advancements/give_quest_book.json"
+          }
+        },
+        {
+          "id": "give_quest_book.mcfunction",
+          "name": "give_quest_book.mcfunction",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/datapacks/data/givebook/functions/give_quest_book.mcfunction",
+            "MD5": "fe36d28c167390c52dac0b32cfbe3fb1",
+            "path": "datapacks/data/givebook/functions/give_quest_book.mcfunction"
+          }
+        },
+        {
+          "id": "pack.mcmeta",
+          "name": "pack.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 143,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/datapacks/pack.mcmeta",
+            "MD5": "f610655fe111ab1e25497208f892f49f",
+            "path": "datapacks/pack.mcmeta"
           }
         },
         {

@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Выдаёт книгу FTB Quests при первом входе игрока"
+  }
+}
