@@ -1311,19 +1311,6 @@
           }
         },
         {
-          "id": "customskinloader:customskinloader:14.28@jar",
-          "name": "CustomSkinLoader",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 153877,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/customskinloader.jar",
-            "MD5": "902406300ff7da3811d46523fad84734"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "fuzs.cutthrough:cutthrough:8.0.2@jar",
           "name": "Cut Through",
           "type": "ForgeMod",
@@ -2885,19 +2872,6 @@
             "size": 131511,
             "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/noplayernametags-1.1.1.jar",
             "MD5": "ef0888345643a07f604a7743716e59e5"
-          }
-        },
-        {
-          "id": "org.admany:noplayernametags:1.1.1@jar",
-          "name": "No Player NameTags",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 131511,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/noplayernametags-1.1.1.jar",
-            "MD5": "ef0888345643a07f604a7743716e59e5"
-          },
-          "required": {
-            "value": false
           }
         },
         {
