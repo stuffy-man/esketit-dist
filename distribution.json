@@ -2878,6 +2878,29 @@
           }
         },
         {
+          "id": "org.admany:noplayernametags:1.1.1@jar",
+          "name": "No Player NameTags",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 131511,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/noplayernametags-1.1.1.jar",
+            "MD5": "ef0888345643a07f604a7743716e59e5"
+          }
+        },
+        {
+          "id": "org.admany:noplayernametags:1.1.1@jar",
+          "name": "No Player NameTags",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 131511,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/noplayernametags-1.1.1.jar",
+            "MD5": "ef0888345643a07f604a7743716e59e5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "dev.tr7zw:notenoughanimations:1.12.0@jar",
           "name": "NotEnoughAnimations",
           "type": "ForgeMod",
@@ -3099,6 +3122,16 @@
             "size": 225213,
             "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/quad.jar",
             "MD5": "9b53ee44e4883921a898505c93790c4f"
+          }
+        },
+        {
+          "id": "org.admany.quantified.core:quantified:2.1.0@jar",
+          "name": "Quantified API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9123589,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/quantified.api-omni-2.1.0.jar",
+            "MD5": "0b19221e34eaaf5282115a23ccdde6ff"
           }
         },
         {
