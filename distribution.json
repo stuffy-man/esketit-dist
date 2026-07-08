@@ -7452,9 +7452,9 @@
           "name": "inventoryprofiles.json",
           "type": "File",
           "artifact": {
-            "size": 186,
+            "size": 325,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/inventoryprofilesnext/inventoryprofiles.json",
-            "MD5": "921a0325905370edd58950f0de94d80b",
+            "MD5": "275f37643c1fe706dc5ab138a0d34f49",
             "path": "config/inventoryprofilesnext/inventoryprofiles.json"
           }
         },
