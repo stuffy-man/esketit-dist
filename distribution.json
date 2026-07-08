@@ -608,9 +608,6 @@
             "size": 91808,
             "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/athena.jar",
             "MD5": "2086e326e8f0ff2f8d7d05c66c291484"
-          },
-          "required": {
-            "value": false
           }
         },
         {
@@ -3368,9 +3365,6 @@
             "size": 511601,
             "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/sodium_dynamic_lights.jar",
             "MD5": "687c18cefa558ca8101ef97914d9ba6b"
-          },
-          "required": {
-            "value": false
           }
         },
         {
