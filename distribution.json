@@ -7620,7 +7620,6 @@
           "artifact": {
             "size": 6403,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fzzy_config/keybinds.toml",
-            "MD5": "db29914636f6e1455464345f8e91d353",
             "path": "config/fzzy_config/keybinds.toml"
           }
         },
@@ -7631,7 +7630,6 @@
           "artifact": {
             "size": 510,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fzzy_config/search.toml",
-            "MD5": "df7a521629251dd1e77205589fed6fbc",
             "path": "config/fzzy_config/search.toml"
           }
         },
@@ -8203,7 +8201,6 @@
           "artifact": {
             "size": 0,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/blacklist.cfg",
-            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
             "path": "config/jei/blacklist.cfg"
           }
         },
@@ -8214,7 +8211,6 @@
           "artifact": {
             "size": 2119,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/ingredient-list-mod-sort-order.ini",
-            "MD5": "c45a327cd43852b4354e25b70af78b2d",
             "path": "config/jei/ingredient-list-mod-sort-order.ini"
           }
         },
@@ -8225,7 +8221,6 @@
           "artifact": {
             "size": 120,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/ingredient-list-type-sort-order.ini",
-            "MD5": "31cf67977474a0de4d685e4c2f31cce7",
             "path": "config/jei/ingredient-list-type-sort-order.ini"
           }
         },
@@ -8236,7 +8231,6 @@
           "artifact": {
             "size": 8658,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/jei-client.ini",
-            "MD5": "d84fcde71cc89202a32f5b10f2c3c89f",
             "path": "config/jei/jei-client.ini"
           }
         },
@@ -8247,7 +8241,6 @@
           "artifact": {
             "size": 1338,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/jei-colors.ini",
-            "MD5": "54322062602d3aabb6b11455e07de765",
             "path": "config/jei/jei-colors.ini"
           }
         },
@@ -8258,7 +8251,6 @@
           "artifact": {
             "size": 918,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/jei-debug.ini",
-            "MD5": "4dd10e2f07441d4820fe65e804aac24c",
             "path": "config/jei/jei-debug.ini"
           }
         },
@@ -8269,7 +8261,6 @@
           "artifact": {
             "size": 567,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/jei-mod-id-format.ini",
-            "MD5": "09b3f15dbd467a9934b87dca4ca1f717",
             "path": "config/jei/jei-mod-id-format.ini"
           }
         },
@@ -8280,7 +8271,6 @@
           "artifact": {
             "size": 2940,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/recipe-category-sort-order.ini",
-            "MD5": "eb9435d15ac28cd94edd748c15f74cb4",
             "path": "config/jei/recipe-category-sort-order.ini"
           }
         },
@@ -8291,7 +8281,6 @@
           "artifact": {
             "size": 3088,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/world/local/New_World/lookupHistory.ini",
-            "MD5": "2cd8db5185ae4e8beaa7b6764a1b5196",
             "path": "config/jei/world/local/New_World/lookupHistory.ini"
           }
         },
@@ -8302,7 +8291,6 @@
           "artifact": {
             "size": 3079,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/world/local/New_World__1/lookupHistory.ini",
-            "MD5": "61c530c19e54589ca8336330cb4e62e5",
             "path": "config/jei/world/local/New_World__1/lookupHistory.ini"
           }
         },
@@ -8313,7 +8301,6 @@
           "artifact": {
             "size": 2551,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/world/local/New_World__2/lookupHistory.ini",
-            "MD5": "1d553073f29417516550d1b85e02cd4e",
             "path": "config/jei/world/local/New_World__2/lookupHistory.ini"
           }
         },
@@ -8324,7 +8311,6 @@
           "artifact": {
             "size": 659,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/world/local/New_World__3/lookupHistory.ini",
-            "MD5": "a2e6057dc64ba7bccf222a34044426e4",
             "path": "config/jei/world/local/New_World__3/lookupHistory.ini"
           }
         },
