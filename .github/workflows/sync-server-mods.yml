@@ -1,0 +1,83 @@
+name: Sync Mods from Server
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:      # Manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install paramiko
+        run: pip install paramiko
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Sync mods from server via SFTP
+        env:
+          SFTP_HOST: ds6.joinserver.xyz
+          SFTP_PORT: 7477
+          SFTP_USER: ${{ secrets.SFTP_USER }}
+          SFTP_PASS: ${{ secrets.SFTP_PASS }}
+        run: python3 << 'EOPY'
+import paramiko, os
+from pathlib import Path
+
+t = paramiko.Transport((os.getenv('SFTP_HOST'), int(os.getenv('SFTP_PORT'))))
+t.connect(username=os.getenv('SFTP_USER'), password=os.getenv('SFTP_PASS'))
+sftp = paramiko.SFTPClient.from_transport(t)
+
+BASE = Path('./nebula-root/servers/esketit-1.20.1')
+dirs = [
+    ('mods_sync/server', BASE / 'forgemods/required'),
+    ('mods_sync/client', BASE / 'forgemods/optionalon'),
+]
+
+for remote, local in dirs:
+    local.mkdir(parents=True, exist_ok=True)
+    try:
+        for item in sftp.listdir_attr(remote):
+            if item.filename.endswith('.jar'):
+                rf = f'{remote}/{item.filename}'
+                lf = local / item.filename
+                with sftp.open(rf, 'rb') as rh:
+                    with open(lf, 'wb') as lh:
+                        lh.write(rh.read())
+        print(f'✓ {remote}')
+    except Exception as e:
+        print(f'⚠ {remote}: {e}')
+
+sftp.close()
+t.close()
+print('✅ Sync complete')
+EOPY
+
+      - name: Regenerate distribution.json
+        run: |
+          cd ./nebula-root
+          npm install --legacy-peer-deps > /dev/null 2>&1
+          npm run start -- generate distro > /dev/null 2>&1
+          echo "✅ distribution.json regenerated"
+
+      - name: Commit and push
+        run: |
+          git config user.name "Sync Bot"
+          git config user.email "sync@esketit.local"
+          git add distribution.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto: sync mods from server (mods_sync/)"
+            git push
+          else
+            echo "No changes"
+          fi
