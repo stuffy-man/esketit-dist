@@ -3358,6 +3358,16 @@
           }
         },
         {
+          "id": "net.lionarius:skinrestorer:2.9.0+1.20-forge@jar",
+          "name": "SkinRestorer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 259518,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/skinrestorer-2.9.0%2B1.20-forge.jar",
+            "MD5": "8d4e23163f92f32080dca3a93588ac41"
+          }
+        },
+        {
           "id": "net.mehvahdjukaar:sleep_tight:1.20-1.4.7@jar",
           "name": "Sleep Tight",
           "type": "ForgeMod",
