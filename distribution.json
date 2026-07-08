@@ -1035,6 +1035,29 @@
           }
         },
         {
+          "id": "mod.chiselsandbits:chiselsandbits:20.1.20@jar",
+          "name": "Chisels-and-bits",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2104697,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/chisels-and-bits-forge-20.1.20.jar",
+            "MD5": "bf88aa872ea08a8ba22ae60564eefcfd"
+          }
+        },
+        {
+          "id": "mod.chiselsandbits:chiselsandbits:20.1.20@jar",
+          "name": "Chisels-and-bits",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2104697,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/chisels-and-bits-forge-20.1.20.jar",
+            "MD5": "bf88aa872ea08a8ba22ae60564eefcfd"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "me.srrapero720:chloride:1.7.7@jar",
           "name": "Chloride",
           "type": "ForgeMod",
