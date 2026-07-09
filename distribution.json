@@ -1763,33 +1763,33 @@
           }
         },
         {
-          "id": "dev.esketitcoldcellar:esketit_coldcellar:1.0.1@jar",
+          "id": "dev.esketitcoldcellar:esketit_coldcellar:1.0.2@jar",
           "name": "Esketit Cold Cellar",
           "type": "ForgeMod",
           "artifact": {
-            "size": 19770,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_coldcellar-1.0.1.jar",
-            "MD5": "ee42c1e30f598e7a34f41c2f99250a17"
+            "size": 19861,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_coldcellar-1.0.2.jar",
+            "MD5": "bd52f080025f05adc1eebd00abdc5957"
           }
         },
         {
-          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.2@jar",
+          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.3@jar",
           "name": "Esketit Metallurgy",
           "type": "ForgeMod",
           "artifact": {
-            "size": 376557,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.2.jar",
-            "MD5": "5c88ea4b9c18683b045d8de734755d02"
+            "size": 376578,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.3.jar",
+            "MD5": "a9f7c1bfb5fcaa4c2458a9e52e8d3991"
           }
         },
         {
-          "id": "dev.esketitpacketguard:esketit_packetguard:1.0.0@jar",
+          "id": "dev.esketitpacketguard:esketit_packetguard:1.0.1@jar",
           "name": "Esketit Packet Guard",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3605,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_packetguard-1.0.0.jar",
-            "MD5": "bb014bf1ff262ac40c8ccee7af8c79ef"
+            "size": 3629,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_packetguard-1.0.1.jar",
+            "MD5": "85a9ed68eef58ab5ac1b5dda0edc3834"
           }
         },
         {
