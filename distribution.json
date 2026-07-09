@@ -1331,6 +1331,16 @@
           }
         },
         {
+          "id": "uk.co.dotcode:customvillagertrades:20.25.0@jar",
+          "name": "Custom Villager Trades",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55863,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/customvillagertrades-forge-20.25.0.jar",
+            "MD5": "a1762441b69b43270e719d1a3916b5e0"
+          }
+        },
+        {
           "id": "fuzs.cutthrough:cutthrough:8.0.2@jar",
           "name": "Cut Through",
           "type": "ForgeMod",
@@ -1763,13 +1773,23 @@
           }
         },
         {
-          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.1@jar",
+          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.2@jar",
           "name": "Esketit Metallurgy",
           "type": "ForgeMod",
           "artifact": {
-            "size": 375436,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.1.jar",
-            "MD5": "8399881973b6775175395850464a3820"
+            "size": 376557,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.2.jar",
+            "MD5": "5c88ea4b9c18683b045d8de734755d02"
+          }
+        },
+        {
+          "id": "dev.esketitpacketguard:esketit_packetguard:1.0.0@jar",
+          "name": "Esketit Packet Guard",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3605,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_packetguard-1.0.0.jar",
+            "MD5": "bb014bf1ff262ac40c8ccee7af8c79ef"
           }
         },
         {
