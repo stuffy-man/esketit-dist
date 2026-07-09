@@ -1058,6 +1058,16 @@
           }
         },
         {
+          "id": "com.connectivity:connectivity:1.20.1-7.6@jar",
+          "name": "Connectivity Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 120598,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/connectivity-1.20.1-7.6.jar",
+            "MD5": "59797700faa0a7b32e0db84b333805a3"
+          }
+        },
+        {
           "id": "com.blamejared:controlling:12.0.2@jar",
           "name": "Controlling",
           "type": "ForgeMod",
@@ -1288,6 +1298,16 @@
             "size": 262495,
             "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/cultural_delights.jar",
             "MD5": "d8c58392edc3f92e591f7273a068559b"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.20.1-3.9@jar",
+          "name": "Cupboard utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31724,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/cupboard-1.20.1-3.9.jar",
+            "MD5": "76a95295babef79d7d0e19d0cac4efb0"
           }
         },
         {
@@ -3680,6 +3700,16 @@
             "size": 1817918,
             "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/tool_trims.jar",
             "MD5": "6041667c0ce5fa4ab786369e9d2d0b9a"
+          }
+        },
+        {
+          "id": "net.minecraft.traderebalance.world.entity.npc:trade_rebalance:1.20.2@jar",
+          "name": "Villager Trade Rebalance Backport",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 82728,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/trade_rebalance-1.20.2.jar",
+            "MD5": "2571d4191e5abd42d9d2aa59e01e5da8"
           }
         },
         {
@@ -7078,9 +7108,9 @@
           "name": "harderbranchmining-common.toml",
           "type": "File",
           "artifact": {
-            "size": 2525,
+            "size": 3250,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/harderbranchmining-common.toml",
-            "MD5": "2365f68c17750d9bb20693131daca1d8",
+            "MD5": "3cc97ec6931e7e783d88b8106e658d42",
             "path": "config/harderbranchmining-common.toml"
           }
         },
