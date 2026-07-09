@@ -8547,9 +8547,9 @@
           "name": "seasons.toml",
           "type": "File",
           "artifact": {
-            "size": 6779,
+            "size": 6775,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/sereneseasons/seasons.toml",
-            "MD5": "1cffb83af65492c22c8438a687f21efb",
+            "MD5": "47ac3a5d0c88372aa0115bf8ae788973",
             "path": "config/sereneseasons/seasons.toml"
           }
         },

@@ -145,11 +145,11 @@
 	max_rain_time = 180000
 	min_thunder_time = 12000
 	max_thunder_time = 180000
-	grass_colour = 9400175
-	grass_saturation = -1.0
-	foliage_colour = 12861504
-	foliage_saturation = -1.0
-	birch_color = 11641922
+	grass_colour = 11118143
+	grass_saturation = 0.85
+	foliage_colour = 13805102
+	foliage_saturation = 0.85
+	birch_color = 15124026
 
 [[season_properties]]
 	season = "LATE_SUMMER"
@@ -175,11 +175,11 @@
 	max_rain_time = 180000
 	min_thunder_time = 12000
 	max_thunder_time = 180000
-	grass_colour = 11489103
-	grass_saturation = 0.85
-	foliage_colour = 14364720
-	foliage_saturation = 0.85
-	birch_color = 13208117
+	grass_colour = 9202478
+	grass_saturation = 0.9
+	foliage_colour = 10502170
+	foliage_saturation = 0.9
+	birch_color = 12878878
 
 [[season_properties]]
 	season = "EARLY_WINTER"
@@ -205,11 +205,11 @@
 	max_rain_time = 180000
 	min_thunder_time = 12000
 	max_thunder_time = 180000
-	grass_colour = 10444639
-	grass_saturation = -1.0
-	foliage_colour = 15671585
-	foliage_saturation = -1.0
-	birch_color = 14852657
+	grass_colour = 11569722
+	grass_saturation = 0.9
+	foliage_colour = 13131291
+	foliage_saturation = 0.9
+	birch_color = 14725162
 
 [[season_properties]]
 	season = "MID_SPRING"
