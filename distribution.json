@@ -1773,13 +1773,13 @@
           }
         },
         {
-          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.5@jar",
+          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.6@jar",
           "name": "Esketit Metallurgy",
           "type": "ForgeMod",
           "artifact": {
-            "size": 379956,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.5.jar",
-            "MD5": "0b62a2e5b359a90d4df59305cb6f744d"
+            "size": 378835,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.6.jar",
+            "MD5": "1b88d28411545bba6d3d32c0200e1c1e"
           }
         },
         {
@@ -1810,6 +1810,16 @@
             "size": 274383,
             "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_tannery-1.0.0.jar",
             "MD5": "bab03013a592afcc0ec00401461dc2ed"
+          }
+        },
+        {
+          "id": "dev.esketitvillagertrades:esketit_villagertrades:1.0.0@jar",
+          "name": "Esketit Villager Trades",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3607,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_villagertrades-1.0.0.jar",
+            "MD5": "281bcddc04f9e5c34cfa21c43fdf4c8d"
           }
         },
         {
