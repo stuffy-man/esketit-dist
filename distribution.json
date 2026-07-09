@@ -1743,13 +1743,13 @@
           }
         },
         {
-          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.0@jar",
+          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.1@jar",
           "name": "Esketit Metallurgy",
           "type": "ForgeMod",
           "artifact": {
-            "size": 375065,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.0.jar",
-            "MD5": "6c037a9eb4ad7fa971c2eae89cb7a729"
+            "size": 375436,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.1.jar",
+            "MD5": "8399881973b6775175395850464a3820"
           }
         },
         {
