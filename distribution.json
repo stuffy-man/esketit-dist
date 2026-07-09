@@ -3826,6 +3826,16 @@
           }
         },
         {
+          "id": "generated.forgemod:weather2patch:1.1.2@jar",
+          "name": "Weather2 Patch",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2783,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/weather2patch-1.1.2-forge-1.20.1.jar",
+            "MD5": "bb2316728612b918682ab53d9071e214"
+          }
+        },
+        {
           "id": "net.mcreator.wildweststructuresforge:wild_west_structures_forge:1.0.0@jar",
           "name": "Wild west structures forge",
           "type": "ForgeMod",
