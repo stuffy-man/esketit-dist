@@ -3703,16 +3703,6 @@
           }
         },
         {
-          "id": "net.minecraft.traderebalance.world.entity.npc:trade_rebalance:1.20.2@jar",
-          "name": "Villager Trade Rebalance Backport",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 82728,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/trade_rebalance-1.20.2.jar",
-            "MD5": "2571d4191e5abd42d9d2aa59e01e5da8"
-          }
-        },
-        {
           "id": "com.modrinth.l45eongd:mr_trade_villagerhats:0.1.0@jar",
           "name": "Gen's Villager Hats",
           "type": "ForgeMod",
