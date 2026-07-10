@@ -1773,13 +1773,13 @@
           }
         },
         {
-          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.10@jar",
+          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.11@jar",
           "name": "Esketit Metallurgy",
           "type": "ForgeMod",
           "artifact": {
-            "size": 417660,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.10.jar",
-            "MD5": "bc7ca9d37413f56cc248f3311fa283c8"
+            "size": 419084,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.11.jar",
+            "MD5": "708596cf1a430bf22374a46a2b3dc407"
           }
         },
         {
@@ -6966,9 +6966,9 @@
           "name": "76CBFFB53E088046.snbt",
           "type": "File",
           "artifact": {
-            "size": 13480,
+            "size": 20201,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/76CBFFB53E088046.snbt",
-            "MD5": "013e3274c90b395d9824a91596572e60",
+            "MD5": "839d3ca32ca0031bf1cafeb7ec6a3673",
             "path": "config/ftbquests/quests/chapters/76CBFFB53E088046.snbt"
           }
         },
