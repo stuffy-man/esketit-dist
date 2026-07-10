@@ -3408,16 +3408,6 @@
           }
         },
         {
-          "id": "net.mehvahdjukaar:sleep_tight:1.20-1.4.7@jar",
-          "name": "Sleep Tight",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 944948,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/sleep_tight-1.20-1.4.7.jar",
-            "MD5": "c4ccd3ef2f0ece9f092800d400aa0e4f"
-          }
-        },
-        {
           "id": "net.mehvahdjukaar:smarterfarmers:1.20-2.1.2@jar",
           "name": "Smarter Farmers",
           "type": "ForgeMod",
