@@ -1730,13 +1730,13 @@
           }
         },
         {
-          "id": "dev.esketitcoldcellar:esketit_coldcellar:1.0.6@jar",
+          "id": "dev.esketitcoldcellar:esketit_coldcellar:1.0.7@jar",
           "name": "Esketit Cold Cellar",
           "type": "ForgeMod",
           "artifact": {
-            "size": 40121,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_coldcellar-1.0.6.jar",
-            "MD5": "64a32b0baff30fdb32a20ec954b74041"
+            "size": 40607,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_coldcellar-1.0.7.jar",
+            "MD5": "6ee4aee0eebb28eb697a215c5fe8d776"
           }
         },
         {
