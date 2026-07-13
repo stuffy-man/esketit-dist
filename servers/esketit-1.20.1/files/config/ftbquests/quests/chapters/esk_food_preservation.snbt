@@ -30,6 +30,11 @@
 			]
 			icon: "minecraft:rotten_flesh"
 			id: "7C01DCE110000001"
+			rewards: [{
+				id: "7DFF000000000113"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "7C01DCE110000101"
 				title: "Порча еды"
@@ -52,11 +57,10 @@
 			]
 			id: "7C01DCE110000002"
 			rewards: [{
-				count: 8
-				id: "7C01DCE110000202"
+				id: "7DFF000000000114"
 				item: {
 					Count: 1
-					id: "salt:salt"
+					id: "minecraft:rotten_flesh"
 					tag: { }
 				}
 				type: "item"
@@ -98,6 +102,15 @@
 			]
 			icon: "salt:salt"
 			id: "7C01DCE110000003"
+			rewards: [{
+				id: "7DFF000000000115"
+				item: {
+					Count: 1
+					id: "minecraft:stick"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C01DCE110000103"
 				title: "Засолить еду"
@@ -123,11 +136,10 @@
 			]
 			id: "7C01DCE110000004"
 			rewards: [{
-				count: 8
-				id: "7C01DCE110000204"
+				id: "7DFF000000000116"
 				item: {
 					Count: 1
-					id: "minecraft:ice"
+					id: "minecraft:bowl"
 					tag: { }
 				}
 				type: "item"
@@ -165,6 +177,16 @@
 			]
 			icon: "minecraft:blue_ice"
 			id: "7C01DCE110000005"
+			rewards: [{
+				count: 4
+				id: "7DFF000000000117"
+				item: {
+					Count: 1
+					id: "minecraft:snowball"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C01DCE110000105"
 				title: "Обложить погреб льдом"

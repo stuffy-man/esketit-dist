@@ -15,6 +15,15 @@
 				"Ремонт снаряжения идёт через ковку и наковальню, а не через опыт."
 			]
 			id: "7D0A000000000001"
+			rewards: [{
+				id: "7DFF0000000000E9"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0A400000000001"
 				item: {
@@ -35,6 +44,15 @@
 				"Заготовь хотя бы 15 полок и расставь их в правильном радиусе."
 			]
 			id: "7D0A000000000002"
+			rewards: [{
+				id: "7DFF0000000000EA"
+				item: {
+					Count: 1
+					id: "minecraft:egg"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 15L
 				id: "7D0A400000000002"
@@ -56,6 +74,11 @@
 				"Помни: Починки в списке чар не будет — планируй ремонт заранее."
 			]
 			id: "7D0A000000000003"
+			rewards: [{
+				id: "7DFF0000000000EB"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 16L
 				id: "7D0A400000000003"
@@ -77,6 +100,15 @@
 				"Соедини две одинаковые книги, чтобы получить чары уровнем выше."
 			]
 			id: "7D0A000000000004"
+			rewards: [{
+				id: "7DFF0000000000EC"
+				item: {
+					Count: 1
+					id: "minecraft:poisonous_potato"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0A400000000004"
 				item: {
@@ -97,6 +129,15 @@
 				"Так ты вернёшь опыт для новых попыток у стола."
 			]
 			id: "7D0A000000000005"
+			rewards: [{
+				id: "7DFF0000000000ED"
+				item: {
+					Count: 1
+					id: "minecraft:cookie"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0A400000000005"
 				item: {
@@ -117,6 +158,15 @@
 				"Удобная библиотека для порядка в знаниях."
 			]
 			id: "7D0A000000000006"
+			rewards: [{
+				id: "7DFF0000000000EE"
+				item: {
+					Count: 1
+					id: "minecraft:dead_bush"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0A400000000006"
 				item: {
@@ -137,6 +187,11 @@
 				"Заведи первую именную книгу для своей библиотеки."
 			]
 			id: "7D0A000000000007"
+			rewards: [{
+				id: "7DFF0000000000EF"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "7D0A400000000007"
 				item: {
@@ -157,6 +212,15 @@
 				"Основа читального зала твоей базы."
 			]
 			id: "7D0A000000000008"
+			rewards: [{
+				id: "7DFF0000000000F0"
+				item: {
+					Count: 1
+					id: "minecraft:rotten_flesh"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0A400000000008"
 				item: {
@@ -178,11 +242,10 @@
 			]
 			id: "7D0A000000000009"
 			rewards: [{
-				count: 4
-				id: "7D0A800000000009"
+				id: "7DFF0000000000F1"
 				item: {
 					Count: 1
-					id: "minecraft:experience_bottle"
+					id: "minecraft:stick"
 					tag: { }
 				}
 				type: "item"
@@ -207,6 +270,15 @@
 				"Автоматизируй разбор снаряги вместо ручного точила."
 			]
 			id: "7D0A00000000000A"
+			rewards: [{
+				id: "7DFF0000000000F2"
+				item: {
+					Count: 1
+					id: "minecraft:bowl"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0A40000000000A"
 				item: {
@@ -227,6 +299,16 @@
 				"Собери мешалку и подключи её к валу."
 			]
 			id: "7D0A00000000000B"
+			rewards: [{
+				count: 4
+				id: "7DFF0000000000F3"
+				item: {
+					Count: 1
+					id: "minecraft:snowball"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0A40000000000B"
 				item: {
@@ -247,6 +329,11 @@
 				"Сырьё для печати и массового зачарования."
 			]
 			id: "7D0A00000000000C"
+			rewards: [{
+				id: "7DFF0000000000F4"
+				type: "xp"
+				xp: 7
+			}]
 			tasks: [{
 				id: "7D0A40000000000C"
 				item: {
@@ -267,6 +354,15 @@
 				"Напоминание: Починку так не напечатать — на сервере её попросту нет."
 			]
 			id: "7D0A00000000000D"
+			rewards: [{
+				id: "7DFF0000000000F5"
+				item: {
+					Count: 1
+					id: "minecraft:wheat_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0A40000000000D"
 				item: {
@@ -287,6 +383,15 @@
 				"Венец промышленного зачарования: опыт по требованию."
 			]
 			id: "7D0A00000000000E"
+			rewards: [{
+				id: "7DFF0000000000F6"
+				item: {
+					Count: 1
+					id: "minecraft:feather"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0A40000000000E"
 				item: {

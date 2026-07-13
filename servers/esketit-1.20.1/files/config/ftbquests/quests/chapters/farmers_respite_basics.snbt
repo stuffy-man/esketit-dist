@@ -14,14 +14,9 @@
 			]
 			id: "2EBC2F6C5670639C"
 			rewards: [{
-				count: 2
-				id: "23D1C222C477AC7B"
-				item: {
-					Count: 1
-					id: "minecraft:stick"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF000000000141"
+				type: "xp"
+				xp: 3
 			}]
 			tasks: [{
 				id: "595C02F6BA19BB09"
@@ -42,11 +37,10 @@
 			]
 			id: "0CB2E68F6D36DE9E"
 			rewards: [{
-				count: 3
-				id: "637D771AB3DB7956"
+				id: "7DFF000000000142"
 				item: {
 					Count: 1
-					id: "farmersrespite:green_tea_leaves"
+					id: "minecraft:dried_kelp"
 					tag: { }
 				}
 				type: "item"
@@ -72,10 +66,10 @@
 			]
 			id: "7CB8CD20A38884DE"
 			rewards: [{
-				id: "5B369269956D5DE2"
+				id: "7DFF000000000143"
 				item: {
 					Count: 1
-					id: "farmersrespite:green_tea"
+					id: "minecraft:paper"
 					tag: { }
 				}
 				type: "item"
@@ -101,11 +95,10 @@
 			]
 			id: "5427404A8DB4756D"
 			rewards: [{
-				count: 3
-				id: "3AE763DBBC751F7B"
+				id: "7DFF000000000144"
 				item: {
 					Count: 1
-					id: "farmersrespite:coffee_berries"
+					id: "minecraft:egg"
 					tag: { }
 				}
 				type: "item"
@@ -128,6 +121,11 @@
 				"повторно - выйдет более крепкий вариант того же напитка."
 			]
 			id: "3B67D4B1EB20FF25"
+			rewards: [{
+				id: "7DFF000000000145"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "1478D4FB2003D80D"
 				item: {
@@ -148,6 +146,15 @@
 				"крайней нужды."
 			]
 			id: "730C2AB04B0981AD"
+			rewards: [{
+				id: "7DFF000000000146"
+				item: {
+					Count: 1
+					id: "minecraft:poisonous_potato"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2FDAC2E56EE7CAFD"
 				item: {
@@ -167,11 +174,10 @@
 			]
 			id: "5AA2029C4E9ED8F5"
 			rewards: [{
-				count: 2
-				id: "74CBD12FF91393B7"
+				id: "7DFF000000000147"
 				item: {
 					Count: 1
-					id: "farmersrespite:coffee_berries"
+					id: "minecraft:cookie"
 					tag: { }
 				}
 				type: "item"

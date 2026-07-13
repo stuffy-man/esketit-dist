@@ -15,6 +15,11 @@
 				"путь исследователя дикой фауны."
 			]
 			id: "7D04000000000001"
+			rewards: [{
+				id: "7DFF000000000133"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7D04400000000001"
 				item: {
@@ -35,6 +40,15 @@
 				"основу рациона любого охотника."
 			]
 			id: "7D04000000000002"
+			rewards: [{
+				id: "7DFF000000000134"
+				item: {
+					Count: 1
+					id: "minecraft:poisonous_potato"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 3L
 				id: "7D04400000000002"
@@ -56,6 +70,15 @@
 				"своего первого дикого питомца."
 			]
 			id: "7D04000000000003"
+			rewards: [{
+				id: "7DFF000000000135"
+				item: {
+					Count: 1
+					id: "minecraft:cookie"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D04400000000003"
 				item: {
@@ -76,6 +99,15 @@
 				"прочный трофей и ингредиент."
 			]
 			id: "7D04000000000004"
+			rewards: [{
+				id: "7DFF000000000136"
+				item: {
+					Count: 1
+					id: "minecraft:dead_bush"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D04400000000004"
 				item: {
@@ -96,6 +128,11 @@
 				"что ты не боишься хищников океана."
 			]
 			id: "7D04000000000005"
+			rewards: [{
+				id: "7DFF000000000137"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				count: 2L
 				id: "7D04400000000005"
@@ -117,6 +154,15 @@
 				"с самого холодного края карты."
 			]
 			id: "7D04000000000006"
+			rewards: [{
+				id: "7DFF000000000138"
+				item: {
+					Count: 1
+					id: "minecraft:rotten_flesh"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 2L
 				id: "7D04400000000006"
@@ -138,6 +184,15 @@
 				"опасная охота для смелых."
 			]
 			id: "7D04000000000007"
+			rewards: [{
+				id: "7DFF000000000139"
+				item: {
+					Count: 1
+					id: "minecraft:stick"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D04400000000007"
 				item: {
@@ -158,6 +213,15 @@
 				"твоего фаунистического похода."
 			]
 			id: "7D04000000000008"
+			rewards: [{
+				id: "7DFF00000000013A"
+				item: {
+					Count: 1
+					id: "minecraft:bowl"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D04400000000008"
 				item: {
@@ -178,6 +242,16 @@
 				"для своей коллекции натуралиста."
 			]
 			id: "7D04000000000009"
+			rewards: [{
+				count: 4
+				id: "7DFF00000000013B"
+				item: {
+					Count: 1
+					id: "minecraft:snowball"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D04400000000009"
 				item: {
@@ -198,6 +272,11 @@
 				"обитатель твоего зверинца."
 			]
 			id: "7D0400000000000A"
+			rewards: [{
+				id: "7DFF00000000013C"
+				type: "xp"
+				xp: 7
+			}]
 			tasks: [{
 				id: "7D0440000000000A"
 				item: {
@@ -218,6 +297,15 @@
 				"и укрась им своё пастбище."
 			]
 			id: "7D0400000000000B"
+			rewards: [{
+				id: "7DFF00000000013D"
+				item: {
+					Count: 1
+					id: "minecraft:wheat_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0440000000000B"
 				item: {
@@ -238,6 +326,15 @@
 				"Не каждый вернётся с такой охоты."
 			]
 			id: "7D0400000000000C"
+			rewards: [{
+				id: "7DFF00000000013E"
+				item: {
+					Count: 1
+					id: "minecraft:feather"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0440000000000C"
 				item: {
@@ -258,6 +355,15 @@
 				"угощение с южных островов."
 			]
 			id: "7D0400000000000D"
+			rewards: [{
+				id: "7DFF00000000013F"
+				item: {
+					Count: 1
+					id: "minecraft:pumpkin_pie"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 3L
 				id: "7D0440000000000D"
@@ -279,6 +385,15 @@
 				"и добавь его в свой бестиарий."
 			]
 			id: "7D0400000000000E"
+			rewards: [{
+				id: "7DFF000000000140"
+				item: {
+					Count: 1
+					id: "minecraft:bamboo"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0440000000000E"
 				item: {

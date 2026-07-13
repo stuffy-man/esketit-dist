@@ -15,11 +15,10 @@
 			]
 			id: "584505B2A03DF523"
 			rewards: [{
-				count: 8
-				id: "34E391FA4BFE4E2F"
+				id: "7DFF00000000004B"
 				item: {
 					Count: 1
-					id: "farmersdelight:straw"
+					id: "minecraft:cookie"
 					tag: { }
 				}
 				type: "item"
@@ -47,11 +46,10 @@
 			]
 			id: "571342C3967D286C"
 			rewards: [{
-				count: 3
-				id: "5DB6FE577165FEC8"
+				id: "7DFF00000000004C"
 				item: {
 					Count: 1
-					id: "farmersdelight:tomato_seeds"
+					id: "minecraft:dead_bush"
 					tag: { }
 				}
 				type: "item"
@@ -76,14 +74,9 @@
 			]
 			id: "7BD3D733606D293A"
 			rewards: [{
-				count: 3
-				id: "46FEA8B7C1CCAAB6"
-				item: {
-					Count: 1
-					id: "farmersdelight:cabbage_seeds"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF00000000004D"
+				type: "xp"
+				xp: 5
 			}]
 			tasks: [{
 				id: "2F77B5AA4E8329EE"
@@ -104,11 +97,10 @@
 			]
 			id: "66A02402F6D2C624"
 			rewards: [{
-				count: 3
-				id: "075B3B9BF0E1CEEE"
+				id: "7DFF00000000004E"
 				item: {
 					Count: 1
-					id: "farmersdelight:onion"
+					id: "minecraft:rotten_flesh"
 					tag: { }
 				}
 				type: "item"
@@ -135,11 +127,10 @@
 			]
 			id: "51184813C751B2B3"
 			rewards: [{
-				count: 3
-				id: "197B9B9E176FBA32"
+				id: "7DFF00000000004F"
 				item: {
 					Count: 1
-					id: "farmersdelight:rice"
+					id: "minecraft:stick"
 					tag: { }
 				}
 				type: "item"
@@ -165,11 +156,10 @@
 			]
 			id: "73231EC4C070F907"
 			rewards: [{
-				count: 2
-				id: "6C13E18CFF594253"
+				id: "7DFF000000000050"
 				item: {
 					Count: 1
-					id: "farmersdelight:tomato_seeds"
+					id: "minecraft:bowl"
 					tag: { }
 				}
 				type: "item"
@@ -194,11 +184,11 @@
 			]
 			id: "299310CDFB72D73C"
 			rewards: [{
-				count: 2
-				id: "4BC47FBEFB5ABBB0"
+				count: 4
+				id: "7DFF000000000051"
 				item: {
 					Count: 1
-					id: "farmersdelight:canvas"
+					id: "minecraft:snowball"
 					tag: { }
 				}
 				type: "item"
@@ -223,14 +213,9 @@
 			]
 			id: "0B6104F3D139C75C"
 			rewards: [{
-				count: 2
-				id: "00DAE026EE15BE70"
-				item: {
-					Count: 1
-					id: "farmersdelight:rope"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF000000000052"
+				type: "xp"
+				xp: 7
 			}]
 			tasks: [{
 				id: "517FA669622B8D7F"
@@ -254,11 +239,10 @@
 			]
 			id: "17898AF68FA38561"
 			rewards: [{
-				count: 4
-				id: "64AB845AB1EEC113"
+				id: "7DFF000000000053"
 				item: {
 					Count: 1
-					id: "farmersdelight:straw"
+					id: "minecraft:wheat_seeds"
 					tag: { }
 				}
 				type: "item"
@@ -283,11 +267,10 @@
 			]
 			id: "532AA6CF78BDC746"
 			rewards: [{
-				count: 3
-				id: "7FB1E714215D8BF9"
+				id: "7DFF000000000054"
 				item: {
 					Count: 1
-					id: "corn_delight:corn_seeds"
+					id: "minecraft:feather"
 					tag: { }
 				}
 				type: "item"
@@ -311,11 +294,10 @@
 			]
 			id: "65FEC25F820D9292"
 			rewards: [{
-				count: 2
-				id: "31919EBB37289501"
+				id: "7DFF000000000055"
 				item: {
 					Count: 1
-					id: "corn_delight:popcorn"
+					id: "minecraft:pumpkin_pie"
 					tag: { }
 				}
 				type: "item"
@@ -338,6 +320,15 @@
 				"не такой эффектный, зато сытный и быстрый."
 			]
 			id: "7433FE1F10B7E7BF"
+			rewards: [{
+				id: "7DFF000000000056"
+				item: {
+					Count: 1
+					id: "minecraft:bamboo"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C252EFFC1B9BF1B"
 				item: {
@@ -357,14 +348,9 @@
 			]
 			id: "7121DD22615220BF"
 			rewards: [{
-				count: 2
-				id: "76FE9E13820F6AB6"
-				item: {
-					Count: 1
-					id: "rusticdelight:bell_pepper_seeds"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF000000000057"
+				type: "xp"
+				xp: 3
 			}]
 			tasks: [{
 				id: "6270EE73AFE4B619"
@@ -387,11 +373,10 @@
 			]
 			id: "4E86F250CB06E40F"
 			rewards: [{
-				count: 2
-				id: "7643F28E8C839C50"
+				id: "7DFF000000000058"
 				item: {
 					Count: 1
-					id: "farmersdelight:milk_bottle"
+					id: "minecraft:dried_kelp"
 					tag: { }
 				}
 				type: "item"
@@ -415,6 +400,15 @@
 				"уже высится стопка блинов."
 			]
 			id: "23C302DBDAC314F8"
+			rewards: [{
+				id: "7DFF000000000059"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "50F1DD595787E731"
 				item: {
@@ -436,11 +430,10 @@
 			]
 			id: "270860E803D18FA7"
 			rewards: [{
-				count: 2
-				id: "23E1A2090AADB223"
+				id: "7DFF00000000005A"
 				item: {
 					Count: 1
-					id: "culturaldelights:cucumber_seeds"
+					id: "minecraft:egg"
 					tag: { }
 				}
 				type: "item"
@@ -465,14 +458,9 @@
 			]
 			id: "184915BC0930AE7D"
 			rewards: [{
-				count: 2
-				id: "513BCAC4B09D2730"
-				item: {
-					Count: 1
-					id: "culturaldelights:eggplant_seeds"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF00000000005B"
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "265232DC79288311"
@@ -494,6 +482,15 @@
 				"отличным."
 			]
 			id: "7239B76B3F284C53"
+			rewards: [{
+				id: "7DFF00000000005C"
+				item: {
+					Count: 1
+					id: "minecraft:poisonous_potato"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F9E718928CF8DCA"
 				item: {
@@ -515,11 +512,10 @@
 			]
 			id: "59AF582C514B8710"
 			rewards: [{
-				count: 2
-				id: "6E35EB9587A1B78C"
+				id: "7DFF00000000005D"
 				item: {
 					Count: 1
-					id: "pineapple_delight:pineapple"
+					id: "minecraft:cookie"
 					tag: { }
 				}
 				type: "item"
@@ -543,10 +539,10 @@
 			]
 			id: "0F260A3FF5CEC685"
 			rewards: [{
-				id: "2D7EE8DFC10E12D2"
+				id: "7DFF00000000005E"
 				item: {
 					Count: 1
-					id: "pineapple_delight:pineapple"
+					id: "minecraft:dead_bush"
 					tag: { }
 				}
 				type: "item"
@@ -569,6 +565,11 @@
 				"неожиданно удачное сочетание сладкого и солёного."
 			]
 			id: "124A53CCC4BB86AC"
+			rewards: [{
+				id: "7DFF00000000005F"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "3FF7992FE1CDDE5B"
 				item: {
@@ -589,11 +590,10 @@
 			]
 			id: "5550908FD2894EF7"
 			rewards: [{
-				count: 4
-				id: "2E79A2F4CB53DC04"
+				id: "7DFF000000000060"
 				item: {
 					Count: 1
-					id: "sunflowerdelight:sunflower_seed"
+					id: "minecraft:rotten_flesh"
 					tag: { }
 				}
 				type: "item"
@@ -618,11 +618,10 @@
 			]
 			id: "5A4B18B053E4A64D"
 			rewards: [{
-				count: 2
-				id: "04D092BC9594A4EE"
+				id: "7DFF000000000061"
 				item: {
 					Count: 1
-					id: "sunflowerdelight:golden_sunflower_seed"
+					id: "minecraft:stick"
 					tag: { }
 				}
 				type: "item"
@@ -646,6 +645,15 @@
 				"загадочной настойки, и не менее вкусный."
 			]
 			id: "66D01BFB1BCED635"
+			rewards: [{
+				id: "7DFF000000000062"
+				item: {
+					Count: 1
+					id: "minecraft:bowl"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A6C0253F13ABC59"
 				item: {
@@ -667,11 +675,11 @@
 			]
 			id: "2B87F50A75016A94"
 			rewards: [{
-				count: 3
-				id: "457C6BB08607CE40"
+				count: 4
+				id: "7DFF000000000063"
 				item: {
 					Count: 1
-					id: "seeddelight:acorn"
+					id: "minecraft:snowball"
 					tag: { }
 				}
 				type: "item"
@@ -696,14 +704,9 @@
 			]
 			id: "32620D05CAC6F000"
 			rewards: [{
-				count: 2
-				id: "3F38DC03AF858CE7"
-				item: {
-					Count: 1
-					id: "seeddelight:pinecone"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF000000000064"
+				type: "xp"
+				xp: 7
 			}]
 			tasks: [{
 				id: "428FE768203EC851"
@@ -725,10 +728,10 @@
 			]
 			id: "6404A0869D2C9C33"
 			rewards: [{
-				id: "7681533168920638"
+				id: "7DFF000000000065"
 				item: {
 					Count: 1
-					id: "seeddelight:rosehip_tea"
+					id: "minecraft:wheat_seeds"
 					tag: { }
 				}
 				type: "item"
@@ -754,11 +757,10 @@
 			]
 			id: "1E93606E3899705D"
 			rewards: [{
-				count: 3
-				id: "31341F3C0D76DC33"
+				id: "7DFF000000000066"
 				item: {
 					Count: 1
-					id: "vintagedelight:oat_seeds"
+					id: "minecraft:feather"
 					tag: { }
 				}
 				type: "item"
@@ -783,11 +785,10 @@
 			]
 			id: "177D33633FAA3B9E"
 			rewards: [{
-				count: 3
-				id: "28491A3A7E293034"
+				id: "7DFF000000000067"
 				item: {
 					Count: 1
-					id: "vintagedelight:peanut"
+					id: "minecraft:pumpkin_pie"
 					tag: { }
 				}
 				type: "item"
@@ -811,6 +812,15 @@
 				"хлеба - простой, но безотказный перекус в пути."
 			]
 			id: "23DD5174DB6BD15A"
+			rewards: [{
+				id: "7DFF000000000068"
+				item: {
+					Count: 1
+					id: "minecraft:bamboo"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "510F49C16027CBB3"
 				item: {
@@ -832,14 +842,9 @@
 			]
 			id: "5FBA4FCFD1FFD7ED"
 			rewards: [{
-				count: 2
-				id: "727BDE5E0575B7EE"
-				item: {
-					Count: 1
-					id: "vintagedelight:cucumber_seeds"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF000000000069"
+				type: "xp"
+				xp: 3
 			}]
 			tasks: [{
 				id: "55F4593ABE9A0035"
@@ -860,11 +865,10 @@
 			]
 			id: "35777CEE0FA2B752"
 			rewards: [{
-				count: 2
-				id: "188EB996C909AD62"
+				id: "7DFF00000000006A"
 				item: {
 					Count: 1
-					id: "vintagedelight:pickle"
+					id: "minecraft:dried_kelp"
 					tag: { }
 				}
 				type: "item"
@@ -887,6 +891,15 @@
 				"в дело - им приправляют почти все остальные заготовки."
 			]
 			id: "0790306E3C85294D"
+			rewards: [{
+				id: "7DFF00000000006B"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1BD122FB44C8AE8E"
 				item: {
@@ -907,11 +920,10 @@
 			]
 			id: "569F9FAE1F22DA2F"
 			rewards: [{
-				count: 4
-				id: "735302866F4B7092"
+				id: "7DFF00000000006C"
 				item: {
 					Count: 1
-					id: "vintagedelight:salt_dust"
+					id: "minecraft:egg"
 					tag: { }
 				}
 				type: "item"
@@ -936,14 +948,9 @@
 			]
 			id: "54FDF309E28580AE"
 			rewards: [{
-				count: 2
-				id: "3725BC61C1C40B0F"
-				item: {
-					Count: 1
-					id: "vintagedelight:salt_dust"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF00000000006D"
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "4E62A2474A5B197F"
@@ -965,6 +972,15 @@
 				"участия шефа."
 			]
 			id: "1B1B281612162F05"
+			rewards: [{
+				id: "7DFF00000000006E"
+				item: {
+					Count: 1
+					id: "minecraft:poisonous_potato"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "43130CA790F5191C"
 				item: {
@@ -985,11 +1001,10 @@
 			]
 			id: "280815B978ED9C66"
 			rewards: [{
-				count: 2
-				id: "2FDC80230504674A"
+				id: "7DFF00000000006F"
 				item: {
 					Count: 1
-					id: "farmersdelight:milk_bottle"
+					id: "minecraft:cookie"
 					tag: { }
 				}
 				type: "item"
@@ -1012,6 +1027,15 @@
 				"румянится в печи что-то очень похожее на пиццу."
 			]
 			id: "2629C550C256C14C"
+			rewards: [{
+				id: "7DFF000000000070"
+				item: {
+					Count: 1
+					id: "minecraft:dead_bush"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F06C4DD1544C5CB"
 				item: {
@@ -1032,14 +1056,9 @@
 			]
 			id: "766F6D8E7C288450"
 			rewards: [{
-				count: 2
-				id: "21FA3AAA9DC14010"
-				item: {
-					Count: 1
-					id: "vintagedelight:oat_seeds"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF000000000071"
+				type: "xp"
+				xp: 5
 			}]
 			tasks: [{
 				id: "2281F51F992FC88B"
@@ -1062,11 +1081,10 @@
 			]
 			id: "72089449DFECDFBC"
 			rewards: [{
-				count: 2
-				id: "5C39967ED503B37B"
+				id: "7DFF000000000072"
 				item: {
 					Count: 1
-					id: "dtfruitsdelight:peach_seed"
+					id: "minecraft:rotten_flesh"
 					tag: { }
 				}
 				type: "item"
@@ -1090,10 +1108,10 @@
 			]
 			id: "20BEB7E0E8A5B296"
 			rewards: [{
-				id: "21674B2E4CB89B56"
+				id: "7DFF000000000073"
 				item: {
 					Count: 1
-					id: "dtfruitsdelight:lychee_seed"
+					id: "minecraft:stick"
 					tag: { }
 				}
 				type: "item"
@@ -1118,10 +1136,10 @@
 			]
 			id: "1BD8624C4CD3C050"
 			rewards: [{
-				id: "113EDE3BCD7FE913"
+				id: "7DFF000000000074"
 				item: {
 					Count: 1
-					id: "fruitsdelight:apple_crate"
+					id: "minecraft:bowl"
 					tag: { }
 				}
 				type: "item"
@@ -1146,10 +1164,11 @@
 			]
 			id: "291DCD4229928360"
 			rewards: [{
-				id: "0BAACA5C7A509D4D"
+				count: 4
+				id: "7DFF000000000075"
 				item: {
 					Count: 1
-					id: "fruitsdelight:cranberry_jelly"
+					id: "minecraft:snowball"
 					tag: { }
 				}
 				type: "item"
@@ -1172,6 +1191,11 @@
 				"сладкий пудинг - десерт, который не стыдно подать гостю."
 			]
 			id: "5B865A07260C0F01"
+			rewards: [{
+				id: "7DFF000000000076"
+				type: "xp"
+				xp: 7
+			}]
 			tasks: [{
 				id: "7E3D69BD6B78F518"
 				item: {
@@ -1192,11 +1216,10 @@
 			]
 			id: "6992D662326A1E58"
 			rewards: [{
-				count: 2
-				id: "429C956BFF4AC80C"
+				id: "7DFF000000000077"
 				item: {
 					Count: 1
-					id: "delightful:acorn"
+					id: "minecraft:wheat_seeds"
 					tag: { }
 				}
 				type: "item"
@@ -1221,10 +1244,10 @@
 			]
 			id: "35E2F2CABF618C09"
 			rewards: [{
-				id: "0758BAE34EEA68F7"
+				id: "7DFF000000000078"
 				item: {
 					Count: 1
-					id: "delightful:mulberry_pie"
+					id: "minecraft:feather"
 					tag: { }
 				}
 				type: "item"
@@ -1248,6 +1271,15 @@
 				"зелёное, горьковатое и совсем не похожее на обычное."
 			]
 			id: "1D0B2464EEAEF76F"
+			rewards: [{
+				id: "7DFF000000000079"
+				item: {
+					Count: 1
+					id: "minecraft:pumpkin_pie"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F8DE2D293621D2A"
 				item: {
@@ -1269,11 +1301,10 @@
 			]
 			id: "20744E6060D32094"
 			rewards: [{
-				count: 2
-				id: "4F1AAF264CF47D69"
+				id: "7DFF00000000007A"
 				item: {
 					Count: 1
-					id: "abnormals_delight:duck_fillet"
+					id: "minecraft:bamboo"
 					tag: { }
 				}
 				type: "item"
@@ -1297,14 +1328,9 @@
 			]
 			id: "142B28838ED6C69C"
 			rewards: [{
-				count: 2
-				id: "38D7C235058B73DB"
-				item: {
-					Count: 1
-					id: "abnormals_delight:cooked_duck_fillet"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF00000000007B"
+				type: "xp"
+				xp: 3
 			}]
 			tasks: [{
 				id: "04BADC87A8793E7D"
@@ -1324,6 +1350,15 @@
 				"простое лесное блюдо, но выглядит как из хорошего трактира."
 			]
 			id: "7E0CC4FF8E0CE538"
+			rewards: [{
+				id: "7DFF00000000007C"
+				item: {
+					Count: 1
+					id: "minecraft:dried_kelp"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B83851C293C407A"
 				item: {
@@ -1344,11 +1379,10 @@
 			]
 			id: "1BF629BB0B7A4593"
 			rewards: [{
-				count: 2
-				id: "7698746B8B332738"
+				id: "7DFF00000000007D"
 				item: {
 					Count: 1
-					id: "trailandtales_delight:lantern_fruit_seeds"
+					id: "minecraft:paper"
 					tag: { }
 				}
 				type: "item"
@@ -1373,10 +1407,10 @@
 			]
 			id: "3D29B70F5D51BDCB"
 			rewards: [{
-				id: "7AE2F43F114176A2"
+				id: "7DFF00000000007E"
 				item: {
 					Count: 1
-					id: "trailandtales_delight:stuffed_sniffer_egg"
+					id: "minecraft:egg"
 					tag: { }
 				}
 				type: "item"
@@ -1399,6 +1433,11 @@
 				"разрежьте его ножом на доске, чтобы добраться до мякоти."
 			]
 			id: "6A7A11034C5104D1"
+			rewards: [{
+				id: "7DFF00000000007F"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "658B741CF0038835"
 				item: {
@@ -1419,11 +1458,10 @@
 			]
 			id: "06E221EBB4C47FA2"
 			rewards: [{
-				count: 2
-				id: "3EDDC0B43E834E0E"
+				id: "7DFF000000000080"
 				item: {
 					Count: 1
-					id: "barbequesdelight:raw_vegetable_skewer"
+					id: "minecraft:poisonous_potato"
 					tag: { }
 				}
 				type: "item"
@@ -1448,10 +1486,10 @@
 			]
 			id: "10218B17820661C0"
 			rewards: [{
-				id: "4857AB4A1A72CBA5"
+				id: "7DFF000000000081"
 				item: {
 					Count: 1
-					id: "barbequesdelight:kebab_wrap"
+					id: "minecraft:cookie"
 					tag: { }
 				}
 				type: "item"
@@ -1476,6 +1514,15 @@
 				"яркое блюдо, которое сначала жалко есть."
 			]
 			id: "29D47DAF8FB7D627"
+			rewards: [{
+				id: "7DFF000000000082"
+				item: {
+					Count: 1
+					id: "minecraft:dead_bush"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B81A27AA454111E"
 				item: {
@@ -1495,14 +1542,9 @@
 			]
 			id: "187E75BB810A9203"
 			rewards: [{
-				count: 2
-				id: "66C5F7C8AB91F92E"
-				item: {
-					Count: 1
-					id: "farmersdelight:onion"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF000000000083"
+				type: "xp"
+				xp: 5
 			}]
 			tasks: [{
 				id: "643280921FE72048"
@@ -1525,10 +1567,10 @@
 			]
 			id: "35970EBE3C74A021"
 			rewards: [{
-				id: "5687ACE7C40D0C67"
+				id: "7DFF000000000084"
 				item: {
 					Count: 1
-					id: "casualness_delight:tonkatsu"
+					id: "minecraft:rotten_flesh"
 					tag: { }
 				}
 				type: "item"
@@ -1552,6 +1594,15 @@
 				"простая, но безотказная классика уличной еды."
 			]
 			id: "013A2A13151C6807"
+			rewards: [{
+				id: "7DFF000000000085"
+				item: {
+					Count: 1
+					id: "minecraft:stick"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4092A8EAB13202DC"
 				item: {
@@ -1573,11 +1624,10 @@
 			]
 			id: "1576E206FAD20920"
 			rewards: [{
-				count: 3
-				id: "2635CB97471EDAE0"
+				id: "7DFF000000000086"
 				item: {
 					Count: 1
-					id: "ubesdelight:garlic"
+					id: "minecraft:bowl"
 					tag: { }
 				}
 				type: "item"
@@ -1603,10 +1653,11 @@
 			]
 			id: "028AC7C203C53352"
 			rewards: [{
-				id: "093F968961871144"
+				count: 4
+				id: "7DFF000000000087"
 				item: {
 					Count: 1
-					id: "ubesdelight:bulalo"
+					id: "minecraft:snowball"
 					tag: { }
 				}
 				type: "item"
@@ -1630,6 +1681,11 @@
 				"сверху - десерт, который выглядит наряднее самого стола."
 			]
 			id: "761A26F06B9AFDB2"
+			rewards: [{
+				id: "7DFF000000000088"
+				type: "xp"
+				xp: 7
+			}]
 			tasks: [{
 				id: "3196C636CB8202F6"
 				item: {
@@ -1651,11 +1707,10 @@
 			]
 			id: "763E043CF08B5FB0"
 			rewards: [{
-				count: 3
-				id: "685237E1AC6334DD"
+				id: "7DFF000000000089"
 				item: {
 					Count: 1
-					id: "miners_delight:cave_carrot"
+					id: "minecraft:wheat_seeds"
 					tag: { }
 				}
 				type: "item"
@@ -1680,10 +1735,10 @@
 			]
 			id: "6F161076C8467DEB"
 			rewards: [{
-				id: "62915F4F960AF0EA"
+				id: "7DFF00000000008A"
 				item: {
 					Count: 1
-					id: "miners_delight:copper_carrot"
+					id: "minecraft:feather"
 					tag: { }
 				}
 				type: "item"
@@ -1706,6 +1761,15 @@
 				"штольне согревает не хуже костра."
 			]
 			id: "09A4212FFDBFB94F"
+			rewards: [{
+				id: "7DFF00000000008B"
+				item: {
+					Count: 1
+					id: "minecraft:pumpkin_pie"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "59122E2BD90B21B0"
 				item: {
@@ -1726,10 +1790,10 @@
 			]
 			id: "3248D125DF562B39"
 			rewards: [{
-				id: "273B5CC8D09B14B5"
+				id: "7DFF00000000008C"
 				item: {
 					Count: 1
-					id: "crabbersdelight:crab_bucket"
+					id: "minecraft:bamboo"
 					tag: { }
 				}
 				type: "item"
@@ -1754,15 +1818,9 @@
 			]
 			id: "54D7D61036AE1174"
 			rewards: [{
-				id: "1522A926E16663DC"
-				item: {
-					Count: 1
-					id: "crabbersdelight:pearl_necklace"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
+				id: "7DFF00000000008D"
+				type: "xp"
+				xp: 3
 			}]
 			tasks: [{
 				id: "6D7295FD153276A1"
@@ -1782,6 +1840,15 @@
 				"их неудобно, зато вкус того стоит."
 			]
 			id: "392C902B2C67C6A3"
+			rewards: [{
+				id: "7DFF00000000008E"
+				item: {
+					Count: 1
+					id: "minecraft:dried_kelp"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "209000094A444E66"
 				item: {
@@ -1801,10 +1868,10 @@
 			]
 			id: "37CFD92BAA26B29A"
 			rewards: [{
-				id: "46F1ADD9F441FB94"
+				id: "7DFF00000000008F"
 				item: {
 					Count: 1
-					id: "oceansdelight:seagrass_salad"
+					id: "minecraft:paper"
 					tag: { }
 				}
 				type: "item"
@@ -1828,10 +1895,10 @@
 			]
 			id: "1C5AB0824E0D61D7"
 			rewards: [{
-				id: "04DE8DBD0ABB4964"
+				id: "7DFF000000000090"
 				item: {
 					Count: 1
-					id: "oceansdelight:honey_fried_kelp"
+					id: "minecraft:egg"
 					tag: { }
 				}
 				type: "item"
@@ -1854,6 +1921,11 @@
 				"одна ошибка в разделке, и ужин может стать последним."
 			]
 			id: "491EE1982124CA1C"
+			rewards: [{
+				id: "7DFF000000000091"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "0D93D56BF5CE33E9"
 				item: {
@@ -1874,11 +1946,10 @@
 			]
 			id: "78878A3C9EC33B86"
 			rewards: [{
-				count: 2
-				id: "79BF739DCD33EB1F"
+				id: "7DFF000000000092"
 				item: {
 					Count: 1
-					id: "oceanic_delight:sea_grape"
+					id: "minecraft:poisonous_potato"
 					tag: { }
 				}
 				type: "item"
@@ -1902,11 +1973,10 @@
 			]
 			id: "63C793A173EECD6B"
 			rewards: [{
-				count: 2
-				id: "5A006D44E7552508"
+				id: "7DFF000000000093"
 				item: {
 					Count: 1
-					id: "oceanic_delight:shrimp"
+					id: "minecraft:cookie"
 					tag: { }
 				}
 				type: "item"
@@ -1929,6 +1999,15 @@
 				"маленькая, но изысканная закуска для особого случая."
 			]
 			id: "6AE708BB53F704CF"
+			rewards: [{
+				id: "7DFF000000000094"
+				item: {
+					Count: 1
+					id: "minecraft:dead_bush"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "41DACFAC6D644D8C"
 				item: {
@@ -1949,14 +2028,9 @@
 			]
 			id: "1095FB32DCBEFB95"
 			rewards: [{
-				count: 3
-				id: "60E0A8F7F2B29C6D"
-				item: {
-					Count: 1
-					id: "mynethersdelight:bullet_pepper"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF000000000095"
+				type: "xp"
+				xp: 5
 			}]
 			tasks: [{
 				id: "766F16AA587B4B5D"
@@ -1978,10 +2052,10 @@
 			]
 			id: "553888579CD8C519"
 			rewards: [{
-				id: "70B8C563955E9526"
+				id: "7DFF000000000096"
 				item: {
 					Count: 1
-					id: "mynethersdelight:breakfast_sampler"
+					id: "minecraft:rotten_flesh"
 					tag: { }
 				}
 				type: "item"
@@ -2004,6 +2078,15 @@
 				"кто скучает по вкусам родного мира даже в Нижнем."
 			]
 			id: "23F9C30DDCBB01EA"
+			rewards: [{
+				id: "7DFF000000000097"
+				item: {
+					Count: 1
+					id: "minecraft:stick"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "510DC5B6FAA954ED"
 				item: {
@@ -2024,11 +2107,10 @@
 			]
 			id: "49095156E5DCB1E5"
 			rewards: [{
-				count: 2
-				id: "2FE72C6EE4C46ED0"
+				id: "7DFF000000000098"
 				item: {
 					Count: 1
-					id: "ends_delight:ender_pearl_grain"
+					id: "minecraft:bowl"
 					tag: { }
 				}
 				type: "item"
@@ -2052,10 +2134,11 @@
 			]
 			id: "07257E902B2BE6F4"
 			rewards: [{
-				id: "0884C91AE623E570"
+				count: 4
+				id: "7DFF000000000099"
 				item: {
 					Count: 1
-					id: "ends_delight:ender_sausage"
+					id: "minecraft:snowball"
 					tag: { }
 				}
 				type: "item"
@@ -2079,6 +2162,11 @@
 				"приключений."
 			]
 			id: "134971E8753BEFC1"
+			rewards: [{
+				id: "7DFF00000000009A"
+				type: "xp"
+				xp: 7
+			}]
 			tasks: [{
 				id: "1CF124EF33A1EBEA"
 				item: {
@@ -2099,10 +2187,10 @@
 			]
 			id: "34FBA62BFE3732DC"
 			rewards: [{
-				id: "38BEDE478E4E38E3"
+				id: "7DFF00000000009B"
 				item: {
 					Count: 1
-					id: "dungeonsdelight:ancient_egg"
+					id: "minecraft:wheat_seeds"
 					tag: { }
 				}
 				type: "item"
@@ -2128,11 +2216,10 @@
 			]
 			id: "5DCCD4915667511B"
 			rewards: [{
-				count: 2
-				id: "49DB22013170FB43"
+				id: "7DFF00000000009C"
 				item: {
 					Count: 1
-					id: "dungeonsdelight:amethyst_rock_candy"
+					id: "minecraft:feather"
 					tag: { }
 				}
 				type: "item"
@@ -2156,6 +2243,15 @@
 				"прислушивается к каждому шагу вокруг."
 			]
 			id: "7857F9063B7BF054"
+			rewards: [{
+				id: "7DFF00000000009D"
+				item: {
+					Count: 1
+					id: "minecraft:pumpkin_pie"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2FBD600C79348B2C"
 				item: {
@@ -2177,11 +2273,10 @@
 			]
 			id: "71D4F386992FEA21"
 			rewards: [{
-				count: 3
-				id: "48222843D6818CB5"
+				id: "7DFF00000000009E"
 				item: {
 					Count: 1
-					id: "farmersdelight:rope"
+					id: "minecraft:bamboo"
 					tag: { }
 				}
 				type: "item"
@@ -2204,6 +2299,11 @@
 				"книжный шкаф с дверцей - заодно и от пыли бережёт."
 			]
 			id: "5A3C71AEA6E0B06F"
+			rewards: [{
+				id: "7DFF00000000009F"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				id: "06474BBDADBE41CD"
 				item: {
@@ -2224,11 +2324,10 @@
 			]
 			id: "756AA6373C2A5C53"
 			rewards: [{
-				count: 2
-				id: "057902F80CAD94AB"
+				id: "7DFF0000000000A0"
 				item: {
 					Count: 1
-					id: "farmersdelight:canvas"
+					id: "minecraft:dried_kelp"
 					tag: { }
 				}
 				type: "item"
@@ -2252,6 +2351,15 @@
 				"поменьше - на большом столе теперь порядок."
 			]
 			id: "77B8A18F94BD04EB"
+			rewards: [{
+				id: "7DFF0000000000A1"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6CD9EA15A530FB38"
 				item: {
@@ -2272,10 +2380,10 @@
 			]
 			id: "56481A4471A21276"
 			rewards: [{
-				id: "10975BFE66757259"
+				id: "7DFF0000000000A2"
 				item: {
 					Count: 1
-					id: "delightfulcreators:hot_cocoa_bucket"
+					id: "minecraft:egg"
 					tag: { }
 				}
 				type: "item"
@@ -2310,37 +2418,11 @@
 				"шеф-поваром."
 			]
 			id: "3087CB3390BFB32A"
-			rewards: [
-				{
-					id: "05D997DAB227F099"
-					item: {
-						Count: 1
-						id: "vintagedelight:black_chefs_hat"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "2C5BB9E4C4A11509"
-					item: {
-						Count: 1
-						id: "farmersdelight:canvas"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "54C184071EF836AC"
-					item: {
-						Count: 1
-						id: "seeddelight:acorn"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7DFF0000000000A3"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "557C3968E5B1DC48"
 				item: {

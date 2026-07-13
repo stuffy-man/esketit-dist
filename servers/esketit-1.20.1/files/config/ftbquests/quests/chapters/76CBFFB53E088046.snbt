@@ -18,6 +18,11 @@
 				"Порядок дерева: печь и тигель -> слитки -> ковка меди -> бронза -> железо -> сталь -> розовое золото -> броня -> алмаз -> незерит. Синие инфо-квесты (с иконкой) объясняют механику."
 			]
 			id: "7E5C000000000000"
+			rewards: [{
+				id: "7DFF000000000001"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				disable_toast: true
 				icon: {
@@ -48,6 +53,15 @@
 				"Клещами достаёшь слиток из изложницы ещё горячим — он идёт прямо на наковальню, без повторного нагрева."
 			]
 			id: "7E5C000000000050"
+			rewards: [{
+				id: "7DFF000000000002"
+				item: {
+					Count: 1
+					id: "minecraft:poisonous_potato"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				disable_toast: true
 				icon: {
@@ -65,6 +79,15 @@
 		{
 			dependencies: ["7E5C000000000000"]
 			id: "7E5C000000000002"
+			rewards: [{
+				id: "7DFF000000000003"
+				item: {
+					Count: 1
+					id: "minecraft:cookie"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C000000000003"
 				item: {
@@ -83,6 +106,15 @@
 				"Поставь трубу сверху на домницу."
 			]
 			id: "7E5C000000000004"
+			rewards: [{
+				id: "7DFF000000000004"
+				item: {
+					Count: 1
+					id: "minecraft:dead_bush"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C000000000005"
 				item: {
@@ -101,6 +133,11 @@
 				"Горн: кладёшь топливо и слиток, ждёшь, пока металл раскалится докрасна."
 			]
 			id: "7E5C000000000006"
+			rewards: [{
+				id: "7DFF000000000005"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "7E5C000000000007"
 				item: {
@@ -120,10 +157,10 @@
 			]
 			id: "7E5C000000000008"
 			rewards: [{
-				id: "7E5CFF0000000004"
+				id: "7DFF000000000006"
 				item: {
 					Count: 1
-					id: "esketit_metallurgy:wooden_tongs"
+					id: "minecraft:rotten_flesh"
 					tag: { }
 				}
 				type: "item"
@@ -146,6 +183,15 @@
 				"Выливаешь расплав в изложницу — остывает в слиток."
 			]
 			id: "7E5C00000000000A"
+			rewards: [{
+				id: "7DFF000000000007"
+				item: {
+					Count: 1
+					id: "minecraft:stick"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C00000000000B"
 				item: {
@@ -161,6 +207,15 @@
 		{
 			dependencies: ["7E5C000000000002"]
 			id: "7E5C00000000000C"
+			rewards: [{
+				id: "7DFF000000000008"
+				item: {
+					Count: 1
+					id: "minecraft:bowl"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C00000000000D"
 				item: {
@@ -179,6 +234,16 @@
 				"Медный молот — единственный, что крафтится на верстаке. Остальные куются на наковальне."
 			]
 			id: "7E5C00000000000E"
+			rewards: [{
+				count: 4
+				id: "7DFF000000000009"
+				item: {
+					Count: 1
+					id: "minecraft:snowball"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C00000000000F"
 				item: {
@@ -197,6 +262,11 @@
 				"На точиле полируешь готовую голову (Shift+ПКМ). Полируй остывшей — горячая теряет тир качества."
 			]
 			id: "7E5C000000000010"
+			rewards: [{
+				id: "7DFF00000000000A"
+				type: "xp"
+				xp: 7
+			}]
 			tasks: [{
 				id: "7E5C000000000011"
 				item: {
@@ -227,6 +297,15 @@
 				"Единицы расплава: слиток=100, сырьё=25 (4=слиток), кусочек=10, уголь=25 углерода."
 			]
 			id: "7E5C000000000012"
+			rewards: [{
+				id: "7DFF00000000000B"
+				item: {
+					Count: 1
+					id: "minecraft:wheat_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				disable_toast: true
 				icon: {
@@ -255,6 +334,15 @@
 				"Неверная пропорция -> шлак. Один чистый металл -> просто его слиток."
 			]
 			id: "7E5C000000000014"
+			rewards: [{
+				id: "7DFF00000000000C"
+				item: {
+					Count: 1
+					id: "minecraft:feather"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				disable_toast: true
 				icon: {
@@ -282,6 +370,15 @@
 				"Молот и наковальня должны быть не ниже тира металла."
 			]
 			id: "7E5C000000000016"
+			rewards: [{
+				id: "7DFF00000000000D"
+				item: {
+					Count: 1
+					id: "minecraft:pumpkin_pie"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				disable_toast: true
 				icon: {
@@ -308,6 +405,15 @@
 				"Наковальни: камень < бронза < железо < сталь. Куёшь только на наковальне не ниже тира металла."
 			]
 			id: "7E5C000000000018"
+			rewards: [{
+				id: "7DFF00000000000E"
+				item: {
+					Count: 1
+					id: "minecraft:bamboo"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				disable_toast: true
 				icon: {
@@ -332,6 +438,11 @@
 				"Розовое золото — «удачный» металл: врождённые Удача/Добыча, растут с качеством."
 			]
 			id: "7E5C00000000001A"
+			rewards: [{
+				id: "7DFF00000000000F"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				disable_toast: true
 				icon: {
@@ -355,6 +466,15 @@
 				"Качество детали = худшая пластина. Металлы: медь/бронза/сталь/розовое золото + железо/золото (ваниль)."
 			]
 			id: "7E5C00000000001C"
+			rewards: [{
+				id: "7DFF000000000010"
+				item: {
+					Count: 1
+					id: "minecraft:dried_kelp"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				disable_toast: true
 				icon: {
@@ -375,6 +495,15 @@
 				"Медную руду -> домница -> тигель -> изложница."
 			]
 			id: "7E5C00000000001E"
+			rewards: [{
+				id: "7DFF000000000011"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C00000000001F"
 				item: {
@@ -394,6 +523,15 @@
 				"Раскали слиток и выкуй голову кирки на наковальне."
 			]
 			id: "7E5C000000000020"
+			rewards: [{
+				id: "7DFF000000000012"
+				item: {
+					Count: 1
+					id: "minecraft:egg"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C000000000021"
 				item: {
@@ -412,6 +550,11 @@
 				"Отполируй голову и собери с палкой."
 			]
 			id: "7E5C000000000022"
+			rewards: [{
+				id: "7DFF000000000013"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7E5C000000000023"
 				item: {
@@ -430,6 +573,15 @@
 				"Оловянную руду переплавь (печь или домница)."
 			]
 			id: "7E5C000000000024"
+			rewards: [{
+				id: "7DFF000000000014"
+				item: {
+					Count: 1
+					id: "minecraft:poisonous_potato"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C000000000025"
 				item: {
@@ -449,6 +601,15 @@
 				"Сплавь в домнице медь 85-92% + олово 8-15%."
 			]
 			id: "7E5C000000000026"
+			rewards: [{
+				id: "7DFF000000000015"
+				item: {
+					Count: 1
+					id: "minecraft:cookie"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C000000000027"
 				item: {
@@ -465,6 +626,15 @@
 		{
 			dependencies: ["7E5C000000000026"]
 			id: "7E5C000000000028"
+			rewards: [{
+				id: "7DFF000000000016"
+				item: {
+					Count: 1
+					id: "minecraft:dead_bush"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C000000000029"
 				item: {
@@ -483,6 +653,11 @@
 				"Апгрейд медного молота на наковальне (см. «Молоты»)."
 			]
 			id: "7E5C00000000002A"
+			rewards: [{
+				id: "7DFF000000000017"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "7E5C00000000002B"
 				item: {
@@ -498,6 +673,15 @@
 		{
 			dependencies: ["7E5C000000000026", "7E5C00000000002A"]
 			id: "7E5C00000000002C"
+			rewards: [{
+				id: "7DFF000000000018"
+				item: {
+					Count: 1
+					id: "minecraft:rotten_flesh"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C00000000002D"
 				item: {
@@ -516,6 +700,15 @@
 				"Железную руду -> домница/печь -> слиток."
 			]
 			id: "7E5C00000000002E"
+			rewards: [{
+				id: "7DFF000000000019"
+				item: {
+					Count: 1
+					id: "minecraft:stick"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C00000000002F"
 				item: {
@@ -532,6 +725,15 @@
 		{
 			dependencies: ["7E5C00000000002E", "7E5C000000000028"]
 			id: "7E5C000000000030"
+			rewards: [{
+				id: "7DFF00000000001A"
+				item: {
+					Count: 1
+					id: "minecraft:bowl"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C000000000031"
 				item: {
@@ -547,6 +749,16 @@
 		{
 			dependencies: ["7E5C000000000030", "7E5C00000000002A"]
 			id: "7E5C000000000032"
+			rewards: [{
+				count: 4
+				id: "7DFF00000000001B"
+				item: {
+					Count: 1
+					id: "minecraft:snowball"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C000000000033"
 				item: {
@@ -562,6 +774,11 @@
 		{
 			dependencies: ["7E5C00000000002E", "7E5C000000000032"]
 			id: "7E5C000000000034"
+			rewards: [{
+				id: "7DFF00000000001C"
+				type: "xp"
+				xp: 7
+			}]
 			tasks: [{
 				id: "7E5C000000000035"
 				item: {
@@ -580,6 +797,15 @@
 				"Сплавь железо 70-90% + уголь 10-30% (напр. 3 руды + 1 уголь)."
 			]
 			id: "7E5C000000000036"
+			rewards: [{
+				id: "7DFF00000000001D"
+				item: {
+					Count: 1
+					id: "minecraft:wheat_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C000000000037"
 				item: {
@@ -596,6 +822,15 @@
 		{
 			dependencies: ["7E5C000000000036", "7E5C000000000030"]
 			id: "7E5C000000000038"
+			rewards: [{
+				id: "7DFF00000000001E"
+				item: {
+					Count: 1
+					id: "minecraft:feather"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C000000000039"
 				item: {
@@ -611,6 +846,15 @@
 		{
 			dependencies: ["7E5C000000000038", "7E5C000000000032"]
 			id: "7E5C00000000003A"
+			rewards: [{
+				id: "7DFF00000000001F"
+				item: {
+					Count: 1
+					id: "minecraft:pumpkin_pie"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C00000000003B"
 				item: {
@@ -626,6 +870,15 @@
 		{
 			dependencies: ["7E5C000000000036", "7E5C00000000003A"]
 			id: "7E5C00000000003C"
+			rewards: [{
+				id: "7DFF000000000020"
+				item: {
+					Count: 1
+					id: "minecraft:bamboo"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C00000000003D"
 				item: {
@@ -644,6 +897,11 @@
 				"Сплавь медь 70-80% + золото 20-30%. Мягкий «удачный» металл."
 			]
 			id: "7E5C00000000003E"
+			rewards: [{
+				id: "7DFF000000000021"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				id: "7E5C00000000003F"
 				item: {
@@ -663,6 +921,15 @@
 				"Врождённые Удача/Добыча (растут с качеством)."
 			]
 			id: "7E5C000000000040"
+			rewards: [{
+				id: "7DFF000000000022"
+				item: {
+					Count: 1
+					id: "minecraft:dried_kelp"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C000000000041"
 				item: {
@@ -681,6 +948,15 @@
 				"Выкуй пластину по плану «Пластина брони» на наковальне."
 			]
 			id: "7E5C000000000042"
+			rewards: [{
+				id: "7DFF000000000023"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C000000000043"
 				item: {
@@ -700,6 +976,15 @@
 				"Собери 8 пластин одного металла в форме нагрудника."
 			]
 			id: "7E5C000000000044"
+			rewards: [{
+				id: "7DFF000000000024"
+				item: {
+					Count: 1
+					id: "minecraft:egg"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C000000000045"
 				item: {
@@ -719,6 +1004,11 @@
 				"Крафт: 2 алмаза + стальной слиток."
 			]
 			id: "7E5C000000000046"
+			rewards: [{
+				id: "7DFF000000000025"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7E5C000000000047"
 				item: {
@@ -738,6 +1028,15 @@
 				"Кузнечный стол: шаблон + СТАЛЬНОЙ инструмент + алмаз -> алмазный инструмент."
 			]
 			id: "7E5C000000000048"
+			rewards: [{
+				id: "7DFF000000000026"
+				item: {
+					Count: 1
+					id: "minecraft:poisonous_potato"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C000000000049"
 				item: {
@@ -756,6 +1055,15 @@
 				"Крафт: 4 обломка незерита + 4 золотых слитка."
 			]
 			id: "7E5C00000000004A"
+			rewards: [{
+				id: "7DFF000000000027"
+				item: {
+					Count: 1
+					id: "minecraft:cookie"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C00000000004B"
 				item: {
@@ -775,6 +1083,15 @@
 				"Положи сплав на наковальню и бей молотом ~6 раз — скуётся в слиток."
 			]
 			id: "7E5C00000000004C"
+			rewards: [{
+				id: "7DFF000000000028"
+				item: {
+					Count: 1
+					id: "minecraft:dead_bush"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E5C00000000004D"
 				item: {
@@ -794,6 +1111,11 @@
 				"Ванильный апгрейд: алмазный инструмент + незеритовый слиток + шаблон незерита."
 			]
 			id: "7E5C00000000004E"
+			rewards: [{
+				id: "7DFF000000000029"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "7E5C00000000004F"
 				item: {
@@ -821,6 +1143,15 @@
 				"Забрать чертёж: ПКМ пустой рукой по наковальне (когда на ней нет заготовки)."
 			]
 			id: "7E5C000000000052"
+			rewards: [{
+				id: "7DFF00000000002A"
+				item: {
+					Count: 1
+					id: "minecraft:rotten_flesh"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				disable_toast: true
 				icon: {

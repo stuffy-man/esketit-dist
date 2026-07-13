@@ -16,11 +16,10 @@
 			]
 			id: "7D02000000000001"
 			rewards: [{
-				count: 2
-				id: "7D02800000000001"
+				id: "7DFF0000000000CE"
 				item: {
 					Count: 1
-					id: "farmersdelight:cabbage_seeds"
+					id: "minecraft:bowl"
 					tag: { }
 				}
 				type: "item"
@@ -46,11 +45,11 @@
 			]
 			id: "7D02000000000002"
 			rewards: [{
-				count: 2
-				id: "7D02800000000002"
+				count: 4
+				id: "7DFF0000000000CF"
 				item: {
 					Count: 1
-					id: "farmersdelight:tomato_seeds"
+					id: "minecraft:snowball"
 					tag: { }
 				}
 				type: "item"
@@ -76,14 +75,9 @@
 			]
 			id: "7D02000000000003"
 			rewards: [{
-				count: 3
-				id: "7D02800000000003"
-				item: {
-					Count: 1
-					id: "farmersdelight:onion"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF0000000000D0"
+				type: "xp"
+				xp: 7
 			}]
 			tasks: [{
 				id: "7D02400000000003"
@@ -106,11 +100,10 @@
 			]
 			id: "7D02000000000004"
 			rewards: [{
-				count: 8
-				id: "7D02800000000004"
+				id: "7DFF0000000000D1"
 				item: {
 					Count: 1
-					id: "minecraft:egg"
+					id: "minecraft:wheat_seeds"
 					tag: { }
 				}
 				type: "item"
@@ -136,11 +129,10 @@
 			]
 			id: "7D02000000000005"
 			rewards: [{
-				count: 4
-				id: "7D02800000000005"
+				id: "7DFF0000000000D2"
 				item: {
 					Count: 1
-					id: "farmersdelight:rice"
+					id: "minecraft:feather"
 					tag: { }
 				}
 				type: "item"
@@ -166,11 +158,10 @@
 			]
 			id: "7D02000000000006"
 			rewards: [{
-				count: 3
-				id: "7D02800000000006"
+				id: "7DFF0000000000D3"
 				item: {
 					Count: 1
-					id: "farmersdelight:pie_crust"
+					id: "minecraft:pumpkin_pie"
 					tag: { }
 				}
 				type: "item"
@@ -196,10 +187,10 @@
 			]
 			id: "7D02000000000007"
 			rewards: [{
-				id: "7D02800000000007"
+				id: "7DFF0000000000D4"
 				item: {
 					Count: 1
-					id: "farmersdelight:tomato_sauce"
+					id: "minecraft:bamboo"
 					tag: { }
 				}
 				type: "item"
@@ -225,14 +216,9 @@
 			]
 			id: "7D02000000000008"
 			rewards: [{
-				count: 3
-				id: "7D02800000000008"
-				item: {
-					Count: 1
-					id: "farmersdelight:cabbage_seeds"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF0000000000D5"
+				type: "xp"
+				xp: 3
 			}]
 			tasks: [{
 				id: "7D02400000000008"
@@ -255,11 +241,10 @@
 			]
 			id: "7D02000000000009"
 			rewards: [{
-				count: 2
-				id: "7D02800000000009"
+				id: "7DFF0000000000D6"
 				item: {
 					Count: 1
-					id: "farmersdelight:onion"
+					id: "minecraft:dried_kelp"
 					tag: { }
 				}
 				type: "item"
@@ -285,11 +270,10 @@
 			]
 			id: "7D0200000000000A"
 			rewards: [{
-				count: 6
-				id: "7D0280000000000A"
+				id: "7DFF0000000000D7"
 				item: {
 					Count: 1
-					id: "farmersdelight:rice"
+					id: "minecraft:paper"
 					tag: { }
 				}
 				type: "item"
@@ -315,11 +299,10 @@
 			]
 			id: "7D0200000000000B"
 			rewards: [{
-				count: 2
-				id: "7D0280000000000B"
+				id: "7DFF0000000000D8"
 				item: {
 					Count: 1
-					id: "barbequesdelight:barbeque_sauce"
+					id: "minecraft:egg"
 					tag: { }
 				}
 				type: "item"
@@ -345,14 +328,9 @@
 			]
 			id: "7D0200000000000C"
 			rewards: [{
-				count: 4
-				id: "7D0280000000000C"
-				item: {
-					Count: 1
-					id: "culturaldelights:tortilla"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF0000000000D9"
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "7D0240000000000C"
@@ -375,10 +353,10 @@
 			]
 			id: "7D0200000000000D"
 			rewards: [{
-				id: "7D0280000000000D"
+				id: "7DFF0000000000DA"
 				item: {
 					Count: 1
-					id: "delightful:jam_jar"
+					id: "minecraft:poisonous_potato"
 					tag: { }
 				}
 				type: "item"

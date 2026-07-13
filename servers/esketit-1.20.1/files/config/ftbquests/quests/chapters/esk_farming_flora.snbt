@@ -16,11 +16,11 @@
 			]
 			id: "7D03000000000001"
 			rewards: [{
-				count: 2
-				id: "7D03800000000001"
+				count: 4
+				id: "7DFF000000000105"
 				item: {
 					Count: 1
-					id: "dynamictrees:oak_seed"
+					id: "minecraft:snowball"
 					tag: { }
 				}
 				type: "item"
@@ -47,13 +47,9 @@
 			]
 			id: "7D03000000000002"
 			rewards: [{
-				id: "7D03800000000002"
-				item: {
-					Count: 1
-					id: "dynamictrees:dendro_potion"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF000000000106"
+				type: "xp"
+				xp: 7
 			}]
 			tasks: [{
 				id: "7D03400000000002"
@@ -76,11 +72,10 @@
 			]
 			id: "7D03000000000003"
 			rewards: [{
-				count: 16
-				id: "7D03800000000003"
+				id: "7DFF000000000107"
 				item: {
 					Count: 1
-					id: "minecraft:bone_meal"
+					id: "minecraft:wheat_seeds"
 					tag: { }
 				}
 				type: "item"
@@ -106,10 +101,10 @@
 			]
 			id: "7D03000000000004"
 			rewards: [{
-				id: "7D03800000000004"
+				id: "7DFF000000000108"
 				item: {
 					Count: 1
-					id: "fruitsdelight:apple_sapling"
+					id: "minecraft:feather"
 					tag: { }
 				}
 				type: "item"
@@ -135,10 +130,10 @@
 			]
 			id: "7D03000000000005"
 			rewards: [{
-				id: "7D03800000000005"
+				id: "7DFF000000000109"
 				item: {
 					Count: 1
-					id: "fruitsdelight:durian"
+					id: "minecraft:pumpkin_pie"
 					tag: { }
 				}
 				type: "item"
@@ -164,10 +159,10 @@
 			]
 			id: "7D03000000000006"
 			rewards: [{
-				id: "7D03800000000006"
+				id: "7DFF00000000010A"
 				item: {
 					Count: 1
-					id: "berry_good:sweet_berry_basket"
+					id: "minecraft:bamboo"
 					tag: { }
 				}
 				type: "item"
@@ -194,14 +189,9 @@
 			]
 			id: "7D03000000000007"
 			rewards: [{
-				count: 2
-				id: "7D03800000000007"
-				item: {
-					Count: 1
-					id: "berry_good:glowgurt"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF00000000010B"
+				type: "xp"
+				xp: 3
 			}]
 			tasks: [{
 				id: "7D03400000000007"
@@ -224,11 +214,10 @@
 			]
 			id: "7D03000000000008"
 			rewards: [{
-				count: 2
-				id: "7D03800000000008"
+				id: "7DFF00000000010C"
 				item: {
 					Count: 1
-					id: "neapolitan:strawberry_ice_cream"
+					id: "minecraft:dried_kelp"
 					tag: { }
 				}
 				type: "item"
@@ -254,11 +243,10 @@
 			]
 			id: "7D03000000000009"
 			rewards: [{
-				count: 4
-				id: "7D03800000000009"
+				id: "7DFF00000000010D"
 				item: {
 					Count: 1
-					id: "neapolitan:banana"
+					id: "minecraft:paper"
 					tag: { }
 				}
 				type: "item"
@@ -284,10 +272,10 @@
 			]
 			id: "7D0300000000000A"
 			rewards: [{
-				id: "7D0380000000000A"
+				id: "7DFF00000000010E"
 				item: {
 					Count: 1
-					id: "overweight_farming:overweight_golden_apple_block"
+					id: "minecraft:egg"
 					tag: { }
 				}
 				type: "item"
@@ -313,14 +301,9 @@
 			]
 			id: "7D0300000000000B"
 			rewards: [{
-				count: 2
-				id: "7D0380000000000B"
-				item: {
-					Count: 1
-					id: "collectorsreap:pink_dragon_fruit"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF00000000010F"
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "7D0340000000000B"
@@ -343,11 +326,10 @@
 			]
 			id: "7D0300000000000C"
 			rewards: [{
-				count: 3
-				id: "7D0380000000000C"
+				id: "7DFF000000000110"
 				item: {
 					Count: 1
-					id: "minecraft:golden_apple"
+					id: "minecraft:poisonous_potato"
 					tag: { }
 				}
 				type: "item"
@@ -373,11 +355,10 @@
 			]
 			id: "7D0300000000000D"
 			rewards: [{
-				count: 2
-				id: "7D0380000000000D"
+				id: "7DFF000000000111"
 				item: {
 					Count: 1
-					id: "bushierflowers:grown_allium"
+					id: "minecraft:cookie"
 					tag: { }
 				}
 				type: "item"
@@ -403,11 +384,10 @@
 			]
 			id: "7D0300000000000E"
 			rewards: [{
-				count: 4
-				id: "7D0380000000000E"
+				id: "7DFF000000000112"
 				item: {
 					Count: 1
-					id: "hauntedharvest:popcorn"
+					id: "minecraft:dead_bush"
 					tag: { }
 				}
 				type: "item"

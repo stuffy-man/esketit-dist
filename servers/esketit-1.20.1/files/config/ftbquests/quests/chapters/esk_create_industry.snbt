@@ -16,11 +16,10 @@
 			]
 			id: "7D01000000000001"
 			rewards: [{
-				count: 4
-				id: "7D01800000000001"
+				id: "7DFF0000000000C0"
 				item: {
 					Count: 1
-					id: "create:cogwheel"
+					id: "minecraft:feather"
 					tag: { }
 				}
 				type: "item"
@@ -47,11 +46,10 @@
 			]
 			id: "7D01000000000002"
 			rewards: [{
-				count: 8
-				id: "7D01800000000002"
+				id: "7DFF0000000000C1"
 				item: {
 					Count: 1
-					id: "create:shaft"
+					id: "minecraft:pumpkin_pie"
 					tag: { }
 				}
 				type: "item"
@@ -78,11 +76,10 @@
 			]
 			id: "7D01000000000003"
 			rewards: [{
-				count: 2
-				id: "7D01800000000003"
+				id: "7DFF0000000000C2"
 				item: {
 					Count: 1
-					id: "create:large_cogwheel"
+					id: "minecraft:bamboo"
 					tag: { }
 				}
 				type: "item"
@@ -108,14 +105,9 @@
 			]
 			id: "7D01000000000004"
 			rewards: [{
-				count: 2
-				id: "7D01800000000004"
-				item: {
-					Count: 1
-					id: "create:belt_connector"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF0000000000C3"
+				type: "xp"
+				xp: 3
 			}]
 			tasks: [{
 				count: 4L
@@ -139,11 +131,10 @@
 			]
 			id: "7D01000000000005"
 			rewards: [{
-				count: 4
-				id: "7D01800000000005"
+				id: "7DFF0000000000C4"
 				item: {
 					Count: 1
-					id: "create:brass_ingot"
+					id: "minecraft:dried_kelp"
 					tag: { }
 				}
 				type: "item"
@@ -169,11 +160,10 @@
 			]
 			id: "7D01000000000006"
 			rewards: [{
-				count: 2
-				id: "7D01800000000006"
+				id: "7DFF0000000000C5"
 				item: {
 					Count: 1
-					id: "create:brass_casing"
+					id: "minecraft:paper"
 					tag: { }
 				}
 				type: "item"
@@ -200,11 +190,10 @@
 			]
 			id: "7D01000000000007"
 			rewards: [{
-				count: 4
-				id: "7D01800000000007"
+				id: "7DFF0000000000C6"
 				item: {
 					Count: 1
-					id: "create:electron_tube"
+					id: "minecraft:egg"
 					tag: { }
 				}
 				type: "item"
@@ -230,14 +219,9 @@
 			]
 			id: "7D01000000000008"
 			rewards: [{
-				count: 2
-				id: "7D01800000000008"
-				item: {
-					Count: 1
-					id: "create:deployer"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF0000000000C7"
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "7D01400000000008"
@@ -260,11 +244,10 @@
 			]
 			id: "7D01000000000009"
 			rewards: [{
-				count: 2
-				id: "7D01800000000009"
+				id: "7DFF0000000000C8"
 				item: {
 					Count: 1
-					id: "create:fluid_tank"
+					id: "minecraft:poisonous_potato"
 					tag: { }
 				}
 				type: "item"
@@ -290,11 +273,10 @@
 			]
 			id: "7D0100000000000A"
 			rewards: [{
-				count: 8
-				id: "7D0180000000000A"
+				id: "7DFF0000000000C9"
 				item: {
 					Count: 1
-					id: "create:wheat_flour"
+					id: "minecraft:cookie"
 					tag: { }
 				}
 				type: "item"
@@ -320,11 +302,10 @@
 			]
 			id: "7D0100000000000B"
 			rewards: [{
-				count: 4
-				id: "7D0180000000000B"
+				id: "7DFF0000000000CA"
 				item: {
 					Count: 1
-					id: "create:sand_paper"
+					id: "minecraft:dead_bush"
 					tag: { }
 				}
 				type: "item"
@@ -350,14 +331,9 @@
 			]
 			id: "7D0100000000000C"
 			rewards: [{
-				count: 8
-				id: "7D0180000000000C"
-				item: {
-					Count: 1
-					id: "numismatics:cog"
-					tag: { }
-				}
-				type: "item"
+				id: "7DFF0000000000CB"
+				type: "xp"
+				xp: 5
 			}]
 			tasks: [{
 				count: 16L
@@ -381,10 +357,10 @@
 			]
 			id: "7D0100000000000D"
 			rewards: [{
-				id: "7D0180000000000D"
+				id: "7DFF0000000000CC"
 				item: {
 					Count: 1
-					id: "createbigcannons:cannon_mount"
+					id: "minecraft:rotten_flesh"
 					tag: { }
 				}
 				type: "item"
@@ -410,10 +386,10 @@
 			]
 			id: "7D0100000000000E"
 			rewards: [{
-				id: "7D0180000000000E"
+				id: "7DFF0000000000CD"
 				item: {
 					Count: 1
-					id: "railways:conductor_whistle"
+					id: "minecraft:stick"
 					tag: { }
 				}
 				type: "item"

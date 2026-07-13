@@ -15,6 +15,15 @@
 				"Скрафти Календарь, чтобы всегда знать текущий день и сезон."
 			]
 			id: "7D09000000000001"
+			rewards: [{
+				id: "7DFF0000000000B2"
+				item: {
+					Count: 1
+					id: "minecraft:dried_kelp"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D09400000000001"
 				item: {
@@ -35,6 +44,15 @@
 				"Урожай, что созревает лишь летом, сам себя соберёт осенью."
 			]
 			id: "7D09000000000002"
+			rewards: [{
+				id: "7DFF0000000000B3"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D09400000000002"
 				item: {
@@ -55,6 +73,15 @@
 				"Собери горсть — плодородная основа для грядок."
 			]
 			id: "7D09000000000003"
+			rewards: [{
+				id: "7DFF0000000000B4"
+				item: {
+					Count: 1
+					id: "minecraft:egg"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D09400000000003"
 				item: {
@@ -75,6 +102,11 @@
 				"Набери дубовой листвы — сезонное украшение двора."
 			]
 			id: "7D09000000000004"
+			rewards: [{
+				id: "7DFF0000000000B5"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7D09400000000004"
 				item: {
@@ -95,6 +127,15 @@
 				"Заготовь мульчу для клумб и деревьев."
 			]
 			id: "7D09000000000005"
+			rewards: [{
+				id: "7DFF0000000000B6"
+				item: {
+					Count: 1
+					id: "minecraft:poisonous_potato"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D09400000000005"
 				item: {
@@ -115,6 +156,15 @@
 				"Поставь дымоход над очагом и оживи крышу."
 			]
 			id: "7D09000000000006"
+			rewards: [{
+				id: "7DFF0000000000B7"
+				item: {
+					Count: 1
+					id: "minecraft:cookie"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D09400000000006"
 				item: {
@@ -135,6 +185,15 @@
 				"Собери железную трубу для своей кузницы."
 			]
 			id: "7D09000000000007"
+			rewards: [{
+				id: "7DFF0000000000B8"
+				item: {
+					Count: 1
+					id: "minecraft:dead_bush"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D09400000000007"
 				item: {
@@ -155,6 +214,11 @@
 				"Добудь сосульку — знак пришедшей стужи."
 			]
 			id: "7D09000000000008"
+			rewards: [{
+				id: "7DFF0000000000B9"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "7D09400000000008"
 				item: {
@@ -175,6 +239,15 @@
 				"Скрафти удочку и закинь леску в ближайший водоём."
 			]
 			id: "7D09000000000009"
+			rewards: [{
+				id: "7DFF0000000000BA"
+				item: {
+					Count: 1
+					id: "minecraft:rotten_flesh"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D09400000000009"
 				item: {
@@ -195,6 +268,15 @@
 				"Приготовь запас наживки перед долгой рыбалкой."
 			]
 			id: "7D0900000000000A"
+			rewards: [{
+				id: "7DFF0000000000BB"
+				item: {
+					Count: 1
+					id: "minecraft:stick"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0940000000000A"
 				item: {
@@ -215,6 +297,15 @@
 				"Сколоти ящик для своей рыбацкой добычи."
 			]
 			id: "7D0900000000000B"
+			rewards: [{
+				id: "7DFF0000000000BC"
+				item: {
+					Count: 1
+					id: "minecraft:bowl"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0940000000000B"
 				item: {
@@ -235,6 +326,16 @@
 				"Поставь стол для рыбалки в своём домике у воды."
 			]
 			id: "7D0900000000000C"
+			rewards: [{
+				count: 4
+				id: "7DFF0000000000BD"
+				item: {
+					Count: 1
+					id: "minecraft:snowball"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0940000000000C"
 				item: {
@@ -255,6 +356,11 @@
 				"Заведи журнал и собери коллекцию рыб Esketit."
 			]
 			id: "7D0900000000000D"
+			rewards: [{
+				id: "7DFF0000000000BE"
+				type: "xp"
+				xp: 7
+			}]
 			tasks: [{
 				id: "7D0940000000000D"
 				item: {
@@ -275,6 +381,15 @@
 				"Смастери флейту и наполни лагерь настоящим звучанием."
 			]
 			id: "7D0900000000000E"
+			rewards: [{
+				id: "7DFF0000000000BF"
+				item: {
+					Count: 1
+					id: "minecraft:wheat_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0940000000000E"
 				item: {

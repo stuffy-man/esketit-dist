@@ -6933,9 +6933,9 @@
           "name": "76CBFFB53E088046.snbt",
           "type": "File",
           "artifact": {
-            "size": 25086,
+            "size": 29376,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/76CBFFB53E088046.snbt",
-            "MD5": "6904c9ffa3ec7cc5fca075e50ff75812",
+            "MD5": "dd1a44a3d52427d4f90f20cdb9087d12",
             "path": "config/ftbquests/quests/chapters/76CBFFB53E088046.snbt"
           }
         },
@@ -6955,9 +6955,9 @@
           "name": "ars_elixirum_basics.snbt",
           "type": "File",
           "artifact": {
-            "size": 4326,
+            "size": 4161,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/ars_elixirum_basics.snbt",
-            "MD5": "b04ef63465bdbe28d5b7c2608c9bb596",
+            "MD5": "157a93e44ce044562a7bff025f645f83",
             "path": "config/ftbquests/quests/chapters/ars_elixirum_basics.snbt"
           }
         },
@@ -6966,9 +6966,9 @@
           "name": "brewin_and_chewin_basics.snbt",
           "type": "File",
           "artifact": {
-            "size": 4659,
+            "size": 4570,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/brewin_and_chewin_basics.snbt",
-            "MD5": "e480e82a5bd251d24a96c1617e18241f",
+            "MD5": "f2221c28fb081152537dbbf5f25380d9",
             "path": "config/ftbquests/quests/chapters/brewin_and_chewin_basics.snbt"
           }
         },
@@ -6977,9 +6977,9 @@
           "name": "cold_sweat_intro.snbt",
           "type": "File",
           "artifact": {
-            "size": 17310,
+            "size": 19220,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/cold_sweat_intro.snbt",
-            "MD5": "fd4018345efad6aad18575ab2ca4a5f1",
+            "MD5": "7ef74fbc11638b121b65948af4ad18ea",
             "path": "config/ftbquests/quests/chapters/cold_sweat_intro.snbt"
           }
         },
@@ -6988,9 +6988,9 @@
           "name": "delight_chefs_path.snbt",
           "type": "File",
           "artifact": {
-            "size": 56977,
+            "size": 55403,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/delight_chefs_path.snbt",
-            "MD5": "4b1e4053b08a9c49d2f82c2b0ab31767",
+            "MD5": "516ca6e2342d64a73fa0adc08007b18c",
             "path": "config/ftbquests/quests/chapters/delight_chefs_path.snbt"
           }
         },
@@ -6999,9 +6999,9 @@
           "name": "esk_arsenal.snbt",
           "type": "File",
           "artifact": {
-            "size": 7322,
+            "size": 9112,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_arsenal.snbt",
-            "MD5": "88f2e2af5885d3f65aa7a30f2a0af677",
+            "MD5": "284d3890d7a8b413751e0d3ef6f24ec9",
             "path": "config/ftbquests/quests/chapters/esk_arsenal.snbt"
           }
         },
@@ -7010,9 +7010,9 @@
           "name": "esk_atmosphere.snbt",
           "type": "File",
           "artifact": {
-            "size": 7678,
+            "size": 9463,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_atmosphere.snbt",
-            "MD5": "8e8ae71bd417ec29adff833cbd243b01",
+            "MD5": "13fe7d6161f6e9a781f3c9055313ab9a",
             "path": "config/ftbquests/quests/chapters/esk_atmosphere.snbt"
           }
         },
@@ -7021,9 +7021,9 @@
           "name": "esk_create_industry.snbt",
           "type": "File",
           "artifact": {
-            "size": 8812,
+            "size": 8444,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_create_industry.snbt",
-            "MD5": "d3324d9b4d050eda543fe3d4314aa127",
+            "MD5": "5e40df0496abbb7c791edf24465f7845",
             "path": "config/ftbquests/quests/chapters/esk_create_industry.snbt"
           }
         },
@@ -7032,9 +7032,9 @@
           "name": "esk_culinary_delight.snbt",
           "type": "File",
           "artifact": {
-            "size": 8747,
+            "size": 8350,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_culinary_delight.snbt",
-            "MD5": "78dd56fc7a52b5d0f689b61a269965ba",
+            "MD5": "4da91234afe7d0f0b42d5b8cac3ff497",
             "path": "config/ftbquests/quests/chapters/esk_culinary_delight.snbt"
           }
         },
@@ -7043,9 +7043,9 @@
           "name": "esk_decoration.snbt",
           "type": "File",
           "artifact": {
-            "size": 7415,
+            "size": 9199,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_decoration.snbt",
-            "MD5": "0840eec76955aef08a17d6418da68196",
+            "MD5": "4f2f5746be6690d4791a16bb44452d78",
             "path": "config/ftbquests/quests/chapters/esk_decoration.snbt"
           }
         },
@@ -7054,9 +7054,9 @@
           "name": "esk_enchanting.snbt",
           "type": "File",
           "artifact": {
-            "size": 9208,
+            "size": 10827,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_enchanting.snbt",
-            "MD5": "266848605148548432bb0d3da8e72d75",
+            "MD5": "e71c36652f34321181054f3e4c0152b4",
             "path": "config/ftbquests/quests/chapters/esk_enchanting.snbt"
           }
         },
@@ -7065,9 +7065,9 @@
           "name": "esk_exploration.snbt",
           "type": "File",
           "artifact": {
-            "size": 7759,
+            "size": 9529,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_exploration.snbt",
-            "MD5": "907c99b6bb0b9cb39498b9070b8afa2e",
+            "MD5": "a46d877762852a7fd33b82eda6d800cc",
             "path": "config/ftbquests/quests/chapters/esk_exploration.snbt"
           }
         },
@@ -7076,9 +7076,9 @@
           "name": "esk_farming_flora.snbt",
           "type": "File",
           "artifact": {
-            "size": 9819,
+            "size": 9407,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_farming_flora.snbt",
-            "MD5": "c5ac26457dc46619a4eb52a352e5c6fd",
+            "MD5": "eedb2a8ad78e97c168dcfbadac2c412c",
             "path": "config/ftbquests/quests/chapters/esk_farming_flora.snbt"
           }
         },
@@ -7087,9 +7087,9 @@
           "name": "esk_food_preservation.snbt",
           "type": "File",
           "artifact": {
-            "size": 6352,
+            "size": 6705,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_food_preservation.snbt",
-            "MD5": "f3b2e3a6862ecb9069b622627baaea02",
+            "MD5": "954b720da408af9049d9b2d3f8dd4913",
             "path": "config/ftbquests/quests/chapters/esk_food_preservation.snbt"
           }
         },
@@ -7098,9 +7098,9 @@
           "name": "esk_travel_logistics.snbt",
           "type": "File",
           "artifact": {
-            "size": 7132,
+            "size": 8839,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_travel_logistics.snbt",
-            "MD5": "7aafbe72b517f2ea1da8f7c143c6c773",
+            "MD5": "15a25821453de8076f8a22394c5dbf88",
             "path": "config/ftbquests/quests/chapters/esk_travel_logistics.snbt"
           }
         },
@@ -7109,9 +7109,9 @@
           "name": "esk_vanilla_rules.snbt",
           "type": "File",
           "artifact": {
-            "size": 8548,
+            "size": 10252,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_vanilla_rules.snbt",
-            "MD5": "20ca1563b3a0f1fb0eea96ee99cc9122",
+            "MD5": "4e8ffb6727b33df05eab6d50458b7dd0",
             "path": "config/ftbquests/quests/chapters/esk_vanilla_rules.snbt"
           }
         },
@@ -7120,9 +7120,9 @@
           "name": "esk_wild_fauna.snbt",
           "type": "File",
           "artifact": {
-            "size": 6947,
+            "size": 8738,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_wild_fauna.snbt",
-            "MD5": "2d65053b122a3f0ee0472aef06d168c2",
+            "MD5": "63f03eec519b55583dcb3d062ba99535",
             "path": "config/ftbquests/quests/chapters/esk_wild_fauna.snbt"
           }
         },
@@ -7131,9 +7131,9 @@
           "name": "farmers_respite_basics.snbt",
           "type": "File",
           "artifact": {
-            "size": 4538,
+            "size": 4402,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/farmers_respite_basics.snbt",
-            "MD5": "97e236a3b4bd0f2d3f20c4dc11118edd",
+            "MD5": "93b176927b964b6aedffaa20adcbfc54",
             "path": "config/ftbquests/quests/chapters/farmers_respite_basics.snbt"
           }
         },
@@ -7142,9 +7142,9 @@
           "name": "meds_and_herbs_basics.snbt",
           "type": "File",
           "artifact": {
-            "size": 6179,
+            "size": 5724,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/meds_and_herbs_basics.snbt",
-            "MD5": "c345d30363fd9c602d30efbc5f0eaf91",
+            "MD5": "e7d0f419bc40f278f3bc4db301979966",
             "path": "config/ftbquests/quests/chapters/meds_and_herbs_basics.snbt"
           }
         },

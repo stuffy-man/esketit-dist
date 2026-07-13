@@ -15,6 +15,15 @@
 				"мозаика, панели, скосы. Основа любой красивой стройки."
 			]
 			id: "7D07000000000001"
+			rewards: [{
+				id: "7DFF0000000000DB"
+				item: {
+					Count: 1
+					id: "minecraft:cookie"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D07400000000001"
 				item: {
@@ -35,6 +44,15 @@
 				"подбери фактуру под свой дом."
 			]
 			id: "7D07000000000002"
+			rewards: [{
+				id: "7DFF0000000000DC"
+				item: {
+					Count: 1
+					id: "minecraft:dead_bush"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D07400000000002"
 				item: {
@@ -55,6 +73,11 @@
 				"в едином деревенском стиле."
 			]
 			id: "7D07000000000003"
+			rewards: [{
+				id: "7DFF0000000000DD"
+				type: "xp"
+				xp: 5
+			}]
 			tasks: [{
 				id: "7D07400000000003"
 				item: {
@@ -75,6 +98,15 @@
 				"любому кабинету или залу."
 			]
 			id: "7D07000000000004"
+			rewards: [{
+				id: "7DFF0000000000DE"
+				item: {
+					Count: 1
+					id: "minecraft:rotten_flesh"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D07400000000004"
 				item: {
@@ -95,6 +127,15 @@
 				"главный материал каменной архитектуры."
 			]
 			id: "7D07000000000005"
+			rewards: [{
+				id: "7DFF0000000000DF"
+				item: {
+					Count: 1
+					id: "minecraft:stick"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D07400000000005"
 				item: {
@@ -115,6 +156,15 @@
 				"Сложи из них площадь или уютный дворик."
 			]
 			id: "7D07000000000006"
+			rewards: [{
+				id: "7DFF0000000000E0"
+				item: {
+					Count: 1
+					id: "minecraft:bowl"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 4L
 				id: "7D07400000000006"
@@ -136,6 +186,16 @@
 				"оранжерей и панорамных окон."
 			]
 			id: "7D07000000000007"
+			rewards: [{
+				count: 4
+				id: "7DFF0000000000E1"
+				item: {
+					Count: 1
+					id: "minecraft:snowball"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D07400000000007"
 				item: {
@@ -156,6 +216,11 @@
 				"и подписывается — укрась перекрёстки деревни."
 			]
 			id: "7D07000000000008"
+			rewards: [{
+				id: "7DFF0000000000E2"
+				type: "xp"
+				xp: 7
+			}]
 			tasks: [{
 				id: "7D07400000000008"
 				item: {
@@ -176,6 +241,15 @@
 				"или держи в руке в тёмной шахте."
 			]
 			id: "7D07000000000009"
+			rewards: [{
+				id: "7DFF0000000000E3"
+				item: {
+					Count: 1
+					id: "minecraft:wheat_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D07400000000009"
 				item: {
@@ -196,6 +270,15 @@
 				"Мелочь, а атмосферу задаёт сразу."
 			]
 			id: "7D0700000000000A"
+			rewards: [{
+				id: "7DFF0000000000E4"
+				item: {
+					Count: 1
+					id: "minecraft:feather"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0740000000000A"
 				item: {
@@ -216,6 +299,15 @@
 				"и гости всегда будут знать, когда пора домой."
 			]
 			id: "7D0700000000000B"
+			rewards: [{
+				id: "7DFF0000000000E5"
+				item: {
+					Count: 1
+					id: "minecraft:pumpkin_pie"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0740000000000B"
 				item: {
@@ -236,6 +328,15 @@
 				"под каждый вид досок — обставь комнату по-настоящему."
 			]
 			id: "7D0700000000000C"
+			rewards: [{
+				id: "7DFF0000000000E6"
+				item: {
+					Count: 1
+					id: "minecraft:bamboo"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0740000000000C"
 				item: {
@@ -256,6 +357,11 @@
 				"и даже загружать свои изображения."
 			]
 			id: "7D0700000000000D"
+			rewards: [{
+				id: "7DFF0000000000E7"
+				type: "xp"
+				xp: 3
+			}]
 			tasks: [{
 				id: "7D0740000000000D"
 				item: {
@@ -276,6 +382,15 @@
 				"Завершающий штрих мастерской строителя."
 			]
 			id: "7D0700000000000E"
+			rewards: [{
+				id: "7DFF0000000000E8"
+				item: {
+					Count: 1
+					id: "minecraft:dried_kelp"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D0740000000000E"
 				item: {
