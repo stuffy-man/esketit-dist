@@ -1,0 +1,281 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "esk_travel_logistics"
+	group: ""
+	icon: "trotting_wagons:conestoga_wagon"
+	id: "7D08000000000000"
+	order_index: 18
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Хватай сундук или животину голыми руками и неси куда нужно: Shift+ЛКМ по блоку или существу."
+				"Тяжёлый груз замедляет шаг, зато не нужна ни вагонетка, ни телега."
+			]
+			id: "7D08000000000001"
+			tasks: [{
+				id: "7D08400000000001"
+				item: {
+					Count: 1
+					id: "minecraft:chest"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D08000000000001"]
+			description: [
+				"Колесо — начало всякой дороги."
+				"Сколоти его из досок и палок: без колеса не тронется с места ни одна повозка."
+			]
+			id: "7D08000000000002"
+			tasks: [{
+				count: 2L
+				id: "7D08400000000002"
+				item: {
+					Count: 1
+					id: "trotting_wagons:wheel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["7D08000000000002"]
+			description: [
+				"Кнут наездника подгоняет запряжённую лошадь."
+				"Щёлкни им, чтобы прицепить или отцепить повозку от своего скакуна."
+			]
+			id: "7D08000000000003"
+			tasks: [{
+				id: "7D08400000000003"
+				item: {
+					Count: 1
+					id: "trotting_wagons:horse_whip"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 1.6d
+		}
+		{
+			dependencies: ["7D08000000000002"]
+			description: [
+				"Крытая повозка Conestoga — рабочая лошадка дальних дорог."
+				"Цепляется к лошади и везёт солидный запас груза через любые дали."
+			]
+			id: "7D08000000000004"
+			tasks: [{
+				id: "7D08400000000004"
+				item: {
+					Count: 1
+					id: "trotting_wagons:conestoga_wagon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7D08000000000004"]
+			description: [
+				"Бронированная повозка обшита железом и держит удар."
+				"Для торговых караванов через опасные земли — самое надёжное решение."
+			]
+			id: "7D08000000000005"
+			tasks: [{
+				id: "7D08400000000005"
+				item: {
+					Count: 1
+					id: "trotting_wagons:armored_wagon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7D08000000000004"]
+			description: [
+				"Королевская повозка — роскошь на колёсах."
+				"Возит пассажиров с шиком; торжественный въезд в столицу гарантирован."
+			]
+			id: "7D08000000000006"
+			tasks: [{
+				id: "7D08400000000006"
+				item: {
+					Count: 1
+					id: "trotting_wagons:royal_wagon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7D08000000000004"]
+			description: [
+				"Весло — сердце корабельного дела Aleki."
+				"С ним собирают шлюпки и шлюпы из корабельных лесов прямо на верфи."
+			]
+			id: "7D08000000000007"
+			tasks: [{
+				count: 2L
+				id: "7D08400000000007"
+				item: {
+					Count: 1
+					id: "alekiships:oar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["7D08000000000007"]
+			description: [
+				"Большая лодка вмещает целую компанию."
+				"Грузите друзей и припасы — по реке пойдёте вместе, а не поодиночке."
+			]
+			id: "7D08000000000008"
+			tasks: [{
+				id: "7D08400000000008"
+				item: {
+					Count: 1
+					id: "boatload:large_oak_boat"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 4.8d
+		}
+		{
+			dependencies: ["7D08000000000008"]
+			description: [
+				"Самоходная лодка с печью идёт под паром, без вёсел."
+				"Закинь топливо — и плыви против течения хоть весь день напролёт."
+			]
+			id: "7D08000000000009"
+			tasks: [{
+				id: "7D08400000000009"
+				item: {
+					Count: 1
+					id: "boatload:oak_furnace_boat"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 6.4d
+		}
+		{
+			dependencies: ["7D08000000000007"]
+			description: [
+				"Якорь удерживает корабль на месте у причала."
+				"Незаменим, когда сходишь на берег, а судно не должно уплыть без тебя."
+			]
+			id: "7D0800000000000A"
+			tasks: [{
+				id: "7D0840000000000A"
+				item: {
+					Count: 1
+					id: "alekiships:anchor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 4.8d
+		}
+		{
+			dependencies: ["7D08000000000007"]
+			description: [
+				"Географический атлас сам подшивает карты по мере странствий."
+				"Открой мини-карту, ставь отметки и никогда не потеряй дорогу домой."
+			]
+			id: "7D0800000000000B"
+			tasks: [{
+				id: "7D0840000000000B"
+				item: {
+					Count: 1
+					id: "map_atlases:atlas"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.4d
+		}
+		{
+			dependencies: ["7D08000000000007"]
+			description: [
+				"Режим мостостроения даёт наводить мостики над пропастью, пятясь назад, как в Bedrock."
+				"Ущелья и обрывы больше не преграда для дороги."
+			]
+			id: "7D0800000000000C"
+			tasks: [{
+				id: "7D0840000000000C"
+				item: {
+					Count: 1
+					id: "minecraft:scaffolding"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 6.4d
+		}
+		{
+			dependencies: ["7D0800000000000B"]
+			description: [
+				"Монобанк — личный сейф с кодовым замком."
+				"Складывай в него нажитое: чужак без верной комбинации внутрь не залезет."
+			]
+			id: "7D0800000000000D"
+			tasks: [{
+				id: "7D0840000000000D"
+				item: {
+					Count: 1
+					id: "monobank:monobank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7D0800000000000B"]
+			description: [
+				"Прокладывай дорожки из быстрых блоков — по ним бежишь заметно резвее."
+				"Свяжи деревни удобными трактами и сократи любой путь."
+			]
+			id: "7D0800000000000E"
+			tasks: [{
+				count: 16L
+				id: "7D0840000000000E"
+				item: {
+					Count: 1
+					id: "minecraft:dirt_path"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 8.0d
+		}
+	]
+	title: "Транспорт и логистика"
+}

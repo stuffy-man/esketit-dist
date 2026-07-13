@@ -1,0 +1,296 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "esk_wild_fauna"
+	group: ""
+	icon: "naturalist:bug_net"
+	id: "7D04000000000000"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Мир Esketit полон невиданных зверей."
+				"Возьми сачок натуралиста — с него начинается"
+				"путь исследователя дикой фауны."
+			]
+			id: "7D04000000000001"
+			tasks: [{
+				id: "7D04400000000001"
+				item: {
+					Count: 1
+					id: "naturalist:bug_net"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D04000000000001"]
+			description: [
+				"Олени, кабаны и прочая дичь бродят в лесах."
+				"Выследи зверя и добудь свежую оленину —"
+				"основу рациона любого охотника."
+			]
+			id: "7D04000000000002"
+			tasks: [{
+				count: 3L
+				id: "7D04400000000002"
+				item: {
+					Count: 1
+					id: "naturalist:venison"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["7D04000000000002"]
+			description: [
+				"У рек селятся выдры — умные и игривые зверьки."
+				"Поймай яйцо призыва выдры, чтобы завести"
+				"своего первого дикого питомца."
+			]
+			id: "7D04000000000003"
+			tasks: [{
+				id: "7D04400000000003"
+				item: {
+					Count: 1
+					id: "crittersandcompanions:otter_spawn_egg"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7D04000000000003"]
+			description: [
+				"На песчаных пляжах шныряют крабы."
+				"Одолей одного и забери его клешню —"
+				"прочный трофей и ингредиент."
+			]
+			id: "7D04000000000004"
+			tasks: [{
+				id: "7D04400000000004"
+				item: {
+					Count: 1
+					id: "friendsandfoes:crab_claw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["7D04000000000004"]
+			description: [
+				"Глубины кишат акулами всех мастей."
+				"Добудь акулий зуб — доказательство того,"
+				"что ты не боишься хищников океана."
+			]
+			id: "7D04000000000005"
+			tasks: [{
+				count: 2L
+				id: "7D04400000000005"
+				item: {
+					Count: 1
+					id: "benssharks:shark_tooth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.4d
+		}
+		{
+			dependencies: ["7D04000000000005"]
+			description: [
+				"На ледяных берегах гнездятся пингвины."
+				"Собери пингвинье перо — привет"
+				"с самого холодного края карты."
+			]
+			id: "7D04000000000006"
+			tasks: [{
+				count: 2L
+				id: "7D04400000000006"
+				item: {
+					Count: 1
+					id: "ecologics:penguin_feather"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7D04000000000006"]
+			description: [
+				"Апгрейд океана принёс новых хищников."
+				"Срази трэшера и вырви его зуб —"
+				"опасная охота для смелых."
+			]
+			id: "7D04000000000007"
+			tasks: [{
+				id: "7D04400000000007"
+				item: {
+					Count: 1
+					id: "upgrade_aquatic:thrasher_tooth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.6d
+		}
+		{
+			dependencies: ["7D04000000000007"]
+			description: [
+				"Даже в лаве Незера водится жизнь."
+				"Вылови жгучую треску — финальный трофей"
+				"твоего фаунистического похода."
+			]
+			id: "7D04000000000008"
+			tasks: [{
+				id: "7D04400000000008"
+				item: {
+					Count: 1
+					id: "netherdepthsupgrade:searing_cod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.2d
+		}
+		{
+			dependencies: ["7D04000000000001"]
+			description: [
+				"Луга полны порхающих бабочек."
+				"Поймай сачком яркую бабочку"
+				"для своей коллекции натуралиста."
+			]
+			id: "7D04000000000009"
+			tasks: [{
+				id: "7D04400000000009"
+				item: {
+					Count: 1
+					id: "naturalist:butterfly"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 1.6d
+		}
+		{
+			dependencies: ["7D04000000000003"]
+			description: [
+				"В бамбуковых зарослях прячется красная панда."
+				"Раздобудь яйцо призыва — милейший"
+				"обитатель твоего зверинца."
+			]
+			id: "7D0400000000000A"
+			tasks: [{
+				id: "7D0440000000000A"
+				item: {
+					Count: 1
+					id: "crittersandcompanions:red_panda_spawn_egg"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7D04000000000004"]
+			description: [
+				"Друзья и враги: цветочная мублум бродит по лугам."
+				"Найди яйцо призыва этого редкого зверя"
+				"и укрась им своё пастбище."
+			]
+			id: "7D0400000000000B"
+			tasks: [{
+				id: "7D0440000000000B"
+				item: {
+					Count: 1
+					id: "friendsandfoes:moobloom_spawn_egg"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 4.8d
+		}
+		{
+			dependencies: ["7D04000000000005"]
+			description: [
+				"Легендарный мегалодон — царь древних морей."
+				"Добудь его исполинский зуб."
+				"Не каждый вернётся с такой охоты."
+			]
+			id: "7D0400000000000C"
+			tasks: [{
+				id: "7D0440000000000C"
+				item: {
+					Count: 1
+					id: "benssharks:megalodon_tooth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 6.4d
+		}
+		{
+			dependencies: ["7D04000000000006"]
+			description: [
+				"Тропический берег дарит кокосы и крабов."
+				"Сбей кокос с пальмы — сладкое"
+				"угощение с южных островов."
+			]
+			id: "7D0400000000000D"
+			tasks: [{
+				count: 3L
+				id: "7D0440000000000D"
+				item: {
+					Count: 1
+					id: "ecologics:coconut"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7D04000000000007"]
+			description: [
+				"Слухи о козлочеловеке ходят среди путников."
+				"Отыщи яйцо призыва этого дикого существа"
+				"и добавь его в свой бестиарий."
+			]
+			id: "7D0400000000000E"
+			tasks: [{
+				id: "7D0440000000000E"
+				item: {
+					Count: 1
+					id: "goat_man:goat_man_spawn_egg"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 9.6d
+		}
+	]
+	title: "Дикая фауна"
+}

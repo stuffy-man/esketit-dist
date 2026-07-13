@@ -1,0 +1,436 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "esk_create_industry"
+	group: ""
+	icon: "create:precision_mechanism"
+	id: "7D01000000000000"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Всё начинается с андезитового сплава."
+				"Смешай андезит с железом в потоке."
+				"Это основа всей механики Create."
+			]
+			id: "7D01000000000001"
+			rewards: [{
+				count: 4
+				id: "7D01800000000001"
+				item: {
+					Count: 1
+					id: "create:cogwheel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "7D01400000000001"
+				item: {
+					Count: 1
+					id: "create:andesite_alloy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D01000000000001"]
+			description: [
+				"Шестерёнки передают вращение."
+				"Собери зубчатое колесо."
+				"Соединяй их валами и большими шестернями."
+			]
+			id: "7D01000000000002"
+			rewards: [{
+				count: 8
+				id: "7D01800000000002"
+				item: {
+					Count: 1
+					id: "create:shaft"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7D01400000000002"
+				item: {
+					Count: 1
+					id: "create:cogwheel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["7D01000000000002"]
+			description: [
+				"Нужен источник вращения."
+				"Водяное колесо даёт первую энергию."
+				"Ставь его в текущую воду."
+			]
+			id: "7D01000000000003"
+			rewards: [{
+				count: 2
+				id: "7D01800000000003"
+				item: {
+					Count: 1
+					id: "create:large_cogwheel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D01400000000003"
+				item: {
+					Count: 1
+					id: "create:water_wheel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7D01000000000003"]
+			description: [
+				"Машинам нужен корпус."
+				"Андезитовый кожух — базовый корпус."
+				"Из него строятся первые механизмы."
+			]
+			id: "7D01000000000004"
+			rewards: [{
+				count: 2
+				id: "7D01800000000004"
+				item: {
+					Count: 1
+					id: "create:belt_connector"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7D01400000000004"
+				item: {
+					Count: 1
+					id: "create:andesite_casing"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["7D01000000000004"]
+			description: [
+				"Механический пресс штампует металл."
+				"Делай из слитков листы и плиты."
+				"Первый настоящий станок производства."
+			]
+			id: "7D01000000000005"
+			rewards: [{
+				count: 4
+				id: "7D01800000000005"
+				item: {
+					Count: 1
+					id: "create:brass_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D01400000000005"
+				item: {
+					Count: 1
+					id: "create:mechanical_press"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.4d
+		}
+		{
+			dependencies: ["7D01000000000005"]
+			description: [
+				"Латунь открывает продвинутую технику."
+				"Сплавь медь и цинк в миксере."
+				"Век латуни начинается."
+			]
+			id: "7D01000000000006"
+			rewards: [{
+				count: 2
+				id: "7D01800000000006"
+				item: {
+					Count: 1
+					id: "create:brass_casing"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "7D01400000000006"
+				item: {
+					Count: 1
+					id: "create:brass_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7D01000000000006"]
+			description: [
+				"Точный механизм — сердце автоматики."
+				"Собирается из латуни на деплоерах."
+				"Ключ ко всем сложным машинам."
+			]
+			id: "7D01000000000007"
+			rewards: [{
+				count: 4
+				id: "7D01800000000007"
+				item: {
+					Count: 1
+					id: "create:electron_tube"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D01400000000007"
+				item: {
+					Count: 1
+					id: "create:precision_mechanism"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.6d
+		}
+		{
+			dependencies: ["7D01000000000007"]
+			description: [
+				"Механическая рука сортирует предметы."
+				"Автоматизируй загрузку и выгрузку."
+				"Настоящая фабрика без рук игрока."
+			]
+			id: "7D01000000000008"
+			rewards: [{
+				count: 2
+				id: "7D01800000000008"
+				item: {
+					Count: 1
+					id: "create:deployer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D01400000000008"
+				item: {
+					Count: 1
+					id: "create:mechanical_arm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.2d
+		}
+		{
+			dependencies: ["7D01000000000008"]
+			description: [
+				"Паровой двигатель — мощная энергия."
+				"Грей котёл на бэктанке и топливе."
+				"Крутит самые тяжёлые сборки."
+			]
+			id: "7D01000000000009"
+			rewards: [{
+				count: 2
+				id: "7D01800000000009"
+				item: {
+					Count: 1
+					id: "create:fluid_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D01400000000009"
+				item: {
+					Count: 1
+					id: "create:steam_engine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.8d
+		}
+		{
+			dependencies: ["7D01000000000002"]
+			description: [
+				"Жёрнов мелет руду и зерно."
+				"Дешёвая ранняя переработка."
+				"Удваивай ресурсы почти без затрат."
+			]
+			id: "7D0100000000000A"
+			rewards: [{
+				count: 8
+				id: "7D0180000000000A"
+				item: {
+					Count: 1
+					id: "create:wheat_flour"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0140000000000A"
+				item: {
+					Count: 1
+					id: "create:millstone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7D01000000000004"]
+			description: [
+				"Вентилятор над огнём плавит,"
+				"над водой моет, над зельем варит."
+				"Массовая обработка предметов."
+			]
+			id: "7D0100000000000B"
+			rewards: [{
+				count: 4
+				id: "7D0180000000000B"
+				item: {
+					Count: 1
+					id: "create:sand_paper"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0140000000000B"
+				item: {
+					Count: 1
+					id: "create:encased_fan"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 4.8d
+		}
+		{
+			dependencies: ["7D01000000000006"]
+			description: [
+				"Нумизматика вводит валюту."
+				"Спур — самая мелкая монета."
+				"Торгуй и плати механизированно."
+			]
+			id: "7D0100000000000C"
+			rewards: [{
+				count: 8
+				id: "7D0180000000000C"
+				item: {
+					Count: 1
+					id: "numismatics:cog"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7D0140000000000C"
+				item: {
+					Count: 1
+					id: "numismatics:spur"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7D01000000000007"]
+			description: [
+				"Большие пушки Create — тяжёлая артиллерия."
+				"Отлей чугунный ствол пушки."
+				"Собери орудие и открой огонь."
+			]
+			id: "7D0100000000000D"
+			rewards: [{
+				id: "7D0180000000000D"
+				item: {
+					Count: 1
+					id: "createbigcannons:cannon_mount"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0140000000000D"
+				item: {
+					Count: 1
+					id: "createbigcannons:cast_iron_cannon_barrel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 9.6d
+		}
+		{
+			dependencies: ["7D01000000000009"]
+			description: [
+				"Паровые рельсы — эпоха поездов."
+				"Собери железнодорожный корпус для тележек."
+				"Строй станции и води составы."
+			]
+			id: "7D0100000000000E"
+			rewards: [{
+				id: "7D0180000000000E"
+				item: {
+					Count: 1
+					id: "railways:conductor_whistle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7D0140000000000E"
+				item: {
+					Count: 1
+					id: "create:railway_casing"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 12.8d
+		}
+	]
+	title: "Инженерия Create"
+}

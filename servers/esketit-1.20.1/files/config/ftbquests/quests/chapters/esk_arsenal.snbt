@@ -1,0 +1,292 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "esk_arsenal"
+	group: ""
+	icon: "caverns_and_chasms:necromium_sword"
+	id: "7D06000000000000"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Прежде чем лезть в драку — тренируйся."
+				"Тренировочный манекен показывает твой урон в секунду."
+				"Поставь его и лупи, подбирая связки атак."
+			]
+			id: "7D06000000000001"
+			tasks: [{
+				id: "7D06400000000001"
+				item: {
+					Count: 1
+					id: "dummmmmmy:target_dummy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D06000000000001"]
+			description: [
+				"Первый настоящий клинок. Медный меч из Caverns & Chasms."
+				"Крепче камня и уже готов к бою."
+				"С модом Cut Through удары рубят несколько врагов разом."
+			]
+			id: "7D06000000000002"
+			tasks: [{
+				id: "7D06400000000002"
+				item: {
+					Count: 1
+					id: "caverns_and_chasms:copper_sword"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["7D06000000000002"]
+			description: [
+				"Медный нагрудник — надёжная защита новичка."
+				"Металлическая броня Radiant Gear ещё и греет в холода."
+				"Собери полный сет: шлем, поножи и ботинки."
+			]
+			id: "7D06000000000003"
+			tasks: [{
+				id: "7D06400000000003"
+				item: {
+					Count: 1
+					id: "caverns_and_chasms:copper_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7D06000000000003"]
+			description: [
+				"Эгида — щит Caverns & Chasms."
+				"Держи блок, отражай удары и отбивай снаряды."
+				"Твой пропуск в ближний бой без лишней крови."
+			]
+			id: "7D06000000000004"
+			tasks: [{
+				id: "7D06400000000004"
+				item: {
+					Count: 1
+					id: "caverns_and_chasms:aegis"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["7D06000000000004"]
+			description: [
+				"Некромиевый меч — оружие глубин."
+				"Сплав некромия куётся из костей Погружённого."
+				"Лучший клинок сервера: урон, что не прощает ошибок."
+			]
+			id: "7D06000000000005"
+			tasks: [{
+				id: "7D06400000000005"
+				item: {
+					Count: 1
+					id: "caverns_and_chasms:necromium_sword"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.4d
+		}
+		{
+			dependencies: ["7D06000000000005"]
+			description: [
+				"Некромиевый нагрудник — вершина брони."
+				"Тёмный сплав держит удар лучше алмаза."
+				"Финальный сет для самых опасных вылазок."
+			]
+			id: "7D06000000000006"
+			tasks: [{
+				id: "7D06400000000006"
+				item: {
+					Count: 1
+					id: "caverns_and_chasms:necromium_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7D06000000000002"]
+			description: [
+				"Звериные когти (Artifacts) — бижутерия Curios."
+				"Носятся в слоте и ускоряют твои атаки."
+				"Быстрее машешь — больше урона в секунду."
+			]
+			id: "7D06000000000007"
+			tasks: [{
+				id: "7D06400000000007"
+				item: {
+					Count: 1
+					id: "artifacts:feral_claws"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7D06000000000007"]
+			description: [
+				"Перчатка силы увеличивает урон каждого удара."
+				"Надевается в слот амулетов, а не в руку."
+				"Идеальная пара к звериным когтям."
+			]
+			id: "7D06000000000008"
+			tasks: [{
+				id: "7D06400000000008"
+				item: {
+					Count: 1
+					id: "artifacts:power_glove"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 4.8d
+		}
+		{
+			dependencies: ["7D06000000000008"]
+			description: [
+				"Вампирская перчатка ворует здоровье с ударов."
+				"В долгой рубке лечишься прямо в процессе боя."
+				"Незаменима против толп мобов."
+			]
+			id: "7D06000000000009"
+			tasks: [{
+				id: "7D06400000000009"
+				item: {
+					Count: 1
+					id: "artifacts:vampiric_glove"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 6.4d
+		}
+		{
+			dependencies: ["7D06000000000009"]
+			description: [
+				"Кристальное сердце поднимает максимум здоровья."
+				"Больше сердец — больше права на ошибку."
+				"Венец боевого набора артефактов."
+			]
+			id: "7D0600000000000A"
+			tasks: [{
+				id: "7D0640000000000A"
+				item: {
+					Count: 1
+					id: "artifacts:crystal_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7D06000000000002"]
+			description: [
+				"Кунай (Caverns & Chasms) — метательный клинок."
+				"Бросай во врага или бей в упор."
+				"Тихое оружие для дальних стычек."
+			]
+			id: "7D0600000000000B"
+			tasks: [{
+				id: "7D0640000000000B"
+				item: {
+					Count: 1
+					id: "caverns_and_chasms:kunai"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7D0600000000000B"]
+			description: [
+				"Трезубец — оружие ближнего и дальнего боя."
+				"Мод Better Tridents чинит его и улучшает зачарования."
+				"Верность и Тягун теперь по-настоящему полезны."
+			]
+			id: "7D0600000000000C"
+			tasks: [{
+				id: "7D0640000000000C"
+				item: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 4.8d
+		}
+		{
+			dependencies: ["7D0600000000000C"]
+			description: [
+				"Осколок трезубца (Better Tridents)."
+				"Выпадает из фантомов и чинит любимый трезубец."
+				"Держи запас, чтобы оружие не рассыпалось."
+			]
+			id: "7D0600000000000D"
+			tasks: [{
+				id: "7D0640000000000D"
+				item: {
+					Count: 1
+					id: "bettertridents:trident_fragment"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 6.4d
+		}
+		{
+			dependencies: ["7D0600000000000D"]
+			description: [
+				"Динамит — грубая сила арсенала."
+				"Explosive Enhancement и Coal Explosion делают взрывы злее."
+				"Даже уголь теперь опасен — берегись пожаров (Better Burning)."
+			]
+			id: "7D0600000000000E"
+			tasks: [{
+				id: "7D0640000000000E"
+				item: {
+					Count: 1
+					id: "minecraft:tnt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 8.0d
+		}
+	]
+	title: "Арсенал и бой"
+}

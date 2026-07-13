@@ -1,0 +1,293 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "esk_decoration"
+	group: ""
+	icon: "supplementaries:flower_box"
+	id: "7D07000000000000"
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Всё начинается с фантазии и хорошего верстака."
+				"Столярный стол Chipped даёт десятки вариаций одного блока —"
+				"мозаика, панели, скосы. Основа любой красивой стройки."
+			]
+			id: "7D07000000000001"
+			tasks: [{
+				id: "7D07400000000001"
+				item: {
+					Count: 1
+					id: "chipped:carpenters_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D07000000000001"]
+			description: [
+				"Возьми обычные доски и преврати их в узор."
+				"Через стол Chipped доступны сотни декоративных вариантов —"
+				"подбери фактуру под свой дом."
+			]
+			id: "7D07000000000002"
+			tasks: [{
+				id: "7D07400000000002"
+				item: {
+					Count: 1
+					id: "chipped:oak_planks_panel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D07000000000002"]
+			description: [
+				"Лесопилка Woodworks — сердце деревообработки."
+				"Здесь режут доски-обшивку, лестницы, полки и сундуки"
+				"в едином деревенском стиле."
+			]
+			id: "7D07000000000003"
+			tasks: [{
+				id: "7D07400000000003"
+				item: {
+					Count: 1
+					id: "woodworks:sawmill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D07000000000003"]
+			description: [
+				"Библиотека без книжных полок — не библиотека."
+				"Резные и обычные полки Woodworks добавят уюта"
+				"любому кабинету или залу."
+			]
+			id: "7D07000000000004"
+			tasks: [{
+				id: "7D07400000000004"
+				item: {
+					Count: 1
+					id: "woodworks:spruce_bookshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.2d
+			y: -1.8d
+		}
+		{
+			dependencies: ["7D07000000000003"]
+			description: [
+				"Обжиговая печь Clayworks плавит глину партиями."
+				"Из неё рождается терракота, кирпич и глазурь —"
+				"главный материал каменной архитектуры."
+			]
+			id: "7D07000000000005"
+			tasks: [{
+				id: "7D07400000000005"
+				item: {
+					Count: 1
+					id: "clayworks:kiln"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D07000000000005"]
+			description: [
+				"Терракотовый кирпич — тёплый цвет южных построек."
+				"16 оттенков, плиты, ступени и стены."
+				"Сложи из них площадь или уютный дворик."
+			]
+			id: "7D07000000000006"
+			tasks: [{
+				count: 4L
+				id: "7D07400000000006"
+				item: {
+					Count: 1
+					id: "clayworks:terracotta_bricks"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.8d
+			y: 1.8d
+		}
+		{
+			dependencies: ["7D07000000000005"]
+			description: [
+				"Fusion делает стекло бесшовным — панели сливаются"
+				"в единое полотно без рамок. Идеально для витрин,"
+				"оранжерей и панорамных окон."
+			]
+			id: "7D07000000000007"
+			tasks: [{
+				id: "7D07400000000007"
+				item: {
+					Count: 1
+					id: "minecraft:tinted_glass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D07000000000007"]
+			description: [
+				"Путник не заблудится, если стоят указатели."
+				"Столбик-указатель Supplementaries крутится в любую сторону"
+				"и подписывается — укрась перекрёстки деревни."
+			]
+			id: "7D07000000000008"
+			tasks: [{
+				id: "7D07400000000008"
+				item: {
+					Count: 1
+					id: "supplementaries:sign_post_oak"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D07000000000008"]
+			description: [
+				"Тёплый свет медного фонаря Supplementaries Squared"
+				"оживит крыльцо и улицу. Вешай на цепь, ставь на столб"
+				"или держи в руке в тёмной шахте."
+			]
+			id: "7D07000000000009"
+			tasks: [{
+				id: "7D07400000000009"
+				item: {
+					Count: 1
+					id: "suppsquared:copper_lantern"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.8d
+		}
+		{
+			dependencies: ["7D07000000000008"]
+			description: [
+				"Керамическая урна — и хранилище, и украшение."
+				"Ставь её вдоль стен или наполняй добром."
+				"Мелочь, а атмосферу задаёт сразу."
+			]
+			id: "7D0700000000000A"
+			tasks: [{
+				id: "7D0740000000000A"
+				item: {
+					Count: 1
+					id: "supplementaries:urn"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.8d
+		}
+		{
+			dependencies: ["7D07000000000008"]
+			description: [
+				"Настенные часы Supplementaries показывают время суток"
+				"прямо в интерьере. Повесь их в холле —"
+				"и гости всегда будут знать, когда пора домой."
+			]
+			id: "7D0700000000000B"
+			tasks: [{
+				id: "7D0740000000000B"
+				item: {
+					Count: 1
+					id: "supplementaries:clock_block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D0700000000000B"]
+			description: [
+				"Пустой дом оживает мебелью."
+				"Re:Deco даёт стулья, столы, комоды и витрины"
+				"под каждый вид досок — обставь комнату по-настоящему."
+			]
+			id: "7D0700000000000C"
+			tasks: [{
+				id: "7D0740000000000C"
+				item: {
+					Count: 1
+					id: "redeco:oak_chair"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D0700000000000C"]
+			description: [
+				"Голые стены просят картин."
+				"Immersive Paintings позволяет вешать полотна любого размера"
+				"и даже загружать свои изображения."
+			]
+			id: "7D0700000000000D"
+			tasks: [{
+				id: "7D0740000000000D"
+				item: {
+					Count: 1
+					id: "immersive_paintings:painting"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D0700000000000C"]
+			description: [
+				"Наковальня Easy Anvils больше не съедает предметы зря —"
+				"удобный интерфейс переименования и ковки."
+				"Завершающий штрих мастерской строителя."
+			]
+			id: "7D0700000000000E"
+			tasks: [{
+				id: "7D0740000000000E"
+				item: {
+					Count: 1
+					id: "minecraft:anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.8d
+			y: -1.8d
+		}
+	]
+	title: "Декор и стройка"
+}

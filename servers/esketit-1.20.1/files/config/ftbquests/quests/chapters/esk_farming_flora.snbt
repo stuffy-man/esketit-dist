@@ -1,0 +1,429 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "esk_farming_flora"
+	group: ""
+	icon: "overweight_farming:overweight_carrot_block"
+	id: "7D03000000000000"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Всё живое начинается с земли и костной муки."
+				"На сервере она универсальна — работает почти на любом ростке."
+				"Соберите горсть и разбудите первую зелень."
+			]
+			id: "7D03000000000001"
+			rewards: [{
+				count: 2
+				id: "7D03800000000001"
+				item: {
+					Count: 1
+					id: "dynamictrees:oak_seed"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "7D03400000000001"
+				item: {
+					Count: 1
+					id: "minecraft:bone_meal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D03000000000001"]
+			description: [
+				"Деревья здесь растут вживую, ветка за веткой (Dynamic Trees)."
+				"Их кроны роняют семена круглый год, в любой сезон."
+				"Посадите первый дубовый саженец и дождитесь всхода."
+			]
+			id: "7D03000000000002"
+			rewards: [{
+				id: "7D03800000000002"
+				item: {
+					Count: 1
+					id: "dynamictrees:dendro_potion"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D03400000000002"
+				item: {
+					Count: 1
+					id: "dynamictrees:oak_seed"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["7D03000000000002"]
+			description: [
+				"Дендро-зелье ускоряет рост живого дерева."
+				"Капля на саженец — и годы сжимаются в минуты."
+				"Незаменимо для нетерпеливого лесника."
+			]
+			id: "7D03000000000003"
+			rewards: [{
+				count: 16
+				id: "7D03800000000003"
+				item: {
+					Count: 1
+					id: "minecraft:bone_meal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D03400000000003"
+				item: {
+					Count: 1
+					id: "dynamictrees:dendro_potion"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 1.6d
+		}
+		{
+			dependencies: ["7D03000000000002"]
+			description: [
+				"От дубов — к плодовым садам."
+				"Апельсиновое дерево даёт сочные цитрусы каждый сезон."
+				"Посадите семя и заложите основу фруктовой рощи."
+			]
+			id: "7D03000000000004"
+			rewards: [{
+				id: "7D03800000000004"
+				item: {
+					Count: 1
+					id: "fruitsdelight:apple_sapling"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D03400000000004"
+				item: {
+					Count: 1
+					id: "dtfruitsdelight:orange_seed"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7D03000000000004"]
+			description: [
+				"Настоящему садовнику мало обычных яблок."
+				"Манго — тропический деликатес для смелых грядок."
+				"Вырастите экзотику и удивите соседей по серверу."
+			]
+			id: "7D03000000000005"
+			rewards: [{
+				id: "7D03800000000005"
+				item: {
+					Count: 1
+					id: "fruitsdelight:durian"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D03400000000005"
+				item: {
+					Count: 1
+					id: "dtfruitsdelight:mango_seed"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7D03000000000004"]
+			description: [
+				"Кусты дарят урожай быстрее деревьев."
+				"Черника — сладкая, сочная и растёт целыми зарослями."
+				"Соберите первую пригоршню ягод."
+			]
+			id: "7D03000000000006"
+			rewards: [{
+				id: "7D03800000000006"
+				item: {
+					Count: 1
+					id: "berry_good:sweet_berry_basket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "7D03400000000006"
+				item: {
+					Count: 1
+					id: "fruitsdelight:blueberry"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["7D03000000000006"]
+			description: [
+				"В тёмных пещерах зреют светящиеся ягоды."
+				"Их пыльца (pips) высаживается на любой каменной стене."
+				"Осветите шахты живым сиянием."
+			]
+			id: "7D03000000000007"
+			rewards: [{
+				count: 2
+				id: "7D03800000000007"
+				item: {
+					Count: 1
+					id: "berry_good:glowgurt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D03400000000007"
+				item: {
+					Count: 1
+					id: "berry_good:glow_berry_pips"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 4.8d
+		}
+		{
+			dependencies: ["7D03000000000006"]
+			description: [
+				"Клубника — королева десертных грядок (Neapolitan)."
+				"Её семена-pips дают ягоды для мороженого и коктейлей."
+				"Заложите сладкую плантацию."
+			]
+			id: "7D03000000000008"
+			rewards: [{
+				count: 2
+				id: "7D03800000000008"
+				item: {
+					Count: 1
+					id: "neapolitan:strawberry_ice_cream"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D03400000000008"
+				item: {
+					Count: 1
+					id: "neapolitan:strawberry_pips"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.4d
+		}
+		{
+			dependencies: ["7D03000000000008"]
+			description: [
+				"Банановая пальма растёт вживую, как настоящая (Dynamic Trees)."
+				"Посадите семя и соберите первую гроздь."
+				"Тропики приходят в ваш огород."
+			]
+			id: "7D03000000000009"
+			rewards: [{
+				count: 4
+				id: "7D03800000000009"
+				item: {
+					Count: 1
+					id: "neapolitan:banana"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D03400000000009"
+				item: {
+					Count: 1
+					id: "dtneapolitan:banana_seed"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 6.4d
+		}
+		{
+			dependencies: ["7D03000000000008"]
+			description: [
+				"Гордость фермера — гигантские культуры (Overweight Farming)."
+				"Заботливый уход превращает морковь в исполинский овощ."
+				"Вырастите один такой блок-переросток."
+			]
+			id: "7D0300000000000A"
+			rewards: [{
+				id: "7D0380000000000A"
+				item: {
+					Count: 1
+					id: "overweight_farming:overweight_golden_apple_block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0340000000000A"
+				item: {
+					Count: 1
+					id: "overweight_farming:overweight_carrot_block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7D0300000000000A"]
+			description: [
+				"Драконий фрукт — колючая экзотика на кактусовой лозе."
+				"Семена приживаются лишь у терпеливых садоводов."
+				"Добавьте огню красок в свою коллекцию."
+			]
+			id: "7D0300000000000B"
+			rewards: [{
+				count: 2
+				id: "7D0380000000000B"
+				item: {
+					Count: 1
+					id: "collectorsreap:pink_dragon_fruit"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0340000000000B"
+				item: {
+					Count: 1
+					id: "collectorsreap:dragon_fruit_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7D0300000000000A"]
+			description: [
+				"Вершина садоводства — Мудрый Дуб (Mystical Oak Tree)."
+				"Легендарное дерево роняет редчайшие дары."
+				"Посадите его и станьте мастером флоры."
+			]
+			id: "7D0300000000000C"
+			rewards: [{
+				count: 3
+				id: "7D0380000000000C"
+				item: {
+					Count: 1
+					id: "minecraft:golden_apple"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0340000000000C"
+				item: {
+					Count: 1
+					id: "mysticaloaktree:wise_oak"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.6d
+		}
+		{
+			dependencies: ["7D0300000000000A"]
+			description: [
+				"Не хлебом единым живёт ферма."
+				"Пышные декоративные цветы украсят любой двор (Bushier Flowers)."
+				"Вырастите роскошный мак."
+			]
+			id: "7D0300000000000D"
+			rewards: [{
+				count: 2
+				id: "7D0380000000000D"
+				item: {
+					Count: 1
+					id: "bushierflowers:grown_allium"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0340000000000D"
+				item: {
+					Count: 1
+					id: "bushierflowers:grown_poppy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7D0300000000000C"]
+			description: [
+				"Осенний урожай пахнет жутковато-сладко (Haunted Harvest)."
+				"Кукурузные зёрна дают початки к любому столу."
+				"Засейте поле к празднику урожая."
+			]
+			id: "7D0300000000000E"
+			rewards: [{
+				count: 4
+				id: "7D0380000000000E"
+				item: {
+					Count: 1
+					id: "hauntedharvest:popcorn"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0340000000000E"
+				item: {
+					Count: 1
+					id: "hauntedharvest:kernels"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 9.6d
+		}
+	]
+	title: "Фермерство и флора"
+}

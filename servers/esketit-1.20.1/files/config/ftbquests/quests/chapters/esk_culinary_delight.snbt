@@ -1,0 +1,400 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "esk_culinary_delight"
+	group: ""
+	icon: "farmersdelight:cooking_pot"
+	id: "7D02000000000000"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Разделочная доска — сердце любой кухни."
+				"Клади на неё продукты и руби ножом: мясо, овощи, рыбу."
+				"Так из одного ингредиента выйдет больше порций."
+			]
+			id: "7D02000000000001"
+			rewards: [{
+				count: 2
+				id: "7D02800000000001"
+				item: {
+					Count: 1
+					id: "farmersdelight:cabbage_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D02400000000001"
+				item: {
+					Count: 1
+					id: "farmersdelight:cutting_board"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D02000000000001"]
+			description: [
+				"Без ножа за доску не встанешь."
+				"Кремнёвый нож самый простой: пара камней и палка."
+				"Позже скуёшь железный или алмазный для прочности."
+			]
+			id: "7D02000000000002"
+			rewards: [{
+				count: 2
+				id: "7D02800000000002"
+				item: {
+					Count: 1
+					id: "farmersdelight:tomato_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D02400000000002"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["7D02000000000002"]
+			description: [
+				"Котелок ставится на источник тепла и варит супы и рагу."
+				"Брось ингредиенты, дай побулькать —"
+				"и получишь сытное горячее блюдо в миске."
+			]
+			id: "7D02000000000003"
+			rewards: [{
+				count: 3
+				id: "7D02800000000003"
+				item: {
+					Count: 1
+					id: "farmersdelight:onion"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D02400000000003"
+				item: {
+					Count: 1
+					id: "farmersdelight:cooking_pot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7D02000000000003"]
+			description: [
+				"Сковорода жарит быстро и прямо в руках."
+				"На ней шкваришь яйца, мясо и овощи."
+				"Можно взять с собой и готовить у костра в походе."
+			]
+			id: "7D02000000000004"
+			rewards: [{
+				count: 8
+				id: "7D02800000000004"
+				item: {
+					Count: 1
+					id: "minecraft:egg"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D02400000000004"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.8d
+		}
+		{
+			dependencies: ["7D02000000000004"]
+			description: [
+				"Плита — удобный источник тепла для готовки."
+				"Ставь на неё сковороду или котелок"
+				"и жарь несколько блюд, не тратя топливо впустую."
+			]
+			id: "7D02000000000005"
+			rewards: [{
+				count: 4
+				id: "7D02800000000005"
+				item: {
+					Count: 1
+					id: "farmersdelight:rice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D02400000000005"
+				item: {
+					Count: 1
+					id: "farmersdelight:stove"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.4d
+		}
+		{
+			dependencies: ["7D02000000000005"]
+			description: [
+				"Настоящий праздничный ужин!"
+				"Запечённая курица кормит всю компанию —"
+				"режь её на доске на порции. Награда мастеру плиты."
+			]
+			id: "7D02000000000006"
+			rewards: [{
+				count: 3
+				id: "7D02800000000006"
+				item: {
+					Count: 1
+					id: "farmersdelight:pie_crust"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D02400000000006"
+				item: {
+					Count: 1
+					id: "farmersdelight:roast_chicken"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7D02000000000002"]
+			description: [
+				"Положи говядину на доску и наруби ножом фарш."
+				"Основа для котлет, тефтелей и бургеров —"
+				"с фарша начинается почти любое мясное блюдо."
+			]
+			id: "7D02000000000007"
+			rewards: [{
+				id: "7D02800000000007"
+				item: {
+					Count: 1
+					id: "farmersdelight:tomato_sauce"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D02400000000007"
+				item: {
+					Count: 1
+					id: "farmersdelight:minced_beef"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 1.6d
+		}
+		{
+			dependencies: ["7D02000000000002"]
+			description: [
+				"Заверни начинку в капустный лист — выйдут голубцы."
+				"Лёгкий, но сытный перекус"
+				"прямо с разделочной доски."
+			]
+			id: "7D02000000000008"
+			rewards: [{
+				count: 3
+				id: "7D02800000000008"
+				item: {
+					Count: 1
+					id: "farmersdelight:cabbage_seeds"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D02400000000008"
+				item: {
+					Count: 1
+					id: "farmersdelight:cabbage_rolls"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 1.6d
+		}
+		{
+			dependencies: ["7D02000000000003"]
+			description: [
+				"Брось в котелок морковь, картошку и лук —"
+				"получится наваристый овощной суп."
+				"Дёшево, сытно и греет в холодную ночь."
+			]
+			id: "7D02000000000009"
+			rewards: [{
+				count: 2
+				id: "7D02800000000009"
+				item: {
+					Count: 1
+					id: "farmersdelight:onion"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D02400000000009"
+				item: {
+					Count: 1
+					id: "farmersdelight:vegetable_soup"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7D02000000000004"]
+			description: [
+				"Обжарь на сковороде рис с яйцом и овощами."
+				"Быстрое второе блюдо,"
+				"которое утоляет голод надолго."
+			]
+			id: "7D0200000000000A"
+			rewards: [{
+				count: 6
+				id: "7D0280000000000A"
+				item: {
+					Count: 1
+					id: "farmersdelight:rice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0240000000000A"
+				item: {
+					Count: 1
+					id: "farmersdelight:fried_rice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 4.8d
+		}
+		{
+			dependencies: ["7D02000000000005"]
+			description: [
+				"Гриль — яркий аддон Barbeque's Delight."
+				"Собери шампуры на доске и жарь их на решётке:"
+				"мясо, рыба, овощи. Не забудь про соус!"
+			]
+			id: "7D0200000000000B"
+			rewards: [{
+				count: 2
+				id: "7D0280000000000B"
+				item: {
+					Count: 1
+					id: "barbequesdelight:barbeque_sauce"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0240000000000B"
+				item: {
+					Count: 1
+					id: "barbequesdelight:grill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 6.4d
+		}
+		{
+			dependencies: ["7D02000000000005"]
+			description: [
+				"Кухни мира на твоём столе!"
+				"Заверни мясо, рис и овощи в лепёшку —"
+				"сытный буррито из Cultural Delights."
+			]
+			id: "7D0200000000000C"
+			rewards: [{
+				count: 4
+				id: "7D0280000000000C"
+				item: {
+					Count: 1
+					id: "culturaldelights:tortilla"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0240000000000C"
+				item: {
+					Count: 1
+					id: "culturaldelights:beef_burrito"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.8d
+			y: 6.4d
+		}
+		{
+			dependencies: ["7D02000000000006"]
+			description: [
+				"Экзотика Края: пирог из плодов хоруса."
+				"Свари начинку и запеки в необычный десерт"
+				"для тех, кто прошёл весь путь повара."
+			]
+			id: "7D0200000000000D"
+			rewards: [{
+				id: "7D0280000000000D"
+				item: {
+					Count: 1
+					id: "delightful:jam_jar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0240000000000D"
+				item: {
+					Count: 1
+					id: "ends_delight:chorus_fruit_pie"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.8d
+			y: 8.0d
+		}
+	]
+	title: "Кухня и Farmer's Delight"
+}
