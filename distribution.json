@@ -1790,13 +1790,13 @@
           }
         },
         {
-          "id": "dev.esketitvillagertrades:esketit_villagertrades:1.0.1@jar",
+          "id": "dev.esketitvillagertrades:esketit_villagertrades:1.0.0@jar",
           "name": "Esketit Villager Trades",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3608,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_villagertrades-1.0.1.jar",
-            "MD5": "f0ccab003ec61c73afe3f6859caa8dba"
+            "size": 3607,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_villagertrades-1.0.0.jar",
+            "MD5": "281bcddc04f9e5c34cfa21c43fdf4c8d"
           }
         },
         {
