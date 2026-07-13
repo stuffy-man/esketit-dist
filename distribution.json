@@ -1101,16 +1101,6 @@
           }
         },
         {
-          "id": "net.muksvtwo:corpsebutbetter:1.0.8@jar",
-          "name": "Corpse, But Better",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 827225,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/corpse_but_better.jar",
-            "MD5": "d9cbdcbf6dc054202e0f248cff229a6f"
-          }
-        },
-        {
           "id": "lain.mods.cos.init:cosmeticarmorreworked:1.20.1-v1a@jar",
           "name": "CosmeticArmorReworked",
           "type": "ForgeMod",
@@ -1740,13 +1730,23 @@
           }
         },
         {
-          "id": "dev.esketitcoldcellar:esketit_coldcellar:1.0.4@jar",
+          "id": "dev.esketitcoldcellar:esketit_coldcellar:1.0.6@jar",
           "name": "Esketit Cold Cellar",
           "type": "ForgeMod",
           "artifact": {
-            "size": 21254,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_coldcellar-1.0.4.jar",
-            "MD5": "f3f0426e71932e596680cd2890e1f39a"
+            "size": 40121,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_coldcellar-1.0.6.jar",
+            "MD5": "64a32b0baff30fdb32a20ec954b74041"
+          }
+        },
+        {
+          "id": "dev.esketitcorpse:esketit_corpse:1.0.0@jar",
+          "name": "Esketit Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 72295,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_corpse-1.0.0.jar",
+            "MD5": "e237d8c0074f346421fec5c30f95a955"
           }
         },
         {
@@ -6992,6 +6992,17 @@
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/delight_chefs_path.snbt",
             "MD5": "4b1e4053b08a9c49d2f82c2b0ab31767",
             "path": "config/ftbquests/quests/chapters/delight_chefs_path.snbt"
+          }
+        },
+        {
+          "id": "esk_food_preservation.snbt",
+          "name": "esk_food_preservation.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 6352,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_food_preservation.snbt",
+            "MD5": "f3b2e3a6862ecb9069b622627baaea02",
+            "path": "config/ftbquests/quests/chapters/esk_food_preservation.snbt"
           }
         },
         {

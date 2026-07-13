@@ -1,0 +1,177 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "esk_food_preservation"
+	group: ""
+	icon: "esketit_coldcellar:cold_cellar"
+	id: "7C01DCE110000000"
+	order_index: 5
+	quest_links: [ ]
+	title: "Хранение еды"
+	quests: [
+		{
+			description: [
+				"Еда больше не лежит вечно. У каждого продукта есть свежесть"
+				"(видно в подсказке предмета) - со временем она падает, и в"
+				"конце еда превращается в гнилую плоть."
+				""
+				"Скорость порчи зависит от температуры вокруг: в тепле и на"
+				"жаре еда портится быстрее, на холоде - медленно, на морозе"
+				"почти замирает. Сырое мясо и рыба портятся быстро, готовые"
+				"блюда - средне, хлеб и выпечка - медленно. Золотые и"
+				"мёдовые продукты не портятся вовсе."
+				""
+				"--- ENG ---"
+				"Food no longer keeps forever. Every item has a freshness"
+				"(shown in its tooltip) that drops over time; at 0% it turns"
+				"into rotten flesh. Warmth speeds spoilage, cold slows it,"
+				"freezing nearly halts it. Raw meat/fish spoil fast, cooked"
+				"dishes medium, bread slow. Golden and honey foods never spoil."
+			]
+			icon: "minecraft:rotten_flesh"
+			id: "7C01DCE110000001"
+			tasks: [{
+				id: "7C01DCE110000101"
+				title: "Порча еды"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C01DCE110000001"]
+			description: [
+				"Соль - главный консервант. Добывается из каменной соли"
+				"(руда рок-солт) и соляных наростов в пещерах. Держите"
+				"запас - он понадобится, чтобы засаливать еду впрок."
+				""
+				"--- ENG ---"
+				"Salt is the key preservative. Mine it from rock salt ore and"
+				"salt buds in caves. Keep a stock - you'll need it to cure"
+				"food for the long haul."
+			]
+			id: "7C01DCE110000002"
+			rewards: [{
+				count: 8
+				id: "7C01DCE110000202"
+				item: {
+					Count: 1
+					id: "salt:salt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C01DCE110000102"
+				item: {
+					Count: 1
+					id: "salt:salt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["7C01DCE110000002"]
+			description: [
+				"Засолка. Положите ЛЮБУЮ скоропортящуюся еду и соль вместе"
+				"в сетку крафта (верстак или 2x2) - и ничего больше. На"
+				"выходе тот же продукт, но законсервированный: он больше"
+				"НЕ ПОРТИТСЯ (в подсказке - 'Законсервировано / Солёное')."
+				""
+				"Работает для любой еды в паке. Это и есть работа повара -"
+				"держать общий запас базы нетленным."
+				""
+				"ВАЖНО: этого рецепта нет в книге рецептов и в JEI - вы"
+				"узнаёте про него отсюда. Просто еда + соль в сетке."
+				""
+				"--- ENG ---"
+				"Salting. Put ANY perishable food together with salt in a"
+				"crafting grid (table or 2x2), nothing else. You get the same"
+				"food, cured: it will NEVER spoil ('Preserved / Salted' in the"
+				"tooltip). Works for every food in the pack - the cook's job"
+				"is to keep the shared larder from ever rotting. Note: this"
+				"recipe is NOT in JEI/the recipe book - this quest is how you"
+				"learn it. Just food + salt in the grid."
+			]
+			icon: "salt:salt"
+			id: "7C01DCE110000003"
+			tasks: [{
+				id: "7C01DCE110000103"
+				title: "Засолить еду"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7C01DCE110000001"]
+			description: [
+				"Холодный погреб - блок-хранилище (сундук на 27 ячеек),"
+				"который САМ поддерживает содержимое свежим, даже закрытый."
+				"Обычные сундуки лишь замедляют порчу при открытии - погреб"
+				"же работает как настоящий ледник без присмотра."
+				""
+				"Крафтится из 8 льда и сундука."
+				""
+				"--- ENG ---"
+				"The Cold Cellar - a 27-slot storage block that keeps its"
+				"contents fresh on its own, even closed, unlike ordinary"
+				"chests. Crafted from 8 ice and a chest."
+			]
+			id: "7C01DCE110000004"
+			rewards: [{
+				count: 8
+				id: "7C01DCE110000204"
+				item: {
+					Count: 1
+					id: "minecraft:ice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C01DCE110000104"
+				item: {
+					Count: 1
+					id: "esketit_coldcellar:cold_cellar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["7C01DCE110000004"]
+			description: [
+				"Чем больше льда, плотного/синего льда или снега вокруг"
+				"погреба (в кубе 3x3x3), тем холоднее внутри - вплоть до"
+				"~20x медленнее порчи у полностью обложенного льдом. Стройте"
+				"настоящий ледник и храните там общие запасы."
+				""
+				"Бонус: лёд в вашем инвентаре замедляет порчу всей еды,"
+				"что вы носите с собой - переносной холод."
+				""
+				"--- ENG ---"
+				"The more ice, packed/blue ice or snow around the cellar"
+				"(in the 3x3x3), the colder inside - up to ~20x slower when"
+				"fully iced in. Build a real icehouse for the shared stores."
+				""
+				"Bonus: ice carried in your inventory slows spoilage of all"
+				"the food you carry - portable cold."
+			]
+			icon: "minecraft:blue_ice"
+			id: "7C01DCE110000005"
+			tasks: [{
+				id: "7C01DCE110000105"
+				title: "Обложить погреб льдом"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 3.2d
+		}
+	]
+}
