@@ -1760,13 +1760,13 @@
           }
         },
         {
-          "id": "dev.esketitnetfix:esketit_netfix:1.0.1@jar",
+          "id": "dev.esketitnetfix:esketit_netfix:1.0.2@jar",
           "name": "Esketit Netfix",
           "type": "ForgeMod",
           "artifact": {
-            "size": 19276,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_netfix-1.0.1.jar",
-            "MD5": "e1e10f871e50ac57ee6aae82adacbeeb"
+            "size": 21251,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_netfix-1.0.2.jar",
+            "MD5": "f10996c72d6cb8233491d1848e77813c"
           }
         },
         {
