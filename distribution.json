@@ -2102,16 +2102,6 @@
           }
         },
         {
-          "id": "de.cadentem:goat_man:2.8@jar",
-          "name": "Goat_man",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2378540,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/goat_man.jar",
-            "MD5": "3a618c5a3adbae1bd22c064163552706"
-          }
-        },
-        {
           "id": "com.mactso:harderbranchmining:46.0.14@jar",
           "name": "Harder Branch Mining Mod",
           "type": "ForgeMod",
