@@ -18,15 +18,13 @@
 				"но не отображается (если это не отключено в настройках сервера)."
 			]
 			id: "30877432D1026706"
-			rewards: [{
-				id: "7DFF000000000038"
-				item: {
-					Count: 1
-					id: "minecraft:poisonous_potato"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000149"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "5D05AD7853C1F76E"
 				item: {
@@ -59,15 +57,23 @@
 				"либо использовать предметы вроде бурдюка."
 			]
 			id: "686102BA5107570C"
-			rewards: [{
-				id: "7DFF000000000039"
-				item: {
-					Count: 1
-					id: "minecraft:cookie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000014A"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000014B"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -100,15 +106,23 @@
 				"Smokestack), or use items like the Waterskin."
 			]
 			id: "6D25DBE7D391B1BF"
-			rewards: [{
-				id: "7DFF00000000003A"
-				item: {
-					Count: 1
-					id: "minecraft:dead_bush"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000014C"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000014D"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -137,11 +151,23 @@
 				"из немногих предметов, которые принимают эти блоки."
 			]
 			id: "73C8EB5BB682575E"
-			rewards: [{
-				id: "7DFF00000000003B"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "7DFF00000000014E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "7DFF00000000014F"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6BD2AA399DAC946D"
 				item: {
@@ -169,15 +195,13 @@
 				"Чем лучше утеплитель - тем сильнее защита от холода/жары."
 			]
 			id: "03C509F45F585111"
-			rewards: [{
-				id: "7DFF00000000003C"
-				item: {
-					Count: 1
-					id: "minecraft:rotten_flesh"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000150"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "4BF040A70E80BC6B"
 				item: {
@@ -211,15 +235,23 @@
 				"через швейный стол вручную."
 			]
 			id: "1E8412B90AD85FA0"
-			rewards: [{
-				id: "7DFF00000000003D"
-				item: {
-					Count: 1
-					id: "minecraft:stick"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000151"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000152"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -253,15 +285,23 @@
 				"insulated manually using the Sewing Table."
 			]
 			id: "5D2CCE8038A39D5E"
-			rewards: [{
-				id: "7DFF00000000003E"
-				item: {
-					Count: 1
-					id: "minecraft:bowl"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000153"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000154"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -283,16 +323,23 @@
 				"Даёт сильную защиту от ХОЛОДА (не от жары)."
 			]
 			id: "0853964B50AF03B9"
-			rewards: [{
-				count: 4
-				id: "7DFF00000000003F"
-				item: {
-					Count: 1
-					id: "minecraft:snowball"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000155"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000156"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4EAEDE5FE878F78E"
 				item: {
@@ -317,11 +364,23 @@
 				"полезно в Нижнем мире и жарких биомах."
 			]
 			id: "71722F244F58D669"
-			rewards: [{
-				id: "7DFF000000000040"
-				type: "xp"
-				xp: 7
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000157"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "7DFF000000000158"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2978AA2447C462DD"
 				item: {
@@ -346,15 +405,23 @@
 				"одновременно спасает и от холода, и от жары."
 			]
 			id: "050A904BE3E4E5E1"
-			rewards: [{
-				id: "7DFF000000000041"
-				item: {
-					Count: 1
-					id: "minecraft:wheat_seeds"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000159"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000015A"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "12CADBC390F671F7"
 				item: {
@@ -383,15 +450,13 @@
 				"проверяйте площадь и герметичность градусником."
 			]
 			id: "21A278F64F7FD633"
-			rewards: [{
-				id: "7DFF000000000042"
-				item: {
-					Count: 1
-					id: "minecraft:feather"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000015B"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "569F57293D47D4C9"
 				item: {
@@ -425,15 +490,23 @@
 				"удобен для маленьких построек."
 			]
 			id: "1FA675E9DEB60ED8"
-			rewards: [{
-				id: "7DFF000000000043"
-				item: {
-					Count: 1
-					id: "minecraft:pumpkin_pie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000015C"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000015D"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -468,15 +541,23 @@
 				"small builds."
 			]
 			id: "7559F5DF9E87A3A9"
-			rewards: [{
-				id: "7DFF000000000044"
-				item: {
-					Count: 1
-					id: "minecraft:bamboo"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000015E"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000015F"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -500,11 +581,13 @@
 				"смогут нормально выводить тепло/холод в помещение."
 			]
 			id: "6C15C0C8E9DF4696"
-			rewards: [{
-				id: "7DFF000000000045"
-				type: "xp"
-				xp: 3
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000160"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "36E8B5359309CC62"
 				item: {
@@ -528,15 +611,23 @@
 				"бурдюки с водой, если положить их внутрь."
 			]
 			id: "11A11F5125227C37"
-			rewards: [{
-				id: "7DFF000000000046"
-				item: {
-					Count: 1
-					id: "minecraft:dried_kelp"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000161"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000162"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "73931BDB2A0DF3DB"
 				item: {
@@ -559,15 +650,23 @@
 				"с водой, охлаждая их содержимое."
 			]
 			id: "12DA86A78C49EA20"
-			rewards: [{
-				id: "7DFF000000000047"
-				item: {
-					Count: 1
-					id: "minecraft:paper"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000163"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000164"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4C512E2C318BDC90"
 				item: {
@@ -589,15 +688,23 @@
 				"маленькую область вокруг себя - топливо не требуется."
 			]
 			id: "38E9A5214D964BD7"
-			rewards: [{
-				id: "7DFF000000000048"
-				item: {
-					Count: 1
-					id: "minecraft:egg"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000165"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000166"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3833462210C7B3F7"
 				item: {
@@ -622,11 +729,23 @@
 				"со стеблей душ."
 			]
 			id: "348334896A68F812"
-			rewards: [{
-				id: "7DFF000000000049"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000167"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "7DFF000000000168"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7DF7FFE0297C79BF"
 				item: {
@@ -650,15 +769,23 @@
 				"топливом для горячей стороны Очага."
 			]
 			id: "56CB9CDFE67575C1"
-			rewards: [{
-				id: "7DFF00000000004A"
-				item: {
-					Count: 1
-					id: "minecraft:poisonous_potato"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000169"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000016A"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1759E21A40877C73"
 				item: {

@@ -15,16 +15,13 @@
 				"Соберите горсть и разбудите первую зелень."
 			]
 			id: "7D03000000000001"
-			rewards: [{
-				count: 4
-				id: "7DFF000000000105"
-				item: {
-					Count: 1
-					id: "minecraft:snowball"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000B2"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				count: 8L
 				id: "7D03400000000001"
@@ -46,11 +43,13 @@
 				"Посадите первый дубовый саженец и дождитесь всхода."
 			]
 			id: "7D03000000000002"
-			rewards: [{
-				id: "7DFF000000000106"
-				type: "xp"
-				xp: 7
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000000B3"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "7D03400000000002"
 				item: {
@@ -71,15 +70,22 @@
 				"Незаменимо для нетерпеливого лесника."
 			]
 			id: "7D03000000000003"
-			rewards: [{
-				id: "7DFF000000000107"
-				item: {
-					Count: 1
-					id: "minecraft:wheat_seeds"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000B4"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					id: "7DFF0000000000B5"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D03400000000003"
 				item: {
@@ -100,15 +106,13 @@
 				"Посадите семя и заложите основу фруктовой рощи."
 			]
 			id: "7D03000000000004"
-			rewards: [{
-				id: "7DFF000000000108"
-				item: {
-					Count: 1
-					id: "minecraft:feather"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000B6"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D03400000000004"
 				item: {
@@ -129,15 +133,22 @@
 				"Вырастите экзотику и удивите соседей по серверу."
 			]
 			id: "7D03000000000005"
-			rewards: [{
-				id: "7DFF000000000109"
-				item: {
-					Count: 1
-					id: "minecraft:pumpkin_pie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000B7"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+				{
+					id: "7DFF0000000000B8"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D03400000000005"
 				item: {
@@ -158,15 +169,13 @@
 				"Соберите первую пригоршню ягод."
 			]
 			id: "7D03000000000006"
-			rewards: [{
-				id: "7DFF00000000010A"
-				item: {
-					Count: 1
-					id: "minecraft:bamboo"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000B9"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				count: 8L
 				id: "7D03400000000006"
@@ -188,11 +197,22 @@
 				"Осветите шахты живым сиянием."
 			]
 			id: "7D03000000000007"
-			rewards: [{
-				id: "7DFF00000000010B"
-				type: "xp"
-				xp: 3
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000000BA"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "7DFF0000000000BB"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D03400000000007"
 				item: {
@@ -213,15 +233,13 @@
 				"Заложите сладкую плантацию."
 			]
 			id: "7D03000000000008"
-			rewards: [{
-				id: "7DFF00000000010C"
-				item: {
-					Count: 1
-					id: "minecraft:dried_kelp"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000BC"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D03400000000008"
 				item: {
@@ -242,15 +260,22 @@
 				"Тропики приходят в ваш огород."
 			]
 			id: "7D03000000000009"
-			rewards: [{
-				id: "7DFF00000000010D"
-				item: {
-					Count: 1
-					id: "minecraft:paper"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000BD"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					id: "7DFF0000000000BE"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D03400000000009"
 				item: {
@@ -271,15 +296,13 @@
 				"Вырастите один такой блок-переросток."
 			]
 			id: "7D0300000000000A"
-			rewards: [{
-				id: "7DFF00000000010E"
-				item: {
-					Count: 1
-					id: "minecraft:egg"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000BF"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D0340000000000A"
 				item: {
@@ -300,11 +323,22 @@
 				"Добавьте огню красок в свою коллекцию."
 			]
 			id: "7D0300000000000B"
-			rewards: [{
-				id: "7DFF00000000010F"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000000C0"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7DFF0000000000C1"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0340000000000B"
 				item: {
@@ -325,15 +359,13 @@
 				"Посадите его и станьте мастером флоры."
 			]
 			id: "7D0300000000000C"
-			rewards: [{
-				id: "7DFF000000000110"
-				item: {
-					Count: 1
-					id: "minecraft:poisonous_potato"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000C2"
+					type: "xp"
+					xp: 30
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D0340000000000C"
 				item: {
@@ -354,15 +386,22 @@
 				"Вырастите роскошный мак."
 			]
 			id: "7D0300000000000D"
-			rewards: [{
-				id: "7DFF000000000111"
-				item: {
-					Count: 1
-					id: "minecraft:cookie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000C3"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					id: "7DFF0000000000C4"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0340000000000D"
 				item: {
@@ -383,15 +422,22 @@
 				"Засейте поле к празднику урожая."
 			]
 			id: "7D0300000000000E"
-			rewards: [{
-				id: "7DFF000000000112"
-				item: {
-					Count: 1
-					id: "minecraft:dead_bush"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000C5"
+					type: "xp"
+					xp: 30
 				}
-				type: "item"
-			}]
+				{
+					id: "7DFF0000000000C6"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0340000000000E"
 				item: {

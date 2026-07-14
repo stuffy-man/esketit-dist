@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "esk_food_preservation"
 	group: ""
-	icon: "esketit_coldcellar:cold_cellar"
+	icon: "minecraft:blue_ice"
 	id: "7C01DCE110000000"
 	order_index: 5
 	quest_links: [ ]
@@ -30,11 +30,13 @@
 			]
 			icon: "minecraft:rotten_flesh"
 			id: "7C01DCE110000001"
-			rewards: [{
-				id: "7DFF000000000113"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000000C7"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "7C01DCE110000101"
 				title: "Порча еды"
@@ -56,15 +58,13 @@
 				"food for the long haul."
 			]
 			id: "7C01DCE110000002"
-			rewards: [{
-				id: "7DFF000000000114"
-				item: {
-					Count: 1
-					id: "minecraft:rotten_flesh"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000C8"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7C01DCE110000102"
 				item: {
@@ -102,15 +102,23 @@
 			]
 			icon: "salt:salt"
 			id: "7C01DCE110000003"
-			rewards: [{
-				id: "7DFF000000000115"
-				item: {
-					Count: 1
-					id: "minecraft:stick"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000C9"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000000CA"
+					item: {
+						Count: 1
+						id: "minecraft:blue_ice"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7C01DCE110000103"
 				title: "Засолить еду"
@@ -135,20 +143,18 @@
 				"chests. Crafted from 8 ice and a chest."
 			]
 			id: "7C01DCE110000004"
-			rewards: [{
-				id: "7DFF000000000116"
-				item: {
-					Count: 1
-					id: "minecraft:bowl"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000CB"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7C01DCE110000104"
 				item: {
 					Count: 1
-					id: "esketit_coldcellar:cold_cellar"
+					id: "minecraft:blue_ice"
 					tag: { }
 				}
 				type: "item"
@@ -177,22 +183,113 @@
 			]
 			icon: "minecraft:blue_ice"
 			id: "7C01DCE110000005"
-			rewards: [{
-				count: 4
-				id: "7DFF000000000117"
-				item: {
-					Count: 1
-					id: "minecraft:snowball"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000CC"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000000CD"
+					item: {
+						Count: 1
+						id: "minecraft:blue_ice"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7C01DCE110000105"
 				title: "Обложить погреб льдом"
 				type: "checkmark"
 			}]
 			x: 2.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7C01DCE110000001"]
+			description: [
+				"Брожение и перегонка - это способ СОХРАНИТЬ, а не испортить."
+				"Пиво, вино, мёд, водка, ром и прочее хмельное НЕ портятся"
+				"вовсе. Сварите или добудьте любой хмельной напиток - он не"
+				"сгниёт, сколько бы ни лежал."
+				""
+				"--- ENG ---"
+				"Fermentation and distillation preserve, not spoil. Beer,"
+				"wine, mead, vodka, rum and other spirits never go bad. Brew"
+				"or obtain any alcoholic drink - it will not rot, ever."
+			]
+			icon: "brewinandchewin:mead"
+			id: "7C01DCE110000006"
+			rewards: [
+				{
+					id: "7DFF0000000000CE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "7C01DCE110000106"
+				item: {
+					Count: 1
+					id: "brewinandchewin:mead"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.6d
+		}
+		{
+			dependencies: ["7C01DCE110000006"]
+			description: [
+				"Мало того, что алкоголь не портится - со временем он"
+				"становится ЛУЧШЕ. Каждый напиток набирает выдержку и проходит"
+				"стадии: Молодое -> Выдержанное (15 дней) -> Марочное (45) ->"
+				"Коллекционное (105)."
+				""
+				"Чем старше напиток, тем ДОЛЬШЕ действуют его эффекты, когда"
+				"его выпьешь (до +100% у коллекционного). Выдержка видна в"
+				"подсказке предмета."
+				""
+				"Держите запас в холодном погребе и дайте ему настояться -"
+				"настоящий винный погреб."
+				""
+				"--- ENG ---"
+				"Not only does alcohol not spoil - it gets BETTER with age."
+				"Every drink matures: Young -> Aged (15 days) -> Vintage (45)"
+				"-> Reserve (105). The older it is, the LONGER its effects last"
+				"when drunk (up to +100% at Reserve); the age is shown in the"
+				"tooltip. Keep your stock in a cold cellar and let it mature -"
+				"a real wine cellar."
+			]
+			icon: "brewinandchewin:red_rum"
+			id: "7C01DCE110000007"
+			rewards: [
+				{
+					id: "7DFF0000000000CF"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "7DFF0000000000D0"
+					item: {
+						Count: 1
+						id: "minecraft:blue_ice"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C01DCE110000107"
+				title: "Выдержать напиток"
+				type: "checkmark"
+			}]
+			x: 4.0d
 			y: 3.2d
 		}
 	]

@@ -4,7 +4,7 @@
 	filename: "ars_elixirum_basics"
 	group: ""
 	id: "3E05763534B39F0E"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -14,15 +14,23 @@
 				"чем добавлять что-либо внутрь."
 			]
 			id: "06BFF2F0FE482C72"
-			rewards: [{
-				id: "7DFF00000000002B"
-				item: {
-					Count: 1
-					id: "minecraft:stick"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000019"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000001A"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7853EA50E0309C51"
 				item: {
@@ -43,15 +51,13 @@
 				"на самом деле состоит этот предмет."
 			]
 			id: "356C85080FA690CB"
-			rewards: [{
-				id: "7DFF00000000002C"
-				item: {
-					Count: 1
-					id: "minecraft:bowl"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000001B"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "14CDD0544F3B2402"
 				item: {
@@ -72,16 +78,13 @@
 				"книгу знаний каждый раз заново."
 			]
 			id: "6872680044A64990"
-			rewards: [{
-				count: 4
-				id: "7DFF00000000002D"
-				item: {
-					Count: 1
-					id: "minecraft:snowball"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000001C"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "6EEB01EE142D2DED"
 				item: {
@@ -104,11 +107,13 @@
 				"с нужным набором эффектов."
 			]
 			id: "6DCCE892FF5D1338"
-			rewards: [{
-				id: "7DFF00000000002E"
-				type: "xp"
-				xp: 7
-			}]
+			rewards: [
+				{
+					id: "7DFF00000000001D"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "753D4873AC86BC90"
 				item: {
@@ -129,15 +134,23 @@
 				"чем лучше подобраны экстракты, тем выше качество варки."
 			]
 			id: "08402A47103071E7"
-			rewards: [{
-				id: "7DFF00000000002F"
-				item: {
-					Count: 1
-					id: "minecraft:wheat_seeds"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000001E"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000001F"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "545034018390F7A2"
 				item: {
@@ -156,15 +169,23 @@
 				"в тёмном сундуке."
 			]
 			id: "4C59AAD1B7E0BCF4"
-			rewards: [{
-				id: "7DFF000000000030"
-				item: {
-					Count: 1
-					id: "minecraft:feather"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000020"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000021"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "00D39E22C4EAF4C7"
 				item: {

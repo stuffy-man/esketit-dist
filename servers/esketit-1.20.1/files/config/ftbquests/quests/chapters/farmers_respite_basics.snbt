@@ -4,7 +4,7 @@
 	filename: "farmers_respite_basics"
 	group: ""
 	id: "42CCACC1088805DD"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -13,11 +13,23 @@
 				"вскипятите воду, прежде чем заваривать в нём что-либо."
 			]
 			id: "2EBC2F6C5670639C"
-			rewards: [{
-				id: "7DFF000000000141"
-				type: "xp"
-				xp: 3
-			}]
+			rewards: [
+				{
+					id: "7DFF00000000011C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "7DFF00000000011D"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "595C02F6BA19BB09"
 				item: {
@@ -36,15 +48,13 @@
 				"два листа, заваренные в чайнике, дают чашку простого чая."
 			]
 			id: "0CB2E68F6D36DE9E"
-			rewards: [{
-				id: "7DFF000000000142"
-				item: {
-					Count: 1
-					id: "minecraft:dried_kelp"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000011E"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "728419E863A3936B"
 				item: {
@@ -65,15 +75,13 @@
 				"заметнее."
 			]
 			id: "7CB8CD20A38884DE"
-			rewards: [{
-				id: "7DFF000000000143"
-				item: {
-					Count: 1
-					id: "minecraft:paper"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000011F"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "38A3A1613CD501F0"
 				item: {
@@ -94,15 +102,23 @@
 				"только результат бодрит сильнее."
 			]
 			id: "5427404A8DB4756D"
-			rewards: [{
-				id: "7DFF000000000144"
-				item: {
-					Count: 1
-					id: "minecraft:egg"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000120"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000121"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "697B3BC5FD4491E2"
 				item: {
@@ -121,11 +137,23 @@
 				"повторно - выйдет более крепкий вариант того же напитка."
 			]
 			id: "3B67D4B1EB20FF25"
-			rewards: [{
-				id: "7DFF000000000145"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000122"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "7DFF000000000123"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1478D4FB2003D80D"
 				item: {
@@ -146,15 +174,23 @@
 				"крайней нужды."
 			]
 			id: "730C2AB04B0981AD"
-			rewards: [{
-				id: "7DFF000000000146"
-				item: {
-					Count: 1
-					id: "minecraft:poisonous_potato"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000124"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000125"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2FDAC2E56EE7CAFD"
 				item: {
@@ -173,15 +209,23 @@
 				"заодно освещает стол, за которым его подали."
 			]
 			id: "5AA2029C4E9ED8F5"
-			rewards: [{
-				id: "7DFF000000000147"
-				item: {
-					Count: 1
-					id: "minecraft:cookie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000126"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000127"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "622C9B566EE9FBF1"
 				item: {

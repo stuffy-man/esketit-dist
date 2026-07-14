@@ -14,15 +14,23 @@
 				"перековать: железо, золото, алмаз, а там и незерит."
 			]
 			id: "584505B2A03DF523"
-			rewards: [{
-				id: "7DFF00000000004B"
-				item: {
-					Count: 1
-					id: "minecraft:cookie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000016B"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000016C"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "78E791957D03AFC3"
 				item: {
@@ -45,15 +53,13 @@
 				"почти на каждом следующем шагу пути."
 			]
 			id: "571342C3967D286C"
-			rewards: [{
-				id: "7DFF00000000004C"
-				item: {
-					Count: 1
-					id: "minecraft:dead_bush"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000016D"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "0136A57991FDE783"
 				item: {
@@ -73,11 +79,23 @@
 				"которая не спалит дом дотла."
 			]
 			id: "7BD3D733606D293A"
-			rewards: [{
-				id: "7DFF00000000004D"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "7DFF00000000016E"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "7DFF00000000016F"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2F77B5AA4E8329EE"
 				item: {
@@ -96,15 +114,13 @@
 				"руку - и жарьте порцию за порцией, не отходя от плиты."
 			]
 			id: "66A02402F6D2C624"
-			rewards: [{
-				id: "7DFF00000000004E"
-				item: {
-					Count: 1
-					id: "minecraft:rotten_flesh"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000170"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "6CFDA82A5CFF0047"
 				item: {
@@ -126,15 +142,13 @@
 				"Зато варит сразу на несколько голодных ртов."
 			]
 			id: "51184813C751B2B3"
-			rewards: [{
-				id: "7DFF00000000004F"
-				item: {
-					Count: 1
-					id: "minecraft:stick"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000171"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "197FE5D5E3C5AE6A"
 				item: {
@@ -155,15 +169,23 @@
 				"и под ногами появится плодородная почва."
 			]
 			id: "73231EC4C070F907"
-			rewards: [{
-				id: "7DFF000000000050"
-				item: {
-					Count: 1
-					id: "minecraft:bowl"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000172"
+					type: "xp"
+					xp: 30
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000173"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "30DA9DCBA108A942"
 				item: {
@@ -183,16 +205,13 @@
 				"берите тот, что приглянется, суть одна."
 			]
 			id: "299310CDFB72D73C"
-			rewards: [{
-				count: 4
-				id: "7DFF000000000051"
-				item: {
-					Count: 1
-					id: "minecraft:snowball"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000174"
+					type: "xp"
+					xp: 30
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "6FE0DEA2161815E2"
 				item: {
@@ -212,11 +231,23 @@
 				"плиты дерева и люк складываются в аккуратную кладовую."
 			]
 			id: "0B6104F3D139C75C"
-			rewards: [{
-				id: "7DFF000000000052"
-				type: "xp"
-				xp: 7
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000175"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "7DFF000000000176"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "517FA669622B8D7F"
 				item: {
@@ -238,15 +269,23 @@
 				"будто по кухне бродит невидимый помощник."
 			]
 			id: "17898AF68FA38561"
-			rewards: [{
-				id: "7DFF000000000053"
-				item: {
-					Count: 1
-					id: "minecraft:wheat_seeds"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000177"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000178"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "76A3497E5581E9DA"
 				item: {
@@ -266,15 +305,23 @@
 				"и попкорн - целая отдельная кухня из одной культуры."
 			]
 			id: "532AA6CF78BDC746"
-			rewards: [{
-				id: "7DFF000000000054"
-				item: {
-					Count: 1
-					id: "minecraft:feather"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000179"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000017A"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "005668F4CC5A69BE"
 				item: {
@@ -293,15 +340,23 @@
 				"под рукой - вот и начос на скорую руку."
 			]
 			id: "65FEC25F820D9292"
-			rewards: [{
-				id: "7DFF000000000055"
-				item: {
-					Count: 1
-					id: "minecraft:pumpkin_pie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000017B"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000017C"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "17B0397B5B568C20"
 				item: {
@@ -320,15 +375,23 @@
 				"не такой эффектный, зато сытный и быстрый."
 			]
 			id: "7433FE1F10B7E7BF"
-			rewards: [{
-				id: "7DFF000000000056"
-				item: {
-					Count: 1
-					id: "minecraft:bamboo"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000017D"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000017E"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4C252EFFC1B9BF1B"
 				item: {
@@ -347,11 +410,13 @@
 				"как обычный овощ - хорош и в сыром виде, и в любом блюде."
 			]
 			id: "7121DD22615220BF"
-			rewards: [{
-				id: "7DFF000000000057"
-				type: "xp"
-				xp: 3
-			}]
+			rewards: [
+				{
+					id: "7DFF00000000017F"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "6270EE73AFE4B619"
 				item: {
@@ -372,15 +437,23 @@
 				"нить и пушистые блины на завтрак почти сами просятся."
 			]
 			id: "4E86F250CB06E40F"
-			rewards: [{
-				id: "7DFF000000000058"
-				item: {
-					Count: 1
-					id: "minecraft:dried_kelp"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000180"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000181"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2E3D9CE3FDE11CA3"
 				item: {
@@ -400,15 +473,23 @@
 				"уже высится стопка блинов."
 			]
 			id: "23C302DBDAC314F8"
-			rewards: [{
-				id: "7DFF000000000059"
-				item: {
-					Count: 1
-					id: "minecraft:paper"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000182"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000183"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "50F1DD595787E731"
 				item: {
@@ -429,15 +510,13 @@
 				"мысль о свежих роллах и тако."
 			]
 			id: "270860E803D18FA7"
-			rewards: [{
-				id: "7DFF00000000005A"
-				item: {
-					Count: 1
-					id: "minecraft:egg"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000184"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "5FE9B59ADE9C2B43"
 				item: {
@@ -457,11 +536,23 @@
 				"получилось что-то совсем не похожее на привычную кухню."
 			]
 			id: "184915BC0930AE7D"
-			rewards: [{
-				id: "7DFF00000000005B"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000185"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "7DFF000000000186"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "265232DC79288311"
 				item: {
@@ -482,15 +573,23 @@
 				"отличным."
 			]
 			id: "7239B76B3F284C53"
-			rewards: [{
-				id: "7DFF00000000005C"
-				item: {
-					Count: 1
-					id: "minecraft:poisonous_potato"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000187"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000188"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4F9E718928CF8DCA"
 				item: {
@@ -511,15 +610,23 @@
 				"хотя бы один плод."
 			]
 			id: "59AF582C514B8710"
-			rewards: [{
-				id: "7DFF00000000005D"
-				item: {
-					Count: 1
-					id: "minecraft:cookie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000189"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000018A"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "553220963DDE01A0"
 				item: {
@@ -538,15 +645,23 @@
 				"застыл кусочек солнца - редкая находка среди зарослей."
 			]
 			id: "0F260A3FF5CEC685"
-			rewards: [{
-				id: "7DFF00000000005E"
-				item: {
-					Count: 1
-					id: "minecraft:dead_bush"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000018B"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000018C"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7E434A11DC3EF344"
 				item: {
@@ -565,11 +680,23 @@
 				"неожиданно удачное сочетание сладкого и солёного."
 			]
 			id: "124A53CCC4BB86AC"
-			rewards: [{
-				id: "7DFF00000000005F"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "7DFF00000000018D"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "7DFF00000000018E"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3FF7992FE1CDDE5B"
 				item: {
@@ -589,15 +716,13 @@
 				"напитки с непредсказуемым эффектом."
 			]
 			id: "5550908FD2894EF7"
-			rewards: [{
-				id: "7DFF000000000060"
-				item: {
-					Count: 1
-					id: "minecraft:rotten_flesh"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000018F"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "751C4241A32CADB3"
 				item: {
@@ -617,15 +742,23 @@
 				"каждый раз разный. Пить или не пить - решайте сами."
 			]
 			id: "5A4B18B053E4A64D"
-			rewards: [{
-				id: "7DFF000000000061"
-				item: {
-					Count: 1
-					id: "minecraft:stick"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000190"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000191"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5CEE62B590C56690"
 				item: {
@@ -645,15 +778,23 @@
 				"загадочной настойки, и не менее вкусный."
 			]
 			id: "66D01BFB1BCED635"
-			rewards: [{
-				id: "7DFF000000000062"
-				item: {
-					Count: 1
-					id: "minecraft:bowl"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000192"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000193"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3A6C0253F13ABC59"
 				item: {
@@ -674,16 +815,13 @@
 				"хлеб, орешки, варенье, вино."
 			]
 			id: "2B87F50A75016A94"
-			rewards: [{
-				count: 4
-				id: "7DFF000000000063"
-				item: {
-					Count: 1
-					id: "minecraft:snowball"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000194"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "07297CF84F13FA7B"
 				item: {
@@ -703,11 +841,23 @@
 				"необычный, но вполне съедобный хлеб."
 			]
 			id: "32620D05CAC6F000"
-			rewards: [{
-				id: "7DFF000000000064"
-				type: "xp"
-				xp: 7
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000195"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "7DFF000000000196"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "428FE768203EC851"
 				item: {
@@ -727,15 +877,23 @@
 				"а шиповник рядом заваривается в согревающий чай."
 			]
 			id: "6404A0869D2C9C33"
-			rewards: [{
-				id: "7DFF000000000065"
-				item: {
-					Count: 1
-					id: "minecraft:wheat_seeds"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000197"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000198"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1E4AEA5578335262"
 				item: {
@@ -756,15 +914,13 @@
 				"заготовок впрок."
 			]
 			id: "1E93606E3899705D"
-			rewards: [{
-				id: "7DFF000000000066"
-				item: {
-					Count: 1
-					id: "minecraft:feather"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000199"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "180DA5D1EA58C0E4"
 				item: {
@@ -784,15 +940,23 @@
 				"походный паёк, который не стыдно взять в дальнюю дорогу."
 			]
 			id: "177D33633FAA3B9E"
-			rewards: [{
-				id: "7DFF000000000067"
-				item: {
-					Count: 1
-					id: "minecraft:pumpkin_pie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000019A"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000019B"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "24D49E487E6C3020"
 				item: {
@@ -812,15 +976,23 @@
 				"хлеба - простой, но безотказный перекус в пути."
 			]
 			id: "23DD5174DB6BD15A"
-			rewards: [{
-				id: "7DFF000000000068"
-				item: {
-					Count: 1
-					id: "minecraft:bamboo"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000019C"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000019D"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "510F49C16027CBB3"
 				item: {
@@ -841,11 +1013,23 @@
 				"через время внутри созреют соленья и острая закваска."
 			]
 			id: "5FBA4FCFD1FFD7ED"
-			rewards: [{
-				id: "7DFF000000000069"
-				type: "xp"
-				xp: 3
-			}]
+			rewards: [
+				{
+					id: "7DFF00000000019E"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "7DFF00000000019F"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "55F4593ABE9A0035"
 				item: {
@@ -864,15 +1048,23 @@
 				"в этом деле находится своя банка и свой срок выдержки."
 			]
 			id: "35777CEE0FA2B752"
-			rewards: [{
-				id: "7DFF00000000006A"
-				item: {
-					Count: 1
-					id: "minecraft:dried_kelp"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001A0"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001A1"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3115BA09B1D1A9AD"
 				item: {
@@ -891,15 +1083,23 @@
 				"в дело - им приправляют почти все остальные заготовки."
 			]
 			id: "0790306E3C85294D"
-			rewards: [{
-				id: "7DFF00000000006B"
-				item: {
-					Count: 1
-					id: "minecraft:paper"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001A2"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001A3"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1BD122FB44C8AE8E"
 				item: {
@@ -919,15 +1119,13 @@
 				"и приправа для стола."
 			]
 			id: "569F9FAE1F22DA2F"
-			rewards: [{
-				id: "7DFF00000000006C"
-				item: {
-					Count: 1
-					id: "minecraft:egg"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001A4"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "286C84E45BE294AE"
 				item: {
@@ -947,11 +1145,23 @@
 				"ночником - и таких оттенков находится не меньше десятка."
 			]
 			id: "54FDF309E28580AE"
-			rewards: [{
-				id: "7DFF00000000006D"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000001A5"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "7DFF0000000001A6"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4E62A2474A5B197F"
 				item: {
@@ -972,15 +1182,23 @@
 				"участия шефа."
 			]
 			id: "1B1B281612162F05"
-			rewards: [{
-				id: "7DFF00000000006E"
-				item: {
-					Count: 1
-					id: "minecraft:poisonous_potato"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001A7"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001A8"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "43130CA790F5191C"
 				item: {
@@ -1000,15 +1218,23 @@
 				"круг - его режут ломтиками, плавят на пиццу, трут в пасту."
 			]
 			id: "280815B978ED9C66"
-			rewards: [{
-				id: "7DFF00000000006F"
-				item: {
-					Count: 1
-					id: "minecraft:cookie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001A9"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001AA"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "13F81C58E21BCD96"
 				item: {
@@ -1027,15 +1253,23 @@
 				"румянится в печи что-то очень похожее на пиццу."
 			]
 			id: "2629C550C256C14C"
-			rewards: [{
-				id: "7DFF000000000070"
-				item: {
-					Count: 1
-					id: "minecraft:dead_bush"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001AB"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001AC"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5F06C4DD1544C5CB"
 				item: {
@@ -1055,11 +1289,13 @@
 				"зато выглядит теперь странник настоящим шефом."
 			]
 			id: "766F6D8E7C288450"
-			rewards: [{
-				id: "7DFF000000000071"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000001AD"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "2281F51F992FC88B"
 				item: {
@@ -1080,15 +1316,23 @@
 				"растут теперь прямо у дома."
 			]
 			id: "72089449DFECDFBC"
-			rewards: [{
-				id: "7DFF000000000072"
-				item: {
-					Count: 1
-					id: "minecraft:rotten_flesh"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001AE"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001AF"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4A60BCD1DD3CBCC7"
 				item: {
@@ -1107,15 +1351,23 @@
 				"приживаются на удивление легко."
 			]
 			id: "20BEB7E0E8A5B296"
-			rewards: [{
-				id: "7DFF000000000073"
-				item: {
-					Count: 1
-					id: "minecraft:stick"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001B0"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001B1"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "78768E4B5591C315"
 				item: {
@@ -1135,15 +1387,23 @@
 				"яблоки, черника, клюква или что-то более странное."
 			]
 			id: "1BD8624C4CD3C050"
-			rewards: [{
-				id: "7DFF000000000074"
-				item: {
-					Count: 1
-					id: "minecraft:bowl"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001B2"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001B3"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "46F828C806523278"
 				item: {
@@ -1163,16 +1423,23 @@
 				"и джем из мелкой лесной ягоды."
 			]
 			id: "291DCD4229928360"
-			rewards: [{
-				count: 4
-				id: "7DFF000000000075"
-				item: {
-					Count: 1
-					id: "minecraft:snowball"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001B4"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001B5"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "08194B219420A8F9"
 				item: {
@@ -1191,11 +1458,23 @@
 				"сладкий пудинг - десерт, который не стыдно подать гостю."
 			]
 			id: "5B865A07260C0F01"
-			rewards: [{
-				id: "7DFF000000000076"
-				type: "xp"
-				xp: 7
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000001B6"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "7DFF0000000001B7"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7E3D69BD6B78F518"
 				item: {
@@ -1215,15 +1494,13 @@
 				"готов свой пирог."
 			]
 			id: "6992D662326A1E58"
-			rewards: [{
-				id: "7DFF000000000077"
-				item: {
-					Count: 1
-					id: "minecraft:wheat_seeds"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001B8"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "433288C5C01F31BC"
 				item: {
@@ -1243,15 +1520,23 @@
 				"прямо в котле, а из орехов и мёда вышла хрустящая пахлава."
 			]
 			id: "35E2F2CABF618C09"
-			rewards: [{
-				id: "7DFF000000000078"
-				item: {
-					Count: 1
-					id: "minecraft:feather"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001B9"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001BA"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3B2D319F593EC724"
 				item: {
@@ -1271,15 +1556,23 @@
 				"зелёное, горьковатое и совсем не похожее на обычное."
 			]
 			id: "1D0B2464EEAEF76F"
-			rewards: [{
-				id: "7DFF000000000079"
-				item: {
-					Count: 1
-					id: "minecraft:pumpkin_pie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001BB"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001BC"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5F8DE2D293621D2A"
 				item: {
@@ -1300,15 +1593,23 @@
 				"как и всё остальное на этом пути."
 			]
 			id: "20744E6060D32094"
-			rewards: [{
-				id: "7DFF00000000007A"
-				item: {
-					Count: 1
-					id: "minecraft:bamboo"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001BD"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001BE"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "418DF465112F3BD6"
 				item: {
@@ -1327,11 +1628,23 @@
 				"собранные по пути улитки превращаются в изысканное эскарго."
 			]
 			id: "142B28838ED6C69C"
-			rewards: [{
-				id: "7DFF00000000007B"
-				type: "xp"
-				xp: 3
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000001BF"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "7DFF0000000001C0"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "04BADC87A8793E7D"
 				item: {
@@ -1350,15 +1663,23 @@
 				"простое лесное блюдо, но выглядит как из хорошего трактира."
 			]
 			id: "7E0CC4FF8E0CE538"
-			rewards: [{
-				id: "7DFF00000000007C"
-				item: {
-					Count: 1
-					id: "minecraft:dried_kelp"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001C1"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001C2"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2B83851C293C407A"
 				item: {
@@ -1378,15 +1699,23 @@
 				"сладкую мякоть."
 			]
 			id: "1BF629BB0B7A4593"
-			rewards: [{
-				id: "7DFF00000000007D"
-				item: {
-					Count: 1
-					id: "minecraft:paper"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001C3"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001C4"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "191C88813FD7A049"
 				item: {
@@ -1406,15 +1735,23 @@
 				"которое стоит попробовать хотя бы ради истории."
 			]
 			id: "3D29B70F5D51BDCB"
-			rewards: [{
-				id: "7DFF00000000007E"
-				item: {
-					Count: 1
-					id: "minecraft:egg"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001C5"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001C6"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7FC509319DC618A1"
 				item: {
@@ -1433,11 +1770,23 @@
 				"разрежьте его ножом на доске, чтобы добраться до мякоти."
 			]
 			id: "6A7A11034C5104D1"
-			rewards: [{
-				id: "7DFF00000000007F"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000001C7"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "7DFF0000000001C8"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "658B741CF0038835"
 				item: {
@@ -1457,15 +1806,23 @@
 				"не дожидаясь, пока прогорит уголь."
 			]
 			id: "06E221EBB4C47FA2"
-			rewards: [{
-				id: "7DFF000000000080"
-				item: {
-					Count: 1
-					id: "minecraft:poisonous_potato"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001C9"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001CA"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6AE662818622D10D"
 				item: {
@@ -1485,15 +1842,23 @@
 				"смешанный с овощами и мясом, - почти пир в миске."
 			]
 			id: "10218B17820661C0"
-			rewards: [{
-				id: "7DFF000000000081"
-				item: {
-					Count: 1
-					id: "minecraft:cookie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001CB"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001CC"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0F78CCA4CF6A6857"
 				item: {
@@ -1514,15 +1879,23 @@
 				"яркое блюдо, которое сначала жалко есть."
 			]
 			id: "29D47DAF8FB7D627"
-			rewards: [{
-				id: "7DFF000000000082"
-				item: {
-					Count: 1
-					id: "minecraft:dead_bush"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001CD"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001CE"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6B81A27AA454111E"
 				item: {
@@ -1541,11 +1914,13 @@
 				"уличной кухне: хрустящая корочка, масло, шкворчание."
 			]
 			id: "187E75BB810A9203"
-			rewards: [{
-				id: "7DFF000000000083"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000001CF"
+					type: "xp"
+					xp: 40
+				}
+			]
 			tasks: [{
 				id: "643280921FE72048"
 				item: {
@@ -1566,15 +1941,23 @@
 				"разлететься со стола первыми."
 			]
 			id: "35970EBE3C74A021"
-			rewards: [{
-				id: "7DFF000000000084"
-				item: {
-					Count: 1
-					id: "minecraft:rotten_flesh"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001D0"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001D1"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3A52CE58D5955D33"
 				item: {
@@ -1594,15 +1977,23 @@
 				"простая, но безотказная классика уличной еды."
 			]
 			id: "013A2A13151C6807"
-			rewards: [{
-				id: "7DFF000000000085"
-				item: {
-					Count: 1
-					id: "minecraft:stick"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001D2"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001D3"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4092A8EAB13202DC"
 				item: {
@@ -1623,15 +2014,13 @@
 				"и высокий лемонграсс."
 			]
 			id: "1576E206FAD20920"
-			rewards: [{
-				id: "7DFF000000000086"
-				item: {
-					Count: 1
-					id: "minecraft:bowl"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001D4"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "70F54B33150117C3"
 				item: {
@@ -1652,16 +2041,23 @@
 				"листе вместо тарелки."
 			]
 			id: "028AC7C203C53352"
-			rewards: [{
-				count: 4
-				id: "7DFF000000000087"
-				item: {
-					Count: 1
-					id: "minecraft:snowball"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001D5"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001D6"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "28AE198D56E27203"
 				item: {
@@ -1681,11 +2077,23 @@
 				"сверху - десерт, который выглядит наряднее самого стола."
 			]
 			id: "761A26F06B9AFDB2"
-			rewards: [{
-				id: "7DFF000000000088"
-				type: "xp"
-				xp: 7
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000001D7"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "7DFF0000000001D8"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3196C636CB8202F6"
 				item: {
@@ -1706,15 +2114,23 @@
 				"попадается медный котелок - готовка прямо в шахте."
 			]
 			id: "763E043CF08B5FB0"
-			rewards: [{
-				id: "7DFF000000000089"
-				item: {
-					Count: 1
-					id: "minecraft:wheat_seeds"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001D9"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001DA"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3F4690D9A821CCAB"
 				item: {
@@ -1734,15 +2150,23 @@
 				"эстетики."
 			]
 			id: "6F161076C8467DEB"
-			rewards: [{
-				id: "7DFF00000000008A"
-				item: {
-					Count: 1
-					id: "minecraft:feather"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001DB"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001DC"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5E60AB7F6EBE1B0C"
 				item: {
@@ -1761,15 +2185,23 @@
 				"штольне согревает не хуже костра."
 			]
 			id: "09A4212FFDBFB94F"
-			rewards: [{
-				id: "7DFF00000000008B"
-				item: {
-					Count: 1
-					id: "minecraft:pumpkin_pie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001DD"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001DE"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "59122E2BD90B21B0"
 				item: {
@@ -1789,15 +2221,23 @@
 				"для добычи."
 			]
 			id: "3248D125DF562B39"
-			rewards: [{
-				id: "7DFF00000000008C"
-				item: {
-					Count: 1
-					id: "minecraft:bamboo"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001DF"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001E0"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "20B8C7DF2D1A685F"
 				item: {
@@ -1817,11 +2257,23 @@
 				"без единого очка защиты."
 			]
 			id: "54D7D61036AE1174"
-			rewards: [{
-				id: "7DFF00000000008D"
-				type: "xp"
-				xp: 3
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000001E1"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "7DFF0000000001E2"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6D7295FD153276A1"
 				item: {
@@ -1840,15 +2292,23 @@
 				"их неудобно, зато вкус того стоит."
 			]
 			id: "392C902B2C67C6A3"
-			rewards: [{
-				id: "7DFF00000000008E"
-				item: {
-					Count: 1
-					id: "minecraft:dried_kelp"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001E3"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001E4"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "209000094A444E66"
 				item: {
@@ -1867,15 +2327,23 @@
 				"он идёт в дело целиком, вплоть до хвоста."
 			]
 			id: "37CFD92BAA26B29A"
-			rewards: [{
-				id: "7DFF00000000008F"
-				item: {
-					Count: 1
-					id: "minecraft:paper"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001E5"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001E6"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "30A2283E618B98A7"
 				item: {
@@ -1894,15 +2362,23 @@
 				"но по-настоящему изысканное меню для смелых едоков."
 			]
 			id: "1C5AB0824E0D61D7"
-			rewards: [{
-				id: "7DFF000000000090"
-				item: {
-					Count: 1
-					id: "minecraft:egg"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001E7"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001E8"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7E9FE7AB822F579E"
 				item: {
@@ -1921,11 +2397,23 @@
 				"одна ошибка в разделке, и ужин может стать последним."
 			]
 			id: "491EE1982124CA1C"
-			rewards: [{
-				id: "7DFF000000000091"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000001E9"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "7DFF0000000001EA"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0D93D56BF5CE33E9"
 				item: {
@@ -1945,15 +2433,23 @@
 				"куда быстрее удочки."
 			]
 			id: "78878A3C9EC33B86"
-			rewards: [{
-				id: "7DFF000000000092"
-				item: {
-					Count: 1
-					id: "minecraft:poisonous_potato"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001EB"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001EC"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7191518BE609DE38"
 				item: {
@@ -1972,15 +2468,23 @@
 				"томится большая сковорода паэльи на всю компанию."
 			]
 			id: "63C793A173EECD6B"
-			rewards: [{
-				id: "7DFF000000000093"
-				item: {
-					Count: 1
-					id: "minecraft:cookie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001ED"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001EE"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "28580D10F1F8D519"
 				item: {
@@ -1999,15 +2503,23 @@
 				"маленькая, но изысканная закуска для особого случая."
 			]
 			id: "6AE708BB53F704CF"
-			rewards: [{
-				id: "7DFF000000000094"
-				item: {
-					Count: 1
-					id: "minecraft:dead_bush"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001EF"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001F0"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "41DACFAC6D644D8C"
 				item: {
@@ -2027,11 +2539,23 @@
 				"когда-то была ферма."
 			]
 			id: "1095FB32DCBEFB95"
-			rewards: [{
-				id: "7DFF000000000095"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000001F1"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "7DFF0000000001F2"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "766F16AA587B4B5D"
 				item: {
@@ -2051,15 +2575,23 @@
 				"пищи."
 			]
 			id: "553888579CD8C519"
-			rewards: [{
-				id: "7DFF000000000096"
-				item: {
-					Count: 1
-					id: "minecraft:rotten_flesh"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001F3"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001F4"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "75921875EC563508"
 				item: {
@@ -2078,15 +2610,23 @@
 				"кто скучает по вкусам родного мира даже в Нижнем."
 			]
 			id: "23F9C30DDCBB01EA"
-			rewards: [{
-				id: "7DFF000000000097"
-				item: {
-					Count: 1
-					id: "minecraft:stick"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001F5"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001F6"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "510DC5B6FAA954ED"
 				item: {
@@ -2106,15 +2646,23 @@
 				"инструмент, чтобы резать его дальше."
 			]
 			id: "49095156E5DCB1E5"
-			rewards: [{
-				id: "7DFF000000000098"
-				item: {
-					Count: 1
-					id: "minecraft:bowl"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001F7"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001F8"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4DAB7D5F6D02BBA5"
 				item: {
@@ -2133,16 +2681,23 @@
 				"неопределённого - на такое решится не каждый едок."
 			]
 			id: "07257E902B2BE6F4"
-			rewards: [{
-				count: 4
-				id: "7DFF000000000099"
-				item: {
-					Count: 1
-					id: "minecraft:snowball"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001F9"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001FA"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0D275BA4E0D95E47"
 				item: {
@@ -2162,11 +2717,23 @@
 				"приключений."
 			]
 			id: "134971E8753BEFC1"
-			rewards: [{
-				id: "7DFF00000000009A"
-				type: "xp"
-				xp: 7
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000001FB"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "7DFF0000000001FC"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1CF124EF33A1EBEA"
 				item: {
@@ -2186,15 +2753,13 @@
 				"и не гаснет."
 			]
 			id: "34FBA62BFE3732DC"
-			rewards: [{
-				id: "7DFF00000000009B"
-				item: {
-					Count: 1
-					id: "minecraft:wheat_seeds"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001FD"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "31FABF7112AC0B8D"
 				item: {
@@ -2215,15 +2780,23 @@
 				"странными рецептами."
 			]
 			id: "5DCCD4915667511B"
-			rewards: [{
-				id: "7DFF00000000009C"
-				item: {
-					Count: 1
-					id: "minecraft:feather"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000001FE"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000001FF"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "655EC41C3D868563"
 				item: {
@@ -2243,15 +2816,23 @@
 				"прислушивается к каждому шагу вокруг."
 			]
 			id: "7857F9063B7BF054"
-			rewards: [{
-				id: "7DFF00000000009D"
-				item: {
-					Count: 1
-					id: "minecraft:pumpkin_pie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000200"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000201"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2FBD600C79348B2C"
 				item: {
@@ -2272,15 +2853,23 @@
 				"лишнего места."
 			]
 			id: "71D4F386992FEA21"
-			rewards: [{
-				id: "7DFF00000000009E"
-				item: {
-					Count: 1
-					id: "minecraft:bamboo"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000202"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000203"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "194D543A315F7CCD"
 				item: {
@@ -2299,11 +2888,23 @@
 				"книжный шкаф с дверцей - заодно и от пыли бережёт."
 			]
 			id: "5A3C71AEA6E0B06F"
-			rewards: [{
-				id: "7DFF00000000009F"
-				type: "xp"
-				xp: 3
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000204"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "7DFF000000000205"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "06474BBDADBE41CD"
 				item: {
@@ -2323,15 +2924,13 @@
 				"как должна выглядеть кухня в конце долгого пути."
 			]
 			id: "756AA6373C2A5C53"
-			rewards: [{
-				id: "7DFF0000000000A0"
-				item: {
-					Count: 1
-					id: "minecraft:dried_kelp"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000206"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "63075BDC09C91844"
 				item: {
@@ -2351,15 +2950,23 @@
 				"поменьше - на большом столе теперь порядок."
 			]
 			id: "77B8A18F94BD04EB"
-			rewards: [{
-				id: "7DFF0000000000A1"
-				item: {
-					Count: 1
-					id: "minecraft:paper"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000207"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000208"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6CD9EA15A530FB38"
 				item: {
@@ -2379,15 +2986,23 @@
 				"ведром не хуже воды - и пустить по трубам через весь дом."
 			]
 			id: "56481A4471A21276"
-			rewards: [{
-				id: "7DFF0000000000A2"
-				item: {
-					Count: 1
-					id: "minecraft:egg"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000209"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000020A"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "143F5C68C68FC0D0"
 				item: {
@@ -2418,11 +3033,23 @@
 				"шеф-поваром."
 			]
 			id: "3087CB3390BFB32A"
-			rewards: [{
-				id: "7DFF0000000000A3"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7DFF00000000020B"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "7DFF00000000020C"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "557C3968E5B1DC48"
 				item: {

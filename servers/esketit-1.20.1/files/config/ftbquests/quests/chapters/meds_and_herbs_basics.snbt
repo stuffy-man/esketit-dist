@@ -4,7 +4,7 @@
 	filename: "meds_and_herbs_basics"
 	group: ""
 	id: "7F82E20BD4328439"
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -14,15 +14,23 @@
 				"обработки."
 			]
 			id: "0F4494B661D00B55"
-			rewards: [{
-				id: "7DFF000000000148"
-				item: {
-					Count: 1
-					id: "minecraft:dead_bush"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000128"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000129"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "15B342312D2E4F5D"
 				item: {
@@ -41,11 +49,13 @@
 				"первый шаг на пути от цветка к лекарству."
 			]
 			id: "1914B5C9F39DD6E8"
-			rewards: [{
-				id: "7DFF000000000149"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "7DFF00000000012A"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "16C3E8A9BD6FB7FD"
 				item: {
@@ -67,15 +77,23 @@
 				"вытяжку - грубую, но уже пригодную для использования."
 			]
 			id: "3C43C11C14A59D08"
-			rewards: [{
-				id: "7DFF00000000014A"
-				item: {
-					Count: 1
-					id: "minecraft:rotten_flesh"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000012B"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000012C"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1F28029DA6FA68F6"
 				item: {
@@ -95,15 +113,23 @@
 				"с кипящей колбой."
 			]
 			id: "4FA1F68FD1A93FA7"
-			rewards: [{
-				id: "7DFF00000000014B"
-				item: {
-					Count: 1
-					id: "minecraft:stick"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000012D"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF00000000012E"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "481B68E569D6B579"
 				item: {
@@ -123,15 +149,23 @@
 				"с алоэ, мёдом или спиртом."
 			]
 			id: "386AFBC25A5FEFA6"
-			rewards: [{
-				id: "7DFF00000000014C"
-				item: {
-					Count: 1
-					id: "minecraft:bowl"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000012F"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000130"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "269DB466E8092F2C"
 				item: {
@@ -152,16 +186,23 @@
 				"одной не обойтись."
 			]
 			id: "102EA6136FCF2B27"
-			rewards: [{
-				count: 4
-				id: "7DFF00000000014D"
-				item: {
-					Count: 1
-					id: "minecraft:snowball"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000131"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000132"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3931E3C20BCEC744"
 				item: {
@@ -181,11 +222,23 @@
 				"напротив, во что-то куда более опасное."
 			]
 			id: "2EECCA1FE4C6D4F0"
-			rewards: [{
-				id: "7DFF00000000014E"
-				type: "xp"
-				xp: 7
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000133"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "7DFF000000000134"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "593B29381039CD03"
 				item: {
@@ -205,15 +258,13 @@
 				"видом, из плесени получают порошок пенициллина."
 			]
 			id: "6828296A19298FA0"
-			rewards: [{
-				id: "7DFF00000000014F"
-				item: {
-					Count: 1
-					id: "minecraft:wheat_seeds"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000135"
+					type: "xp"
+					xp: 30
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "2E2AC1CFAA4BBA04"
 				item: {
@@ -234,15 +285,23 @@
 				"и понадёжнее."
 			]
 			id: "0199152180387282"
-			rewards: [{
-				id: "7DFF000000000150"
-				item: {
-					Count: 1
-					id: "minecraft:feather"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000136"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000137"
+					item: {
+						Count: 1
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1C31878FC1A9750C"
 				item: {

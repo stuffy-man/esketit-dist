@@ -15,15 +15,13 @@
 				"Осколки породы расскажут, что скрыто в недрах."
 			]
 			id: "7D05000000000001"
-			rewards: [{
-				id: "7DFF0000000000F7"
-				item: {
-					Count: 1
-					id: "minecraft:pumpkin_pie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000A0"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				count: 8L
 				id: "7D05400000000001"
@@ -45,15 +43,13 @@
 				"Настоящий спелеолог не блуждает вслепую."
 			]
 			id: "7D05000000000002"
-			rewards: [{
-				id: "7DFF0000000000F8"
-				item: {
-					Count: 1
-					id: "minecraft:bamboo"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000A1"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D05400000000002"
 				item: {
@@ -74,11 +70,23 @@
 				"Знай свою глубину — там, внизу, ждут лучшие руды."
 			]
 			id: "7D05000000000003"
-			rewards: [{
-				id: "7DFF0000000000F9"
-				type: "xp"
-				xp: 3
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000000A2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "7DFF0000000000A3"
+					item: {
+						Count: 1
+						id: "minecraft:diamond"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D05400000000003"
 				item: {
@@ -99,15 +107,13 @@
 				"Из него куют амулеты и украшают залы."
 			]
 			id: "7D05000000000004"
-			rewards: [{
-				id: "7DFF0000000000FA"
-				item: {
-					Count: 1
-					id: "minecraft:dried_kelp"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000A4"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				count: 4L
 				id: "7D05400000000004"
@@ -129,15 +135,13 @@
 				"Ею аккуратно расчищают хрупкие находки, не разбивая их."
 			]
 			id: "7D05000000000005"
-			rewards: [{
-				id: "7DFF0000000000FB"
-				item: {
-					Count: 1
-					id: "minecraft:paper"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000A5"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D05400000000005"
 				item: {
@@ -158,15 +162,13 @@
 				"Терпеливый археолог соберёт из них нечто ценное."
 			]
 			id: "7D05000000000006"
-			rewards: [{
-				id: "7DFF0000000000FC"
-				item: {
-					Count: 1
-					id: "minecraft:egg"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000A6"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				count: 3L
 				id: "7D05400000000006"
@@ -188,11 +190,23 @@
 				"Палеонтология — тоже часть большого путешествия."
 			]
 			id: "7D05000000000007"
-			rewards: [{
-				id: "7DFF0000000000FD"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000000A7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "7DFF0000000000A8"
+					item: {
+						Count: 1
+						id: "minecraft:diamond"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D05400000000007"
 				item: {
@@ -213,15 +227,13 @@
 				"Кадр останется, даже когда память подведёт."
 			]
 			id: "7D05000000000008"
-			rewards: [{
-				id: "7DFF0000000000FE"
-				item: {
-					Count: 1
-					id: "minecraft:poisonous_potato"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000A9"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D05400000000008"
 				item: {
@@ -242,15 +254,23 @@
 				"Повесь её на стену — пусть история говорит сама."
 			]
 			id: "7D05000000000009"
-			rewards: [{
-				id: "7DFF0000000000FF"
-				item: {
-					Count: 1
-					id: "minecraft:cookie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000AA"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000000AB"
+					item: {
+						Count: 1
+						id: "minecraft:diamond"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D05400000000009"
 				item: {
@@ -271,15 +291,13 @@
 				"Здесь начинается царство тишины и Хранителя."
 			]
 			id: "7D0500000000000A"
-			rewards: [{
-				id: "7DFF000000000100"
-				item: {
-					Count: 1
-					id: "minecraft:dead_bush"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000AC"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				count: 8L
 				id: "7D0540000000000A"
@@ -301,11 +319,13 @@
 				"Из неё куют снаряжение, достойное самых смелых."
 			]
 			id: "7D0500000000000B"
-			rewards: [{
-				id: "7DFF000000000101"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000000AD"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				count: 3L
 				id: "7D0540000000000B"
@@ -327,15 +347,13 @@
 				"Он ляжет в основу легендарной брони."
 			]
 			id: "7D0500000000000C"
-			rewards: [{
-				id: "7DFF000000000102"
-				item: {
-					Count: 1
-					id: "minecraft:rotten_flesh"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000AE"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D0540000000000C"
 				item: {
@@ -356,15 +374,13 @@
 				"Собери фрагменты, чтобы пробудить портал в Край."
 			]
 			id: "7D0500000000000D"
-			rewards: [{
-				id: "7DFF000000000103"
-				item: {
-					Count: 1
-					id: "minecraft:stick"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000AF"
+					type: "xp"
+					xp: 30
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D0540000000000D"
 				item: {
@@ -385,15 +401,23 @@
 				"Путь в Край открыт — исследование выходит за пределы этого мира."
 			]
 			id: "7D0500000000000E"
-			rewards: [{
-				id: "7DFF000000000104"
-				item: {
-					Count: 1
-					id: "minecraft:bowl"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000B0"
+					type: "xp"
+					xp: 30
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF0000000000B1"
+					item: {
+						Count: 1
+						id: "minecraft:diamond"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0540000000000E"
 				item: {

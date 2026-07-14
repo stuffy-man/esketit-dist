@@ -17,15 +17,13 @@
 			]
 			icon: "minecraft:writable_book"
 			id: "7D0B000000000001"
-			rewards: [{
-				id: "7DFF000000000126"
-				item: {
-					Count: 1
-					id: "minecraft:rotten_flesh"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000F1"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D0B400000000001"
 				type: "checkmark"
@@ -44,15 +42,13 @@
 			]
 			icon: "minecraft:iron_ingot"
 			id: "7D0B000000000002"
-			rewards: [{
-				id: "7DFF000000000127"
-				item: {
-					Count: 1
-					id: "minecraft:stick"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000F2"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D0B400000000002"
 				type: "checkmark"
@@ -71,15 +67,23 @@
 			]
 			icon: "minecraft:netherite_ingot"
 			id: "7D0B000000000003"
-			rewards: [{
-				id: "7DFF000000000128"
-				item: {
-					Count: 1
-					id: "minecraft:bowl"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000F3"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF0000000000F4"
+					item: {
+						Count: 1
+						id: "minecraft:experience_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0B400000000003"
 				type: "checkmark"
@@ -98,16 +102,23 @@
 			]
 			icon: "minecraft:raw_iron"
 			id: "7D0B000000000004"
-			rewards: [{
-				count: 4
-				id: "7DFF000000000129"
-				item: {
-					Count: 1
-					id: "minecraft:snowball"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000F5"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF0000000000F6"
+					item: {
+						Count: 1
+						id: "minecraft:experience_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0B400000000004"
 				type: "checkmark"
@@ -126,11 +137,13 @@
 			]
 			icon: "minecraft:enchanted_book"
 			id: "7D0B000000000005"
-			rewards: [{
-				id: "7DFF00000000012A"
-				type: "xp"
-				xp: 7
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000000F7"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "7D0B400000000005"
 				type: "checkmark"
@@ -148,15 +161,23 @@
 			]
 			icon: "minecraft:iron_sword"
 			id: "7D0B000000000006"
-			rewards: [{
-				id: "7DFF00000000012B"
-				item: {
-					Count: 1
-					id: "minecraft:wheat_seeds"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000F8"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF0000000000F9"
+					item: {
+						Count: 1
+						id: "minecraft:experience_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0B400000000006"
 				type: "checkmark"
@@ -175,15 +196,23 @@
 			]
 			icon: "minecraft:emerald"
 			id: "7D0B000000000007"
-			rewards: [{
-				id: "7DFF00000000012C"
-				item: {
-					Count: 1
-					id: "minecraft:feather"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000FA"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF0000000000FB"
+					item: {
+						Count: 1
+						id: "minecraft:experience_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0B400000000007"
 				type: "checkmark"
@@ -202,15 +231,13 @@
 			]
 			icon: "minecraft:rotten_flesh"
 			id: "7D0B000000000008"
-			rewards: [{
-				id: "7DFF00000000012D"
-				item: {
-					Count: 1
-					id: "minecraft:pumpkin_pie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000FC"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D0B400000000008"
 				type: "checkmark"
@@ -228,15 +255,23 @@
 			]
 			icon: "minecraft:leather"
 			id: "7D0B000000000009"
-			rewards: [{
-				id: "7DFF00000000012E"
-				item: {
-					Count: 1
-					id: "minecraft:bamboo"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF0000000000FD"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF0000000000FE"
+					item: {
+						Count: 1
+						id: "minecraft:experience_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0B400000000009"
 				type: "checkmark"
@@ -254,11 +289,23 @@
 			]
 			icon: "minecraft:red_bed"
 			id: "7D0B00000000000A"
-			rewards: [{
-				id: "7DFF00000000012F"
-				type: "xp"
-				xp: 3
-			}]
+			rewards: [
+				{
+					id: "7DFF0000000000FF"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "7DFF000000000100"
+					item: {
+						Count: 1
+						id: "minecraft:experience_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0B40000000000A"
 				type: "checkmark"
@@ -277,15 +324,23 @@
 			]
 			icon: "minecraft:oak_leaves"
 			id: "7D0B00000000000B"
-			rewards: [{
-				id: "7DFF000000000130"
-				item: {
-					Count: 1
-					id: "minecraft:dried_kelp"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000101"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF000000000102"
+					item: {
+						Count: 1
+						id: "minecraft:experience_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0B40000000000B"
 				type: "checkmark"
@@ -304,15 +359,23 @@
 			]
 			icon: "minecraft:crossbow"
 			id: "7D0B00000000000C"
-			rewards: [{
-				id: "7DFF000000000131"
-				item: {
-					Count: 1
-					id: "minecraft:paper"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000103"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF000000000104"
+					item: {
+						Count: 1
+						id: "minecraft:experience_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0B40000000000C"
 				type: "checkmark"
@@ -330,15 +393,23 @@
 			]
 			icon: "minecraft:wheat"
 			id: "7D0B00000000000D"
-			rewards: [{
-				id: "7DFF000000000132"
-				item: {
-					Count: 1
-					id: "minecraft:egg"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000105"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF000000000106"
+					item: {
+						Count: 1
+						id: "minecraft:experience_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0B40000000000D"
 				type: "checkmark"

@@ -15,15 +15,13 @@
 				"Так из одного ингредиента выйдет больше порций."
 			]
 			id: "7D02000000000001"
-			rewards: [{
-				id: "7DFF0000000000CE"
-				item: {
-					Count: 1
-					id: "minecraft:bowl"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000066"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D02400000000001"
 				item: {
@@ -44,16 +42,13 @@
 				"Позже скуёшь железный или алмазный для прочности."
 			]
 			id: "7D02000000000002"
-			rewards: [{
-				count: 4
-				id: "7DFF0000000000CF"
-				item: {
-					Count: 1
-					id: "minecraft:snowball"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000067"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D02400000000002"
 				item: {
@@ -74,11 +69,13 @@
 				"и получишь сытное горячее блюдо в миске."
 			]
 			id: "7D02000000000003"
-			rewards: [{
-				id: "7DFF0000000000D0"
-				type: "xp"
-				xp: 7
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000068"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "7D02400000000003"
 				item: {
@@ -99,15 +96,13 @@
 				"Можно взять с собой и готовить у костра в походе."
 			]
 			id: "7D02000000000004"
-			rewards: [{
-				id: "7DFF0000000000D1"
-				item: {
-					Count: 1
-					id: "minecraft:wheat_seeds"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000069"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D02400000000004"
 				item: {
@@ -128,15 +123,13 @@
 				"и жарь несколько блюд, не тратя топливо впустую."
 			]
 			id: "7D02000000000005"
-			rewards: [{
-				id: "7DFF0000000000D2"
-				item: {
-					Count: 1
-					id: "minecraft:feather"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000006A"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D02400000000005"
 				item: {
@@ -157,15 +150,13 @@
 				"режь её на доске на порции. Награда мастеру плиты."
 			]
 			id: "7D02000000000006"
-			rewards: [{
-				id: "7DFF0000000000D3"
-				item: {
-					Count: 1
-					id: "minecraft:pumpkin_pie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000006B"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D02400000000006"
 				item: {
@@ -186,15 +177,23 @@
 				"с фарша начинается почти любое мясное блюдо."
 			]
 			id: "7D02000000000007"
-			rewards: [{
-				id: "7DFF0000000000D4"
-				item: {
-					Count: 1
-					id: "minecraft:bamboo"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000006C"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF00000000006D"
+					item: {
+						Count: 1
+						id: "minecraft:golden_carrot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D02400000000007"
 				item: {
@@ -215,11 +214,23 @@
 				"прямо с разделочной доски."
 			]
 			id: "7D02000000000008"
-			rewards: [{
-				id: "7DFF0000000000D5"
-				type: "xp"
-				xp: 3
-			}]
+			rewards: [
+				{
+					id: "7DFF00000000006E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "7DFF00000000006F"
+					item: {
+						Count: 1
+						id: "minecraft:golden_carrot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D02400000000008"
 				item: {
@@ -240,15 +251,23 @@
 				"Дёшево, сытно и греет в холодную ночь."
 			]
 			id: "7D02000000000009"
-			rewards: [{
-				id: "7DFF0000000000D6"
-				item: {
-					Count: 1
-					id: "minecraft:dried_kelp"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000070"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF000000000071"
+					item: {
+						Count: 1
+						id: "minecraft:golden_carrot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D02400000000009"
 				item: {
@@ -269,15 +288,23 @@
 				"которое утоляет голод надолго."
 			]
 			id: "7D0200000000000A"
-			rewards: [{
-				id: "7DFF0000000000D7"
-				item: {
-					Count: 1
-					id: "minecraft:paper"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000072"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF000000000073"
+					item: {
+						Count: 1
+						id: "minecraft:golden_carrot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0240000000000A"
 				item: {
@@ -298,15 +325,23 @@
 				"мясо, рыба, овощи. Не забудь про соус!"
 			]
 			id: "7D0200000000000B"
-			rewards: [{
-				id: "7DFF0000000000D8"
-				item: {
-					Count: 1
-					id: "minecraft:egg"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000074"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF000000000075"
+					item: {
+						Count: 1
+						id: "minecraft:golden_carrot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0240000000000B"
 				item: {
@@ -327,11 +362,23 @@
 				"сытный буррито из Cultural Delights."
 			]
 			id: "7D0200000000000C"
-			rewards: [{
-				id: "7DFF0000000000D9"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000076"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "7DFF000000000077"
+					item: {
+						Count: 1
+						id: "minecraft:golden_carrot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0240000000000C"
 				item: {
@@ -352,15 +399,23 @@
 				"для тех, кто прошёл весь путь повара."
 			]
 			id: "7D0200000000000D"
-			rewards: [{
-				id: "7DFF0000000000DA"
-				item: {
-					Count: 1
-					id: "minecraft:poisonous_potato"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000078"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF000000000079"
+					item: {
+						Count: 1
+						id: "minecraft:golden_carrot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0240000000000D"
 				item: {

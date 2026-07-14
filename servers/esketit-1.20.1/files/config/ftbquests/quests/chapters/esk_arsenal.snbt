@@ -15,15 +15,13 @@
 				"Поставь его и лупи, подбирая связки атак."
 			]
 			id: "7D06000000000001"
-			rewards: [{
-				id: "7DFF0000000000A4"
-				item: {
-					Count: 1
-					id: "minecraft:poisonous_potato"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000002E"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D06400000000001"
 				item: {
@@ -44,15 +42,13 @@
 				"С модом Cut Through удары рубят несколько врагов разом."
 			]
 			id: "7D06000000000002"
-			rewards: [{
-				id: "7DFF0000000000A5"
-				item: {
-					Count: 1
-					id: "minecraft:cookie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000002F"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D06400000000002"
 				item: {
@@ -73,15 +69,13 @@
 				"Собери полный сет: шлем, поножи и ботинки."
 			]
 			id: "7D06000000000003"
-			rewards: [{
-				id: "7DFF0000000000A6"
-				item: {
-					Count: 1
-					id: "minecraft:dead_bush"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000030"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D06400000000003"
 				item: {
@@ -102,11 +96,13 @@
 				"Твой пропуск в ближний бой без лишней крови."
 			]
 			id: "7D06000000000004"
-			rewards: [{
-				id: "7DFF0000000000A7"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000031"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "7D06400000000004"
 				item: {
@@ -127,15 +123,13 @@
 				"Лучший клинок сервера: урон, что не прощает ошибок."
 			]
 			id: "7D06000000000005"
-			rewards: [{
-				id: "7DFF0000000000A8"
-				item: {
-					Count: 1
-					id: "minecraft:rotten_flesh"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000032"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D06400000000005"
 				item: {
@@ -156,15 +150,23 @@
 				"Финальный сет для самых опасных вылазок."
 			]
 			id: "7D06000000000006"
-			rewards: [{
-				id: "7DFF0000000000A9"
-				item: {
-					Count: 1
-					id: "minecraft:stick"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000033"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000034"
+					item: {
+						Count: 1
+						id: "minecraft:diamond"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D06400000000006"
 				item: {
@@ -185,15 +187,13 @@
 				"Быстрее машешь — больше урона в секунду."
 			]
 			id: "7D06000000000007"
-			rewards: [{
-				id: "7DFF0000000000AA"
-				item: {
-					Count: 1
-					id: "minecraft:bowl"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000035"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D06400000000007"
 				item: {
@@ -214,16 +214,13 @@
 				"Идеальная пара к звериным когтям."
 			]
 			id: "7D06000000000008"
-			rewards: [{
-				count: 4
-				id: "7DFF0000000000AB"
-				item: {
-					Count: 1
-					id: "minecraft:snowball"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000036"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D06400000000008"
 				item: {
@@ -244,11 +241,13 @@
 				"Незаменима против толп мобов."
 			]
 			id: "7D06000000000009"
-			rewards: [{
-				id: "7DFF0000000000AC"
-				type: "xp"
-				xp: 7
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000037"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "7D06400000000009"
 				item: {
@@ -269,15 +268,23 @@
 				"Венец боевого набора артефактов."
 			]
 			id: "7D0600000000000A"
-			rewards: [{
-				id: "7DFF0000000000AD"
-				item: {
-					Count: 1
-					id: "minecraft:wheat_seeds"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000038"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DFF000000000039"
+					item: {
+						Count: 1
+						id: "minecraft:diamond"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0640000000000A"
 				item: {
@@ -298,15 +305,13 @@
 				"Тихое оружие для дальних стычек."
 			]
 			id: "7D0600000000000B"
-			rewards: [{
-				id: "7DFF0000000000AE"
-				item: {
-					Count: 1
-					id: "minecraft:feather"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000003A"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D0640000000000B"
 				item: {
@@ -327,15 +332,13 @@
 				"Верность и Тягун теперь по-настоящему полезны."
 			]
 			id: "7D0600000000000C"
-			rewards: [{
-				id: "7DFF0000000000AF"
-				item: {
-					Count: 1
-					id: "minecraft:pumpkin_pie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000003B"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D0640000000000C"
 				item: {
@@ -356,15 +359,13 @@
 				"Держи запас, чтобы оружие не рассыпалось."
 			]
 			id: "7D0600000000000D"
-			rewards: [{
-				id: "7DFF0000000000B0"
-				item: {
-					Count: 1
-					id: "minecraft:bamboo"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000003C"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D0640000000000D"
 				item: {
@@ -385,11 +386,23 @@
 				"Даже уголь теперь опасен — берегись пожаров (Better Burning)."
 			]
 			id: "7D0600000000000E"
-			rewards: [{
-				id: "7DFF0000000000B1"
-				type: "xp"
-				xp: 3
-			}]
+			rewards: [
+				{
+					id: "7DFF00000000003D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "7DFF00000000003E"
+					item: {
+						Count: 1
+						id: "minecraft:diamond"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0640000000000E"
 				item: {

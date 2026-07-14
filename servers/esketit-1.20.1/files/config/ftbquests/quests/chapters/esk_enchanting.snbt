@@ -15,15 +15,13 @@
 				"Ремонт снаряжения идёт через ковку и наковальню, а не через опыт."
 			]
 			id: "7D0A000000000001"
-			rewards: [{
-				id: "7DFF0000000000E9"
-				item: {
-					Count: 1
-					id: "minecraft:paper"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000008E"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D0A400000000001"
 				item: {
@@ -44,15 +42,13 @@
 				"Заготовь хотя бы 15 полок и расставь их в правильном радиусе."
 			]
 			id: "7D0A000000000002"
-			rewards: [{
-				id: "7DFF0000000000EA"
-				item: {
-					Count: 1
-					id: "minecraft:egg"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000008F"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				count: 15L
 				id: "7D0A400000000002"
@@ -74,11 +70,13 @@
 				"Помни: Починки в списке чар не будет — планируй ремонт заранее."
 			]
 			id: "7D0A000000000003"
-			rewards: [{
-				id: "7DFF0000000000EB"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000090"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				count: 16L
 				id: "7D0A400000000003"
@@ -100,15 +98,13 @@
 				"Соедини две одинаковые книги, чтобы получить чары уровнем выше."
 			]
 			id: "7D0A000000000004"
-			rewards: [{
-				id: "7DFF0000000000EC"
-				item: {
-					Count: 1
-					id: "minecraft:poisonous_potato"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000091"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D0A400000000004"
 				item: {
@@ -129,15 +125,13 @@
 				"Так ты вернёшь опыт для новых попыток у стола."
 			]
 			id: "7D0A000000000005"
-			rewards: [{
-				id: "7DFF0000000000ED"
-				item: {
-					Count: 1
-					id: "minecraft:cookie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000092"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D0A400000000005"
 				item: {
@@ -158,15 +152,13 @@
 				"Удобная библиотека для порядка в знаниях."
 			]
 			id: "7D0A000000000006"
-			rewards: [{
-				id: "7DFF0000000000EE"
-				item: {
-					Count: 1
-					id: "minecraft:dead_bush"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000093"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D0A400000000006"
 				item: {
@@ -187,11 +179,13 @@
 				"Заведи первую именную книгу для своей библиотеки."
 			]
 			id: "7D0A000000000007"
-			rewards: [{
-				id: "7DFF0000000000EF"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000094"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				id: "7D0A400000000007"
 				item: {
@@ -212,15 +206,23 @@
 				"Основа читального зала твоей базы."
 			]
 			id: "7D0A000000000008"
-			rewards: [{
-				id: "7DFF0000000000F0"
-				item: {
-					Count: 1
-					id: "minecraft:rotten_flesh"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000095"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+				{
+					count: 16
+					id: "7DFF000000000096"
+					item: {
+						Count: 1
+						id: "minecraft:lapis_lazuli"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0A400000000008"
 				item: {
@@ -241,15 +243,23 @@
 				"Добудь зачарованную книгу с одним из новых чар."
 			]
 			id: "7D0A000000000009"
-			rewards: [{
-				id: "7DFF0000000000F1"
-				item: {
-					Count: 1
-					id: "minecraft:stick"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000097"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+				{
+					count: 16
+					id: "7DFF000000000098"
+					item: {
+						Count: 1
+						id: "minecraft:lapis_lazuli"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0A400000000009"
 				item: {
@@ -270,15 +280,13 @@
 				"Автоматизируй разбор снаряги вместо ручного точила."
 			]
 			id: "7D0A00000000000A"
-			rewards: [{
-				id: "7DFF0000000000F2"
-				item: {
-					Count: 1
-					id: "minecraft:bowl"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000099"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D0A40000000000A"
 				item: {
@@ -299,16 +307,13 @@
 				"Собери мешалку и подключи её к валу."
 			]
 			id: "7D0A00000000000B"
-			rewards: [{
-				count: 4
-				id: "7DFF0000000000F3"
-				item: {
-					Count: 1
-					id: "minecraft:snowball"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000009A"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D0A40000000000B"
 				item: {
@@ -329,11 +334,13 @@
 				"Сырьё для печати и массового зачарования."
 			]
 			id: "7D0A00000000000C"
-			rewards: [{
-				id: "7DFF0000000000F4"
-				type: "xp"
-				xp: 7
-			}]
+			rewards: [
+				{
+					id: "7DFF00000000009B"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "7D0A40000000000C"
 				item: {
@@ -354,15 +361,23 @@
 				"Напоминание: Починку так не напечатать — на сервере её попросту нет."
 			]
 			id: "7D0A00000000000D"
-			rewards: [{
-				id: "7DFF0000000000F5"
-				item: {
-					Count: 1
-					id: "minecraft:wheat_seeds"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000009C"
+					type: "xp"
+					xp: 30
 				}
-				type: "item"
-			}]
+				{
+					count: 16
+					id: "7DFF00000000009D"
+					item: {
+						Count: 1
+						id: "minecraft:lapis_lazuli"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0A40000000000D"
 				item: {
@@ -383,15 +398,23 @@
 				"Венец промышленного зачарования: опыт по требованию."
 			]
 			id: "7D0A00000000000E"
-			rewards: [{
-				id: "7DFF0000000000F6"
-				item: {
-					Count: 1
-					id: "minecraft:feather"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000009E"
+					type: "xp"
+					xp: 30
 				}
-				type: "item"
-			}]
+				{
+					count: 16
+					id: "7DFF00000000009F"
+					item: {
+						Count: 1
+						id: "minecraft:lapis_lazuli"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0A40000000000E"
 				item: {

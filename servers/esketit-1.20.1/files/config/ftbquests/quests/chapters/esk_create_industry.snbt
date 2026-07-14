@@ -15,15 +15,13 @@
 				"Это основа всей механики Create."
 			]
 			id: "7D01000000000001"
-			rewards: [{
-				id: "7DFF0000000000C0"
-				item: {
-					Count: 1
-					id: "minecraft:feather"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000053"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				count: 8L
 				id: "7D01400000000001"
@@ -45,15 +43,13 @@
 				"Соединяй их валами и большими шестернями."
 			]
 			id: "7D01000000000002"
-			rewards: [{
-				id: "7DFF0000000000C1"
-				item: {
-					Count: 1
-					id: "minecraft:pumpkin_pie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000054"
+					type: "xp"
+					xp: 10
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				count: 4L
 				id: "7D01400000000002"
@@ -75,15 +71,13 @@
 				"Ставь его в текущую воду."
 			]
 			id: "7D01000000000003"
-			rewards: [{
-				id: "7DFF0000000000C2"
-				item: {
-					Count: 1
-					id: "minecraft:bamboo"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000055"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D01400000000003"
 				item: {
@@ -104,11 +98,13 @@
 				"Из него строятся первые механизмы."
 			]
 			id: "7D01000000000004"
-			rewards: [{
-				id: "7DFF0000000000C3"
-				type: "xp"
-				xp: 3
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000056"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "7D01400000000004"
@@ -130,15 +126,13 @@
 				"Первый настоящий станок производства."
 			]
 			id: "7D01000000000005"
-			rewards: [{
-				id: "7DFF0000000000C4"
-				item: {
-					Count: 1
-					id: "minecraft:dried_kelp"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000057"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D01400000000005"
 				item: {
@@ -159,15 +153,13 @@
 				"Век латуни начинается."
 			]
 			id: "7D01000000000006"
-			rewards: [{
-				id: "7DFF0000000000C5"
-				item: {
-					Count: 1
-					id: "minecraft:paper"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000058"
+					type: "xp"
+					xp: 20
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				count: 8L
 				id: "7D01400000000006"
@@ -189,15 +181,13 @@
 				"Ключ ко всем сложным машинам."
 			]
 			id: "7D01000000000007"
-			rewards: [{
-				id: "7DFF0000000000C6"
-				item: {
-					Count: 1
-					id: "minecraft:egg"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000059"
+					type: "xp"
+					xp: 30
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D01400000000007"
 				item: {
@@ -218,11 +208,13 @@
 				"Настоящая фабрика без рук игрока."
 			]
 			id: "7D01000000000008"
-			rewards: [{
-				id: "7DFF0000000000C7"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7DFF00000000005A"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "7D01400000000008"
 				item: {
@@ -243,15 +235,13 @@
 				"Крутит самые тяжёлые сборки."
 			]
 			id: "7D01000000000009"
-			rewards: [{
-				id: "7DFF0000000000C8"
-				item: {
-					Count: 1
-					id: "minecraft:poisonous_potato"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000005B"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7D01400000000009"
 				item: {
@@ -272,15 +262,23 @@
 				"Удваивай ресурсы почти без затрат."
 			]
 			id: "7D0100000000000A"
-			rewards: [{
-				id: "7DFF0000000000C9"
-				item: {
-					Count: 1
-					id: "minecraft:cookie"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000005C"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF00000000005D"
+					item: {
+						Count: 1
+						id: "create:brass_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0140000000000A"
 				item: {
@@ -301,15 +299,23 @@
 				"Массовая обработка предметов."
 			]
 			id: "7D0100000000000B"
-			rewards: [{
-				id: "7DFF0000000000CA"
-				item: {
-					Count: 1
-					id: "minecraft:dead_bush"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF00000000005E"
+					type: "xp"
+					xp: 15
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF00000000005F"
+					item: {
+						Count: 1
+						id: "create:brass_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0140000000000B"
 				item: {
@@ -330,11 +336,23 @@
 				"Торгуй и плати механизированно."
 			]
 			id: "7D0100000000000C"
-			rewards: [{
-				id: "7DFF0000000000CB"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "7DFF000000000060"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "7DFF000000000061"
+					item: {
+						Count: 1
+						id: "create:brass_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 16L
 				id: "7D0140000000000C"
@@ -356,15 +374,23 @@
 				"Собери орудие и открой огонь."
 			]
 			id: "7D0100000000000D"
-			rewards: [{
-				id: "7DFF0000000000CC"
-				item: {
-					Count: 1
-					id: "minecraft:rotten_flesh"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000062"
+					type: "xp"
+					xp: 30
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF000000000063"
+					item: {
+						Count: 1
+						id: "create:brass_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D0140000000000D"
 				item: {
@@ -385,15 +411,23 @@
 				"Строй станции и води составы."
 			]
 			id: "7D0100000000000E"
-			rewards: [{
-				id: "7DFF0000000000CD"
-				item: {
-					Count: 1
-					id: "minecraft:stick"
-					tag: { }
+			rewards: [
+				{
+					id: "7DFF000000000064"
+					type: "xp"
+					xp: 40
 				}
-				type: "item"
-			}]
+				{
+					count: 4
+					id: "7DFF000000000065"
+					item: {
+						Count: 1
+						id: "create:brass_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "7D0140000000000E"
