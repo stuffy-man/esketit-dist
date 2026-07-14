@@ -1,0 +1,322 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "esk_tannery"
+	group: ""
+	icon: "esketit_tannery:tanning_barrel"
+	id: "7E14000000000000"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"На Esketit скот роняет сырые шкуры, а не готовую кожу. Кожу надо выделать."
+				"Свежая шкура — первый трофей мясника. Дальше её ждут сушка и дубление, иначе это просто мокрая тряпка."
+			]
+			id: "7E14000000000001"
+			rewards: [
+				{
+					id: "7DFF000000000028"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "7E14400000000001"
+				item: {
+					Count: 1
+					id: "esketit_tannery:cow_hide"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Кожа — это ремесло"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E14000000000001"]
+			description: [
+				"Драпируешь шкуру на раму — она сохнет. На открытом солнце втрое быстрее, дождь тормозит."
+				"Гнилая плоть на раме, кстати, сохнет в сухое мясо — не выбрасывай."
+			]
+			id: "7E14000000000002"
+			rewards: [
+				{
+					id: "7DFF000000000029"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "7E14400000000002"
+				item: {
+					Count: 1
+					id: "esketit_tannery:tanning_rack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Сушильная рама"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E14000000000002"]
+			description: [
+				"Высохшая шкура — полуфабрикат, ещё жёсткая."
+				"Мягкой кожей она станет только после дубильной ванны."
+			]
+			id: "7E14000000000003"
+			rewards: [
+				{
+					id: "7DFF00000000002A"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "7E14400000000003"
+				item: {
+					Count: 1
+					id: "esketit_tannery:dry_animal_hide"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Сухая шкура"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E14000000000001"]
+			description: [
+				"Снимаешь кору с брёвен топором (иногда падает кусок), из двух кусков мелешь дубильный порошок."
+				"Без порошка бочка не дубит — заготовь заранее."
+			]
+			id: "7E14000000000004"
+			rewards: [
+				{
+					id: "7DFF00000000002B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "7DFF00000000002C"
+					item: {
+						Count: 1
+						id: "minecraft:leather"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E14400000000004"
+				item: {
+					Count: 1
+					id: "esketit_tannery:tannic_powder"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Кора и порошок"
+			x: -1.8d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E14000000000003"]
+			description: [
+				"Заряжаешь бочку порошком — и она дубит сухие шкуры в кожу. Одного заряда хватает на несколько штук."
+				"Вот она, честно выделанная кожа. То, что в ванили давал один зомби, здесь — результат работы."
+			]
+			id: "7E14000000000005"
+			rewards: [
+				{
+					id: "7DFF00000000002D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "7E14400000000005"
+				item: {
+					Count: 1
+					id: "esketit_tannery:tanning_barrel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Дубильная бочка"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7E14000000000005"]
+			description: [
+				"Кузница кожевника. Куёт гвозди из обрезков железа и клёпаную кожу из уплотнённой кожи с гвоздями."
+				"Вход в снаряжение, где кожа — не расходник, а материал."
+			]
+			id: "7E14000000000006"
+			rewards: [
+				{
+					id: "7DFF00000000002E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "7E14400000000006"
+				item: {
+					Count: 1
+					id: "esketit_tannery:tanning_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Дубильный стол"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E14000000000006"]
+			description: [
+				"Кожа с заклёпками крепче обычной кожаной и дешевле металла."
+				"Хорошая ранняя защита, пока ты не встал у наковальни с молотом."
+			]
+			id: "7E14000000000007"
+			rewards: [
+				{
+					id: "7DFF00000000002F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "7DFF000000000030"
+					item: {
+						Count: 1
+						id: "minecraft:leather"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E14400000000007"
+				item: {
+					Count: 1
+					id: "esketit_tannery:studded_leather_armor_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Клёпаная броня"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7E14000000000005"]
+			description: [
+				"Сумка носит вещи прямо в себе — открывается ПКМ. Малая на ряд слотов, большая на два."
+				"Разгружает инвентарь в дороге. Вложить сумку в сумку не выйдет, не мечтай."
+			]
+			id: "7E14000000000008"
+			rewards: [
+				{
+					id: "7DFF000000000031"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "7E14400000000008"
+				item: {
+					Count: 1
+					id: "esketit_tannery:small_satchel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Сумки"
+			x: 1.8d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E14000000000003"]
+			description: [
+				"Из сухой плоти выходит жила — замена нити. Животный жир горит как топливо и идёт на факелы."
+				"У кожевника ничего не пропадает: даже требуха при деле."
+			]
+			id: "7E14000000000009"
+			rewards: [
+				{
+					id: "7DFF000000000032"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "7DFF000000000033"
+					item: {
+						Count: 1
+						id: "minecraft:leather"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E14400000000009"
+				item: {
+					Count: 1
+					id: "esketit_tannery:sinew"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Жила и топливо"
+			x: -1.8d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7E14000000000008"]
+			description: [
+				"Сухая плоть коптится в вяленое мясо: сытно и хранится долго — а еда тут портится, так что это ценно."
+				"Мелкий, но приятный бонус к основному ремеслу."
+			]
+			id: "7E1400000000000A"
+			rewards: [
+				{
+					id: "7DFF000000000034"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "7DFF000000000035"
+					item: {
+						Count: 1
+						id: "minecraft:leather"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E1440000000000A"
+				item: {
+					Count: 1
+					id: "esketit_tannery:jerky"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Вяленое мясо"
+			x: 1.8d
+			y: 7.5d
+		}
+	]
+	title: "Выделка кож"
+}

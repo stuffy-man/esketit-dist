@@ -3,35 +3,26 @@
 	default_quest_shape: ""
 	filename: "farmers_respite_basics"
 	group: ""
+	icon: "farmersrespite:kettle"
 	id: "42CCACC1088805DD"
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"Чайник ставится над огнём, как обычный вариант с водой -"
-				"вскипятите воду, прежде чем заваривать в нём что-либо."
+				"Farmer's Respite — про горячие напитки с реальным толком."
+				"Чайник кипятит воду и заваривает листья. Первый шаг к чашке, что не просто утоляет жажду, а даёт баффы."
 			]
-			id: "2EBC2F6C5670639C"
+			id: "7E12000000000001"
 			rewards: [
 				{
-					id: "7DFF00000000011C"
+					id: "7DFF000000000013"
 					type: "xp"
 					xp: 10
 				}
-				{
-					count: 2
-					id: "7DFF00000000011D"
-					item: {
-						Count: 1
-						id: "minecraft:emerald"
-						tag: { }
-					}
-					type: "item"
-				}
 			]
 			tasks: [{
-				id: "595C02F6BA19BB09"
+				id: "7E12400000000001"
 				item: {
 					Count: 1
 					id: "farmersrespite:kettle"
@@ -39,24 +30,26 @@
 				}
 				type: "item"
 			}]
+			title: "Чайник"
 			x: 0.0d
-			y: 1.6d
+			y: 0.0d
 		}
 		{
+			dependencies: ["7E12000000000001"]
 			description: [
-				"Чайный куст растёт не быстро, зато даёт лист за листом -"
-				"два листа, заваренные в чайнике, дают чашку простого чая."
+				"Чайный куст даёт листья. Зелёный, жёлтый, чёрный — разная обработка, разный эффект."
+				"Собери и подсуши перед завариванием, иначе вкус и польза пройдут мимо."
 			]
-			id: "0CB2E68F6D36DE9E"
+			id: "7E12000000000002"
 			rewards: [
 				{
-					id: "7DFF00000000011E"
+					id: "7DFF000000000014"
 					type: "xp"
-					xp: 15
+					xp: 10
 				}
 			]
 			tasks: [{
-				id: "728419E863A3936B"
+				id: "7E12400000000002"
 				item: {
 					Count: 1
 					id: "farmersrespite:green_tea_leaves"
@@ -64,26 +57,26 @@
 				}
 				type: "item"
 			}]
+			title: "Чайный лист"
 			x: 0.0d
-			y: 3.2d
+			y: 1.5d
 		}
 		{
-			dependencies: ["0CB2E68F6D36DE9E"]
+			dependencies: ["7E12000000000002"]
 			description: [
-				"Первая чашка чая готова. У каждого сорта - свой лёгкий"
-				"эффект, и чем внимательнее подобраны листья, тем он"
-				"заметнее."
+				"Заваренный лист. Зелёный чай бодрит и чуть лечит — держит в тонусе на долгой вылазке."
+				"Крепкий вариант сильнее, но и горчит; смотри по ситуации."
 			]
-			id: "7CB8CD20A38884DE"
+			id: "7E12000000000003"
 			rewards: [
 				{
-					id: "7DFF00000000011F"
+					id: "7DFF000000000015"
 					type: "xp"
 					xp: 15
 				}
 			]
 			tasks: [{
-				id: "38A3A1613CD501F0"
+				id: "7E12400000000003"
 				item: {
 					Count: 1
 					id: "farmersrespite:green_tea"
@@ -91,36 +84,26 @@
 				}
 				type: "item"
 			}]
+			title: "Зелёный чай"
 			x: 0.0d
-			y: 4.800000000000001d
+			y: 3.0d
 		}
 		{
-			dependencies: ["7CB8CD20A38884DE"]
+			dependencies: ["7E12000000000003"]
 			description: [
-				"Кофейный куст растёт на грядке рядом с чайным - ягоды"
-				"с него завариваются в чайнике так же, как чайные листья,"
-				"только результат бодрит сильнее."
+				"Кофейные ягоды, зёрна, чашка."
+				"Кофе даёт скорость и убирает усталость. Незаменимо в дальней дороге и в шахте на всю ночь."
 			]
-			id: "5427404A8DB4756D"
+			id: "7E12000000000004"
 			rewards: [
 				{
-					id: "7DFF000000000120"
+					id: "7DFF000000000016"
 					type: "xp"
-					xp: 20
-				}
-				{
-					count: 2
-					id: "7DFF000000000121"
-					item: {
-						Count: 1
-						id: "minecraft:emerald"
-						tag: { }
-					}
-					type: "item"
+					xp: 15
 				}
 			]
 			tasks: [{
-				id: "697B3BC5FD4491E2"
+				id: "7E12400000000004"
 				item: {
 					Count: 1
 					id: "farmersrespite:coffee"
@@ -128,34 +111,36 @@
 				}
 				type: "item"
 			}]
+			title: "Кофе"
 			x: 0.0d
-			y: 6.4d
+			y: 4.5d
 		}
 		{
+			dependencies: ["7E12000000000004"]
 			description: [
-				"Долейте в уже готовый напиток немного мёда и заварите"
-				"повторно - выйдет более крепкий вариант того же напитка."
+				"Двойная доза для тех, кому мало."
+				"Скорость выше, держит дольше. Перебор — дрожь в руках, но по горам бегать помогает исправно."
 			]
-			id: "3B67D4B1EB20FF25"
+			id: "7E12000000000005"
 			rewards: [
 				{
-					id: "7DFF000000000122"
+					id: "7DFF000000000017"
 					type: "xp"
 					xp: 20
 				}
 				{
-					count: 2
-					id: "7DFF000000000123"
+					count: 4
+					id: "7DFF000000000018"
 					item: {
 						Count: 1
-						id: "minecraft:emerald"
+						id: "minecraft:cookie"
 						tag: { }
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "1478D4FB2003D80D"
+				id: "7E12400000000005"
 				item: {
 					Count: 1
 					id: "farmersrespite:strong_coffee"
@@ -163,80 +148,83 @@
 				}
 				type: "item"
 			}]
-			x: 1.8d
-			y: 7.300000000000001d
+			title: "Крепкий кофе"
+			x: 0.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["7CB8CD20A38884DE"]
+			dependencies: ["7E12000000000003"]
 			description: [
-				"Не всякая заварка идёт на пользу: нижняя вара с грибом"
-				"и адским наростом даёт чай, который лучше не пить без"
-				"крайней нужды."
+				"Шиповник, одуванчик, «азартный» чай — у каждого свой эффект: лечение, сопротивление, удача."
+				"Завари под задачу, а не что попало под руку."
 			]
-			id: "730C2AB04B0981AD"
+			id: "7E12000000000006"
 			rewards: [
 				{
-					id: "7DFF000000000124"
+					id: "7DFF000000000019"
 					type: "xp"
 					xp: 15
 				}
 				{
-					count: 2
-					id: "7DFF000000000125"
+					count: 4
+					id: "7DFF00000000001A"
 					item: {
 						Count: 1
-						id: "minecraft:emerald"
+						id: "minecraft:cookie"
 						tag: { }
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "2FDAC2E56EE7CAFD"
+				id: "7E12400000000006"
 				item: {
 					Count: 1
-					id: "farmersrespite:purulent_tea"
+					id: "farmersrespite:rose_hip_tea"
 					tag: { }
 				}
 				type: "item"
 			}]
-			x: -1.8d
-			y: 5.700000000000001d
+			title: "Травяные сборы"
+			x: 1.8d
+			y: 3.0d
 		}
 		{
+			dependencies: ["7E12000000000004"]
 			description: [
-				"Кофейный пирог со свечкой сверху - десерт, который"
-				"заодно освещает стол, за которым его подали."
+				"Пить — не единственное применение."
+				"Карри на чайной основе и кофейный пирог — сытная еда с бонусом от напитка. Кухня и аптека в одном котелке."
 			]
-			id: "5AA2029C4E9ED8F5"
+			id: "7E12000000000007"
 			rewards: [
 				{
-					id: "7DFF000000000126"
+					id: "7DFF00000000001B"
 					type: "xp"
-					xp: 20
+					xp: 15
 				}
 				{
-					count: 2
-					id: "7DFF000000000127"
+					count: 4
+					id: "7DFF00000000001C"
 					item: {
 						Count: 1
-						id: "minecraft:emerald"
+						id: "minecraft:cookie"
 						tag: { }
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "622C9B566EE9FBF1"
+				id: "7E12400000000007"
 				item: {
 					Count: 1
-					id: "farmersrespite:coffee_cake_slice"
+					id: "farmersrespite:tea_curry"
 					tag: { }
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			title: "Чайное карри"
+			x: 1.8d
+			y: 4.5d
 		}
 	]
 	title: "Farmer's Respite: чай и кофе"
