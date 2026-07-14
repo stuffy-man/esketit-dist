@@ -7021,9 +7021,9 @@
           "name": "esk_create_industry.snbt",
           "type": "File",
           "artifact": {
-            "size": 8654,
+            "size": 10635,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_create_industry.snbt",
-            "MD5": "26af1b92d10b16ed9f1681bb8c6c70ea",
+            "MD5": "a71d4ee05164dffaf057dfe099d95f0e",
             "path": "config/ftbquests/quests/chapters/esk_create_industry.snbt"
           }
         },
@@ -7032,9 +7032,9 @@
           "name": "esk_culinary_delight.snbt",
           "type": "File",
           "artifact": {
-            "size": 8943,
+            "size": 7950,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_culinary_delight.snbt",
-            "MD5": "21b0967df79e54b9b3a8b69d5d1496c8",
+            "MD5": "f42f2cab4b64e6e98bc2d57fef85497a",
             "path": "config/ftbquests/quests/chapters/esk_culinary_delight.snbt"
           }
         },
@@ -7065,9 +7065,9 @@
           "name": "esk_exploration.snbt",
           "type": "File",
           "artifact": {
-            "size": 9585,
+            "size": 7618,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_exploration.snbt",
-            "MD5": "3993febf17793c9425fb7ddb81db97cc",
+            "MD5": "16db1f54d55a6b154547ac600b860a01",
             "path": "config/ftbquests/quests/chapters/esk_exploration.snbt"
           }
         },
@@ -7076,9 +7076,9 @@
           "name": "esk_farming_flora.snbt",
           "type": "File",
           "artifact": {
-            "size": 9838,
+            "size": 7628,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_farming_flora.snbt",
-            "MD5": "ab40166b260f165e3060d9c9989ab36f",
+            "MD5": "436f938c11c0ff041c075770f4ad5324",
             "path": "config/ftbquests/quests/chapters/esk_farming_flora.snbt"
           }
         },
@@ -7131,9 +7131,9 @@
           "name": "esk_wild_fauna.snbt",
           "type": "File",
           "artifact": {
-            "size": 9138,
+            "size": 6968,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_wild_fauna.snbt",
-            "MD5": "a6335424e4a43c906e2393dda57b4382",
+            "MD5": "bb2c2adc72b921d760d9bd5657ee39e4",
             "path": "config/ftbquests/quests/chapters/esk_wild_fauna.snbt"
           }
         },
