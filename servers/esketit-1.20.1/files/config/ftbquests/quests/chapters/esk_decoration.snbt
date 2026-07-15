@@ -16,7 +16,7 @@
 			id: "7D07000000000001"
 			rewards: [
 				{
-					id: "7DFF000000000010"
+					id: "7DFF000000000001"
 					type: "xp"
 					xp: 10
 				}
@@ -43,7 +43,7 @@
 			id: "7D07000000000002"
 			rewards: [
 				{
-					id: "7DFF000000000011"
+					id: "7DFF000000000002"
 					type: "xp"
 					xp: 10
 				}
@@ -70,13 +70,13 @@
 			id: "7D07000000000003"
 			rewards: [
 				{
-					id: "7DFF000000000012"
+					id: "7DFF000000000003"
 					type: "xp"
 					xp: 15
 				}
 				{
 					count: 4
-					id: "7DFF000000000013"
+					id: "7DFF000000000004"
 					item: {
 						Count: 1
 						id: "minecraft:amethyst_shard"
@@ -107,7 +107,7 @@
 			id: "7D07000000000004"
 			rewards: [
 				{
-					id: "7DFF000000000014"
+					id: "7DFF000000000005"
 					type: "xp"
 					xp: 15
 				}
@@ -134,7 +134,7 @@
 			id: "7D07000000000005"
 			rewards: [
 				{
-					id: "7DFF000000000015"
+					id: "7DFF000000000006"
 					type: "xp"
 					xp: 15
 				}
@@ -162,13 +162,13 @@
 			id: "7D07000000000006"
 			rewards: [
 				{
-					id: "7DFF000000000016"
+					id: "7DFF000000000007"
 					type: "xp"
 					xp: 15
 				}
 				{
 					count: 4
-					id: "7DFF000000000017"
+					id: "7DFF000000000008"
 					item: {
 						Count: 1
 						id: "minecraft:amethyst_shard"
@@ -199,7 +199,7 @@
 			id: "7D07000000000007"
 			rewards: [
 				{
-					id: "7DFF000000000018"
+					id: "7DFF000000000009"
 					type: "xp"
 					xp: 20
 				}
@@ -226,13 +226,13 @@
 			id: "7D07000000000008"
 			rewards: [
 				{
-					id: "7DFF000000000019"
+					id: "7DFF00000000000A"
 					type: "xp"
 					xp: 20
 				}
 				{
 					count: 4
-					id: "7DFF00000000001A"
+					id: "7DFF00000000000B"
 					item: {
 						Count: 1
 						id: "minecraft:amethyst_shard"
@@ -263,13 +263,13 @@
 			id: "7D07000000000009"
 			rewards: [
 				{
-					id: "7DFF00000000001B"
+					id: "7DFF00000000000C"
 					type: "xp"
 					xp: 20
 				}
 				{
 					count: 4
-					id: "7DFF00000000001C"
+					id: "7DFF00000000000D"
 					item: {
 						Count: 1
 						id: "minecraft:amethyst_shard"
@@ -300,7 +300,7 @@
 			id: "7D0700000000000A"
 			rewards: [
 				{
-					id: "7DFF00000000001D"
+					id: "7DFF00000000000E"
 					type: "xp"
 					xp: 20
 				}
@@ -327,13 +327,13 @@
 			id: "7D0700000000000B"
 			rewards: [
 				{
-					id: "7DFF00000000001E"
+					id: "7DFF00000000000F"
 					type: "xp"
 					xp: 30
 				}
 				{
 					count: 4
-					id: "7DFF00000000001F"
+					id: "7DFF000000000010"
 					item: {
 						Count: 1
 						id: "minecraft:amethyst_shard"

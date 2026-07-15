@@ -1750,13 +1750,13 @@
           }
         },
         {
-          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.15@jar",
+          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.16@jar",
           "name": "Esketit Metallurgy",
           "type": "ForgeMod",
           "artifact": {
-            "size": 427385,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.15.jar",
-            "MD5": "4bb92729f23c47ddd963f7ea31f7febc"
+            "size": 428390,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.16.jar",
+            "MD5": "c452811e17d00251276452de27b39b4d"
           }
         },
         {
@@ -5042,9 +5042,9 @@
           "name": "world.toml",
           "type": "File",
           "artifact": {
-            "size": 26385,
+            "size": 26298,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/coldsweat/world.toml",
-            "MD5": "ea63dcea6a6e9ddd394d313238d3b704",
+            "MD5": "e6b7ec888ed0cf57d8d32c675825a562",
             "path": "config/coldsweat/world.toml"
           }
         },
@@ -6923,9 +6923,9 @@
           "name": "76CBFFB53E088046.snbt",
           "type": "File",
           "artifact": {
-            "size": 19849,
+            "size": 14253,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/76CBFFB53E088046.snbt",
-            "MD5": "46beaab7012a1ef4ed6594fe9b740d62",
+            "MD5": "1783ba6282684912ff88f89df7a2e3dd",
             "path": "config/ftbquests/quests/chapters/76CBFFB53E088046.snbt"
           }
         },
@@ -7046,7 +7046,7 @@
           "artifact": {
             "size": 8442,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_decoration.snbt",
-            "MD5": "408489bf4aecfcd0b6e949cfdedf98ef",
+            "MD5": "6ab7ef7018471654f068658ffd8d89e2",
             "path": "config/ftbquests/quests/chapters/esk_decoration.snbt"
           }
         },
