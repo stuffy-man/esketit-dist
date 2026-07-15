@@ -6973,28 +6973,6 @@
           }
         },
         {
-          "id": "cold_sweat_intro.snbt",
-          "name": "cold_sweat_intro.snbt",
-          "type": "File",
-          "artifact": {
-            "size": 20723,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/cold_sweat_intro.snbt",
-            "MD5": "c6625b8c50d5bed39fb85abc6cdb548e",
-            "path": "config/ftbquests/quests/chapters/cold_sweat_intro.snbt"
-          }
-        },
-        {
-          "id": "delight_chefs_path.snbt",
-          "name": "delight_chefs_path.snbt",
-          "type": "File",
-          "artifact": {
-            "size": 62986,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/delight_chefs_path.snbt",
-            "MD5": "b5fa4498737b0b0bd6d46e1411b89ed3",
-            "path": "config/ftbquests/quests/chapters/delight_chefs_path.snbt"
-          }
-        },
-        {
           "id": "esk_arsenal.snbt",
           "name": "esk_arsenal.snbt",
           "type": "File",
