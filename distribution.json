@@ -9297,7 +9297,6 @@
           "artifact": {
             "size": 46,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/voicechat/category-volumes.properties",
-            "MD5": "47731f53ffef4a8a57c766a8091a5651",
             "path": "config/voicechat/category-volumes.properties"
           }
         },
@@ -9308,7 +9307,6 @@
           "artifact": {
             "size": 44,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/voicechat/player-volumes.properties",
-            "MD5": "881435f0ba9a0f1af1d2082d1298dcc4",
             "path": "config/voicechat/player-volumes.properties"
           }
         },
@@ -9319,7 +9317,6 @@
           "artifact": {
             "size": 1182,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/voicechat/translations.properties",
-            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
             "path": "config/voicechat/translations.properties"
           }
         },
@@ -9330,7 +9327,6 @@
           "artifact": {
             "size": 2,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/voicechat/username-cache.json",
-            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
             "path": "config/voicechat/username-cache.json"
           }
         },
@@ -9341,7 +9337,6 @@
           "artifact": {
             "size": 4899,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/voicechat/voicechat-client.properties",
-            "MD5": "11ce0aa963f383404878cfe5baa02b93",
             "path": "config/voicechat/voicechat-client.properties"
           }
         },
@@ -9352,7 +9347,6 @@
           "artifact": {
             "size": 2838,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/voicechat/voicechat-server.properties",
-            "MD5": "72991a21ea0b82a2e74530e8855c2ad0",
             "path": "config/voicechat/voicechat-server.properties"
           }
         },
