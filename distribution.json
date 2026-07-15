@@ -2311,6 +2311,16 @@
           }
         },
         {
+          "id": "net.razorplay.invview_forge:inv_view_forge:2.1.0-1.20.1@jar",
+          "name": "InvView_Forge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 85516,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/inv_view_forge-2.1.0-1.20.1.jar",
+            "MD5": "9f2da2c9bf14e8b47f182e87e8658cec"
+          }
+        },
+        {
           "id": "org.anti_ad.mc.ipnext:inventoryprofilesnext:1.10.20@jar",
           "name": "Inventory Profiles Next",
           "type": "ForgeMod",
@@ -5042,9 +5052,9 @@
           "name": "world.toml",
           "type": "File",
           "artifact": {
-            "size": 26298,
+            "size": 25980,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/coldsweat/world.toml",
-            "MD5": "e6b7ec888ed0cf57d8d32c675825a562",
+            "MD5": "836fbf1fbe1c0c65ad23fba409cdc435",
             "path": "config/coldsweat/world.toml"
           }
         },
