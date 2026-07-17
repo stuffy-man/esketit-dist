@@ -1750,13 +1750,13 @@
           }
         },
         {
-          "id": "dev.esketitenchants:esketit_enchants:1.0.0@jar",
+          "id": "dev.esketitenchants:esketit_enchants:1.0.1@jar",
           "name": "Esketit Enchant Tweaks",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3461,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_enchants-1.0.0.jar",
-            "MD5": "b41c2cc3709812fe1d3881122aae9dc2"
+            "size": 3458,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_enchants-1.0.1.jar",
+            "MD5": "a9904ff7addb1edfd42692b4c4506eb5"
           }
         },
         {
