@@ -1750,13 +1750,23 @@
           }
         },
         {
-          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.19@jar",
+          "id": "dev.esketitenchants:esketit_enchants:1.0.0@jar",
+          "name": "Esketit Enchant Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3461,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_enchants-1.0.0.jar",
+            "MD5": "b41c2cc3709812fe1d3881122aae9dc2"
+          }
+        },
+        {
+          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.20@jar",
           "name": "Esketit Metallurgy",
           "type": "ForgeMod",
           "artifact": {
-            "size": 477024,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.19.jar",
-            "MD5": "2007e0a99c9cb567d36ad79aa5ef67df"
+            "size": 481228,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.20.jar",
+            "MD5": "2d759015007da1fec212ef9d0a5a1a76"
           }
         },
         {
