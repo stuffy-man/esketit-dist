@@ -5052,9 +5052,9 @@
           "name": "world.toml",
           "type": "File",
           "artifact": {
-            "size": 25980,
+            "size": 26002,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/coldsweat/world.toml",
-            "MD5": "836fbf1fbe1c0c65ad23fba409cdc435",
+            "MD5": "85b0718966e9dd275429b117f86f69fd",
             "path": "config/coldsweat/world.toml"
           }
         },
@@ -9575,6 +9575,17 @@
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/config/common.properties",
             "MD5": "1780066299acbdb4785f67c909dc9a66",
             "path": "kubejs/config/common.properties"
+          }
+        },
+        {
+          "id": "default.json",
+          "name": "default.json",
+          "type": "File",
+          "artifact": {
+            "size": 1615,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/cold_sweat/cold_sweat/world/temp_region/default.json",
+            "MD5": "493dfe433f0e46e1dd81aa17681090ee",
+            "path": "kubejs/data/cold_sweat/cold_sweat/world/temp_region/default.json"
           }
         },
         {
