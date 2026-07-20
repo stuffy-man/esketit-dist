@@ -1251,6 +1251,16 @@
           }
         },
         {
+          "id": "com.silopante:createair:1.0.5@jar",
+          "name": "Create Air",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 60320,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/createair-1.0.5.jar",
+            "MD5": "75da2f00c007b1f4c21e3a98ea430574"
+          }
+        },
+        {
           "id": "rbasamoyai.createbigcannons:createbigcannons:5.11.4@jar",
           "name": "Create Big Cannons",
           "type": "ForgeMod",
