@@ -1,0 +1,10 @@
+{
+  "rarity.common": "Обычный",
+  "rarity.uncommon": "Необычный",
+  "rarity.rare": "Редкий",
+  "rarity.epic": "Эпический",
+  "rarity.delicacy": "Изысканный",
+  "rarity.inverted": "Инвертированный",
+  "rarity.legendary": "Легендарный",
+  "rarity.unobtainable": "Недоступный"
+}

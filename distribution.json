@@ -5093,9 +5093,9 @@
           "name": "world.toml",
           "type": "File",
           "artifact": {
-            "size": 27458,
+            "size": 27521,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/coldsweat/world.toml",
-            "MD5": "1a816aabc6744e0d9b52a72016277af0",
+            "MD5": "d3224fe9270bebdb1d62bc5745a4add0",
             "path": "config/coldsweat/world.toml"
           }
         },
@@ -8940,9 +8940,9 @@
           "name": "spelunkery-common.toml",
           "type": "File",
           "artifact": {
-            "size": 1480,
+            "size": 1478,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/spelunkery-common.toml",
-            "MD5": "e4e424f15d74dc3a9583b09b088283a6",
+            "MD5": "855769816eee8e95aeb96438edc87c49",
             "path": "config/spelunkery-common.toml"
           }
         },
@@ -9553,6 +9553,17 @@
           }
         },
         {
+          "id": "ru_ru.json",
+          "name": "ru_ru.json",
+          "type": "File",
+          "artifact": {
+            "size": 354,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/vminus/lang/ru_ru.json",
+            "MD5": "025cdef33a8e7555c2b95beb677929e5",
+            "path": "kubejs/assets/vminus/lang/ru_ru.json"
+          }
+        },
+        {
           "id": "example.js",
           "name": "example.js",
           "type": "File",
@@ -9843,9 +9854,9 @@
           "name": "food_tags.js",
           "type": "File",
           "artifact": {
-            "size": 7988,
+            "size": 8525,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/server_scripts/food_tags.js",
-            "MD5": "68e248851975379321f098b06d1c2b77",
+            "MD5": "a0051cdf394a0f5e49a1303f42b71693",
             "path": "kubejs/server_scripts/food_tags.js"
           }
         },
