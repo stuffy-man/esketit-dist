@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["Здесь собраны главные отличия сборки от ванильной игры."]
 			icon: "minecraft:writable_book"
 			id: "7D0B000000000001"
 			rewards: [{
@@ -296,11 +297,12 @@
 				id: "7D0B40000000000B"
 				type: "checkmark"
 			}]
-			title: "Иллагеры помнят"
+			title: "Пиладжеры помнят"
 			x: -1.8d
 			y: 6.0d
 		}
 		{
+			description: ["В мире встречается больше обычных и новых животных."]
 			dependencies: ["7D0B000000000001"]
 			icon: "minecraft:wheat"
 			id: "7D0B00000000000C"

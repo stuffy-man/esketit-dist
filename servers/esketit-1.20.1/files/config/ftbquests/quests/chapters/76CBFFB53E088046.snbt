@@ -15,6 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["Пройди путь от руды до качественного снаряжения."]
 			icon: {
 				Count: 1
 				id: "esketit_metallurgy:smithing_hammer"
@@ -185,6 +186,7 @@
 			y: 3.0d
 		}
 		{
+			description: ["Выплавь олово — основу бронзового сплава."]
 			dependencies: ["7E5C000000000003"]
 			id: "7E5C000000000004"
 			rewards: [{
@@ -240,6 +242,7 @@
 			y: 4.5d
 		}
 		{
+			description: ["Сплавь медь с оловом и выкуй бронзовый инструмент."]
 			dependencies: ["7E5C000000000004"]
 			id: "7E5C000000000005"
 			rewards: [{
