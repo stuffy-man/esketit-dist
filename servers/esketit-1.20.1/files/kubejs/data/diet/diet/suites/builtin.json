@@ -35,12 +35,12 @@
         },
         {
           "name": "minecraft:generic.attack_damage",
-          "operation": "multiply_base",
+          "operation": "multiply_total",
           "amount": 0.1
         },
         {
           "name": "minecraft:generic.movement_speed",
-          "operation": "multiply_base",
+          "operation": "multiply_total",
           "amount": 0.1
         }
       ],
@@ -62,27 +62,27 @@
         },
         {
           "name": "minecraft:generic.attack_damage",
-          "operation": "multiply_base",
+          "operation": "multiply_total",
           "amount": 0.25
         },
         {
           "name": "minecraft:generic.movement_speed",
-          "operation": "multiply_base",
+          "operation": "multiply_total",
           "amount": 0.25
         },
         {
           "name": "minecraft:generic.attack_speed",
-          "operation": "multiply_base",
+          "operation": "multiply_total",
           "amount": 0.25
         },
         {
           "name": "minecraft:generic.armor",
-          "operation": "multiply_base",
+          "operation": "multiply_total",
           "amount": 0.25
         },
         {
           "name": "minecraft:generic.armor_toughness",
-          "operation": "multiply_base",
+          "operation": "multiply_total",
           "amount": 0.25
         }
       ],
@@ -104,28 +104,28 @@
         },
         {
           "name": "minecraft:generic.attack_damage",
-          "operation": "multiply_base",
-          "amount": 0.25
+          "operation": "multiply_total",
+          "amount": 0.2
         },
         {
           "name": "minecraft:generic.movement_speed",
-          "operation": "multiply_base",
-          "amount": 0.25
+          "operation": "multiply_total",
+          "amount": 0.2
         },
         {
           "name": "minecraft:generic.attack_speed",
-          "operation": "multiply_base",
-          "amount": 0.25
+          "operation": "multiply_total",
+          "amount": 0.2
         },
         {
           "name": "minecraft:generic.armor",
-          "operation": "multiply_base",
-          "amount": 0.25
+          "operation": "multiply_total",
+          "amount": 0.2
         },
         {
           "name": "minecraft:generic.armor_toughness",
-          "operation": "multiply_base",
-          "amount": 0.25
+          "operation": "multiply_total",
+          "amount": 0.2
         }
       ],
       "conditions": [

@@ -9654,9 +9654,9 @@
           "name": "builtin.json",
           "type": "File",
           "artifact": {
-            "size": 3310,
+            "size": 3317,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/diet/diet/suites/builtin.json",
-            "MD5": "ae6f737bc3e2be6149faf5149b8ef70e",
+            "MD5": "a03bca4fb40b6c0f1c25cf4f2cb25028",
             "path": "kubejs/data/diet/diet/suites/builtin.json"
           }
         },
