@@ -18,7 +18,7 @@ features:
   item-merge-radius: 0.5
   lobotomize-villagers:
     # Makes villagers tick less often if they are stuck in a 1x1 space.
-    enabled: false
+    enabled: true
     # Decides the interval in between villager ticks when lobotomized.
     tick-interval: 20
 
@@ -160,7 +160,7 @@ commands:
 # Note: while this is a very powerful feature, it can still slow down mobfarms and break very specific technical contraptions.
 activation-range:
   # Enables activation range.
-  enabled: false
+  enabled: true
   # Briefly ticks entities newly added to the world for 10 seconds (includes both spawning and loading).
   # This gives them a chance to properly immunize when they are spawned if they should be. Can be helpful for mobfarms.
   tick-new-entities: true
@@ -212,7 +212,7 @@ activation-range:
         - 'typeof:raider'
 
     - name: 'water'
-      activation-range: 16
+      activation-range: 24
       tick-interval: 20
       wakeup-interval: 60
       extra-height-up: false
@@ -221,7 +221,7 @@ activation-range:
         - 'typeof:water_animal'
 
     - name: 'villager'
-      activation-range: 16
+      activation-range: 24
       tick-interval: 20
       wakeup-interval: 30
       extra-height-up: false
@@ -271,7 +271,7 @@ activation-range:
         - 'typeof:monster'
 
     - name: 'animal'
-      activation-range: 16
+      activation-range: 24
       tick-interval: 20
       wakeup-interval: 60
       extra-height-up: false
@@ -288,5 +288,4 @@ activation-range:
       extra-height-down: false
       entity-matcher:
         - 'typeof:mob'
-
 

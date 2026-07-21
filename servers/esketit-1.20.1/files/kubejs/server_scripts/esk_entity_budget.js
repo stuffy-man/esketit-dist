@@ -2,6 +2,10 @@
 // Keeps expensive wild populations within a server-safe budget.
 // Named, tamed, leashed, ridden, persistent and chest-carrying animals are never removed.
 (function () {
+  // APT already prevents new overpopulation. A full level.getEntities() scan
+  // causes a large server-thread spike when the first player joins, so the
+  // legacy cleanup remains available for emergencies but is disabled normally.
+  var ENABLED = false;
   var DEBUG = false;
 
   // id: [base per dimension, extra per online player]
@@ -106,6 +110,7 @@
   }
 
   if (PlayerEvents.tick) PlayerEvents.tick(function (event) {
+    if (!ENABLED) return;
     var player = event.player;
     if (!player) return;
     var level;
