@@ -1579,19 +1579,6 @@
           }
         },
         {
-          "id": "io.github.andrew6rant:dynamictrim:1.4.1@jar",
-          "name": "DynamicTrim",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 293540,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/dynamictrim.jar",
-            "MD5": "e28b0a6462426b6b934b97a23d2dcc7c"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "fuzs.easyanvils:easyanvils:8.0.2@jar",
           "name": "Easy Anvils",
           "type": "ForgeMod",
