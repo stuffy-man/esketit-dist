@@ -205,7 +205,10 @@
         var popMult = populationCooldownMult();
         var cd = TEST_MODE ? 400 : clampInt(cfg2[0] * atmo.cd * popMult);
         if (!TEST_MODE && isDay(level)) cd = clampInt(cd * DAY_COOLDOWN_MULT);
-        try { pd.putLong('EskNextPatrol', nowGT + cd); } catch (e) {}
+        try {
+          pd.putLong('EskNextPatrol', nowGT + cd);
+          pd.putFloat('EskPatrolPopulationMult', popMult);
+        } catch (e) {}
         if (DEBUG) console.info('[director] передышка=' + cd + ' тиков, online=' + onlineCount() + ', populationMult=' + popMult.toFixed(2));
         return;
       }
@@ -216,6 +219,20 @@
       var cfg = TIERS[tier > 4 ? 4 : tier];
       if (!cfg) return;
       var nextAt = 0; try { nextAt = pd.getLong('EskNextPatrol'); } catch (e) {}
+      // Если онлайн вырос во время уже идущей передышки, сокращаем её один раз пропорционально.
+      // При падении онлайна текущую передышку не удлиняем; новый кулдаун уже возьмёт новое значение.
+      if (!TEST_MODE && nextAt > nowGT) {
+        try {
+          var currentPopMult = populationCooldownMult();
+          var scheduledPopMult = pd.getFloat('EskPatrolPopulationMult');
+          if (scheduledPopMult <= 0) scheduledPopMult = 1.0; // кулдаун от старой версии скрипта
+          if (currentPopMult < scheduledPopMult) {
+            nextAt = nowGT + clampInt((nextAt - nowGT) * currentPopMult / scheduledPopMult);
+            pd.putLong('EskNextPatrol', nextAt);
+            pd.putFloat('EskPatrolPopulationMult', currentPopMult);
+          }
+        } catch (e) {}
+      }
       if (nextAt !== 0 && nowGT < nextAt) return; // передышка
 
       // ── Стадия 1: ролл (с учётом атмосферы) → предупреждение + отложенный спавн ──
