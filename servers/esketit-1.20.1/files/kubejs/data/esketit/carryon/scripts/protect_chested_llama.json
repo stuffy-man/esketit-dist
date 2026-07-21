@@ -1,0 +1,14 @@
+{
+  "priority": 1000,
+  "object": {
+    "entity": {
+      "name": "minecraft:llama",
+      "nbt": {
+        "ChestedHorse": true
+      }
+    }
+  },
+  "conditions": {
+    "xp": "<0"
+  }
+}

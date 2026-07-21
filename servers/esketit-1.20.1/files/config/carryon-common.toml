@@ -42,7 +42,7 @@
 	#Whether the player drops the carried object when hit or not
 	dropCarriedWhenHit = false
 	#Use custom Pickup Scripts. Having this set to false, will not allow you to run scripts, but will increase your performance
-	useScripts = false
+	useScripts = true
 	#Allows entities to be stacked on top of each other
 	stackableEntities = true
 	#Whether entities' size matters when stacking or not. This means that larger entities cannot be stacked on smaller ones
