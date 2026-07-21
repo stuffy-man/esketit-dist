@@ -8,7 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["/notoriety показывает известность и тир угрозы."]
+			description: ["/notoriety показывает известность и уровень угрозы."]
 			icon: {
 				Count: 1
 				id: "minecraft:pillager_spawn_egg"
@@ -200,7 +200,7 @@
 			y: 9.6d
 		}
 		{
-			description: ["Богатство при себе усиливает врагов и награды. Сундуки снижают риск."]
+			description: ["Снаряжение и все предметы при себе, включая сумки, повышают известность. Проверка: /notoriety"]
 			icon: {
 				Count: 1
 				id: "minecraft:crossbow"

@@ -43,9 +43,10 @@
     ['esketit_metallurgy:copper', 3], ['golden', 2], ['stone', 1], ['wooden', 0]
   ];
 
-  // Любой предмет даёт крошечный вклад, но ценные ресурсы и снаряжение остаются главным фактором.
-  // Это не позволяет набить высокий тир булыжником, зато закрывает лазейку с сумками/контейнерами.
-  var GENERIC_ITEM_WEIGHT = 0.002;
+  // Учитываются все стаки, в том числе внутри сумок, шалкеров и других NBT-контейнеров.
+  // Заполненный инвентарь заметен, но ценные ресурсы всё ещё влияют намного сильнее обычных блоков.
+  var GENERIC_STACK_WEIGHT = 0.18;
+  var GENERIC_ITEM_WEIGHT = 0.01;
   var MAX_NBT_DEPTH = 12;
   var MAX_NBT_NODES = 4096;
   var MAX_NESTED_STACKS = 1024;
@@ -163,10 +164,13 @@
     } catch (e) { if (DEBUG) console.error('[notoriety] curios ' + e); }
   }
 
-  function addItemValue(state, id, count, itemNbt) {
+  function addItemValue(state, id, count, itemNbt, nested) {
     if (!id || count <= 0) return;
     var cappedCount = Math.min(count, 64);
-    state.raw += GENERIC_ITEM_WEIGHT * cappedCount;
+    state.raw += GENERIC_STACK_WEIGHT + GENERIC_ITEM_WEIGHT * cappedCount;
+    state.items += count;
+    state.countedStacks++;
+    if (nested) state.nestedStacks++;
     var valuable = VALUABLES[id];
     if (valuable) state.raw += valuable * count;
     if (isEquipmentId(id)) state.raw += toolScore(id) * 0.6 * Math.min(count, 4);
@@ -186,7 +190,7 @@
           var id = String(tag.getString('id'));
           var count = tag.contains('Count') ? tag.getInt('Count') : tag.getInt('count');
           var itemNbt = tag.contains('tag') ? tag.getCompound('tag') : null;
-          addItemValue(state, id, count, itemNbt);
+          addItemValue(state, id, count, itemNbt, true);
           state.stacks++;
         }
         var keys = tag.getAllKeys().iterator();
@@ -207,13 +211,13 @@
       var id = String(st.getId());
       var count = st.getCount();
       var nbt = st.getNbt();
-      addItemValue(state, id, count, nbt);
+      addItemValue(state, id, count, nbt, false);
       if (nbt) scanNestedNbt(nbt, state, 0);
     } catch (e) { if (DEBUG) console.error('[notoriety] stack ' + e); }
   }
 
   function computeCarry(p) {
-    var state = { raw: 0, nodes: 0, stacks: 0 };
+    var state = { raw: 0, nodes: 0, stacks: 0, countedStacks: 0, nestedStacks: 0, items: 0 };
     try {
       var inv = p.inventory;
       for (var i = 0; i <= 40; i++) {
@@ -224,7 +228,12 @@
     } catch (e) { if (DEBUG) console.error('[notoriety] carry ' + e); }
     // Лог-масштаб: 0→0, ~40→~15, ~300→~30 (богатство не улетает в бесконечность)
     var scaled = state.raw <= 0 ? 0 : Math.log(1 + state.raw) * 5.4;
-    return clamp(scaled, 0, CAP_CARRY);
+    return {
+      score: clamp(scaled, 0, CAP_CARRY),
+      stacks: state.countedStacks,
+      nestedStacks: state.nestedStacks,
+      items: state.items
+    };
   }
 
   function computeBase(p) {
@@ -257,12 +266,18 @@
     lastCalc[id] = now;
 
     try {
-      var g = computeGear(p), c = computeCarry(p), b = computeBase(p), a = computeAge();
+      var g = computeGear(p), carry = computeCarry(p), c = carry.score, b = computeBase(p), a = computeAge();
       var n = Math.round(clamp(g + c + b + a, 0, 100));
       var tier = tierOf(n);
       var pd = p.persistentData;
       pd.putInt('EskNotoriety', n);
       pd.putInt('EskNotorietyTier', tier);
+      pd.putInt('EskNotorietyGear', Math.round(g));
+      pd.putInt('EskNotorietyCarry', Math.round(c));
+      pd.putInt('EskNotorietyAge', Math.round(a));
+      pd.putInt('EskNotorietyStacks', carry.stacks);
+      pd.putInt('EskNotorietyNestedStacks', carry.nestedStacks);
+      pd.putInt('EskNotorietyItems', Math.min(carry.items, 2147483647));
       if (DEBUG) console.info('[notoriety] ' + p.getUsername() + ' N=' + n + ' (g' + Math.round(g) + ' c' + Math.round(c) + ' b' + Math.round(b) + ' a' + Math.round(a) + ') tier=' + tier);
     } catch (e) { console.error('[notoriety] calc ' + e); }
   });
@@ -277,8 +292,11 @@
             var sp = ctx.getSource().getPlayerOrException();
             var pd = sp.getPersistentData();
             var n = pd.getInt('EskNotoriety'), t = pd.getInt('EskNotorietyTier');
-            var names = ['§7Безвестный', '§fЗамеченный', '§eМеченый', '§6Охотимый', '§cВраг пиладжеров'];
-            sp.sendSystemMessage(Text.of('§8[§dNotoriety§8] §fуровень §b' + n + '§f/100 — тир ' + (names[t] || t)));
+            var names = ['§7Неизвестен', '§fЗамечен', '§eИзвестен', '§6В розыске', '§cВраг пиладжеров'];
+            var gear = pd.getInt('EskNotorietyGear'), carry = pd.getInt('EskNotorietyCarry'), age = pd.getInt('EskNotorietyAge');
+            var stacks = pd.getInt('EskNotorietyStacks'), nested = pd.getInt('EskNotorietyNestedStacks'), items = pd.getInt('EskNotorietyItems');
+            sp.sendSystemMessage(Text.of('§8[§dИзвестность§8] §f' + n + '§f/100 — ' + (names[t] || t)));
+            sp.sendSystemMessage(Text.of('§7Снаряжение: §f' + gear + '§7, имущество: §f' + carry + '§7, время: §f' + age + '§7. Учтено: §f' + stacks + '§7 стаков (§f' + nested + '§7 в контейнерах), §f' + items + '§7 предметов.'));
           } catch (e2) {}
           return 1;
         })
