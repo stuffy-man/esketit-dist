@@ -1761,9 +1761,9 @@
           "name": "Esketit Metallurgy",
           "type": "ForgeMod",
           "artifact": {
-            "size": 491670,
+            "size": 491673,
             "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.27.jar",
-            "MD5": "9cf8405f9529f0ce5e267007cf60dfbe"
+            "MD5": "a00c8d5bfe0d760ce1b11491e58703a8"
           }
         },
         {
