@@ -3966,6 +3966,17 @@
           }
         },
         {
+          "id": "spawn.toml",
+          "name": "spawn.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2018,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adaptive_performance_tweaks/spawn.toml",
+            "MD5": "ef606e7c5a99dcfbc55e5c62781eaab5",
+            "path": "config/adaptive_performance_tweaks/spawn.toml"
+          }
+        },
+        {
           "id": "aluminum.cfg",
           "name": "aluminum.cfg",
           "type": "File",
@@ -9816,13 +9827,24 @@
           }
         },
         {
+          "id": "esk_entity_budget.js",
+          "name": "esk_entity_budget.js",
+          "type": "File",
+          "artifact": {
+            "size": 4321,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/server_scripts/esk_entity_budget.js",
+            "MD5": "a7c8021f1ffd5f25123a238037d73cbe",
+            "path": "kubejs/server_scripts/esk_entity_budget.js"
+          }
+        },
+        {
           "id": "esk_notoriety.js",
           "name": "esk_notoriety.js",
           "type": "File",
           "artifact": {
-            "size": 15932,
+            "size": 16315,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/server_scripts/esk_notoriety.js",
-            "MD5": "604eb485348654255d4a5959b91e3da4",
+            "MD5": "dff5470ceee568a213b124437119a3f6",
             "path": "kubejs/server_scripts/esk_notoriety.js"
           }
         },
