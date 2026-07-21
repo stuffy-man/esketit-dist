@@ -7,7 +7,7 @@
 // Другие скрипты (esk_pillager_scaling / esk_threat_director) читают ЭТО, не дублируя счёт.
 //
 // БЕЗОПАСНОСТЬ (уроки пака): только var; троттл через СВОЙ счётчик (НЕ p.age — он undefined);
-// весь код в try/catch (ошибка server-script = сервер незаходибелен); IIFE (общий scope скриптов).
+// весь код в try/catch (ошибка server-script не должна ломать вход); IIFE (общий scope скриптов).
 // Ничего не крашит: любой промах API → компонент = 0, не исключение наверх.
 
 (function () {
@@ -21,9 +21,10 @@
   // Пороги тиров по сырому N (0..100). tierOf(N): последний порог, который N достиг.
   var TIER_CUTS = [16, 36, 56, 76]; // <16=0, <36=1, <56=2, <76=3, >=76=4
 
-  // Полный надетый незеритовый комплект сам по себе означает высшую угрозу.
-  // Остальное снаряжение по-прежнему набирает очки обычным способом.
-  var CAP_GEAR = 90, FULL_NETHERITE_SET_SCORE = 90, CAP_BASE = 20, CAP_AGE = 10;
+  // До 65 можно получить обычным сильным снаряжением; незеритовый комплект
+  // сохраняет отдельный минимум 90. Остаток добирается имуществом и прогрессом мира.
+  var CAP_GEAR = 90, NORMAL_GEAR_CAP = 65, FULL_NETHERITE_SET_SCORE = 90;
+  var CAP_CARRY = 60, CAP_BASE = 20, CAP_AGE = 10;
 
   // Несомые ценности: id → вес за 1 штуку (лог-масштаб применяется к сумме)
   var VALUABLES = {
@@ -34,6 +35,8 @@
     'minecraft:gold_ingot': 1, 'minecraft:gold_block': 9,
     'minecraft:totem_of_undying': 2, 'minecraft:enchanted_golden_apple': 3,
     'minecraft:nether_star': 10, 'minecraft:netherite_upgrade_smithing_template': 3,
+    'minecraft:beacon': 20, 'minecraft:dragon_egg': 25, 'minecraft:dragon_head': 8,
+    'minecraft:elytra': 12, 'minecraft:conduit': 12, 'minecraft:heart_of_the_sea': 6,
     'esketit_metallurgy:steel_ingot': 1.5, 'esketit_metallurgy:rose_gold_ingot': 1.5,
     'esketit_metallurgy:steel_block': 13, 'esketit_metallurgy:rose_gold_block': 13
   };
@@ -43,11 +46,17 @@
     ['diamond', 7], ['esketit_metallurgy:bronze', 5], ['iron', 4],
     ['esketit_metallurgy:copper', 3], ['golden', 2], ['stone', 1], ['wooden', 0]
   ];
+  var SPECIAL_TOOL_SCORE = {
+    'minecraft:trident': 9,
+    'minecraft:crossbow': 6,
+    'minecraft:bow': 5,
+    'minecraft:shield': 4
+  };
 
   // Учитываются все стаки, в том числе внутри сумок, шалкеров и других NBT-контейнеров.
   // Заполненный инвентарь заметен, но ценные ресурсы всё ещё влияют намного сильнее обычных блоков.
-  var GENERIC_STACK_WEIGHT = 0.18;
-  var GENERIC_ITEM_WEIGHT = 0.01;
+  var GENERIC_STACK_WEIGHT = 0.22;
+  var GENERIC_ITEM_WEIGHT = 0.012;
   var MAX_NBT_DEPTH = 12;
   var MAX_NBT_NODES = 4096;
   var MAX_NESTED_STACKS = 1024;
@@ -88,7 +97,7 @@
   }
 
   function toolScore(id) {
-    var best = 0;
+    var best = SPECIAL_TOOL_SCORE[id] || 0;
     for (var i = 0; i < TOOL_TIER.length; i++) if (id.indexOf(TOOL_TIER[i][0]) >= 0 && TOOL_TIER[i][1] > best) best = TOOL_TIER[i][1];
     return best;
   }
@@ -148,9 +157,9 @@
   function computeGear(p) {
     var g = 0;
     try {
-      // Броня (0..15): ванильный armorValue 0..20 → 0..12, + toughness/quality сверху
+      // Броня: полный хороший комплект должен быть заметен сам по себе.
       var av = 0; try { av = p.getArmorValue(); } catch (e) {}
-      g += clamp(av * 0.6, 0, 12);
+      g += clamp(av * 1.25, 0, 25);
       var inv = p.inventory;
       // Слоты брони 36..39; оружие и инструменты учитываются во всём инвентаре, не только в хотбаре.
       var qBonus = 0, enchTotal = 0, toolBest = 0;
@@ -165,12 +174,12 @@
         qBonus += forgingQualityBonus(curio) * 0.5;
         enchTotal += enchLevels(curio) * 0.5;
       });
-      g += clamp(toolBest, 0, 10);              // оружие/инструмент 0..10
-      g += clamp(enchTotal * 0.5, 0, 10);        // зачарования 0..10
-      g += clamp(qBonus, 0, 5);                  // качество ковки 0..5
+      g += clamp(toolBest * 1.5, 0, 15);         // оружие/инструмент 0..15
+      g += clamp(enchTotal * 0.75, 0, 15);       // зачарования 0..15
+      g += clamp(qBonus * 1.25, 0, 10);          // качество ковки 0..10
     } catch (e) { if (DEBUG) console.error('[notoriety] gear ' + e); }
     if (wearsFullNetheriteSet(p.inventory)) return Math.max(FULL_NETHERITE_SET_SCORE, clamp(g, 0, CAP_GEAR));
-    return clamp(g, 0, CAP_GEAR);
+    return clamp(g, 0, NORMAL_GEAR_CAP);
   }
 
   function eachCurioStack(p, callback) {
@@ -248,11 +257,11 @@
       }
       eachCurioStack(p, function (curio) { addRealStack(state, curio); });
     } catch (e) { if (DEBUG) console.error('[notoriety] carry ' + e); }
-    // Лог-масштаб сохраняет убывающую отдачу, но больше не создаёт скрытый
-    // потолок в 30 очков, из-за которого общий счёт застревал примерно на 56.
-    var scaled = state.raw <= 0 ? 0 : Math.log(1 + state.raw) * 5.4;
+    // Богатство заметно помогает добрать высокий уровень, но само по себе не
+    // даёт 100: после 60 очков всё равно требуется опасное снаряжение.
+    var scaled = state.raw <= 0 ? 0 : Math.log(1 + state.raw) * 7.2;
     return {
-      score: Math.max(0, scaled),
+      score: clamp(scaled, 0, CAP_CARRY),
       stacks: state.countedStacks,
       nestedStacks: state.nestedStacks,
       items: state.items

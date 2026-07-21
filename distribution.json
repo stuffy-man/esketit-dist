@@ -9863,9 +9863,9 @@
           "name": "esk_notoriety.js",
           "type": "File",
           "artifact": {
-            "size": 16964,
+            "size": 17393,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/server_scripts/esk_notoriety.js",
-            "MD5": "54aaed80d15eba84410bc4e550ee2301",
+            "MD5": "6f466c723ff5cc6714f220b7cc73fb69",
             "path": "kubejs/server_scripts/esk_notoriety.js"
           }
         },
