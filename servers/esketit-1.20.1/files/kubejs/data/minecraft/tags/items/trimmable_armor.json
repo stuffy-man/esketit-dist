@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "esketit_metallurgy:copper_helmet",
+    "esketit_metallurgy:copper_chestplate",
+    "esketit_metallurgy:copper_leggings",
+    "esketit_metallurgy:copper_boots",
+    "esketit_metallurgy:bronze_helmet",
+    "esketit_metallurgy:bronze_chestplate",
+    "esketit_metallurgy:bronze_leggings",
+    "esketit_metallurgy:bronze_boots",
+    "esketit_metallurgy:steel_helmet",
+    "esketit_metallurgy:steel_chestplate",
+    "esketit_metallurgy:steel_leggings",
+    "esketit_metallurgy:steel_boots",
+    "esketit_metallurgy:rose_gold_helmet",
+    "esketit_metallurgy:rose_gold_chestplate",
+    "esketit_metallurgy:rose_gold_leggings",
+    "esketit_metallurgy:rose_gold_boots"
+  ]
+}
