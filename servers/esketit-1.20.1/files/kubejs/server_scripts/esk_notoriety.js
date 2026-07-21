@@ -21,10 +21,9 @@
   // Пороги тиров по сырому N (0..100). tierOf(N): последний порог, который N достиг.
   var TIER_CUTS = [16, 36, 56, 76]; // <16=0, <36=1, <56=2, <76=3, >=76=4
 
-  // Снаряжение и возраст ограничены своими разумными долями. Имущество имеет
-  // плавное логарифмическое затухание, но не отдельный потолок: итоговый счёт
-  // всё равно безопасно ограничивается диапазоном 0..100 ниже.
-  var CAP_GEAR = 40, CAP_BASE = 20, CAP_AGE = 10;
+  // Полный надетый незеритовый комплект сам по себе означает высшую угрозу.
+  // Остальное снаряжение по-прежнему набирает очки обычным способом.
+  var CAP_GEAR = 90, FULL_NETHERITE_SET_SCORE = 90, CAP_BASE = 20, CAP_AGE = 10;
 
   // Несомые ценности: id → вес за 1 штуку (лог-масштаб применяется к сумме)
   var VALUABLES = {
@@ -126,6 +125,26 @@
   // Безопасно достать стак из слота инвентаря
   function slot(inv, i) { try { return inv.getItem(i); } catch (e) { return null; } }
 
+  function wearsFullNetheriteSet(inv) {
+    var required = {
+      'minecraft:netherite_helmet': false,
+      'minecraft:netherite_chestplate': false,
+      'minecraft:netherite_leggings': false,
+      'minecraft:netherite_boots': false
+    };
+    try {
+      for (var i = 36; i <= 39; i++) {
+        var stack = slot(inv, i);
+        if (!stack || stack.isEmpty()) return false;
+        var id = String(stack.getId());
+        if (!required.hasOwnProperty(id)) return false;
+        required[id] = true;
+      }
+      for (var id in required) if (!required[id]) return false;
+      return true;
+    } catch (e) { return false; }
+  }
+
   function computeGear(p) {
     var g = 0;
     try {
@@ -150,6 +169,7 @@
       g += clamp(enchTotal * 0.5, 0, 10);        // зачарования 0..10
       g += clamp(qBonus, 0, 5);                  // качество ковки 0..5
     } catch (e) { if (DEBUG) console.error('[notoriety] gear ' + e); }
+    if (wearsFullNetheriteSet(p.inventory)) return Math.max(FULL_NETHERITE_SET_SCORE, clamp(g, 0, CAP_GEAR));
     return clamp(g, 0, CAP_GEAR);
   }
 
