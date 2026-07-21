@@ -8,35 +8,14 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Кожаный мешок с запасом воздуха. Держите ПКМ, чтобы сделать"
-				"глоток и мгновенно пополнить дыхание - пригодится высоко в"
-				"горах, глубоко под землёй или в местах, где просто нечем"
-				"дышать."
-				""
-				"У мешка ограниченный запас использований и он может"
-				"сноситься от частого применения. Рядом с Пламенем душ он"
-				"не сработает - там воздух и так держится сам, через край"
-				"не нальёшь."
-				""
-				"--- ENG ---"
-				"A leather bag with a reserve of air. Hold right-click to take"
-				"a breath from it and instantly refill your air - handy high"
-				"in the mountains, deep underground, or anywhere there's simply"
-				"nothing to breathe."
-				""
-				"It has a limited number of uses and can wear out from frequent"
-				"use. It won't work near Soul Fire - your air already holds"
-				"steady there on its own, so there's nothing to top up."
-			]
+			description: ["Зажми ПКМ, чтобы восстановить воздух."]
 			id: "7EEB8A1EC9332A30"
-			rewards: [
-				{
-					id: "7DFF000000000138"
-					type: "xp"
-					xp: 10
-				}
-			]
+			title: "Запас воздуха"
+			rewards: [{
+				id: "7DFF000000000138"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "1F4AEFBB6E04F477"
 				item: {
@@ -53,15 +32,9 @@
 		}
 		{
 			dependencies: ["7EEB8A1EC9332A30"]
-			description: [
-				"Улучшение мешка с воздухом: соедините его со слитком"
-				"незерита - получится более прочная версия того же самого."
-				""
-				"--- ENG ---"
-				"An upgrade for the air bladder: combine it with a Netherite"
-				"Ingot to get a sturdier version of the same thing."
-			]
+			description: ["Мешок + незеритовый слиток."]
 			id: "180E2DF5AEE341C3"
+			title: "Усиленный мешок"
 			rewards: [
 				{
 					id: "7DFF000000000139"
@@ -94,36 +67,14 @@
 			y: 3.2d
 		}
 		{
-			description: [
-				"Тканевая маска-респиратор из бумаги, угля и нити."
-				""
-				"Защищает от разрежённого, удушливого воздуха - там, где просто"
-				"тяжело дышать, но ещё не смертельно. Наденьте её не в шлем,"
-				"а в слот аксессуара для головы - для этого нужен Curios или"
-				"Trinkets, сам по себе респиратор брони не даёт."
-				""
-				"Там, где воздуха нет совсем (например, в Аду), респиратор"
-				"уже не спасёт - нужно что-то посерьёзнее."
-				""
-				"--- ENG ---"
-				"A cloth respirator mask made from paper, coal and string."
-				""
-				"It protects you from thin, choking air - places where"
-				"breathing is hard but not yet deadly. It goes into a head"
-				"accessory slot, not the helmet slot, so you'll need Curios or"
-				"Trinkets installed; the respirator gives no armor by itself."
-				""
-				"Where there's no air at all (like the Nether), the respirator"
-				"won't be enough on its own - you'll need something stronger."
-			]
+			description: ["Носи в слоте головы Curios. В безвоздушных местах не спасает."]
 			id: "50E86C2C5F2CA963"
-			rewards: [
-				{
-					id: "7DFF00000000013B"
-					type: "xp"
-					xp: 15
-				}
-			]
+			title: "Респиратор"
+			rewards: [{
+				id: "7DFF00000000013B"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				id: "6CE3F1AAB80BE684"
 				item: {
@@ -140,26 +91,14 @@
 		}
 		{
 			dependencies: ["50E86C2C5F2CA963"]
-			description: [
-				"Бутылка, в которой заперт кусочек силы Пламени душ. Выпейте"
-				"её - и запас воздуха мгновенно восстановится полностью, вообще"
-				"в любом месте, без исключений. Расходуется за один раз - это"
-				"аварийный запас на крайний случай, а не многоразовый инструмент."
-				""
-				"--- ENG ---"
-				"A bottle trapping a fragment of Soul Fire's power. Drink it"
-				"and your air is instantly and fully restored, anywhere, no"
-				"exceptions. It's used up in one go - an emergency reserve for"
-				"when things get dicey, not a reusable tool."
-			]
+			description: ["Одноразово полностью восстанавливает воздух."]
 			id: "5310F88053FC3FCD"
-			rewards: [
-				{
-					id: "7DFF00000000013C"
-					type: "xp"
-					xp: 20
-				}
-			]
+			title: "Бутылка Пламени душ"
+			rewards: [{
+				id: "7DFF00000000013C"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "79CA4EB8D7BE0450"
 				item: {
@@ -174,29 +113,9 @@
 		}
 		{
 			dependencies: ["5310F88053FC3FCD"]
-			description: [
-				"Медный фонарь на редстоун-факеле. Поставьте его - и он будет"
-				"показывать, насколько хорош воздух рядом, меняя свой цвет и"
-				"яркость: чем хуже дела с кислородом в округе, тем тревожнее"
-				"он выглядит. Настоящая шахтёрская 'канарейка' в виде блока -"
-				"поставьте пару штук по пути в пещеру, и будет сразу видно,"
-				"где начинается опасный участок."
-				""
-				"ПКМ по фонарю с красителем в руке перекрашивает его вручную"
-				"(просто для красоты), а топором можно соскоблить краску назад."
-				""
-				"--- ENG ---"
-				"A copper lantern built around a redstone torch. Place it and"
-				"it shows how good the air is nearby by changing its own colour"
-				"and brightness - the worse the air around it, the more alarming"
-				"it looks. A proper miner's canary in block form - place a few"
-				"along your path into a cave and you'll immediately see where"
-				"the dangerous stretch begins."
-				""
-				"Right-click it with dye to recolour it by hand (just for looks),"
-				"and an axe scrapes the colour back off."
-			]
+			description: ["Цвет показывает качество воздуха рядом."]
 			id: "48BDA54C5AF359E6"
+			title: "Индикатор воздуха"
 			rewards: [
 				{
 					id: "7DFF00000000013D"
@@ -227,20 +146,9 @@
 			y: 8.0d
 		}
 		{
-			description: [
-				"Бонусная мелочь мода, не связанная с воздухом напрямую:"
-				"нажмите ПКМ по уже поставленному обычному факелу - он"
-				"начнёт испускать частицы-искры. Удобно, чтобы издалека"
-				"заметить отмеченный факелами путь назад или выход из"
-				"пещеры."
-				""
-				"--- ENG ---"
-				"A small bonus feature unrelated to air itself: right-click"
-				"an already-placed vanilla torch and it starts spewing spark"
-				"particles. Handy for spotting a torch-marked path back out"
-				"of a cave from a distance."
-			]
+			description: ["ПКМ по факелу включает заметные искры."]
 			id: "6CD8C8510B0B3AEC"
+			title: "Искрящийся факел"
 			rewards: [
 				{
 					id: "7DFF00000000013F"
@@ -271,32 +179,9 @@
 			y: 9.6d
 		}
 		{
-			description: [
-				"Воздух в этом моде не везде одинаковый:"
-				""
-				"ВЫСОКО В ГОРАХ И ГЛУБОКО ПОД ЗЕМЛЁЙ воздух становится"
-				"разрежённым - дышать тяжелее, запас воздуха потихоньку"
-				"утекает. Спасает Респиратор."
-				""
-				"В АДУ И В САМЫХ ГЛУБОКИХ, ОПАСНЫХ МЕСТАХ воздуха может не"
-				"быть вообще - там Респиратор уже не поможет, нужно что-то"
-				"понадёжнее: Бутылка Пламени душ на крайний случай, или"
-				"зелье Свободного дыхания (это переименованное зелье Водного"
-				"дыхания) - оно спасает от нехватки воздуха вообще везде,"
-				"без исключений."
-				""
-				"РЯДОМ С ПЛАМЕНЕМ ДУШ воздух не портится и не становится"
-				"лучше - он просто держится на том уровне, какой уже есть."
-				"Мешок с воздухом здесь бесполезен (нечем дополнять), а вот"
-				"если воздух уже кончается - Пламя душ хотя бы не даст ему"
-				"иссякнуть до нуля."
-				""
-				"Точные высоты и места, где становится тяжело дышать, зависят"
-				"от настроек именно этой сборки - где-то это будет глубже"
-				"пещер, где-то выше определённой горы. Ориентируйтесь на"
-				"собственные ощущения и на Защитный фонарь как индикатор."
-			]
+			description: ["Высота и глубина разрежают воздух; в Незере нужен полный запас дыхания."]
 			id: "57D1435819315EFF"
+			title: "Где трудно дышать"
 			rewards: [
 				{
 					id: "7DFF000000000141"
@@ -330,86 +215,9 @@
 			y: 9.6d
 		}
 		{
-			description: [
-				"Air isn't the same everywhere in this mod:"
-				""
-				"HIGH IN THE MOUNTAINS AND DEEP UNDERGROUND the air gets thin -"
-				"breathing gets harder and your air supply slowly drains. A"
-				"Respirator protects you here."
-				""
-				"IN THE NETHER AND IN THE DEEPEST, MOST DANGEROUS SPOTS there"
-				"may be no air at all - a Respirator won't be enough there, you"
-				"need something stronger: a Bottle of Soulfire as a last resort,"
-				"or a Potion of Free Breathing (a renamed Water Breathing potion)"
-				"- it protects you from lack of air absolutely everywhere, no"
-				"exceptions."
-				""
-				"NEAR SOUL FIRE your air neither gets worse nor better - it just"
-				"holds steady wherever it currently is. An Air Bladder is"
-				"useless here (there's nothing to top up), but if your air is"
-				"already running out, Soul Fire at least keeps it from hitting"
-				"zero."
-				""
-				"The exact heights and places where breathing gets hard depend"
-				"on this pack's own settings - in one pack it might be deep"
-				"caves, in another it's above a certain mountain height. Trust"
-				"your own feel for it, and use the Safety Lantern as a visual"
-				"indicator."
-			]
-			id: "6D637490054BCFCA"
-			rewards: [
-				{
-					id: "7DFF000000000143"
-					type: "xp"
-					xp: 30
-				}
-				{
-					count: 2
-					id: "7DFF000000000144"
-					item: {
-						Count: 1
-						id: "minecraft:emerald"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "thinair:respirator"
-					tag: {
-						Damage: 0
-					}
-				}
-				id: "71294727AE664127"
-				title: "Where breathing gets hard (ENG)"
-				type: "custom"
-			}]
-			x: 0.0d
-			y: 9.6d
-		}
-		{
-			description: [
-				"Кроме высоты и глубины, на воздух рядом с вами влияют и"
-				"конкретные блоки:"
-				""
-				"ОГОНЬ И ЛАВА - воздух возле них резко портится, будто пламя"
-				"выжигает весь кислород вокруг."
-				""
-				"ПЛАМЯ, ФАКЕЛ И ФОНАРЬ ДУШ - воздух рядом с ними не растёт,"
-				"но и не выгорает в ноль, он просто держится на месте (см."
-				"предыдущий квест)."
-				""
-				"ПОРТАЛЫ (Края, Нижнего мира, врата Края) - что удивительно,"
-				"рядом с ними всегда чистый, свежий воздух, независимо от"
-				"того, что творится вокруг."
-				""
-				"Эти блоки перебивают общий фон местности: даже если вы уже"
-				"задыхаетесь глубоко в пещере, встав вплотную к порталу, вы"
-				"тут же сможете вдохнуть полной грудью."
-			]
+			description: ["Огонь и лава портят воздух; порталы очищают; огонь душ удерживает уровень."]
 			id: "5F969F1A6E7C618C"
+			title: "Огонь, лава и порталы"
 			rewards: [
 				{
 					id: "7DFF000000000145"
@@ -440,57 +248,6 @@
 			x: 1.8d
 			y: 9.6d
 		}
-		{
-			description: [
-				"Besides height and depth, specific nearby blocks also affect"
-				"the air around you:"
-				""
-				"FIRE AND LAVA - the air near them turns bad fast, as if the"
-				"flames are burning up all the oxygen around them."
-				""
-				"SOUL FIRE, SOUL TORCHES AND SOUL LANTERNS - the air near them"
-				"doesn't improve, but it doesn't run out either, it just holds"
-				"steady (see the previous quest)."
-				""
-				"PORTALS (End Portal, Nether Portal, End Gateway) -"
-				"surprisingly, the air right next to them is always clean and"
-				"fresh, no matter what's going on around them."
-				""
-				"These blocks override the general air of the area: even if"
-				"you're already gasping deep in a cave, stepping right up to a"
-				"portal will let you catch a full breath immediately."
-			]
-			id: "65ADB097AD094D9A"
-			rewards: [
-				{
-					id: "7DFF000000000147"
-					type: "xp"
-					xp: 30
-				}
-				{
-					count: 2
-					id: "7DFF000000000148"
-					item: {
-						Count: 1
-						id: "minecraft:emerald"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "thinair:safety_lantern"
-					tag: { }
-				}
-				id: "37ED31A746A201EC"
-				title: "Fire, lava and portals (ENG)"
-				type: "custom"
-			}]
-			x: 3.6d
-			y: 9.6d
-		}
 	]
-	title: "Thin Air: разрежённый воздух"
+	title: "Разрежённый воздух"
 }

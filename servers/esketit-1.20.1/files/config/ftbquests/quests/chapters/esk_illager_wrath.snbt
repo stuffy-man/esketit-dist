@@ -4,44 +4,25 @@
 	filename: "esk_illager_wrath"
 	group: ""
 	id: "17A6EE9411A6E000"
-	order_index: 10
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Иллаге и её отряды не трогают нищих бродяг. Но стоит обрасти"
-				"хорошей бронёй, набить карманы алмазами и незеритом, отстроить"
-				"богатую базу - и о тебе пойдёт молва. Разбойники приходят за"
-				"добычей, а лучшая добыча - это ты."
-				""
-				"Чем ты сильнее и богаче, тем выше твоя ИЗВЕСТНОСТЬ среди"
-				"иллагеров. Команда §b/notoriety§r покажет твой уровень и тир -"
-				"от §7Безвестного§r до §cВрага Иллаге§r."
-				""
-				"Бедный новичок живёт спокойно. Богач - живёт с оглядкой."
-				""
-				"--- ENG ---"
-				"The Illage ignores penniless wanderers. But once you get good"
-				"armor, fill your pockets with diamonds and netherite, and raise"
-				"a rich base - word gets around. The best loot is you. The"
-				"stronger and richer you are, the higher your NOTORIETY. Use"
-				"§b/notoriety§r to see your level and tier."
-			]
+			description: ["/notoriety показывает известность и тир угрозы."]
 			icon: {
 				Count: 1
 				id: "minecraft:pillager_spawn_egg"
 				tag: { }
 			}
 			id: "17A6EE9411A6E011"
+			title: "Тебя заметили"
+			rewards: [{
+				id: "7DFF0000000000D1"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "hexagon"
 			size: 1.5d
-			rewards: [
-				{
-					id: "7DFF0000000000D1"
-					type: "xp"
-					xp: 10
-				}
-			]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -57,22 +38,14 @@
 		}
 		{
 			dependencies: ["17A6EE9411A6E011"]
-			description: [
-				"Первый разъезд иллагеров уже вышел на твой след. Покажи, что"
-				"добыча кусается - перебей передовой десяток пилладжеров."
-				""
-				"--- ENG ---"
-				"The first illager patrol is on your trail. Show them the prey"
-				"bites back - cut down the leading pack of pillagers."
-			]
+			description: ["Убей 10 пилладжеров."]
 			id: "17A6EE9411A6E012"
-			rewards: [
-				{
-					id: "7DFF0000000000D2"
-					type: "xp"
-					xp: 10
-				}
-			]
+			title: "Патруль"
+			rewards: [{
+				id: "7DFF0000000000D2"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				entity: "minecraft:pillager"
 				id: "17A6EE9411A6E0A2"
@@ -84,22 +57,14 @@
 		}
 		{
 			dependencies: ["17A6EE9411A6E012"]
-			description: [
-				"Разведка боем. За патрулями идут бойцы посерьёзнее - тяжёлые"
-				"виндикаторы и модовые варианты иллагеров. Проредь их ряды."
-				""
-				"--- ENG ---"
-				"Recon by fire. Behind the patrols come tougher fighters -"
-				"heavy vindicators and modded illager variants. Thin them out."
-			]
+			description: ["Убей тяжёлых рейдеров."]
 			id: "17A6EE9411A6E013"
-			rewards: [
-				{
-					id: "7DFF0000000000D3"
-					type: "xp"
-					xp: 15
-				}
-			]
+			title: "Тяжёлые рейдеры"
+			rewards: [{
+				id: "7DFF0000000000D3"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [
 				{
 					entity: "minecraft:vindicator"
@@ -119,23 +84,14 @@
 		}
 		{
 			dependencies: ["17A6EE9411A6E013"]
-			description: [
-				"Иллаге высылает чародеев. Колдуны и некроманты опаснее рядового"
-				"сброда: телепорты, призывы, тёмная магия. Оборви заклинания -"
-				"убей колдуна и некроманта."
-				""
-				"--- ENG ---"
-				"The Illage sends its spellcasters - deadlier than the rabble."
-				"Cut the casting short: slay one sorcerer and one necromancer."
-			]
+			description: ["Убей колдуна и некроманта."]
 			id: "17A6EE9411A6E014"
-			rewards: [
-				{
-					id: "7DFF0000000000D4"
-					type: "xp"
-					xp: 15
-				}
-			]
+			title: "Колдуны"
+			rewards: [{
+				id: "7DFF0000000000D4"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [
 				{
 					entity: "illagerinvasion:sorcerer"
@@ -155,27 +111,14 @@
 		}
 		{
 			dependencies: ["17A6EE9411A6E014"]
-			description: [
-				"Отбей полноценный набег на деревню и защити жителей - стань"
-				"§aГероем деревни§r. Награда - не только достижение, но и"
-				"уважение (и скидки) торговцев."
-				""
-				"Совет: набег можно начать осознанно - сожги захваченное"
-				"Зловещее знамя, получи Дурное предзнаменование и войди в"
-				"деревню."
-				""
-				"--- ENG ---"
-				"Repel a full village raid and protect the villagers - become"
-				"a §aHero of the Village§r."
-			]
+			description: ["Отбей рейд и получи «Героя деревни»."]
 			id: "17A6EE9411A6E015"
-			rewards: [
-				{
-					id: "7DFF0000000000D5"
-					type: "xp"
-					xp: 20
-				}
-			]
+			title: "Рейд"
+			rewards: [{
+				id: "7DFF0000000000D5"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				advancement: "minecraft:adventure/hero_of_the_village"
 				criterion: ""
@@ -187,23 +130,14 @@
 		}
 		{
 			dependencies: ["17A6EE9411A6E015"]
-			description: [
-				"На вершине иллагерской иерархии - Взыватель (Invoker), босс с"
-				"собственной полосой здоровья. Выследи его логово (башни и форты"
-				"Illager Invasion, особняки лесных ведьм) и срази его."
-				""
-				"--- ENG ---"
-				"Atop the illager hierarchy stands the Invoker, a boss with its"
-				"own health bar. Hunt down its lair and strike it down."
-			]
+			description: ["Найди и победи Взывателя."]
 			id: "17A6EE9411A6E016"
-			rewards: [
-				{
-					id: "7DFF0000000000D6"
-					type: "xp"
-					xp: 20
-				}
-			]
+			title: "Взыватель"
+			rewards: [{
+				id: "7DFF0000000000D6"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				entity: "illagerinvasion:invoker"
 				id: "17A6EE9411A6E0A6"
@@ -215,25 +149,14 @@
 		}
 		{
 			dependencies: ["17A6EE9411A6E016"]
-			description: [
-				"Тебя больше не боятся - тебя НЕНАВИДЯТ. Ты стал §cВрагом"
-				"Иллаге§r. Против тебя бросают всё: отряды, осады, чародеев,"
-				"боссов. Выстой волна за волной - перебей 40 рейдеров любого"
-				"рода - и трофей твой."
-				""
-				"--- ENG ---"
-				"You are no longer feared - you are HATED. You are the §cEnemy"
-				"of the Illage§r. Outlast wave after wave: slay 40 raiders of"
-				"any kind and claim your trophy."
-			]
+			description: ["Убей 40 рейдеров."]
 			icon: {
 				Count: 1
 				id: "minecraft:white_banner"
 				tag: { }
 			}
 			id: "17A6EE9411A6E017"
-			shape: "gear"
-			size: 1.5d
+			title: "Враг Иллаге"
 			rewards: [
 				{
 					id: "7DFF0000000000D7"
@@ -251,6 +174,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					entity: "minecraft:pillager"
@@ -275,37 +200,16 @@
 			y: 9.6d
 		}
 		{
-			description: [
-				"КАК РАБОТАЕТ УГРОЗА (памятка):"
-				""
-				"§eИзвестность§r (§b/notoriety§r) растёт от снаряжения,"
-				"зачарований, качества ковки и от богатства, что ты носишь с"
-				"собой (алмазы, незерит, изумруды, тотемы). Выше тир - чаще и"
-				"опаснее отряды, сильнее сами враги."
-				""
-				"§aСнизить давление:§r не таскай всё богатство в карманах -"
-				"держи ценности в сундуках на базе. Налегке ты неинтересен."
-				""
-				"§6Награда за смелость:§r выше тир - щедрее лут с убитых"
-				"рейдеров. Богатая цель - богатая добыча для победителя."
-				""
-				"§7Атмосфера:§r набеги любят непогоду и 'сезон набегов' (осень) -"
-				"в грозу и осенью отряды ходят чаще. Далёкий рог - это"
-				"предупреждение, что за тобой уже вышли."
-				""
-				"--- ENG ---"
-				"Notoriety (§b/notoriety§r) grows from your gear and the wealth"
-				"you carry. Higher tier = more frequent, stronger raiders, and"
-				"richer loot from them. Keep valuables in base chests to lower"
-				"the heat. Raids favor storms and autumn; a distant horn warns"
-				"you they are coming."
-			]
+			description: ["Богатство при себе усиливает врагов и награды. Сундуки снижают риск."]
 			icon: {
 				Count: 1
 				id: "minecraft:crossbow"
-				tag: { }
+				tag: {
+					Damage: 0
+				}
 			}
 			id: "17A6EE9411A6E018"
+			title: "Известность"
 			min_width: 300
 			rewards: [
 				{
@@ -328,7 +232,9 @@
 				icon: {
 					Count: 1
 					id: "minecraft:crossbow"
-					tag: { }
+					tag: {
+						Damage: 0
+					}
 				}
 				id: "17A6EE9411A6E0A8"
 				title: "Памятка: Известность"
@@ -338,5 +244,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Гнев Иллаге"
+	title: "Налёты илладжеров"
 }

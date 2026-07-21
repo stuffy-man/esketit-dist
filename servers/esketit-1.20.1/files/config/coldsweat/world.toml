@@ -161,14 +161,35 @@
 	    ["cold_sweat:boiler", 15, 7, "f", 36, "lit=true", "", 212],
 	    ["cold_sweat:icebox", -15, 7, "f", 36, "frosted=true", "", 32],
 	    ["minecraft:lava", 30, 7, "f", 200, "", "", 1000, true],
-	    ["#minecraft:fire", 25, 7, "f", 50, "", "", 400],
-	    ["#minecraft:campfires", 25, 7, "f", 50, "lit=true", " ", 400],
+	    ["minecraft:fire", 25, 7, "f", 50, "", "", 400],
+	    ["minecraft:campfire", 45, 8, "f", 80, "lit=true", "", 400],
+	    ["minecraft:torch", 5, 4, "f", 20, "", "", 200],
+	    ["minecraft:wall_torch", 5, 4, "f", 20, "", "", 200],
+	    ["minecraft:lantern", 4, 3, "f", 16, "", "", 200],
+	    ["#minecraft:candles", 2, 2, "f", 10, "lit=true", "", 160],
+	    ["minecraft:soul_fire", -10, 5, "f", 24, "", "", 32],
+	    ["minecraft:soul_campfire", -15, 6, "f", 36, "lit=true", "", 32],
+	    ["minecraft:soul_torch", -4, 4, "f", 16, "", "", 32],
+	    ["minecraft:soul_wall_torch", -4, 4, "f", 16, "", "", 32],
+	    ["minecraft:soul_lantern", -4, 3, "f", 16, "", "", 32],
+	    ["minecraft:furnace", 12, 4, "f", 30, "lit=true", "", 300],
+	    ["minecraft:smoker", 14, 4, "f", 34, "lit=true", "", 300],
+	    ["minecraft:blast_furnace", 16, 4, "f", 38, "lit=true", "", 300],
+	    ["farmersdelight:stove", 18, 5, "f", 40, "lit=true", "", 300],
+	    ["dungeonsdelight:dungeon_stove", 18, 5, "f", 40, "lit=true", "", 300],
+	    ["ends_delight:end_stove", 18, 5, "f", 40, "lit=true", "", 300],
+	    ["mynethersdelight:nether_stove", 18, 5, "f", 40, "lit=true,soul=false", "", 300],
+	    ["mynethersdelight:nether_stove", -12, 5, "f", 30, "lit=true,soul=true", "", 32],
+	    ["trailandtales_delight:mud_stove", 18, 5, "f", 40, "lit=true", "", 300],
+	    ["supplementaries:fire_pit", 28, 6, "f", 55, "lit=true", "", 400],
+	    ["barbequesdelight:grill", 20, 5, "f", 45, "has_campfire=true", "", 350],
+	    ["dungeonsdelight:living_fire", 20, 6, "f", 45, "", "", 350],
+	    ["dungeonsdelight:living_campfire", 30, 7, "f", 60, "lit=true", "", 350],
 	    ["minecraft:magma_block", 20, 3, "f", 48],
 	    ["minecraft:lava_cauldron", 30, 7, "f", 200, "", "", 1000, true],
 	    ["minecraft:ice", -10, 4, "f", 24, "", "", 33],
 	    ["minecraft:packed_ice", -15, 4, "f", 48, "", "", 16],
 	    ["minecraft:blue_ice", -20, 4, "f", 64, "", "", 0],
-	    ["#minecraft:ice", -6, 4, "f", 27, "", "", 33],
 	    ["create:blaze_burner", 5, 3, "f", 30, "blaze=smouldering", "", 400],
 	    ["create:blaze_burner", 12, 4, "f", 30, "blaze=fading", "", 400],
 	    ["create:blaze_burner", 20, 5, "f", 45, "blaze=kindled", "", 400],
@@ -179,7 +200,7 @@
 	# - Note: This will not change anything unless blocks are configured to utilize the expanded range
 	# - This value is limited to 16 for performance reasons
 	#Range: 1 ~ 16
-	"Block Range" = 7
+	"Block Range" = 8
 	#─────────────────────────────────────────────────────────────────────────
 	# When set to true, uses Cold Sweat's temperature system to determine water freezing behavior
 	"Custom Freezing Behavior" = true
@@ -364,4 +385,3 @@
 		Autumn = [0.2, 0, -0.2]
 		Winter = [-0.4, -0.6, -0.4]
 		Spring = [-0.2, 0, 0.2]
-

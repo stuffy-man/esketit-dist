@@ -8,6 +8,9 @@
     "minecraft:powder_snow",
     "minecraft:soul_fire",
     "minecraft:soul_campfire",
+    "minecraft:soul_torch",
+    "minecraft:soul_wall_torch",
+    "minecraft:soul_lantern",
     "cold_sweat:icebox",
     { "id": "thermal:machine_chiller", "required": false }
   ]
