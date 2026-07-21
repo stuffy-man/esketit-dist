@@ -2,7 +2,6 @@
 // Keeps expensive wild populations within a server-safe budget.
 // Named, tamed, leashed, ridden, persistent and chest-carrying animals are never removed.
 (function () {
-  var CHECK_INTERVAL = 600; // every 30 seconds per active dimension
   var DEBUG = false;
 
   // id: [base per dimension, extra per online player]
@@ -26,7 +25,10 @@
 
   var BuiltInRegistries = null;
   try { BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries'); } catch (e) {}
-  var lastCheck = {};
+  // APT prevents populations from growing again. This cleanup only removes the
+  // already accumulated excess once; repeatedly scanning every loaded entity
+  // causes a visible multi-second server-thread stall on large worlds.
+  var cleanedDimensions = {};
 
   function onlineCount() {
     try { return Math.max(1, Utils.server.getPlayerList().getPlayerCount()); } catch (e) {}
@@ -109,11 +111,9 @@
     var level;
     try { level = player.level; } catch (e) { return; }
     var dimension = '';
-    var now = 0;
-    try { dimension = String(level.dimension); now = level.getGameTime(); } catch (e2) { return; }
-    var previous = lastCheck[dimension] || -99999;
-    if (now - previous < CHECK_INTERVAL) return;
-    lastCheck[dimension] = now;
+    try { dimension = String(level.dimension); } catch (e2) { return; }
+    if (cleanedDimensions[dimension]) return;
+    cleanedDimensions[dimension] = true;
     prune(level);
   });
 })();
