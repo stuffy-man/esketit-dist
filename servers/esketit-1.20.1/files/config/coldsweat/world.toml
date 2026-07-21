@@ -186,6 +186,7 @@
 	    ["dungeonsdelight:living_fire", 20, 6, "f", 45, "", "", 350],
 	    ["dungeonsdelight:living_campfire", 30, 7, "f", 60, "lit=true", "", 350],
 	    ["minecraft:magma_block", 20, 3, "f", 48],
+	    ["spelunkery:spring_water", 20, 2, "f", 30, "", "", 140],
 	    ["minecraft:lava_cauldron", 30, 7, "f", 200, "", "", 1000, true],
 	    ["minecraft:ice", -10, 4, "f", 24, "", "", 33],
 	    ["minecraft:packed_ice", -15, 4, "f", 48, "", "", 16],
