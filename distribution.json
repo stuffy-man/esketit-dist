@@ -7333,9 +7333,9 @@
           "name": "horseman-common.toml",
           "type": "File",
           "artifact": {
-            "size": 3306,
+            "size": 3304,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/horseman-common.toml",
-            "MD5": "e64f17f983619645af0165aa80f1d696",
+            "MD5": "8dcf360015c4a928c796a61830cb9429",
             "path": "config/horseman-common.toml"
           }
         },
@@ -10109,6 +10109,17 @@
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/server_scripts/wood_chest_compat.js",
             "MD5": "6a50ba1b878c2750d3ed30b1e3767ba9",
             "path": "kubejs/server_scripts/wood_chest_compat.js"
+          }
+        },
+        {
+          "id": "esk_leash_persistence.js",
+          "name": "esk_leash_persistence.js",
+          "type": "File",
+          "artifact": {
+            "size": 1740,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/startup_scripts/esk_leash_persistence.js",
+            "MD5": "08171b8392fcac2ae7febf7773f0c285",
+            "path": "kubejs/startup_scripts/esk_leash_persistence.js"
           }
         },
         {
