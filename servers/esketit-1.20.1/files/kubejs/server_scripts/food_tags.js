@@ -31,6 +31,12 @@ ServerEvents.tags('item', event => {
     // ── Diet: Fruits ─────────────────────────────────────────────
     // Raw fruit drops that Diet can't auto-classify (no crafting recipe)
     const fruits = [
+        // Vanilla
+        'minecraft:apple',
+        'minecraft:sweet_berries',
+        'minecraft:glow_berries',
+        'minecraft:melon_slice',
+        'minecraft:chorus_fruit',
         // Hearth & Harvest
         'hearthandharvest:blueberries',
         'hearthandharvest:raspberry',
@@ -71,6 +77,11 @@ ServerEvents.tags('item', event => {
         'culturaldelights:avocado',
         // Farmer's Respite
         'farmersrespite:rose_hips',
+        // Existing duplicate items can still remain in old inventories.
+        'fruitsdelight:blueberry',
+        'fruitsdelight:pineapple',
+        'seeddelight:cherry',
+        'seeddelight:rosehip',
     ]
 
     // ── Diet: Vegetables ─────────────────────────────────────────
@@ -170,6 +181,8 @@ ServerEvents.tags('item', event => {
     ]
 
     fruits.forEach(i     => event.add('diet:fruits',     i))
+    // Cook Your Food must never classify fresh fruit as raw meat/unsafe food.
+    fruits.forEach(i     => event.add('cookyourfood:ok_to_eat_raw', i))
     vegetables.forEach(i => event.add('diet:vegetables', i))
     grains.forEach(i     => event.add('diet:grains',     i))
     proteins.forEach(i   => event.add('diet:proteins',   i))
