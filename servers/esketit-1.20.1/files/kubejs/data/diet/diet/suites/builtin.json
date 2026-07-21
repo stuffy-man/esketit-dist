@@ -1,0 +1,123 @@
+{
+  "replace": true,
+  "groups": [
+    "fruits",
+    "grains",
+    "proteins",
+    "sugars",
+    "vegetables",
+    "dairy"
+  ],
+  "effects": [
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": 2.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins", "fruits", "vegetables", "grains"],
+          "match": "average",
+          "above": 0.35,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": 2.0
+        },
+        {
+          "name": "minecraft:generic.attack_damage",
+          "operation": "add",
+          "amount": 1.0
+        },
+        {
+          "name": "minecraft:generic.movement_speed",
+          "operation": "multiply_base",
+          "amount": 0.05
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins", "fruits", "vegetables", "grains"],
+          "match": "all",
+          "above": 0.55,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": 2.0
+        },
+        {
+          "name": "minecraft:generic.armor_toughness",
+          "operation": "add",
+          "amount": 1.0
+        },
+        {
+          "name": "minecraft:generic.attack_speed",
+          "operation": "multiply_total",
+          "amount": 0.1
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["proteins", "fruits", "vegetables", "grains"],
+          "match": "all",
+          "above": 0.75,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.max_health",
+          "operation": "add",
+          "amount": 2.0
+        },
+        {
+          "name": "minecraft:generic.armor",
+          "operation": "add",
+          "amount": 1.0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["dairy"],
+          "match": "all",
+          "above": 0.5,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.movement_speed",
+          "operation": "multiply_base",
+          "amount": 0.04
+        }
+      ],
+      "conditions": [
+        {
+          "groups": ["sugars"],
+          "match": "all",
+          "above": 0.55,
+          "below": 1.0
+        }
+      ]
+    }
+  ]
+}

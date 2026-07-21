@@ -5465,9 +5465,9 @@
           "name": "diet-server.toml",
           "type": "File",
           "artifact": {
-            "size": 1073,
+            "size": 1068,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/diet-server.toml",
-            "MD5": "17d434215a6fc7e269926667ab127664",
+            "MD5": "9be5dc0488688d3f06ff60a73e959efe",
             "path": "config/diet-server.toml"
           }
         },
@@ -9518,6 +9518,28 @@
           }
         },
         {
+          "id": "en_us.json",
+          "name": "en_us.json",
+          "type": "File",
+          "artifact": {
+            "size": 40,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/kubejs/lang/en_us.json",
+            "MD5": "5767fcafe06ebef0db7e89de8832548b",
+            "path": "kubejs/assets/kubejs/lang/en_us.json"
+          }
+        },
+        {
+          "id": "ru_ru.json",
+          "name": "ru_ru.json",
+          "type": "File",
+          "artifact": {
+            "size": 68,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/kubejs/lang/ru_ru.json",
+            "MD5": "23ab7ebaa9989162009d148db248e81f",
+            "path": "kubejs/assets/kubejs/lang/ru_ru.json"
+          }
+        },
+        {
           "id": "example_block.png",
           "name": "example_block.png",
           "type": "File",
@@ -9628,6 +9650,17 @@
           }
         },
         {
+          "id": "builtin.json",
+          "name": "builtin.json",
+          "type": "File",
+          "artifact": {
+            "size": 2549,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/diet/diet/suites/builtin.json",
+            "MD5": "624ac331a40cdbb7c258dbbf4768399b",
+            "path": "kubejs/data/diet/diet/suites/builtin.json"
+          }
+        },
+        {
           "id": "seashell.json",
           "name": "seashell.json",
           "type": "File",
@@ -9691,6 +9724,17 @@
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/friendsandfoes/tags/worldgen/biome/has_crab.json",
             "MD5": "cc6ef3120cd0e8e5b281bf15571cee7e",
             "path": "kubejs/data/friendsandfoes/tags/worldgen/biome/has_crab.json"
+          }
+        },
+        {
+          "id": "dairy.json",
+          "name": "dairy.json",
+          "type": "File",
+          "artifact": {
+            "size": 174,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/kubejs/diet/groups/dairy.json",
+            "MD5": "4f26350fb7a68052f841bc0348cbcdc5",
+            "path": "kubejs/data/kubejs/diet/groups/dairy.json"
           }
         },
         {
@@ -9852,9 +9896,9 @@
           "name": "food_tags.js",
           "type": "File",
           "artifact": {
-            "size": 8525,
+            "size": 11789,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/server_scripts/food_tags.js",
-            "MD5": "a0051cdf394a0f5e49a1303f42b71693",
+            "MD5": "bd9fb9c6cd21678a6c450d78f14bbbbf",
             "path": "kubejs/server_scripts/food_tags.js"
           }
         },

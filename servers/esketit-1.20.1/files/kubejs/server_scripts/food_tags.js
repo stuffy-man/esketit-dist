@@ -188,4 +188,55 @@ ServerEvents.tags('item', event => {
     proteins.forEach(i   => event.add('diet:proteins',   i))
     sugars.forEach(i     => event.add('diet:sugars',     i))
     dairy.forEach(i      => event.add('diet:dairy',      i))
+
+    // Diet can infer crafted dishes from recipes, but foods without a normal
+    // crafting recipe used to remain completely unclassified. Cover every
+    // edible registry item by its name and treat unknown complete dishes as
+    // balanced meals. Harmful food is deliberately excluded.
+    const harmfulFood = [
+        'minecraft:poisonous_potato',
+        'minecraft:pufferfish',
+        'minecraft:rotten_flesh',
+        'minecraft:spider_eye',
+    ]
+    const foodWords = {
+        fruits: ['apple', 'apricot', 'avocado', 'banana', 'bayberry', 'berry', 'cherry', 'coconut', 'cranberry', 'currant', 'dragon_fruit', 'dragonfruit', 'durian', 'fig', 'grape', 'grapefruit', 'hawberry', 'kiwi', 'lemon', 'lime', 'lucuma', 'lychee', 'mango', 'melon', 'orange', 'peach', 'pear', 'persimmon', 'pineapple', 'plum', 'pomegranate', 'prickly_pear', 'raisin', 'strawberr'],
+        vegetables: ['beet', 'cabbage', 'carrot', 'cucumber', 'eggplant', 'garlic', 'ginger', 'kelp', 'lettuce', 'mushroom', 'onion', 'pepper', 'pickle', 'potato', 'pumpkin', 'radish', 'salad', 'spinach', 'squash', 'tomato', 'turnip', 'vegetable', 'zucchini'],
+        grains: ['bagel', 'bread', 'bun', 'cake', 'cookie', 'corn', 'cracker', 'dough', 'dumpling', 'flour', 'muffin', 'noodle', 'pancake', 'pasta', 'pie', 'pizza', 'rice', 'sandwich', 'toast', 'tortilla', 'waffle'],
+        proteins: ['bacon', 'bass', 'beef', 'boiled_egg', 'burger', 'calamari', 'chicken', 'clam', 'crab', 'egg_', 'fish', 'fried_egg', 'ham', 'hoglin', 'jerky', 'lobster', 'meat', 'mutton', 'pork', 'prawn', 'rabbit', 'salmon', 'sausage', 'scrambled_egg', 'shrimp', 'squid', 'steak', 'tuna', 'turkey'],
+        sugars: ['brownie', 'cake', 'candy', 'caramel', 'chocolate', 'cookie', 'cotton_candy', 'fudge', 'honey', 'ice_cream', 'jam', 'jelly', 'marshmallow', 'marmalade', 'pie', 'popsicle', 'sugar', 'sweet'],
+        dairy: ['butter', 'cheese', 'cream', 'custard', 'milk', 'yogurt'],
+    }
+
+    function containsFoodWord(path, words) {
+        for (let i = 0; i < words.length; i++) if (path.indexOf(words[i]) >= 0) return true
+        return false
+    }
+
+    try {
+        Item.getList().forEach(stack => {
+            if (!stack || stack.isEmpty() || !stack.isEdible()) return
+            const id = String(stack.getId())
+            if (harmfulFood.indexOf(id) >= 0) return
+            const path = id.substring(id.indexOf(':') + 1)
+            let matched = false
+            ;['fruits', 'vegetables', 'grains', 'proteins', 'sugars'].forEach(group => {
+                if (containsFoodWord(path, foodWords[group])) {
+                    event.add('diet:' + group, id)
+                    matched = true
+                }
+            })
+            if (containsFoodWord(path, foodWords.dairy)) {
+                event.add('diet:dairy', id)
+                matched = true
+            }
+            if (!matched) {
+                // Soups, feasts and unusually named modded dishes still improve
+                // the four core groups instead of showing an empty Diet tooltip.
+                ;['fruits', 'vegetables', 'grains', 'proteins'].forEach(group => event.add('diet:' + group, id))
+            }
+        })
+    } catch (e) {
+        console.error('[diet] Failed to classify registry foods: ' + e)
+    }
 })
