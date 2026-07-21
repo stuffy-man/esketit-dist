@@ -3567,16 +3567,6 @@
           }
         },
         {
-          "id": "com.uraneptus:sullysmod:3.2.1-beta@jar",
-          "name": "Sully's Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 9068792,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/sully_s_mod.jar",
-            "MD5": "22736a3c9c36b14592ef8ddba10b37a6"
-          }
-        },
-        {
           "id": "net.mcreator:sunflowerdelight:1.0.5.1@jar",
           "name": "Sunflower Delight",
           "type": "ForgeMod",
@@ -9031,28 +9021,6 @@
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/subtle_effects/items.toml",
             "MD5": "2ce3ff5114d3d8f1afd9b2a6145ad20b",
             "path": "config/subtle_effects/items.toml"
-          }
-        },
-        {
-          "id": "sullysmod-client.toml",
-          "name": "sullysmod-client.toml",
-          "type": "File",
-          "artifact": {
-            "size": 93,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/sullysmod-client.toml",
-            "MD5": "d3834cfe0e352cb0816e2210ec8b5cfc",
-            "path": "config/sullysmod-client.toml"
-          }
-        },
-        {
-          "id": "sullysmod-common.toml",
-          "name": "sullysmod-common.toml",
-          "type": "File",
-          "artifact": {
-            "size": 2140,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/sullysmod-common.toml",
-            "MD5": "97e44eeabcbd4624c3a259d23d14c273",
-            "path": "config/sullysmod-common.toml"
           }
         },
         {
