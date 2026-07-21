@@ -7829,7 +7829,7 @@
           "name": "ingredient-list-mod-sort-order.ini",
           "type": "File",
           "artifact": {
-            "size": 2119,
+            "size": 2106,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/ingredient-list-mod-sort-order.ini",
             "path": "config/jei/ingredient-list-mod-sort-order.ini"
           }
@@ -7889,7 +7889,7 @@
           "name": "recipe-category-sort-order.ini",
           "type": "File",
           "artifact": {
-            "size": 2940,
+            "size": 2908,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/jei/recipe-category-sort-order.ini",
             "path": "config/jei/recipe-category-sort-order.ini"
           }
@@ -8764,9 +8764,9 @@
           "name": "config.yml",
           "type": "File",
           "artifact": {
-            "size": 10646,
+            "size": 10643,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/servercore/config.yml",
-            "MD5": "19cafab86253069fbe65755a1d23fc67",
+            "MD5": "7899530a7651c16618efbc5f3a352c2b",
             "path": "config/servercore/config.yml"
           }
         },
@@ -8775,9 +8775,9 @@
           "name": "optimizations.yml",
           "type": "File",
           "artifact": {
-            "size": 1204,
+            "size": 1203,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/servercore/optimizations.yml",
-            "MD5": "55cd75127ddf4e9e74497cfabcff9ca3",
+            "MD5": "dd992919e6ac5085411409181f42d175",
             "path": "config/servercore/optimizations.yml"
           }
         },
@@ -9799,9 +9799,9 @@
           "name": "esk_entity_budget.js",
           "type": "File",
           "artifact": {
-            "size": 4321,
+            "size": 4604,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/server_scripts/esk_entity_budget.js",
-            "MD5": "a7c8021f1ffd5f25123a238037d73cbe",
+            "MD5": "d9f0dd1b28b591bb8e33960c9a8306a6",
             "path": "kubejs/server_scripts/esk_entity_budget.js"
           }
         },
@@ -9810,9 +9810,9 @@
           "name": "esk_notoriety.js",
           "type": "File",
           "artifact": {
-            "size": 16315,
+            "size": 16316,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/server_scripts/esk_notoriety.js",
-            "MD5": "dff5470ceee568a213b124437119a3f6",
+            "MD5": "06ed9943b98a5b721f9ee88bb5c8557d",
             "path": "kubejs/server_scripts/esk_notoriety.js"
           }
         },
@@ -9942,9 +9942,9 @@
           "name": "overgeared_tiers.js.disabled",
           "type": "File",
           "artifact": {
-            "size": 3840,
+            "size": 3820,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/server_scripts/overgeared_tiers.js.disabled",
-            "MD5": "621b279e3ceb5e39af3e6fcf0cdb729b",
+            "MD5": "391f6f9b46553784b002140698751c35",
             "path": "kubejs/server_scripts/overgeared_tiers.js.disabled"
           }
         },
