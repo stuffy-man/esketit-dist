@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#esketit:wildlife/jungles",
+  "spawners": [
+    { "type": "minecraft:parrot", "weight": 8, "minCount": 1, "maxCount": 2 },
+    { "type": "minecraft:ocelot", "weight": 3, "minCount": 1, "maxCount": 2 }
+  ]
+}

@@ -110,7 +110,7 @@ mob-spawning:
       spawn-interval: 1
 
     - category: 'CREATURE'
-      mobcap: 10
+      mobcap: 18
       spawn-interval: 400
 
     - category: 'AMBIENT'
@@ -288,4 +288,3 @@ activation-range:
       extra-height-down: false
       entity-matcher:
         - 'typeof:mob'
-

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#esketit:wildlife/beaches",
+  "spawners": {
+    "type": "minecraft:turtle",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

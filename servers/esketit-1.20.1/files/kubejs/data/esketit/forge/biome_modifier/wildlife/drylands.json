@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#esketit:wildlife/drylands",
+  "spawners": {
+    "type": "minecraft:rabbit",
+    "weight": 8,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

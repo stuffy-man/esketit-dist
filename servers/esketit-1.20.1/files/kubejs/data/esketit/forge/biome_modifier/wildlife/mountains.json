@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#esketit:wildlife/mountains",
+  "spawners": [
+    { "type": "minecraft:goat", "weight": 8, "minCount": 1, "maxCount": 3 },
+    { "type": "minecraft:llama", "weight": 3, "minCount": 2, "maxCount": 4 }
+  ]
+}

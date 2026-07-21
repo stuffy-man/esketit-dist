@@ -8751,9 +8751,9 @@
           "name": "config.yml",
           "type": "File",
           "artifact": {
-            "size": 10643,
+            "size": 10642,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/servercore/config.yml",
-            "MD5": "7899530a7651c16618efbc5f3a352c2b",
+            "MD5": "d4e6e1e093d657fef09b7364c21354a5",
             "path": "config/servercore/config.yml"
           }
         },
@@ -9713,6 +9713,182 @@
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/carryon/scripts/protect_chested_trader_llama.json",
             "MD5": "6b8fd226683711cfde4361717e595656",
             "path": "kubejs/data/esketit/carryon/scripts/protect_chested_trader_llama.json"
+          }
+        },
+        {
+          "id": "beaches.json",
+          "name": "beaches.json",
+          "type": "File",
+          "artifact": {
+            "size": 181,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/forge/biome_modifier/wildlife/beaches.json",
+            "MD5": "51e34f45810271c2884091e9bec00467",
+            "path": "kubejs/data/esketit/forge/biome_modifier/wildlife/beaches.json"
+          }
+        },
+        {
+          "id": "drylands.json",
+          "name": "drylands.json",
+          "type": "File",
+          "artifact": {
+            "size": 182,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/forge/biome_modifier/wildlife/drylands.json",
+            "MD5": "eeb9ccc4824d99c96d2b5c64a6b4c43d",
+            "path": "kubejs/data/esketit/forge/biome_modifier/wildlife/drylands.json"
+          }
+        },
+        {
+          "id": "forests.json",
+          "name": "forests.json",
+          "type": "File",
+          "artifact": {
+            "size": 326,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/forge/biome_modifier/wildlife/forests.json",
+            "MD5": "8fdd319833001801ed485a9884d08b42",
+            "path": "kubejs/data/esketit/forge/biome_modifier/wildlife/forests.json"
+          }
+        },
+        {
+          "id": "jungles.json",
+          "name": "jungles.json",
+          "type": "File",
+          "artifact": {
+            "size": 252,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/forge/biome_modifier/wildlife/jungles.json",
+            "MD5": "a66c764cb4fa9312235d6a2dfac7117c",
+            "path": "kubejs/data/esketit/forge/biome_modifier/wildlife/jungles.json"
+          }
+        },
+        {
+          "id": "mountains.json",
+          "name": "mountains.json",
+          "type": "File",
+          "artifact": {
+            "size": 251,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/forge/biome_modifier/wildlife/mountains.json",
+            "MD5": "eb8e74a151b8f85d14271d540c6037e8",
+            "path": "kubejs/data/esketit/forge/biome_modifier/wildlife/mountains.json"
+          }
+        },
+        {
+          "id": "open_country.json",
+          "name": "open_country.json",
+          "type": "File",
+          "artifact": {
+            "size": 257,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/forge/biome_modifier/wildlife/open_country.json",
+            "MD5": "bc3f8ce9c3b6701521fe17eb209e204c",
+            "path": "kubejs/data/esketit/forge/biome_modifier/wildlife/open_country.json"
+          }
+        },
+        {
+          "id": "snowy.json",
+          "name": "snowy.json",
+          "type": "File",
+          "artifact": {
+            "size": 324,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/forge/biome_modifier/wildlife/snowy.json",
+            "MD5": "a90786b3a7bd606e6de25034046241cc",
+            "path": "kubejs/data/esketit/forge/biome_modifier/wildlife/snowy.json"
+          }
+        },
+        {
+          "id": "wetlands.json",
+          "name": "wetlands.json",
+          "type": "File",
+          "artifact": {
+            "size": 181,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/forge/biome_modifier/wildlife/wetlands.json",
+            "MD5": "9c5ce43e01f6604a3827f5a7e7d4d709",
+            "path": "kubejs/data/esketit/forge/biome_modifier/wildlife/wetlands.json"
+          }
+        },
+        {
+          "id": "beaches.json",
+          "name": "beaches.json",
+          "type": "File",
+          "artifact": {
+            "size": 84,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/tags/worldgen/biome/wildlife/beaches.json",
+            "MD5": "c91220803a35f96d1c195823341e4007",
+            "path": "kubejs/data/esketit/tags/worldgen/biome/wildlife/beaches.json"
+          }
+        },
+        {
+          "id": "drylands.json",
+          "name": "drylands.json",
+          "type": "File",
+          "artifact": {
+            "size": 170,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/tags/worldgen/biome/wildlife/drylands.json",
+            "MD5": "6122c52d014c56b41fdedca1627e9092",
+            "path": "kubejs/data/esketit/tags/worldgen/biome/wildlife/drylands.json"
+          }
+        },
+        {
+          "id": "forests.json",
+          "name": "forests.json",
+          "type": "File",
+          "artifact": {
+            "size": 129,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/tags/worldgen/biome/wildlife/forests.json",
+            "MD5": "980a128224c8794794c16160c2a0c533",
+            "path": "kubejs/data/esketit/tags/worldgen/biome/wildlife/forests.json"
+          }
+        },
+        {
+          "id": "jungles.json",
+          "name": "jungles.json",
+          "type": "File",
+          "artifact": {
+            "size": 86,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/tags/worldgen/biome/wildlife/jungles.json",
+            "MD5": "381326419720fb5044756a829e396137",
+            "path": "kubejs/data/esketit/tags/worldgen/biome/wildlife/jungles.json"
+          }
+        },
+        {
+          "id": "mountains.json",
+          "name": "mountains.json",
+          "type": "File",
+          "artifact": {
+            "size": 331,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/tags/worldgen/biome/wildlife/mountains.json",
+            "MD5": "adfe889bda921404f1bd66ea92ac05f3",
+            "path": "kubejs/data/esketit/tags/worldgen/biome/wildlife/mountains.json"
+          }
+        },
+        {
+          "id": "open_country.json",
+          "name": "open_country.json",
+          "type": "File",
+          "artifact": {
+            "size": 240,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/tags/worldgen/biome/wildlife/open_country.json",
+            "MD5": "ed95fde804b501c51ae310881a35bdb9",
+            "path": "kubejs/data/esketit/tags/worldgen/biome/wildlife/open_country.json"
+          }
+        },
+        {
+          "id": "snowy.json",
+          "name": "snowy.json",
+          "type": "File",
+          "artifact": {
+            "size": 192,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/tags/worldgen/biome/wildlife/snowy.json",
+            "MD5": "76b4a246f4c940f5499350142650ddf5",
+            "path": "kubejs/data/esketit/tags/worldgen/biome/wildlife/snowy.json"
+          }
+        },
+        {
+          "id": "wetlands.json",
+          "name": "wetlands.json",
+          "type": "File",
+          "artifact": {
+            "size": 135,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/esketit/tags/worldgen/biome/wildlife/wetlands.json",
+            "MD5": "5768b6ae1fe5dfc8df6173f4287cd16a",
+            "path": "kubejs/data/esketit/tags/worldgen/biome/wildlife/wetlands.json"
           }
         },
         {

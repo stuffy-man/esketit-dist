@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#esketit:wildlife/snowy",
+  "spawners": [
+    { "type": "minecraft:rabbit", "weight": 7, "minCount": 2, "maxCount": 3 },
+    { "type": "minecraft:fox", "weight": 5, "minCount": 1, "maxCount": 3 },
+    { "type": "minecraft:wolf", "weight": 4, "minCount": 2, "maxCount": 4 }
+  ]
+}
