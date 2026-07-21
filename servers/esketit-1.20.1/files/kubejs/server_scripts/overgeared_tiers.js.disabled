@@ -59,7 +59,7 @@ ServerEvents.tags('block', event => {
     //   correctly stay at stone-tier (same as vanilla copper_ore).
     // - vanilla gold/redstone/emerald ore — stay at iron-tier (vanilla default), matching
     //   "Iron: Gold" in the requested chain with zero changes needed.
-    // - spelunkery's *_lead/silver/zinc/jade_ore, sullysmod:jade_ore — no vanilla-tier
+    // - spelunkery's *_lead/silver/zinc/jade_ore — no vanilla-tier
     //   equivalent to mirror; left at default since Overgeared doesn't special-case them.
     // - the_deep_void's bismuth/bloodstone/cinnabar/lavendite/onyx/sulfur/voidrium ores —
     //   exotic, mod-unique materials with their own progression; not vanilla-equivalent,
