@@ -3992,9 +3992,9 @@
           "name": "ancient_debris.cfg",
           "type": "File",
           "artifact": {
-            "size": 8604,
+            "size": 8599,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/Deposits/ancient_debris.cfg",
-            "MD5": "40cd8c1c8186ac3fe8194c64a5382b31",
+            "MD5": "960eab185ffb89558c53051b71822c4c",
             "path": "config/adlods/Deposits/ancient_debris.cfg"
           }
         },
@@ -4311,9 +4311,9 @@
           "name": "ancient_debris.cfg",
           "type": "File",
           "artifact": {
-            "size": 5998,
+            "size": 5994,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods/VanillaOres/ancient_debris.cfg",
-            "MD5": "5c47e4962c66f3719cfb5f344fd7e8a7",
+            "MD5": "9f4aa0d8634baf1cd3bc08524ca451de",
             "path": "config/adlods/VanillaOres/ancient_debris.cfg"
           }
         },
@@ -4553,9 +4553,9 @@
           "name": "adlods-common.toml",
           "type": "File",
           "artifact": {
-            "size": 2282,
+            "size": 2348,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/adlods-common.toml",
-            "MD5": "513c0c29a4874d12c5db8bb33c6d5c55",
+            "MD5": "0fcd93d485a03947565b1f494dd7fbbc",
             "path": "config/adlods-common.toml"
           }
         },
@@ -6973,9 +6973,9 @@
           "name": "76CBFFB53E088046.snbt",
           "type": "File",
           "artifact": {
-            "size": 9886,
+            "size": 10119,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/76CBFFB53E088046.snbt",
-            "MD5": "dd5e8e0778218d915ad8aa1b9195f61c",
+            "MD5": "3614f351378be316facd146145973cba",
             "path": "config/ftbquests/quests/chapters/76CBFFB53E088046.snbt"
           }
         },
@@ -7127,9 +7127,9 @@
           "name": "esk_illager_wrath.snbt",
           "type": "File",
           "artifact": {
-            "size": 4661,
+            "size": 4705,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/esk_illager_wrath.snbt",
-            "MD5": "45ef35ee70e472d0b341950a4838d257",
+            "MD5": "a6c061d721d570a3836711dd4513e525",
             "path": "config/ftbquests/quests/chapters/esk_illager_wrath.snbt"
           }
         },
@@ -9490,6 +9490,17 @@
           }
         },
         {
+          "id": "dynamictrees-server.toml",
+          "name": "dynamictrees-server.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5333,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/defaultconfigs/dynamictrees-server.toml",
+            "MD5": "e9edbd54a53b5d6f598f0aea33338aba",
+            "path": "defaultconfigs/dynamictrees-server.toml"
+          }
+        },
+        {
           "id": "roomclimate-server.toml",
           "name": "roomclimate-server.toml",
           "type": "File",
@@ -9717,28 +9728,6 @@
           }
         },
         {
-          "id": "ore_ancient_debris_large.json",
-          "name": "ore_ancient_debris_large.json",
-          "type": "File",
-          "artifact": {
-            "size": 483,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/minecraft/worldgen/placed_feature/ore_ancient_debris_large.json",
-            "MD5": "1a76ff19d1da31079c4262517bdb4bca",
-            "path": "kubejs/data/minecraft/worldgen/placed_feature/ore_ancient_debris_large.json"
-          }
-        },
-        {
-          "id": "ore_debris_small.json",
-          "name": "ore_debris_small.json",
-          "type": "File",
-          "artifact": {
-            "size": 485,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/minecraft/worldgen/placed_feature/ore_debris_small.json",
-            "MD5": "58e17e01ec5645a6ae2ff0c005b9d0f9",
-            "path": "kubejs/data/minecraft/worldgen/placed_feature/ore_debris_small.json"
-          }
-        },
-        {
           "id": "cold_sources.json",
           "name": "cold_sources.json",
           "type": "File",
@@ -9831,9 +9820,9 @@
           "name": "esk_notoriety.js",
           "type": "File",
           "artifact": {
-            "size": 14688,
+            "size": 15932,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/server_scripts/esk_notoriety.js",
-            "MD5": "893a531a5574b5caeeed953cb740a011",
+            "MD5": "604eb485348654255d4a5959b91e3da4",
             "path": "kubejs/server_scripts/esk_notoriety.js"
           }
         },
