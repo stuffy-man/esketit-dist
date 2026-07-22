@@ -3233,16 +3233,6 @@
           }
         },
         {
-          "id": "com.sopro:roomclimate:1.0.0@jar",
-          "name": "Room Climate",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 63873,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/roomclimate-1.0.0.jar",
-            "MD5": "64d58860480209d6bf06b78b2de261e7"
-          }
-        },
-        {
           "id": "net.darkhax:runelic:18.0.4@jar",
           "name": "Runelic",
           "type": "ForgeMod",
@@ -5080,9 +5070,9 @@
           "name": "world.toml",
           "type": "File",
           "artifact": {
-            "size": 27521,
+            "size": 27517,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/coldsweat/world.toml",
-            "MD5": "d3224fe9270bebdb1d62bc5745a4add0",
+            "MD5": "abd89c89891d9c0862ebf36174a490f6",
             "path": "config/coldsweat/world.toml"
           }
         },
@@ -9467,17 +9457,6 @@
           }
         },
         {
-          "id": "roomclimate-server.toml",
-          "name": "roomclimate-server.toml",
-          "type": "File",
-          "artifact": {
-            "size": 3913,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/defaultconfigs/roomclimate-server.toml",
-            "MD5": "aab188eb94ef1654a6f867a5571c2e80",
-            "path": "defaultconfigs/roomclimate-server.toml"
-          }
-        },
-        {
           "id": "action_favorites.json",
           "name": "action_favorites.json",
           "type": "File",
@@ -9933,28 +9912,6 @@
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/minecraft/worldgen/configured_feature/ore_coal.json",
             "MD5": "8b211ae2033c422f849b183fc3443a32",
             "path": "kubejs/data/minecraft/worldgen/configured_feature/ore_coal.json"
-          }
-        },
-        {
-          "id": "cold_sources.json",
-          "name": "cold_sources.json",
-          "type": "File",
-          "artifact": {
-            "size": 406,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/roomclimate/tags/blocks/cold_sources.json",
-            "MD5": "c575a4e7c159d31a0d2a627fe70c3391",
-            "path": "kubejs/data/roomclimate/tags/blocks/cold_sources.json"
-          }
-        },
-        {
-          "id": "heat_sources.json",
-          "name": "heat_sources.json",
-          "type": "File",
-          "artifact": {
-            "size": 649,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/roomclimate/tags/blocks/heat_sources.json",
-            "MD5": "3db919e29303d794ed960412df83fcc5",
-            "path": "kubejs/data/roomclimate/tags/blocks/heat_sources.json"
           }
         },
         {
