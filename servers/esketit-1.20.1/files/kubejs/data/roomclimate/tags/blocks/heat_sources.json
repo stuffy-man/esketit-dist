@@ -1,0 +1,26 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:lava",
+    "minecraft:lava_cauldron",
+    "minecraft:fire",
+    "minecraft:campfire",
+    "minecraft:torch",
+    "minecraft:wall_torch",
+    "minecraft:lantern",
+    "minecraft:magma_block",
+    "minecraft:furnace",
+    "minecraft:smoker",
+    "minecraft:blast_furnace",
+    "cold_sweat:boiler",
+    "create:blaze_burner",
+    "create:lit_blaze_burner",
+    "farmersdelight:stove",
+    "dungeonsdelight:dungeon_stove",
+    "ends_delight:end_stove",
+    "trailandtales_delight:mud_stove",
+    "supplementaries:fire_pit",
+    "dungeonsdelight:living_fire",
+    "dungeonsdelight:living_campfire"
+  ]
+}
