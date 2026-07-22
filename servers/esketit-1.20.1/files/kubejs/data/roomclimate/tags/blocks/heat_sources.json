@@ -21,6 +21,14 @@
     "trailandtales_delight:mud_stove",
     "supplementaries:fire_pit",
     "dungeonsdelight:living_fire",
-    "dungeonsdelight:living_campfire"
+    "dungeonsdelight:living_campfire",
+    "#minecraft:candles",
+    "mynethersdelight:nether_stove",
+    "clayworks:kiln",
+    "caverns_and_chasms:brazier",
+    "caverns_and_chasms:cupric_brazier",
+    "caverns_and_chasms:cupric_campfire",
+    "caverns_and_chasms:cupric_fire",
+    "illagerinvasion:magic_fire"
   ]
 }

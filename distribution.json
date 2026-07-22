@@ -9471,9 +9471,9 @@
           "name": "roomclimate-server.toml",
           "type": "File",
           "artifact": {
-            "size": 1575,
+            "size": 2447,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/defaultconfigs/roomclimate-server.toml",
-            "MD5": "7a2871d417518266e68f57d6a6208de1",
+            "MD5": "5945f431734fbe8c94269802fa072dad",
             "path": "defaultconfigs/roomclimate-server.toml"
           }
         },
@@ -9940,9 +9940,9 @@
           "name": "cold_sources.json",
           "type": "File",
           "artifact": {
-            "size": 346,
+            "size": 420,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/roomclimate/tags/blocks/cold_sources.json",
-            "MD5": "5374adf923dddc8a7d3fb4a428b35fc2",
+            "MD5": "321557a865da4dbfff773eb8ebb1d795",
             "path": "kubejs/data/roomclimate/tags/blocks/cold_sources.json"
           }
         },
@@ -9951,9 +9951,9 @@
           "name": "heat_sources.json",
           "type": "File",
           "artifact": {
-            "size": 649,
+            "size": 923,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/roomclimate/tags/blocks/heat_sources.json",
-            "MD5": "3db919e29303d794ed960412df83fcc5",
+            "MD5": "dc7621efbacc3fb0d76d5d7168bf4ca9",
             "path": "kubejs/data/roomclimate/tags/blocks/heat_sources.json"
           }
         },

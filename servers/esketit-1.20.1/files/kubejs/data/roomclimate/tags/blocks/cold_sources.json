@@ -11,6 +11,8 @@
     "minecraft:soul_torch",
     "minecraft:soul_wall_torch",
     "minecraft:soul_lantern",
-    "cold_sweat:icebox"
+    "cold_sweat:icebox",
+    "compatdelight:cryo_root_box",
+    "caverns_and_chasms:soul_brazier"
   ]
 }
