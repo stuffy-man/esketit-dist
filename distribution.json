@@ -3237,9 +3237,9 @@
           "name": "Room Climate",
           "type": "ForgeMod",
           "artifact": {
-            "size": 68908,
+            "size": 71386,
             "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/roomclimate-1.2.0.jar",
-            "MD5": "2ea05a7ddba344099696b525a96ea656"
+            "MD5": "94febc6e802a4f255906ffa4a1e97fa7"
           }
         },
         {
