@@ -3233,13 +3233,13 @@
           }
         },
         {
-          "id": "com.sopro:roomclimate:1.1.0@jar",
+          "id": "com.sopro:roomclimate:1.2.0@jar",
           "name": "Room Climate",
           "type": "ForgeMod",
           "artifact": {
-            "size": 67359,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/roomclimate-1.1.0.jar",
-            "MD5": "ce6242661ad42c3614cb5ba210c3caf5"
+            "size": 67597,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/roomclimate-1.2.0.jar",
+            "MD5": "34c1f19d7c742dcf28857d61323d6ae6"
           }
         },
         {
@@ -9471,9 +9471,9 @@
           "name": "roomclimate-server.toml",
           "type": "File",
           "artifact": {
-            "size": 1574,
+            "size": 1575,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/defaultconfigs/roomclimate-server.toml",
-            "MD5": "f8ad4dca39735a5902b034b23a66bcc0",
+            "MD5": "7a2871d417518266e68f57d6a6208de1",
             "path": "defaultconfigs/roomclimate-server.toml"
           }
         },

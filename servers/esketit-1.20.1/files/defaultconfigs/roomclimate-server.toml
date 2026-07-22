@@ -15,9 +15,9 @@ partialBlockLeakPenalty = 0.35
 [thermal_response]
 heatGainPerTick = 0.008
 coldGainPerTick = 0.008
-neutralDriftPerTick = 0.004
-heatChargePerTick = 6.0E-4
-coldChargePerTick = 6.0E-4
+neutralDriftPerTick = 1.5E-4
+heatChargePerTick = 0.0045
+coldChargePerTick = 0.0045
 ambientDissipationPerTick = 3.5E-4
 openingDissipationPerTick = 0.012
 maxWorldTemperatureOffset = 0.6
