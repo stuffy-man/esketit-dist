@@ -1807,16 +1807,6 @@
           }
         },
         {
-          "id": "com.esketit.runtimefixes:esketit_runtime_fixes:1.0.0@jar",
-          "name": "Esketit Runtime Fixes",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6686,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/esketit-runtime-fixes-1.0.0.jar.disabled",
-            "MD5": "d45a7da7cf28c184ae9356149cf1b126"
-          }
-        },
-        {
           "id": "com.esketit.auth:esketitauth:1.0.0@jar",
           "name": "Esketit Auth",
           "type": "ForgeMod",
@@ -3724,16 +3714,6 @@
             "size": 359005,
             "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/trail_tales_delight.jar",
             "MD5": "6d672069d6f61089053b0c5d14cb1c26"
-          }
-        },
-        {
-          "id": "milkucha.trmt:trmt:0.4-1.20.1@jar",
-          "name": "TRMT",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 94379,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/forgemods/required/trmt-0.4-1.20.1.jar.disabled",
-            "MD5": "da9ba4cd6cd2406fb17909e66c466a3f"
           }
         },
         {
