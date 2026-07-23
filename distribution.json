@@ -3717,13 +3717,13 @@
           }
         },
         {
-          "id": "milkucha.trmt:trmt:0.6-1.20.1@jar",
+          "id": "milkucha.trmt:trmt:0.7-1.20.1@jar",
           "name": "TRMT",
           "type": "ForgeMod",
           "artifact": {
-            "size": 95440,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/trmt-0.6-1.20.1.jar",
-            "MD5": "cf93ef002ee3071bbf86baf5bdeb6c96"
+            "size": 95561,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/trmt-0.7-1.20.1.jar",
+            "MD5": "c62c820854f8aa89c76bf2ac78aaed9e"
           }
         },
         {
