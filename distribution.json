@@ -3243,6 +3243,16 @@
           }
         },
         {
+          "id": "com.esketit:esketit_runtime_fixes:1.0.0@jar",
+          "name": "Esketit Runtime Fixes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6686,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit-runtime-fixes-1.0.0.jar",
+            "MD5": "d45a7da7cf28c184ae9356149cf1b126"
+          }
+        },
+        {
           "id": "net.darkhax:runelic:18.0.4@jar",
           "name": "Runelic",
           "type": "ForgeMod",
