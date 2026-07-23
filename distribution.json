@@ -3243,16 +3243,6 @@
           }
         },
         {
-          "id": "com.esketit:esketit_runtime_fixes:1.0.0@jar",
-          "name": "Esketit Runtime Fixes",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6686,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit-runtime-fixes-1.0.0.jar",
-            "MD5": "d45a7da7cf28c184ae9356149cf1b126"
-          }
-        },
-        {
           "id": "net.darkhax:runelic:18.0.4@jar",
           "name": "Runelic",
           "type": "ForgeMod",
@@ -4738,9 +4728,9 @@
           "name": "benssharks-spawns.toml",
           "type": "File",
           "artifact": {
-            "size": 17986,
+            "size": 17976,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/benssharks/benssharks-spawns.toml",
-            "MD5": "ad998aff32b81d8dc791f9811778741c",
+            "MD5": "8ecb1d13ca410b09c10968dd98cb6194",
             "path": "config/benssharks/benssharks-spawns.toml"
           }
         },

@@ -419,7 +419,7 @@
 	["Mob Spawn Settings".Shoal_Spawns]
 		#Settings for Shoal.
 		#If true, this mob will spawn naturally.
-		enable_spawning = true
+		enable_spawning = false
 		#The weight (rarity) of this mob. Default: 5
 		#Range: 0 ~ 100
 		spawn_weight = 2
