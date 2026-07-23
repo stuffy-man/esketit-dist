@@ -4728,9 +4728,9 @@
           "name": "benssharks-spawns.toml",
           "type": "File",
           "artifact": {
-            "size": 17976,
+            "size": 17975,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/benssharks/benssharks-spawns.toml",
-            "MD5": "8ecb1d13ca410b09c10968dd98cb6194",
+            "MD5": "09a35e76e2f2a6d6dd867d6847b6606d",
             "path": "config/benssharks/benssharks-spawns.toml"
           }
         },
