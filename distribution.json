@@ -3727,13 +3727,13 @@
           }
         },
         {
-          "id": "milkucha.trmt:trmt:0.4-1.20.1@jar",
+          "id": "milkucha.trmt:trmt:0.5-1.20.1@jar",
           "name": "TRMT",
           "type": "ForgeMod",
           "artifact": {
-            "size": 94379,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/trmt-0.4-1.20.1.jar",
-            "MD5": "da9ba4cd6cd2406fb17909e66c466a3f"
+            "size": 94641,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/trmt-0.5-1.20.1.jar",
+            "MD5": "a2b28c2f2d6b39b93227a00d02662e47"
           }
         },
         {
@@ -4738,9 +4738,9 @@
           "name": "benssharks-spawns.toml",
           "type": "File",
           "artifact": {
-            "size": 17982,
+            "size": 17986,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/benssharks/benssharks-spawns.toml",
-            "MD5": "fea6432d4cc14413a75fbb29cc2e42f4",
+            "MD5": "ad998aff32b81d8dc791f9811778741c",
             "path": "config/benssharks/benssharks-spawns.toml"
           }
         },
