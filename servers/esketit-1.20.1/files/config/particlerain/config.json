@@ -1,11 +1,11 @@
 {
   "configVersion": 5,
   "perf": {
-    "maxParticleAmount": 1500,
-    "particleDensity": 100,
-    "particleStormDensity": 200,
-    "particleDistance": 16,
-    "surfaceRange": 100
+    "maxParticleAmount": 320,
+    "particleDensity": 30,
+    "particleStormDensity": 50,
+    "particleDistance": 8,
+    "surfaceRange": 32
   },
   "sound": {
     "rainVolume": 0.2,
@@ -40,19 +40,19 @@
     "bounciness": 0.2
   },
   "ripple": {
-    "opacity": 0.8,
+    "opacity": 0.65,
     "size": 0.25,
-    "resolution": 16,
-    "useResourcepackResolution": true
+    "resolution": 8,
+    "useResourcepackResolution": false
   },
   "streak": {
-    "opacity": 0.9,
-    "size": 0.5
+    "opacity": 0.8,
+    "size": 0.45
   },
   "mist": {
-    "lifetime": 250,
-    "opacity": 1.0,
-    "size": 3.0,
-    "renderStyle": "BLENDED"
+    "lifetime": 60,
+    "opacity": 0.45,
+    "size": 2.0,
+    "renderStyle": "DITHERED"
   }
 }

@@ -8355,9 +8355,9 @@
           "name": "config.json",
           "type": "File",
           "artifact": {
-            "size": 1163,
+            "size": 1162,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/particlerain/config.json",
-            "MD5": "80ddd562fd2e128d071903c964c7d871",
+            "MD5": "d371074e35baf6e1602c63e6eb5312b6",
             "path": "config/particlerain/config.json"
           }
         },
