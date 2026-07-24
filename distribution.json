@@ -3900,16 +3900,6 @@
           }
         },
         {
-          "id": "com.sk89q:worldedit:7.2.15+6463-5ca4dff@jar",
-          "name": "WorldEdit",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5825402,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/worldedit-mod-7.2.15.jar",
-            "MD5": "bd0e7cff7896348faab92e43300d0639"
-          }
-        },
-        {
           "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.6+1.20.1-forge@jar",
           "name": "YetAnotherConfigLib",
           "type": "ForgeMod",
