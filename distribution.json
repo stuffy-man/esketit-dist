@@ -1807,6 +1807,16 @@
           }
         },
         {
+          "id": "com.esketit.worldeditfix:esketit_worldedit_fix:1.0.0@jar",
+          "name": "Esketit WorldEdit Startup Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3275,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit-worldedit-fix-1.0.0.jar",
+            "MD5": "69904fd767147bafecee7847c045d9bf"
+          }
+        },
+        {
           "id": "com.esketit.auth:esketitauth:1.0.0@jar",
           "name": "Esketit Auth",
           "type": "ForgeMod",
@@ -3897,6 +3907,16 @@
             "size": 1438278,
             "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/woodworks.jar",
             "MD5": "0c37a0b4776056c5c3aa3cc39283c077"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.2.15+6463-5ca4dff@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5825402,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/worldedit-mod-7.2.15.jar",
+            "MD5": "bd0e7cff7896348faab92e43300d0639"
           }
         },
         {
