@@ -1,0 +1,8 @@
+{
+  "priority": 150,
+  "style": "esketit:rarity_fancy",
+  "filter": {
+    "type": "obscure_tooltips:rarity",
+    "rarity": "caverns_and_chasms:fancy"
+  }
+}

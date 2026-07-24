@@ -1,0 +1,7 @@
+{
+  "panel": "esketit:rarity_dungeon",
+  "frame": "obscure_tooltips:default",
+  "icon": "esketit:modded_rarity",
+  "slot": "obscure_tooltips:default",
+  "effects": []
+}

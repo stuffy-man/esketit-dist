@@ -5773,9 +5773,9 @@
           "name": "entity_texture_features.json",
           "type": "File",
           "artifact": {
-            "size": 1410,
+            "size": 1412,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/entity_texture_features.json",
-            "MD5": "84c25c2da23cdb449e8b627fead22ed3",
+            "MD5": "ee77726b1f467767c9cdd4d36d903d22",
             "path": "config/entity_texture_features.json"
           }
         },
@@ -9515,6 +9515,281 @@
             "size": 84,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/fancymenu_data/last_world.fmdata",
             "path": "fancymenu_data/last_world.fmdata"
+          }
+        },
+        {
+          "id": "rarity_ancient.json",
+          "name": "rarity_ancient.json",
+          "type": "File",
+          "artifact": {
+            "size": 141,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/definition/rarity_ancient.json",
+            "MD5": "7106fa2788fb37492180770a7cb9d035",
+            "path": "kubejs/assets/esketit/tooltips/definition/rarity_ancient.json"
+          }
+        },
+        {
+          "id": "rarity_delicacy.json",
+          "name": "rarity_delicacy.json",
+          "type": "File",
+          "artifact": {
+            "size": 143,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/definition/rarity_delicacy.json",
+            "MD5": "21e1a6287288c56d2ea69ce8e8cb2a25",
+            "path": "kubejs/assets/esketit/tooltips/definition/rarity_delicacy.json"
+          }
+        },
+        {
+          "id": "rarity_dungeon.json",
+          "name": "rarity_dungeon.json",
+          "type": "File",
+          "artifact": {
+            "size": 141,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/definition/rarity_dungeon.json",
+            "MD5": "986419cd41e5b922af966cc02c6ce365",
+            "path": "kubejs/assets/esketit/tooltips/definition/rarity_dungeon.json"
+          }
+        },
+        {
+          "id": "rarity_fancy.json",
+          "name": "rarity_fancy.json",
+          "type": "File",
+          "artifact": {
+            "size": 156,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/definition/rarity_fancy.json",
+            "MD5": "56a4a9d8a5dbf2e5f1bd5a6cc10e8c37",
+            "path": "kubejs/assets/esketit/tooltips/definition/rarity_fancy.json"
+          }
+        },
+        {
+          "id": "rarity_inverted.json",
+          "name": "rarity_inverted.json",
+          "type": "File",
+          "artifact": {
+            "size": 143,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/definition/rarity_inverted.json",
+            "MD5": "26d6331e5bb5c1ec72133558d3ae7fe2",
+            "path": "kubejs/assets/esketit/tooltips/definition/rarity_inverted.json"
+          }
+        },
+        {
+          "id": "rarity_legendary.json",
+          "name": "rarity_legendary.json",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/definition/rarity_legendary.json",
+            "MD5": "610acca1e2a4f1afeee72ba1d47635ef",
+            "path": "kubejs/assets/esketit/tooltips/definition/rarity_legendary.json"
+          }
+        },
+        {
+          "id": "rarity_mythic.json",
+          "name": "rarity_mythic.json",
+          "type": "File",
+          "artifact": {
+            "size": 139,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/definition/rarity_mythic.json",
+            "MD5": "cc440fe3c297d47cbf8148ef6221d947",
+            "path": "kubejs/assets/esketit/tooltips/definition/rarity_mythic.json"
+          }
+        },
+        {
+          "id": "rarity_unobtainable.json",
+          "name": "rarity_unobtainable.json",
+          "type": "File",
+          "artifact": {
+            "size": 151,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/definition/rarity_unobtainable.json",
+            "MD5": "86306eca4d02a39e23aa7ee4d0b6ddd7",
+            "path": "kubejs/assets/esketit/tooltips/definition/rarity_unobtainable.json"
+          }
+        },
+        {
+          "id": "modded_rarity.json",
+          "name": "modded_rarity.json",
+          "type": "File",
+          "artifact": {
+            "size": 136,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/element/icon/modded_rarity.json",
+            "MD5": "4655fe228cdcc084b281f3a43577335a",
+            "path": "kubejs/assets/esketit/tooltips/element/icon/modded_rarity.json"
+          }
+        },
+        {
+          "id": "rarity_ancient.json",
+          "name": "rarity_ancient.json",
+          "type": "File",
+          "artifact": {
+            "size": 348,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/element/panel/rarity_ancient.json",
+            "MD5": "95d2f1049049d040ece5ddbdb047b1e9",
+            "path": "kubejs/assets/esketit/tooltips/element/panel/rarity_ancient.json"
+          }
+        },
+        {
+          "id": "rarity_delicacy.json",
+          "name": "rarity_delicacy.json",
+          "type": "File",
+          "artifact": {
+            "size": 348,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/element/panel/rarity_delicacy.json",
+            "MD5": "6f31452f0606c0646b65243484158a86",
+            "path": "kubejs/assets/esketit/tooltips/element/panel/rarity_delicacy.json"
+          }
+        },
+        {
+          "id": "rarity_dungeon.json",
+          "name": "rarity_dungeon.json",
+          "type": "File",
+          "artifact": {
+            "size": 348,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/element/panel/rarity_dungeon.json",
+            "MD5": "ef139c66b6947fb64ec699d8569d2a3d",
+            "path": "kubejs/assets/esketit/tooltips/element/panel/rarity_dungeon.json"
+          }
+        },
+        {
+          "id": "rarity_fancy.json",
+          "name": "rarity_fancy.json",
+          "type": "File",
+          "artifact": {
+            "size": 348,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/element/panel/rarity_fancy.json",
+            "MD5": "5bf0a3d0c9d7548ec00d821f469260ae",
+            "path": "kubejs/assets/esketit/tooltips/element/panel/rarity_fancy.json"
+          }
+        },
+        {
+          "id": "rarity_inverted.json",
+          "name": "rarity_inverted.json",
+          "type": "File",
+          "artifact": {
+            "size": 348,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/element/panel/rarity_inverted.json",
+            "MD5": "1897038721aa17da15ae483c2f9e5b78",
+            "path": "kubejs/assets/esketit/tooltips/element/panel/rarity_inverted.json"
+          }
+        },
+        {
+          "id": "rarity_legendary.json",
+          "name": "rarity_legendary.json",
+          "type": "File",
+          "artifact": {
+            "size": 348,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/element/panel/rarity_legendary.json",
+            "MD5": "4845293e875a45bcfbe377bf6025b5bc",
+            "path": "kubejs/assets/esketit/tooltips/element/panel/rarity_legendary.json"
+          }
+        },
+        {
+          "id": "rarity_mythic.json",
+          "name": "rarity_mythic.json",
+          "type": "File",
+          "artifact": {
+            "size": 348,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/element/panel/rarity_mythic.json",
+            "MD5": "3462db9c0f4ca07abd37775f7d4b81ce",
+            "path": "kubejs/assets/esketit/tooltips/element/panel/rarity_mythic.json"
+          }
+        },
+        {
+          "id": "rarity_unobtainable.json",
+          "name": "rarity_unobtainable.json",
+          "type": "File",
+          "artifact": {
+            "size": 348,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/element/panel/rarity_unobtainable.json",
+            "MD5": "7c64098db0f90f39a573b8b88246528d",
+            "path": "kubejs/assets/esketit/tooltips/element/panel/rarity_unobtainable.json"
+          }
+        },
+        {
+          "id": "rarity_ancient.json",
+          "name": "rarity_ancient.json",
+          "type": "File",
+          "artifact": {
+            "size": 169,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/style/rarity_ancient.json",
+            "MD5": "296a717a028a8fb7ff0c2012bd6798c7",
+            "path": "kubejs/assets/esketit/tooltips/style/rarity_ancient.json"
+          }
+        },
+        {
+          "id": "rarity_delicacy.json",
+          "name": "rarity_delicacy.json",
+          "type": "File",
+          "artifact": {
+            "size": 170,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/style/rarity_delicacy.json",
+            "MD5": "645c3da765f03b4425e69745f45a9052",
+            "path": "kubejs/assets/esketit/tooltips/style/rarity_delicacy.json"
+          }
+        },
+        {
+          "id": "rarity_dungeon.json",
+          "name": "rarity_dungeon.json",
+          "type": "File",
+          "artifact": {
+            "size": 169,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/style/rarity_dungeon.json",
+            "MD5": "71fc5664209c3c66fee78a8106a99596",
+            "path": "kubejs/assets/esketit/tooltips/style/rarity_dungeon.json"
+          }
+        },
+        {
+          "id": "rarity_fancy.json",
+          "name": "rarity_fancy.json",
+          "type": "File",
+          "artifact": {
+            "size": 167,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/style/rarity_fancy.json",
+            "MD5": "cc6f5c7af918db4375e65e77664c71e1",
+            "path": "kubejs/assets/esketit/tooltips/style/rarity_fancy.json"
+          }
+        },
+        {
+          "id": "rarity_inverted.json",
+          "name": "rarity_inverted.json",
+          "type": "File",
+          "artifact": {
+            "size": 170,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/style/rarity_inverted.json",
+            "MD5": "6d06d45a645037625f0e9737bb6a4efa",
+            "path": "kubejs/assets/esketit/tooltips/style/rarity_inverted.json"
+          }
+        },
+        {
+          "id": "rarity_legendary.json",
+          "name": "rarity_legendary.json",
+          "type": "File",
+          "artifact": {
+            "size": 171,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/style/rarity_legendary.json",
+            "MD5": "0605f1fbe13be0afdf6c9b2db777e037",
+            "path": "kubejs/assets/esketit/tooltips/style/rarity_legendary.json"
+          }
+        },
+        {
+          "id": "rarity_mythic.json",
+          "name": "rarity_mythic.json",
+          "type": "File",
+          "artifact": {
+            "size": 168,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/style/rarity_mythic.json",
+            "MD5": "226818e6a6f4ccbed58de351f5875112",
+            "path": "kubejs/assets/esketit/tooltips/style/rarity_mythic.json"
+          }
+        },
+        {
+          "id": "rarity_unobtainable.json",
+          "name": "rarity_unobtainable.json",
+          "type": "File",
+          "artifact": {
+            "size": 174,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/esketit/tooltips/style/rarity_unobtainable.json",
+            "MD5": "81d59da3bce8b0a65cb2c09655061316",
+            "path": "kubejs/assets/esketit/tooltips/style/rarity_unobtainable.json"
           }
         },
         {

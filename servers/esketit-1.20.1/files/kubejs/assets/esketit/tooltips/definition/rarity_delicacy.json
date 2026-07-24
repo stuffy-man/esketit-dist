@@ -1,0 +1,8 @@
+{
+  "priority": 150,
+  "style": "esketit:rarity_delicacy",
+  "filter": {
+    "type": "obscure_tooltips:rarity",
+    "rarity": "delicacy"
+  }
+}
