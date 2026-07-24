@@ -9562,6 +9562,28 @@
           }
         },
         {
+          "id": "en_us.json",
+          "name": "en_us.json",
+          "type": "File",
+          "artifact": {
+            "size": 640,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/obscure_tooltips/lang/en_us.json",
+            "MD5": "574be949042161fd422aa9e10c3b92d2",
+            "path": "kubejs/assets/obscure_tooltips/lang/en_us.json"
+          }
+        },
+        {
+          "id": "ru_ru.json",
+          "name": "ru_ru.json",
+          "type": "File",
+          "artifact": {
+            "size": 875,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/obscure_tooltips/lang/ru_ru.json",
+            "MD5": "fc6a919d3159a3790fc8b4521a84e295",
+            "path": "kubejs/assets/obscure_tooltips/lang/ru_ru.json"
+          }
+        },
+        {
           "id": "ru_ru.json",
           "name": "ru_ru.json",
           "type": "File",
