@@ -1,6 +1,7 @@
 // Protect mobs attached with a lead from despawning or cleanup after chunk reloads.
 (function () {
   var BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries');
+  var AbstractHorse = Java.loadClass('net.minecraft.world.entity.animal.horse.AbstractHorse');
 
   function entityId(entity) {
     try { return String(BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType())); }
@@ -13,14 +14,25 @@
     catch (e) {}
   }
 
+  function isMount(entity) {
+    if (!entity) return false;
+    try { if (entity instanceof AbstractHorse) return true; }
+    catch (e) {}
+    return entityId(entity) === 'naturalist:zebra';
+  }
+
   // A lead interaction happens before the mob is attached to a fence. Mark it
   // persistent immediately so unloading the chunk cannot remove it.
   ForgeEvents.onEvent('net.minecraftforge.event.entity.player.PlayerInteractEvent$EntityInteract', function (event) {
     try {
+      var target = event.getTarget();
+      // Any player interaction is enough to classify a horse-family mob as
+      // owned livestock. Persistence remains set after the lead is removed.
+      if (isMount(target)) protect(target);
       var player = event.getEntity();
       var held = player.getItemInHand(event.getHand());
       var itemId = String(BuiltInRegistries.ITEM.getKey(held.getItem()));
-      if (itemId === 'minecraft:lead') protect(event.getTarget());
+      if (itemId === 'minecraft:lead') protect(target);
     } catch (e) {}
   });
 
@@ -34,11 +46,25 @@
       catch (e1) { try { clientSide = event.getLevel().isClientSide; } catch (e2) {} }
       if (clientSide) return;
       var entity = event.getEntity();
-      if (entityId(entity) === 'naturalist:zebra') {
+      if (isMount(entity)) {
         protect(entity);
         return;
       }
       if (entity.isLeashed()) protect(entity);
+    } catch (e) {}
+  });
+
+  // Leave a useful trace if a mount is ever killed or explicitly discarded.
+  // Ordinary chunk unloading is intentionally not logged.
+  ForgeEvents.onEvent('net.minecraftforge.event.entity.EntityLeaveLevelEvent', function (event) {
+    try {
+      var entity = event.getEntity();
+      if (!isMount(entity)) return;
+      var reason = entity.getRemovalReason();
+      if (reason == null || String(reason) === 'UNLOADED_TO_CHUNK') return;
+      console.warn('[Esketit/MountGuard] mount removed: type=' + entityId(entity)
+        + ' uuid=' + entity.getUUID() + ' reason=' + reason
+        + ' pos=' + entity.blockPosition().toShortString());
     } catch (e) {}
   });
 })();
