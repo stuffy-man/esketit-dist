@@ -3731,9 +3731,9 @@
           "name": "TRMT",
           "type": "ForgeMod",
           "artifact": {
-            "size": 95561,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/trmt-0.7-1.20.1.jar",
-            "MD5": "c62c820854f8aa89c76bf2ac78aaed9e"
+            "size": 95453,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/trmt-0.8-1.20.1.jar",
+            "MD5": "8cb22df2cbc913ed7bbdb531d18c6bcd"
           }
         },
         {
