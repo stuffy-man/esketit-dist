@@ -10643,9 +10643,9 @@
           "name": "esk_leash_persistence.js",
           "type": "File",
           "artifact": {
-            "size": 1740,
+            "size": 2900,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/startup_scripts/esk_leash_persistence.js",
-            "MD5": "08171b8392fcac2ae7febf7773f0c285",
+            "MD5": "6a9859887e2d3e2dc54a5cb7db3efdc7",
             "path": "kubejs/startup_scripts/esk_leash_persistence.js"
           }
         },
