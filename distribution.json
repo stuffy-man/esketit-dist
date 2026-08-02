@@ -1668,6 +1668,19 @@
           }
         },
         {
+          "id": "net.darkhax:enchdesc:17.1.21@jar",
+          "name": "EnchantmentDescriptions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 66883,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/enchantment_descriptions.jar",
+            "MD5": "82f3fc15d2b48e0bde064704e76a849a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "com.teamremastered:endrem:5.3.3-R-1.20.1@jar",
           "name": "End Remastered",
           "type": "ForgeMod",
