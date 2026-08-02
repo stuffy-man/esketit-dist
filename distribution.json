@@ -1668,6 +1668,19 @@
           }
         },
         {
+          "id": "net.darkhax:enchdesc:17.1.21@jar",
+          "name": "EnchantmentDescriptions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 66883,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/enchantment_descriptions.jar",
+            "MD5": "82f3fc15d2b48e0bde064704e76a849a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "com.teamremastered:endrem:5.3.3-R-1.20.1@jar",
           "name": "End Remastered",
           "type": "ForgeMod",
@@ -10643,9 +10656,9 @@
           "name": "esk_leash_persistence.js",
           "type": "File",
           "artifact": {
-            "size": 2900,
+            "size": 4298,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/startup_scripts/esk_leash_persistence.js",
-            "MD5": "6a9859887e2d3e2dc54a5cb7db3efdc7",
+            "MD5": "09226fdc84f5166e53d49fbb8723a207",
             "path": "kubejs/startup_scripts/esk_leash_persistence.js"
           }
         },
