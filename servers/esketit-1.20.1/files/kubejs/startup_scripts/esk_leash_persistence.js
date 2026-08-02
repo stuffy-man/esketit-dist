@@ -2,6 +2,8 @@
 (function () {
   var BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries');
   var AbstractHorse = Java.loadClass('net.minecraft.world.entity.animal.horse.AbstractHorse');
+  var Mob = Java.loadClass('net.minecraft.world.entity.Mob');
+  var InteractionResult = Java.loadClass('net.minecraft.world.InteractionResult');
 
   function entityId(entity) {
     try { return String(BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType())); }
@@ -26,6 +28,37 @@
   ForgeEvents.onEvent('net.minecraftforge.event.entity.player.PlayerInteractEvent$EntityInteract', function (event) {
     try {
       var target = event.getTarget();
+
+      // Horseman and Vanilla Backport both replace parts of the leash-knot
+      // interaction. When a knot already owns leashes, detach the mobs here
+      // atomically and stop the conflicting handlers from running.
+      if (entityId(target) === 'minecraft:leash_knot') {
+        var level = event.getLevel();
+        var clientSide = false;
+        try { clientSide = level.isClientSide(); }
+        catch (e0) { clientSide = level.isClientSide; }
+        if (!clientSide) {
+          var nearby = level.getEntitiesOfClass(Mob, target.getBoundingBox().inflate(8.0));
+          var detached = 0;
+          for (var i = 0; i < nearby.size(); i++) {
+            var mob = nearby.get(i);
+            var holder = mob.getLeashHolder();
+            if (holder != null && holder.getId() === target.getId()) {
+              protect(mob);
+              mob.dropLeash(true, true);
+              detached++;
+            }
+          }
+          if (detached > 0) {
+            target.discard();
+            event.setCancellationResult(InteractionResult.SUCCESS);
+            event.setCanceled(true);
+            console.info('[Esketit/MountGuard] safely detached ' + detached + ' mob(s) from leash knot');
+            return;
+          }
+        }
+      }
+
       // Any player interaction is enough to classify a horse-family mob as
       // owned livestock. Persistence remains set after the lead is removed.
       if (isMount(target)) protect(target);
