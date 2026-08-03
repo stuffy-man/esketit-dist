@@ -1,3 +1,8 @@
 {
-  "groups.diet.dairy.name": "Dairy"
+  "groups.diet.dairy.name": "Dairy",
+  "enchantment.benssharks.seeking.desc": "Thrown tridents home toward multiple targets. Each level adds 2 targets and 2 blocks of range.",
+  "enchantment.benssharks.serrated.desc": "Weapon hits inflict Bleeding on the target.",
+  "enchantment.caverns_and_chasms.conceal.desc": "Adds 10 percentage points of stealth per level to a cowl, reducing mob detection range.",
+  "enchantment.caverns_and_chasms.extending.desc": "Adds 1 block of interaction reach per level while wearing a toolbelt.",
+  "enchantment.caverns_and_chasms.obscurity.desc": "Makes the cowl wearer fully invisible while crouching, preventing mobs from detecting them."
 }

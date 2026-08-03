@@ -9820,9 +9820,9 @@
           "name": "en_us.json",
           "type": "File",
           "artifact": {
-            "size": 40,
+            "size": 678,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/kubejs/lang/en_us.json",
-            "MD5": "5767fcafe06ebef0db7e89de8832548b",
+            "MD5": "0561fa4a4e520d3412f11848f7000623",
             "path": "kubejs/assets/kubejs/lang/en_us.json"
           }
         },
@@ -9831,9 +9831,9 @@
           "name": "ru_ru.json",
           "type": "File",
           "artifact": {
-            "size": 68,
+            "size": 1164,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/assets/kubejs/lang/ru_ru.json",
-            "MD5": "23ab7ebaa9989162009d148db248e81f",
+            "MD5": "5435b7badfa4f966d04dc21405307dab",
             "path": "kubejs/assets/kubejs/lang/ru_ru.json"
           }
         },
