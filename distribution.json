@@ -1830,13 +1830,13 @@
           }
         },
         {
-          "id": "com.esketit.worldeditfix:esketit_worldedit_fix:1.0.0@jar",
+          "id": "com.esketit.worldeditfix:esketit_worldedit_fix:1.0.1@jar",
           "name": "Esketit WorldEdit Startup Fix",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3474,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit-worldedit-fix-1.0.1.jar",
-            "MD5": "2dc8c4dfae470d4b7e5c46b754fa4137"
+            "size": 3473,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_worldedit_fix-1.0.1.jar",
+            "MD5": "ec4c174c40ea060ff8b3ddeb088fe7aa"
           }
         },
         {
@@ -10720,7 +10720,7 @@
           "name": "EsketitWildWestNames.zip",
           "type": "File",
           "artifact": {
-            "size": 1450,
+            "size": 2224,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/resourcepacks/EsketitWildWestNames.zip",
             "path": "resourcepacks/EsketitWildWestNames.zip"
           }
