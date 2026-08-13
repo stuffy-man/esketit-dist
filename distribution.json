@@ -1800,6 +1800,16 @@
           }
         },
         {
+          "id": "dev.esketitshipfix:esketit_shipfix:1.0.0@jar",
+          "name": "Esketit Ship Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5025,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_shipfix-1.0.0.jar",
+            "MD5": "769f9746ceb8efa4ca8aaa7f01f8b34c"
+          }
+        },
+        {
           "id": "dev.esketittannery:esketit_tannery:1.0.0@jar",
           "name": "Esketit Tannery",
           "type": "ForgeMod",
