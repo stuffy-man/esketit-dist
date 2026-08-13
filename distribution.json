@@ -6991,17 +6991,6 @@
           }
         },
         {
-          "id": "76CBFFB53E088046.snbt.bak_pre_20260813",
-          "name": "76CBFFB53E088046.snbt.bak_pre_20260813",
-          "type": "File",
-          "artifact": {
-            "size": 10119,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/76CBFFB53E088046.snbt.bak_pre_20260813",
-            "MD5": "3614f351378be316facd146145973cba",
-            "path": "config/ftbquests/quests/chapters/76CBFFB53E088046.snbt.bak_pre_20260813"
-          }
-        },
-        {
           "id": "76CBFFB53E088046.snbt.bak_pre_onboarding",
           "name": "76CBFFB53E088046.snbt.bak_pre_onboarding",
           "type": "File",
