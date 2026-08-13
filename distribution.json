@@ -1750,13 +1750,13 @@
           }
         },
         {
-          "id": "dev.esketitcorpse:esketit_corpse:1.0.1@jar",
+          "id": "dev.esketitcorpse:esketit_corpse:1.0.4@jar",
           "name": "Esketit Corpse",
           "type": "ForgeMod",
           "artifact": {
-            "size": 72765,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_corpse-1.0.1.jar",
-            "MD5": "9bb1eeccd3e88efad58da38697788dcd"
+            "size": 74443,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_corpse-1.0.4.jar",
+            "MD5": "faab4dbc2cf93741e7414ae53f6c9b3a"
           }
         },
         {
@@ -1770,13 +1770,13 @@
           }
         },
         {
-          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.38@jar",
+          "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.39@jar",
           "name": "Esketit Metallurgy",
           "type": "ForgeMod",
           "artifact": {
-            "size": 504114,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.38.jar",
-            "MD5": "a06e4eb0e6cce5e6195d64761e768c17"
+            "size": 506429,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_metallurgy-1.0.39.jar",
+            "MD5": "260f059087eb80af4004770802bbfd01"
           }
         },
         {
@@ -1810,13 +1810,13 @@
           }
         },
         {
-          "id": "dev.esketitvillagertrades:esketit_villagertrades:1.0.0@jar",
+          "id": "dev.esketitvillagertrades:esketit_villagertrades:1.0.1@jar",
           "name": "Esketit Villager Trades",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3607,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_villagertrades-1.0.0.jar",
-            "MD5": "281bcddc04f9e5c34cfa21c43fdf4c8d"
+            "size": 3608,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_villagertrades-1.0.1.jar",
+            "MD5": "f0ccab003ec61c73afe3f6859caa8dba"
           }
         },
         {
@@ -6984,10 +6984,21 @@
           "name": "76CBFFB53E088046.snbt",
           "type": "File",
           "artifact": {
-            "size": 10119,
+            "size": 12054,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/76CBFFB53E088046.snbt",
-            "MD5": "3614f351378be316facd146145973cba",
+            "MD5": "db6ca994d77d179ea136108c6998d4e6",
             "path": "config/ftbquests/quests/chapters/76CBFFB53E088046.snbt"
+          }
+        },
+        {
+          "id": "76CBFFB53E088046.snbt.bak_pre_20260813",
+          "name": "76CBFFB53E088046.snbt.bak_pre_20260813",
+          "type": "File",
+          "artifact": {
+            "size": 10119,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/76CBFFB53E088046.snbt.bak_pre_20260813",
+            "MD5": "3614f351378be316facd146145973cba",
+            "path": "config/ftbquests/quests/chapters/76CBFFB53E088046.snbt.bak_pre_20260813"
           }
         },
         {
