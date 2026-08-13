@@ -6045,17 +6045,6 @@
           }
         },
         {
-          "id": "title_screen_layout.txt.bak",
-          "name": "title_screen_layout.txt.bak",
-          "type": "File",
-          "artifact": {
-            "size": 39512,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/fancymenu/customization/title_screen_layout.txt.bak",
-            "MD5": "ee9c9078d5ca1ef91876f5dedab6aecb",
-            "path": "config/fancymenu/customization/title_screen_layout.txt.bak"
-          }
-        },
-        {
           "id": "custom_gui_screens.txt",
           "name": "custom_gui_screens.txt",
           "type": "File",
@@ -7594,17 +7583,6 @@
           }
         },
         {
-          "id": "spawn.json.bak",
-          "name": "spawn.json.bak",
-          "type": "File",
-          "artifact": {
-            "size": 378,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/spawn.json.bak",
-            "MD5": "51289cf2359454d2a2bc3e85ff0de889",
-            "path": "config/incontrol/spawn.json.bak"
-          }
-        },
-        {
           "id": "spawner.json",
           "name": "spawner.json",
           "type": "File",
@@ -7613,17 +7591,6 @@
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/spawner.json",
             "MD5": "a1d3c26a8871a13c6aa92d1eecd18492",
             "path": "config/incontrol/spawner.json"
-          }
-        },
-        {
-          "id": "spawner.json.bak",
-          "name": "spawner.json.bak",
-          "type": "File",
-          "artifact": {
-            "size": 812,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/incontrol/spawner.json.bak",
-            "MD5": "8a7747639f8010f2efd394ef70cfc019",
-            "path": "config/incontrol/spawner.json.bak"
           }
         },
         {
