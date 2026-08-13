@@ -1834,9 +1834,9 @@
           "name": "Esketit WorldEdit Startup Fix",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3275,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit-worldedit-fix-1.0.0.jar",
-            "MD5": "69904fd767147bafecee7847c045d9bf"
+            "size": 3474,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit-worldedit-fix-1.0.1.jar",
+            "MD5": "2dc8c4dfae470d4b7e5c46b754fa4137"
           }
         },
         {
