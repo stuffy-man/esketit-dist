@@ -3820,6 +3820,16 @@
           }
         },
         {
+          "id": "com.hashnightflux:vag:1.0.0@jar",
+          "name": "Vanilla Animated Guns",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1423546,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/vag-1.0.0-1.20.1.jar",
+            "MD5": "0648704851a589637d8e1276f3cc9c63"
+          }
+        },
+        {
           "id": "com.blackgear.vanillabackport.core:vanillabackport:1.1.6.3@jar",
           "name": "VanillaBackport",
           "type": "ForgeMod",
@@ -10706,6 +10716,16 @@
           }
         },
         {
+          "id": "EsketitWildWestNames.zip",
+          "name": "EsketitWildWestNames.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1450,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/resourcepacks/EsketitWildWestNames.zip",
+            "path": "resourcepacks/EsketitWildWestNames.zip"
+          }
+        },
+        {
           "id": "Fancy Crops v1.3.zip",
           "name": "Fancy Crops v1.3.zip",
           "type": "File",
@@ -10753,6 +10773,16 @@
             "size": 146516,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/resourcepacks/Spring_Flowers_(1.20).zip",
             "path": "resourcepacks/Spring_Flowers_(1.20).zip"
+          }
+        },
+        {
+          "id": "VagCreatifiedR.zip",
+          "name": "VagCreatifiedR.zip",
+          "type": "File",
+          "artifact": {
+            "size": 167837,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/resourcepacks/VagCreatifiedR.zip",
+            "path": "resourcepacks/VagCreatifiedR.zip"
           }
         },
         {
