@@ -6991,17 +6991,6 @@
           }
         },
         {
-          "id": "76CBFFB53E088046.snbt.bak_pre_onboarding",
-          "name": "76CBFFB53E088046.snbt.bak_pre_onboarding",
-          "type": "File",
-          "artifact": {
-            "size": 20201,
-            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/ftbquests/quests/chapters/76CBFFB53E088046.snbt.bak_pre_onboarding",
-            "MD5": "839d3ca32ca0031bf1cafeb7ec6a3673",
-            "path": "config/ftbquests/quests/chapters/76CBFFB53E088046.snbt.bak_pre_onboarding"
-          }
-        },
-        {
           "id": "ars_elixirum_basics.snbt",
           "name": "ars_elixirum_basics.snbt",
           "type": "File",
