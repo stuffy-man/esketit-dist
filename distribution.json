@@ -1770,13 +1770,13 @@
           }
         },
         {
-          "id": "dev.esketitgundebug:esketit_gundebug:1.0.0@jar",
+          "id": "dev.esketitgundebug:esketit_gundebug:1.0.1@jar",
           "name": "Esketit Gun Debug",
           "type": "ForgeMod",
           "artifact": {
-            "size": 4351,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_gundebug-1.0.0.jar",
-            "MD5": "a603a41462fba3137f4fd8e8be360c28"
+            "size": 4545,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_gundebug-1.0.1.jar",
+            "MD5": "01c2c91daeb67def9765238fd2e327bf"
           },
           "required": {
             "value": false
