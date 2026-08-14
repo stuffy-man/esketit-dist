@@ -1750,13 +1750,13 @@
           }
         },
         {
-          "id": "dev.esketitcorpse:esketit_corpse:1.0.4@jar",
+          "id": "dev.esketitcorpse:esketit_corpse:1.0.5@jar",
           "name": "Esketit Corpse",
           "type": "ForgeMod",
           "artifact": {
-            "size": 74443,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_corpse-1.0.4.jar",
-            "MD5": "faab4dbc2cf93741e7414ae53f6c9b3a"
+            "size": 74677,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_corpse-1.0.5.jar",
+            "MD5": "e4c64b2e3bb4586ce634beec04bbe1f0"
           }
         },
         {
@@ -1787,6 +1787,19 @@
             "size": 21251,
             "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_netfix-1.0.2.jar",
             "MD5": "f10996c72d6cb8233491d1848e77813c"
+          }
+        },
+        {
+          "id": "dev.esketitpacks:esketit_packs:1.0.0@jar",
+          "name": "Esketit Pack Presets",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5982,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_packs-1.0.0.jar",
+            "MD5": "74d53c9dc76e06a439db8c1bcc5aecf4"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -5821,6 +5834,17 @@
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/esketit_coldcellar-common.toml",
             "MD5": "0d4d96ca52a41ba6b30fbc9c4f422ec3",
             "path": "config/esketit_coldcellar-common.toml"
+          }
+        },
+        {
+          "id": "esketit_packs.json",
+          "name": "esketit_packs.json",
+          "type": "File",
+          "artifact": {
+            "size": 365,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/config/esketit_packs.json",
+            "MD5": "9b2b77743a5b8c5733d2a9b30bfbc3a3",
+            "path": "config/esketit_packs.json"
           }
         },
         {

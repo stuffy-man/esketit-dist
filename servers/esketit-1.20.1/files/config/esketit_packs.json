@@ -1,0 +1,12 @@
+{
+  "_comment": "Packs enabled once on first launch by esketit_packs. Ids exactly as in options.txt.",
+  "packs": [
+    "file/Fire_Rekindled.zip",
+    "file/Os' Colorful Grasses (Full and Fluffy).zip",
+    "file/rainbows-foliage.zip",
+    "file/Fancy Crops v1.3.zip",
+    "file/Spring_Flowers_(1.20).zip",
+    "file/VagCreatifiedR.zip",
+    "EsketitSplashes"
+  ]
+}
