@@ -3883,16 +3883,6 @@
           }
         },
         {
-          "id": "net.lixir:vminus:3.3.1@jar",
-          "name": "VMinus",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1221242,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/vminus.jar",
-            "MD5": "c8542aefe9602ad067583686da8ccfc9"
-          }
-        },
-        {
           "id": "net.mcreator.wildweststructuresforge:wild_west_structures_forge:1.0.0@jar",
           "name": "Wild west structures forge",
           "type": "ForgeMod",
