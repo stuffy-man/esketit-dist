@@ -1,0 +1,5 @@
+{
+  "__comment": "withering_heights requires #minecraft:aquatic, a Fabric-convention tag absent on Forge; without it its blacklist tag failed to load. Empty bridge tag.",
+  "replace": false,
+  "values": []
+}

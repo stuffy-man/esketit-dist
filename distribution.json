@@ -9928,6 +9928,17 @@
           }
         },
         {
+          "id": "eumus_brick.json",
+          "name": "eumus_brick.json",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/caverns_and_chasms/loot_tables/blocks/eumus_brick.json",
+            "MD5": "4aa209960d1066f40bc1963fdf0e5b7c",
+            "path": "kubejs/data/caverns_and_chasms/loot_tables/blocks/eumus_brick.json"
+          }
+        },
+        {
           "id": "default.json",
           "name": "default.json",
           "type": "File",
@@ -9950,6 +9961,83 @@
           }
         },
         {
+          "id": "inject_clams.json",
+          "name": "inject_clams.json",
+          "type": "File",
+          "artifact": {
+            "size": 726,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/crittersandcompanions/loot_modifiers/inject_clams.json",
+            "MD5": "124e8914632188d56fadeca1c2134588",
+            "path": "kubejs/data/crittersandcompanions/loot_modifiers/inject_clams.json"
+          }
+        },
+        {
+          "id": "avocado_bundle.json",
+          "name": "avocado_bundle.json",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/culturaldelights/loot_tables/blocks/avocado_bundle.json",
+            "MD5": "4aa209960d1066f40bc1963fdf0e5b7c",
+            "path": "kubejs/data/culturaldelights/loot_tables/blocks/avocado_bundle.json"
+          }
+        },
+        {
+          "id": "avocado_leaf_carpet.json",
+          "name": "avocado_leaf_carpet.json",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/culturaldelights/loot_tables/blocks/avocado_leaf_carpet.json",
+            "MD5": "4aa209960d1066f40bc1963fdf0e5b7c",
+            "path": "kubejs/data/culturaldelights/loot_tables/blocks/avocado_leaf_carpet.json"
+          }
+        },
+        {
+          "id": "avocado_leaves.json",
+          "name": "avocado_leaves.json",
+          "type": "File",
+          "artifact": {
+            "size": 5182,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/culturaldelights/loot_tables/blocks/avocado_leaves.json",
+            "MD5": "265ed159524aa148296dc9c682e11d9e",
+            "path": "kubejs/data/culturaldelights/loot_tables/blocks/avocado_leaves.json"
+          }
+        },
+        {
+          "id": "exotic_roll_medley_block.json",
+          "name": "exotic_roll_medley_block.json",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/culturaldelights/loot_tables/blocks/exotic_roll_medley_block.json",
+            "MD5": "4aa209960d1066f40bc1963fdf0e5b7c",
+            "path": "kubejs/data/culturaldelights/loot_tables/blocks/exotic_roll_medley_block.json"
+          }
+        },
+        {
+          "id": "fruiting_avocado_leaves.json",
+          "name": "fruiting_avocado_leaves.json",
+          "type": "File",
+          "artifact": {
+            "size": 5191,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/culturaldelights/loot_tables/blocks/fruiting_avocado_leaves.json",
+            "MD5": "470aa87116ceca021905ef62a94f3290",
+            "path": "kubejs/data/culturaldelights/loot_tables/blocks/fruiting_avocado_leaves.json"
+          }
+        },
+        {
+          "id": "crystallized_amber.json",
+          "name": "crystallized_amber.json",
+          "type": "File",
+          "artifact": {
+            "size": 2071,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/deeperdarker/loot_tables/chests/crystallized_amber.json",
+            "MD5": "42c2b9f376382211aa32ef99db41e3dc",
+            "path": "kubejs/data/deeperdarker/loot_tables/chests/crystallized_amber.json"
+          }
+        },
+        {
           "id": "builtin.json",
           "name": "builtin.json",
           "type": "File",
@@ -9958,6 +10046,17 @@
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/diet/diet/suites/builtin.json",
             "MD5": "a03bca4fb40b6c0f1c25cf4f2cb25028",
             "path": "kubejs/data/diet/diet/suites/builtin.json"
+          }
+        },
+        {
+          "id": "vegetables.json",
+          "name": "vegetables.json",
+          "type": "File",
+          "artifact": {
+            "size": 32614,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/diet/tags/items/vegetables.json",
+            "MD5": "b61448157f27eda788b50229b123c9f6",
+            "path": "kubejs/data/diet/tags/items/vegetables.json"
           }
         },
         {
@@ -10192,6 +10291,28 @@
           }
         },
         {
+          "id": "kettle.json",
+          "name": "kettle.json",
+          "type": "File",
+          "artifact": {
+            "size": 489,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/farmersrespite/loot_tables/blocks/kettle.json",
+            "MD5": "bbcfc192877d3ac72c32615f8006d8bf",
+            "path": "kubejs/data/farmersrespite/loot_tables/blocks/kettle.json"
+          }
+        },
+        {
+          "id": "peanut.json",
+          "name": "peanut.json",
+          "type": "File",
+          "artifact": {
+            "size": 261,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/forge/tags/items/protein/peanut.json",
+            "MD5": "b7b1efae5b3cac3b5a1530d9e9cff421",
+            "path": "kubejs/data/forge/tags/items/protein/peanut.json"
+          }
+        },
+        {
           "id": "has_crab.json",
           "name": "has_crab.json",
           "type": "File",
@@ -10203,6 +10324,50 @@
           }
         },
         {
+          "id": "ender_jack_o_lantern.json",
+          "name": "ender_jack_o_lantern.json",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/hauntedharvest/loot_tables/blocks/ender_jack_o_lantern.json",
+            "MD5": "4aa209960d1066f40bc1963fdf0e5b7c",
+            "path": "kubejs/data/hauntedharvest/loot_tables/blocks/ender_jack_o_lantern.json"
+          }
+        },
+        {
+          "id": "green_jack_o_lantern.json",
+          "name": "green_jack_o_lantern.json",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/hauntedharvest/loot_tables/blocks/green_jack_o_lantern.json",
+            "MD5": "4aa209960d1066f40bc1963fdf0e5b7c",
+            "path": "kubejs/data/hauntedharvest/loot_tables/blocks/green_jack_o_lantern.json"
+          }
+        },
+        {
+          "id": "redstone_jack_o_lantern.json",
+          "name": "redstone_jack_o_lantern.json",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/hauntedharvest/loot_tables/blocks/redstone_jack_o_lantern.json",
+            "MD5": "4aa209960d1066f40bc1963fdf0e5b7c",
+            "path": "kubejs/data/hauntedharvest/loot_tables/blocks/redstone_jack_o_lantern.json"
+          }
+        },
+        {
+          "id": "soul_jack_o_lantern.json",
+          "name": "soul_jack_o_lantern.json",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/hauntedharvest/loot_tables/blocks/soul_jack_o_lantern.json",
+            "MD5": "4aa209960d1066f40bc1963fdf0e5b7c",
+            "path": "kubejs/data/hauntedharvest/loot_tables/blocks/soul_jack_o_lantern.json"
+          }
+        },
+        {
           "id": "dairy.json",
           "name": "dairy.json",
           "type": "File",
@@ -10211,6 +10376,17 @@
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/kubejs/diet/groups/dairy.json",
             "MD5": "4f26350fb7a68052f841bc0348cbcdc5",
             "path": "kubejs/data/kubejs/diet/groups/dairy.json"
+          }
+        },
+        {
+          "id": "aquatic.json",
+          "name": "aquatic.json",
+          "type": "File",
+          "artifact": {
+            "size": 213,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/minecraft/tags/entity_types/aquatic.json",
+            "MD5": "7befadb3acc338320420fcfb79ee4e1a",
+            "path": "kubejs/data/minecraft/tags/entity_types/aquatic.json"
           }
         },
         {
@@ -10236,13 +10412,101 @@
           }
         },
         {
+          "id": "scavenging_silverfish.json",
+          "name": "scavenging_silverfish.json",
+          "type": "File",
+          "artifact": {
+            "size": 639,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/miners_delight/loot_modifiers/scavenging_silverfish.json",
+            "MD5": "df90dc077eb0088424a20883e666b2d5",
+            "path": "kubejs/data/miners_delight/loot_modifiers/scavenging_silverfish.json"
+          }
+        },
+        {
+          "id": "scavenging_tentacles.json",
+          "name": "scavenging_tentacles.json",
+          "type": "File",
+          "artifact": {
+            "size": 922,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/miners_delight/loot_modifiers/scavenging_tentacles.json",
+            "MD5": "0d59dfc9077bbc70457a1e1b3e851727",
+            "path": "kubejs/data/miners_delight/loot_modifiers/scavenging_tentacles.json"
+          }
+        },
+        {
+          "id": "blackstone_cooking_pot.json",
+          "name": "blackstone_cooking_pot.json",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/mynethersdelight/loot_tables/blocks/blackstone_cooking_pot.json",
+            "MD5": "4aa209960d1066f40bc1963fdf0e5b7c",
+            "path": "kubejs/data/mynethersdelight/loot_tables/blocks/blackstone_cooking_pot.json"
+          }
+        },
+        {
+          "id": "overweight_ginger_block.json",
+          "name": "overweight_ginger_block.json",
+          "type": "File",
+          "artifact": {
+            "size": 379,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/overweight_farming/loot_tables/blocks/overweight_ginger_block.json",
+            "MD5": "270ced6f0172fbf2a3c298c83390181e",
+            "path": "kubejs/data/overweight_farming/loot_tables/blocks/overweight_ginger_block.json"
+          }
+        },
+        {
+          "id": "overweight_kiwi_block.json",
+          "name": "overweight_kiwi_block.json",
+          "type": "File",
+          "artifact": {
+            "size": 377,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/overweight_farming/loot_tables/blocks/overweight_kiwi_block.json",
+            "MD5": "91a3cf75d5d2d4240dc9cd2b70d8b91f",
+            "path": "kubejs/data/overweight_farming/loot_tables/blocks/overweight_kiwi_block.json"
+          }
+        },
+        {
+          "id": "overweight_sliced_kiwi_block.json",
+          "name": "overweight_sliced_kiwi_block.json",
+          "type": "File",
+          "artifact": {
+            "size": 384,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/overweight_farming/loot_tables/blocks/overweight_sliced_kiwi_block.json",
+            "MD5": "5368d0e14ec0477972f38e43223be6b7",
+            "path": "kubejs/data/overweight_farming/loot_tables/blocks/overweight_sliced_kiwi_block.json"
+          }
+        },
+        {
+          "id": "peeled_overweight_ginger_block.json",
+          "name": "peeled_overweight_ginger_block.json",
+          "type": "File",
+          "artifact": {
+            "size": 386,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/overweight_farming/loot_tables/blocks/peeled_overweight_ginger_block.json",
+            "MD5": "75bfa1121223b65159c7fbf9f3c91ff6",
+            "path": "kubejs/data/overweight_farming/loot_tables/blocks/peeled_overweight_ginger_block.json"
+          }
+        },
+        {
+          "id": "peeled_overweight_kiwi_block.json",
+          "name": "peeled_overweight_kiwi_block.json",
+          "type": "File",
+          "artifact": {
+            "size": 384,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/overweight_farming/loot_tables/blocks/peeled_overweight_kiwi_block.json",
+            "MD5": "4b7d13e6edf8a5a9accc07c1e103bd9a",
+            "path": "kubejs/data/overweight_farming/loot_tables/blocks/peeled_overweight_kiwi_block.json"
+          }
+        },
+        {
           "id": "cold_sources.json",
           "name": "cold_sources.json",
           "type": "File",
           "artifact": {
-            "size": 420,
+            "size": 633,
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/roomclimate/tags/blocks/cold_sources.json",
-            "MD5": "321557a865da4dbfff773eb8ebb1d795",
+            "MD5": "2fe4c7038c7290c2e97837f4f2cbc9b5",
             "path": "kubejs/data/roomclimate/tags/blocks/cold_sources.json"
           }
         },
@@ -10277,6 +10541,50 @@
             "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/spawn/tags/worldgen/biome/clam_spawns.json",
             "MD5": "790f5ed43ed1554fb30467d5c492b5a6",
             "path": "kubejs/data/spawn/tags/worldgen/biome/clam_spawns.json"
+          }
+        },
+        {
+          "id": "boomstick.json",
+          "name": "boomstick.json",
+          "type": "File",
+          "artifact": {
+            "size": 1162,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/vag/guns/boomstick.json",
+            "MD5": "d7cc3d07e2369523380d5166a007d2ab",
+            "path": "kubejs/data/vag/guns/boomstick.json"
+          }
+        },
+        {
+          "id": "handcannon.json",
+          "name": "handcannon.json",
+          "type": "File",
+          "artifact": {
+            "size": 962,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/vag/guns/handcannon.json",
+            "MD5": "5d82b63c43713cfd286766d723378757",
+            "path": "kubejs/data/vag/guns/handcannon.json"
+          }
+        },
+        {
+          "id": "musket.json",
+          "name": "musket.json",
+          "type": "File",
+          "artifact": {
+            "size": 1212,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/vag/guns/musket.json",
+            "MD5": "0ef4d5eedb2e83bcd50734c568d1c47e",
+            "path": "kubejs/data/vag/guns/musket.json"
+          }
+        },
+        {
+          "id": "sidehammer.json",
+          "name": "sidehammer.json",
+          "type": "File",
+          "artifact": {
+            "size": 1196,
+            "url": "https://stuffy-man.github.io/esketit-dist/servers/esketit-1.20.1/files/kubejs/data/vag/guns/sidehammer.json",
+            "MD5": "71badb18432a4806051c8d232bff29b0",
+            "path": "kubejs/data/vag/guns/sidehammer.json"
           }
         },
         {

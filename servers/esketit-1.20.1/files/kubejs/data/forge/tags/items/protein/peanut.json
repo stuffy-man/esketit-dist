@@ -1,0 +1,5 @@
+{
+  "__comment": "vintage_delight references #forge:protein/peanut, which no mod here defines, so the shared forge:protein tag died. An empty bridge tag resolves the reference without touching anyone's contributions.",
+  "replace": false,
+  "values": []
+}

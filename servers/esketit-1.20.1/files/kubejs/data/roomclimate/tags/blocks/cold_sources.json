@@ -12,7 +12,11 @@
     "minecraft:soul_wall_torch",
     "minecraft:soul_lantern",
     "cold_sweat:icebox",
-    "compatdelight:cryo_root_box",
+    {
+      "id": "compatdelight:cryo_root_box",
+      "required": false
+    },
     "caverns_and_chasms:soul_brazier"
-  ]
+  ],
+  "__comment": "compatdelight:cryo_root_box is not present in this pack; as a required entry it killed the whole tag, so it is marked optional."
 }

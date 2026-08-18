@@ -1,0 +1,46 @@
+{
+  "display": {
+    "flash": {
+      "yOffset": 3.3,
+      "zOffset": 2.64
+    }
+  },
+  "general": {
+    "alwaysSpread": true,
+    "gripType": "vag:one_handed",
+    "maxAmmo": 6,
+    "rate": 9,
+    "recoilAdsReduction": 0.5,
+    "recoilAngle": 7.0,
+    "reloadAmount": 1,
+    "spread": 0.45
+  },
+  "modules": {
+    "attachments": {
+      "barrel": {
+        "scale": 0.5,
+        "yOffset": 3.3,
+        "zOffset": 2.65
+      }
+    },
+    "zoom": {
+      "fovModifier": 0.7,
+      "yOffset": 4.5,
+      "zOffset": -1.0
+    }
+  },
+  "projectile": {
+    "damage": 7,
+    "item": "vag:powdered_pellet",
+    "life": 25,
+    "size": 0.2,
+    "speed": 10.0
+  },
+  "sounds": {
+    "cock": "vag:item.handcannon.cock",
+    "enchantedFire": "vag:item.handcannon.enchanted_fire",
+    "fire": "vag:item.handcannon.fire",
+    "reload": "vag:item.handcannon.reload",
+    "silencedFire": "vag:item.handcannon.silenced_fire"
+  }
+}

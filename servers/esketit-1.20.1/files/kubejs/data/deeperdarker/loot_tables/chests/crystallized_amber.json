@@ -1,0 +1,69 @@
+{
+  "__comment": "Overrides Deeper and Darker's crystallized amber loot. The mod reads list.get(0) from this table with no empty check, while our loot_metal_gate.js strips #forge:ingots from every chest-type table - so a roll landing on gold_ingot or iron_ingot (15 of 57 weight) returned nothing and crashed worldgen. The two ingot entries are gone; their weight went to the mod's own sculk bone and soul dust, so the pool always yields exactly one item and no free metal appears.",
+  "type": "minecraft:chest",
+  "random_sequence": "deeperdarker:chests/crystallized_amber",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "deeperdarker:sculk_bone",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "deeperdarker:soul_dust",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20.0,
+                "max": 30.0
+              },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
