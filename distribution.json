@@ -3733,16 +3733,6 @@
           }
         },
         {
-          "id": "generated.forgemod:tool_trims:2.2.1@jar",
-          "name": "Tool Trims",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1817918,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/tool_trims.jar",
-            "MD5": "6041667c0ce5fa4ab786369e9d2d0b9a"
-          }
-        },
-        {
           "id": "com.modrinth.l45eongd:mr_trade_villagerhats:0.1.0@jar",
           "name": "Gen's Villager Hats",
           "type": "ForgeMod",
