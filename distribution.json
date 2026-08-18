@@ -1750,13 +1750,13 @@
           }
         },
         {
-          "id": "dev.esketitcorpse:esketit_corpse:1.0.6@jar",
+          "id": "dev.esketitcorpse:esketit_corpse:1.0.7@jar",
           "name": "Esketit Corpse",
           "type": "ForgeMod",
           "artifact": {
-            "size": 75413,
-            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_corpse-1.0.6.jar",
-            "MD5": "2cabece517c4e203aa128c81a61d682a"
+            "size": 75464,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_corpse-1.0.7.jar",
+            "MD5": "d4d08879bb0d475c222ea7ee67c81d66"
           }
         },
         {
