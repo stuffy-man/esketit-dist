@@ -1770,6 +1770,16 @@
           }
         },
         {
+          "id": "dev.esketitleashfix:esketit_leashfix:1.0.0@jar",
+          "name": "Esketit Leash Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3839,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/esketit_leashfix-1.0.0.jar",
+            "MD5": "cfa7d7abe57868fd445a376a55d19f6f"
+          }
+        },
+        {
           "id": "dev.esketitmetallurgy:esketit_metallurgy:1.0.39@jar",
           "name": "Esketit Metallurgy",
           "type": "ForgeMod",
