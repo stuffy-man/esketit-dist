@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Лента новостей лаунчера Esketit. Формат строго RSS 2.0: лаунчер (landing.js) ищет <item>,
+  <pubDate>, <link>, <title>, <content:encoded>, <dc:creator> и <slash:comments>. Атом-фид
+  (например .atom с GitHub) он не разберёт — там <entry> вместо <item>.
+  Файл лежит в корне раздачи и раздаётся GitHub Pages вместе с distribution.json.
+-->
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>Esketit — новости сборки</title>
+    <link>https://stuffy-man.github.io/esketit-dist/</link>
+    <description>Что меняется на сервере и в сборке Esketit</description>
+    <language>ru</language>
+
+    <item>
+      <title>Java закреплена на 17</title>
+      <link>https://stuffy-man.github.io/esketit-dist/</link>
+      <pubDate>Thu, 20 Aug 2026 00:40:00 +0300</pubDate>
+      <dc:creator>Esketit</dc:creator>
+      <slash:comments>0</slash:comments>
+      <content:encoded><![CDATA[
+        <p>Лаунчер раньше соглашался на любую Java от 17 и выше, включая установленные у вас 21 и 24.
+        Forge для 1.20.1 собран под 17, и на более новых версиях сыпались ошибки миксинов, похожие на
+        поломку системы.</p>
+        <p>Теперь сборка требует ровно 17.x: если подходящей Java нет, лаунчер скачает свою.
+        Делать ничего не нужно.</p>
+      ]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Артефакты ослаблены, шарф невидимости переделан</title>
+      <link>https://stuffy-man.github.io/esketit-dist/</link>
+      <pubDate>Wed, 19 Aug 2026 22:10:00 +0300</pubDate>
+      <dc:creator>Esketit</dc:creator>
+      <slash:comments>0</slash:comments>
+      <content:encoded><![CDATA[
+        <p>Числа у артефактов урезаны примерно вдвое: здоровье Кристального сердца, кадры неуязвимости
+        Крестика, шипы, лечение тотемом, бонус опыта и репутация у торговцев. Перчатки, когти, обувь,
+        маска подводного дыхания, очки ночного зрения и зонт не тронуты.</p>
+        <p>Шарф невидимости больше не делает вас невидимым постоянно: он прячет, пока вы стоите или
+        крадётесь, и отключается на пять секунд после удара. Гелиевый фламинго летает столько же, но
+        перезаряжается 90 секунд вместо 15.</p>
+      ]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Дикий Запад: стволы сильнее, скорострелы убраны</title>
+      <link>https://stuffy-man.github.io/esketit-dist/</link>
+      <pubDate>Wed, 19 Aug 2026 20:30:00 +0300</pubDate>
+      <dc:creator>Esketit</dc:creator>
+      <slash:comments>0</slash:comments>
+      <content:encoded><![CDATA[
+        <p>Миротворец, Винчестер и Шарпс бьют больнее, разброс поджат. Обрез-двустволка стал палачом
+        ближнего боя: восемь дробин по девять урона, 72 в упор, но дальность короче.</p>
+        <p>Машинка Пучле и Картечница Гатлинга из сборки убраны — автоматический огонь ломал
+        перестрелки, где решает один точный выстрел. Патроны к ним тоже сняты.</p>
+      ]]></content:encoded>
+    </item>
+
+    <item>
+      <title>Починки: трупы, генерация Другой стороны, лут</title>
+      <link>https://stuffy-man.github.io/esketit-dist/</link>
+      <pubDate>Tue, 18 Aug 2026 21:00:00 +0300</pubDate>
+      <dc:creator>Esketit</dc:creator>
+      <slash:comments>0</slash:comments>
+      <content:encoded><![CDATA[
+        <p>Кнопка «Забрать всё» у трупа переехала под окно и больше не перекрывает слоты. Вещи просто
+        перекладываются в инвентарь, сами надеваются только броня и аксессуары. Мобы перестали
+        агриться на труп, включая вардена.</p>
+        <p>Сервер падал при генерации Другой стороны из-за пустой лут-таблицы кристаллизованного
+        янтаря — исправлено. Заодно вернули дроп гигантским овощам, листьям авокадо и чайнику,
+        а мод питания снова считает овощи овощами.</p>
+      ]]></content:encoded>
+    </item>
+  </channel>
+</rss>
