@@ -714,6 +714,16 @@
           }
         },
         {
+          "id": "rbasamoyai.betsyross:betsyross:2.1.2+mc.1.20.1-forge@jar",
+          "name": "Betsy Ross",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 355085,
+            "url": "https://github.com/stuffy-man/esketit-dist/releases/download/modstore/betsyross-2.1.2%2Bmc.1.20.1-forge.jar",
+            "MD5": "a0320b8b3428db968fcbd6f6ac9be428"
+          }
+        },
+        {
           "id": "betteradvancements:betteradvancements:0.4.2.25@jar",
           "name": "Better Advancements",
           "type": "ForgeMod",
